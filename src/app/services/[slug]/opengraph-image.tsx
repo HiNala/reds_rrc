@@ -1,4 +1,6 @@
 import { renderOgImage, OG_SIZE, OG_CONTENT_TYPE } from "@/lib/og-template";
+
+export const dynamic = "force-dynamic";
 import { SERVICES } from "@/lib/site-config";
 import { getServiceDetail } from "@/content/services/detail";
 

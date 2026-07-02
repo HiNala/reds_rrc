@@ -91,22 +91,31 @@ export type NewAnalyticsEvent = typeof analyticsEvents.$inferInsert;
 // Images are stored in MinIO (S3-compatible) and referenced by storage key.
 // ---------------------------------------------------------------------------
 
-export const projects = pgTable("projects", {
-  id: serial("id").primaryKey(),
-  title: varchar("title", { length: 200 }).notNull(),
-  description: text("description"),
-  /** e.g. "Kitchen", "Bathroom", "Restaurant", "Commercial", "Maintenance" */
-  category: varchar("category", { length: 100 }),
-  location: varchar("location", { length: 200 }),
-  /** Show on the clients page gallery. */
-  published: boolean("published").notNull().default(true),
-  /** Pinned to the top of the gallery. */
-  featured: boolean("featured").notNull().default(false),
-  /** Manual ordering — lower comes first. */
-  sortOrder: integer("sort_order").notNull().default(0),
-  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
-  updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
-});
+export const projects = pgTable(
+  "projects",
+  {
+    id: serial("id").primaryKey(),
+    title: varchar("title", { length: 200 }).notNull(),
+    /** SEO-friendly URL slug, auto-generated from title if not provided. */
+    slug: varchar("slug", { length: 220 }).notNull().unique(),
+    description: text("description"),
+    /** e.g. "Kitchen", "Bathroom", "Restaurant", "Commercial", "Maintenance" */
+    category: varchar("category", { length: 100 }),
+    location: varchar("location", { length: 200 }),
+    /** Show on the public gallery. */
+    published: boolean("published").notNull().default(true),
+    /** Pinned to the top of the gallery. */
+    featured: boolean("featured").notNull().default(false),
+    /** Manual ordering — lower comes first. */
+    sortOrder: integer("sort_order").notNull().default(0),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+    updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (table) => [
+    index("projects_slug_idx").on(table.slug),
+    index("projects_published_featured_idx").on(table.published, table.featured),
+  ],
+);
 
 export const projectImages = pgTable(
   "project_images",

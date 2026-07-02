@@ -107,6 +107,7 @@ function generateProjectSvg(title, category, palette, index) {
 const SAMPLE_PROJECTS = [
   {
     title: "Modern Kitchen Renovation",
+    slug: "modern-kitchen-renovation",
     description: "Complete gut renovation of a 1990s kitchen in a Craftsman home. New custom cabinetry, quartz countertops, tile backsplash, stainless appliances, and recessed lighting. The homeowners wanted an open-concept layout that connected the kitchen to the dining area — we removed a load-bearing wall and installed a structural beam to make it happen.",
     category: "Kitchen",
     location: "Oakland, CA",
@@ -116,6 +117,7 @@ const SAMPLE_PROJECTS = [
   },
   {
     title: "Restaurant Build-Out",
+    slug: "restaurant-build-out",
     description: "Full build-out of a 2,800 sq ft restaurant space in the Mission District. Included commercial kitchen installation, dining area finish-out, bar construction, ADA-compliant restrooms, and all HVAC, electrical, and plumbing work. Passed SF Health Department inspection on the first visit.",
     category: "Restaurant",
     location: "San Francisco, CA",
@@ -125,6 +127,7 @@ const SAMPLE_PROJECTS = [
   },
   {
     title: "Master Bathroom Remodel",
+    slug: "master-bathroom-remodel",
     description: "Luxury master bathroom remodel featuring a walk-in glass shower with rainfall showerhead, freestanding soaking tub, double vanity with marble countertops, and heated tile floors. The client wanted a spa-like retreat — and that's exactly what we delivered.",
     category: "Bathroom",
     location: "Berkeley, CA",
@@ -134,6 +137,7 @@ const SAMPLE_PROJECTS = [
   },
   {
     title: "Commercial Office Build-Out",
+    slug: "commercial-office-build-out",
     description: "Tenant improvement project for a tech startup in Walnut Creek. Built out 5,000 sq ft of open office space including conference rooms, phone booths, a kitchen/break area, and reception. All work completed on a tight 8-week schedule with zero change orders.",
     category: "Commercial",
     location: "Walnut Creek, CA",
@@ -143,6 +147,7 @@ const SAMPLE_PROJECTS = [
   },
   {
     title: "Custom Home Addition",
+    slug: "custom-home-addition",
     description: "Second-story addition to a single-story ranch home in Napa Valley. Added a primary suite with bedroom, walk-in closet, and en-suite bathroom. Project required structural engineering, new staircase, and seamless integration with the existing roofline.",
     category: "Addition",
     location: "Napa, CA",
@@ -152,6 +157,7 @@ const SAMPLE_PROJECTS = [
   },
   {
     title: "Restaurant Kitchen Upgrade",
+    slug: "restaurant-kitchen-upgrade",
     description: "Brought a 30-year-old restaurant kitchen up to current SF Health Department code. Replaced all commercial equipment, installed new exhaust hood with fire suppression, upgraded electrical service, and installed NSF-certified flooring and wall systems. Restaurant stayed operational throughout — we worked nights and weekends.",
     category: "Restaurant",
     location: "San Francisco, CA",
@@ -224,10 +230,10 @@ async function main() {
 
     // Insert project
     const { rows: projectRows } = await pool.query(
-      `INSERT INTO projects (title, description, category, location, published, featured, sort_order)
-       VALUES ($1, $2, $3, $4, true, $5, $6)
+      `INSERT INTO projects (title, slug, description, category, location, published, featured, sort_order)
+       VALUES ($1, $2, $3, $4, $5, true, $6, $7)
        RETURNING id`,
-      [p.title, p.description, p.category, p.location, p.featured, p.sortOrder]
+      [p.title, p.slug, p.description, p.category, p.location, p.featured, p.sortOrder]
     );
     const projectId = projectRows[0].id;
 

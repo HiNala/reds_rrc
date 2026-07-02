@@ -47,7 +47,7 @@ export default function StoryPage() {
       {/* Founder portrait */}
       <div className="mb-10 flex justify-center">
         <Image
-          src="/story/founder.jpg"
+          src="/story/founder-portrait.png"
           alt={`${SITE.founder}, founder of ${SITE.shortName}`}
           width={400}
           height={400}
@@ -84,14 +84,31 @@ export default function StoryPage() {
             business, and your neighbors with respect.
           </p>
         </div>
-        <div className="mt-8 text-center">
-          <Link
-            href="/contact"
-            className={cn(buttonVariants({ size: "lg" }), "px-6")}
-          >
-            Get in touch
-          </Link>
-        </div>
+      </section>
+
+      {/* Lifestyle image — founder with his dog on the patio */}
+      <div className="mb-14 overflow-hidden rounded-xl shadow-lg">
+        <Image
+          src="/story/founder-with-dog.png"
+          alt={`${SITE.founder} relaxing on a patio with his dog — the kind of outdoor spaces Red's RRC builds`}
+          width={910}
+          height={683}
+          unoptimized
+          loading="lazy"
+          className="w-full object-cover"
+        />
+      </div>
+
+      {/* Personal note */}
+      <section className="mb-14 rounded-xl border border-border bg-card p-8 text-center">
+        <p className="mx-auto max-w-xl text-base italic leading-relaxed text-muted-foreground">
+          &ldquo;Everyone on this crew was kind and liked my dogs. They cleaned
+          up every day and kept my property clean and neighbors happy. I have
+          recommended them to friends and family.&rdquo;
+        </p>
+        <p className="mt-3 text-sm font-semibold text-foreground">
+          — a common thread in what our clients tell us
+        </p>
       </section>
 
       {/* Values */}
@@ -115,6 +132,29 @@ export default function StoryPage() {
           ))}
         </div>
       </section>
+
+      {/* Deck showcase image */}
+      <div className="mb-14 overflow-hidden rounded-xl shadow-lg">
+        <Image
+          src="/hero/hero-2.png"
+          alt="Custom deck with glass railing and scenic Bay Area views — built by Red's RRC"
+          width={1280}
+          height={729}
+          unoptimized
+          loading="lazy"
+          className="w-full object-cover"
+        />
+      </div>
+
+      {/* CTA */}
+      <div className="mb-14 text-center">
+        <Link
+          href="/contact"
+          className={cn(buttonVariants({ size: "lg" }), "px-6")}
+        >
+          Get in touch
+        </Link>
+      </div>
 
       {/* CTA */}
       <CtaBand

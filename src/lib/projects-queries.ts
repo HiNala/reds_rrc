@@ -1,5 +1,5 @@
 import "server-only";
-import { eq, asc, desc, sql } from "drizzle-orm";
+import { eq, asc, desc, sql, and, ne } from "drizzle-orm";
 
 import { db } from "@/db";
 import { projects, projectImages, type Project, type ProjectImage } from "@/db/schema";
@@ -17,6 +17,33 @@ export interface AdminProjectWithImages extends Project {
 
 function attachUrls(imgs: ProjectImage[]): (ProjectImage & { url: string })[] {
   return imgs.map((img) => ({ ...img, url: getPublicUrl(img.storageKey) }));
+}
+
+/** Convert a title to a URL-safe slug. */
+export function slugify(title: string): string {
+  return title
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+/** Ensure a slug is unique by appending -2, -3, etc. if needed. */
+async function ensureUniqueSlug(baseSlug: string, excludeId?: number): Promise<string> {
+  let slug = baseSlug;
+  let suffix = 2;
+  while (true) {
+    const conditions = [eq(projects.slug, slug)];
+    if (excludeId !== undefined) conditions.push(ne(projects.id, excludeId));
+    const [existing] = await db
+      .select({ id: projects.id })
+      .from(projects)
+      .where(and(...conditions))
+      .limit(1);
+    if (!existing) return slug;
+    slug = `${baseSlug}-${suffix}`;
+    suffix++;
+  }
 }
 
 /** Get all published projects for the public gallery, ordered featured → sortOrder → createdAt. */
@@ -48,6 +75,26 @@ export async function getPublishedProjects(): Promise<ProjectWithImages[]> {
     ...p,
     images: attachUrls(imgs.filter((i) => i.projectId === p.id)),
   }));
+}
+
+/** Get a single published project by slug (public). */
+export async function getPublishedProjectBySlug(
+  slug: string
+): Promise<ProjectWithImages | null> {
+  const [row] = await db
+    .select()
+    .from(projects)
+    .where(and(eq(projects.slug, slug), eq(projects.published, true)))
+    .limit(1);
+  if (!row) return null;
+
+  const imgs = await db
+    .select()
+    .from(projectImages)
+    .where(eq(projectImages.projectId, row.id))
+    .orderBy(asc(projectImages.sortOrder), asc(projectImages.id));
+
+  return { ...row, images: attachUrls(imgs) };
 }
 
 /** Get a single project by ID (admin — includes drafts). */
@@ -92,6 +139,7 @@ export async function getAllProjects(): Promise<AdminProjectWithImages[]> {
 
 export interface ProjectInput {
   title: string;
+  slug?: string;
   description?: string;
   category?: string;
   location?: string;
@@ -102,10 +150,14 @@ export interface ProjectInput {
 
 /** Create a new project. */
 export async function createProject(input: ProjectInput): Promise<Project> {
+  const baseSlug = input.slug?.trim() ? slugify(input.slug) : slugify(input.title);
+  const slug = await ensureUniqueSlug(baseSlug);
+
   const [row] = await db
     .insert(projects)
     .values({
       title: input.title,
+      slug,
       description: input.description ?? null,
       category: input.category ?? null,
       location: input.location ?? null,
@@ -122,18 +174,26 @@ export async function updateProject(
   id: number,
   input: Partial<ProjectInput>
 ): Promise<Project | null> {
+  const set: Record<string, unknown> = { updatedAt: new Date() };
+  if (input.title !== undefined) set.title = input.title;
+  if (input.description !== undefined) set.description = input.description;
+  if (input.category !== undefined) set.category = input.category;
+  if (input.location !== undefined) set.location = input.location;
+  if (input.published !== undefined) set.published = input.published;
+  if (input.featured !== undefined) set.featured = input.featured;
+  if (input.sortOrder !== undefined) set.sortOrder = input.sortOrder;
+
+  // Handle slug update — re-slugify and ensure uniqueness
+  if (input.slug !== undefined && input.slug.trim()) {
+    set.slug = await ensureUniqueSlug(slugify(input.slug), id);
+  } else if (input.title !== undefined && !input.slug) {
+    // Auto-update slug when title changes and no explicit slug provided
+    set.slug = await ensureUniqueSlug(slugify(input.title), id);
+  }
+
   const [row] = await db
     .update(projects)
-    .set({
-      ...(input.title !== undefined && { title: input.title }),
-      ...(input.description !== undefined && { description: input.description }),
-      ...(input.category !== undefined && { category: input.category }),
-      ...(input.location !== undefined && { location: input.location }),
-      ...(input.published !== undefined && { published: input.published }),
-      ...(input.featured !== undefined && { featured: input.featured }),
-      ...(input.sortOrder !== undefined && { sortOrder: input.sortOrder }),
-      updatedAt: new Date(),
-    })
+    .set(set)
     .where(eq(projects.id, id))
     .returning();
   return row ?? null;

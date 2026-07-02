@@ -30,6 +30,7 @@ export type NavItem = { label: string; href: string };
 export const NAV_ITEMS: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
+  { label: "Projects", href: "/projects" },
   { label: "Our Story", href: "/story" },
   { label: "Our Clients", href: "/clients" },
   { label: "Blog", href: "/blog" },
@@ -38,6 +39,7 @@ export const NAV_ITEMS: NavItem[] = [
 export const FOOTER_LINKS: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
+  { label: "Projects", href: "/projects" },
   { label: "Our Story", href: "/story" },
   { label: "Our Clients", href: "/clients" },
   { label: "Get a Quote", href: "/contact" },
@@ -101,6 +103,7 @@ export const TESTIMONIALS = [
     name: "Casey Johnson",
     quote:
       "Everyone on this crew was kind and liked my dogs. They cleaned up every day and kept my property clean and neighbors happy. I have recommended them to friends and family.",
+    avatar: "/testimonials/avatar-1.jpg",
   },
   {
     name: "Robbie White",
@@ -112,6 +115,7 @@ export const TESTIMONIALS = [
     location: "Bodega Bay",
     quote:
       "We worked with Devin directly. He gave us a schedule and budget and he and his team stuck to it. Daily and weekly recaps kept us in the loop.",
+    avatar: "/testimonials/avatar-2.jpg",
   },
 ] as const;
 

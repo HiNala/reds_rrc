@@ -141,8 +141,13 @@ export async function getKpiSummary(range: DateRange): Promise<KpiSummary> {
 
   const [leads] = await db
     .select({ c: count() })
-    .from(schema.analyticsEvents)
-    .where(and(conditions, eq(schema.analyticsEvents.event, "lead")));
+    .from(schema.leads)
+    .where(
+      and(
+        gte(schema.leads.createdAt, range.from),
+        lte(schema.leads.createdAt, range.to),
+      ),
+    );
 
   const [signups] = await db
     .select({ c: count() })
@@ -584,8 +589,13 @@ export async function getFunnel(range: DateRange): Promise<FunnelStep[]> {
 
   const [ld] = await db
     .select({ c: count() })
-    .from(schema.analyticsEvents)
-    .where(and(conditions, eq(schema.analyticsEvents.event, "lead")));
+    .from(schema.leads)
+    .where(
+      and(
+        gte(schema.leads.createdAt, range.from),
+        lte(schema.leads.createdAt, range.to),
+      ),
+    );
 
   const max = pv?.c ?? 0;
   const steps = [

@@ -41,6 +41,7 @@ export async function POST(req: NextRequest) {
   try {
     const project = await createProject({
       title: body.title.trim(),
+      slug: body.slug?.trim() || undefined,
       description: body.description?.trim() || undefined,
       category: body.category?.trim() || undefined,
       location: body.location?.trim() || undefined,

@@ -2,12 +2,14 @@
 
 import { useState, useMemo } from "react";
 import Image from "next/image";
-import { Star, MapPin, Camera } from "lucide-react";
+import Link from "next/link";
+import { Star, MapPin, Camera, ArrowRight } from "lucide-react";
 
 import { ProjectLightbox } from "./project-lightbox";
 
 interface GalleryProject {
   id: number;
+  slug: string;
   title: string;
   description: string | null;
   category: string | null;
@@ -82,11 +84,13 @@ export function ProjectGallery({ projects }: { projects: GalleryProject[] }) {
             return (
               <article
                 key={project.id}
-                className="group relative cursor-pointer overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-all hover:shadow-xl"
-                onClick={() => cover && openLightbox(project.id, 0)}
+                className="group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-all hover:shadow-xl hover:border-primary/30"
               >
-                {/* Image */}
-                <div className="relative aspect-[4/3] w-full overflow-hidden bg-muted">
+                {/* Image — clickable for lightbox */}
+                <div
+                  className="relative aspect-[4/3] w-full cursor-pointer overflow-hidden bg-muted"
+                  onClick={() => cover && openLightbox(project.id, 0)}
+                >
                   {cover ? (
                     <Image
                       src={cover.url}
@@ -165,6 +169,17 @@ export function ProjectGallery({ projects }: { projects: GalleryProject[] }) {
                     )}
                   </div>
                 )}
+
+                {/* View details link */}
+                <div className="border-t border-border p-3">
+                  <Link
+                    href={`/projects/${project.slug}`}
+                    className="flex items-center justify-between text-sm font-medium text-primary hover:text-primary/80"
+                  >
+                    View project details
+                    <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
+                  </Link>
+                </div>
               </article>
             );
           })}

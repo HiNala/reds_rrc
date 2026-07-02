@@ -1,4 +1,6 @@
 import { renderOgImage, OG_SIZE, OG_CONTENT_TYPE } from "@/lib/og-template";
+
+export const dynamic = "force-dynamic";
 import { posts, getPost } from "@/content/blog/registry";
 
 export const alt = "Article | Red's RRC Blog";

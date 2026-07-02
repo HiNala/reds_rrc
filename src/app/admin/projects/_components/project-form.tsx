@@ -14,6 +14,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 interface ProjectData {
   id?: number;
   title: string;
+  slug: string;
   description: string;
   category: string;
   location: string;
@@ -34,6 +35,7 @@ export function ProjectForm({
   const [data, setData] = useState<ProjectData>(
     initialData ?? {
       title: "",
+      slug: "",
       description: "",
       category: "",
       location: "",
@@ -58,6 +60,7 @@ export function ProjectForm({
     try {
       const payload = {
         title: data.title.trim(),
+        slug: data.slug.trim() || undefined,
         description: data.description.trim() || undefined,
         category: data.category.trim() || undefined,
         location: data.location.trim() || undefined,
@@ -116,6 +119,24 @@ export function ProjectForm({
               placeholder="e.g. Modern Kitchen Renovation"
               required
             />
+          </div>
+
+          {/* Slug */}
+          <div className="space-y-2">
+            <Label htmlFor="slug">URL slug</Label>
+            <div className="flex items-center gap-2">
+              <span className="text-sm text-muted-foreground">/projects/</span>
+              <Input
+                id="slug"
+                value={data.slug}
+                onChange={(e) => update("slug", e.target.value)}
+                placeholder="auto-generated from title"
+                className="flex-1"
+              />
+            </div>
+            <p className="text-xs text-muted-foreground">
+              Leave blank to auto-generate from the title. This is the public URL for the project page.
+            </p>
           </div>
 
           {/* Category + Location */}

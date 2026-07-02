@@ -7,6 +7,7 @@
 
 interface StaticProject {
   id: number;
+  slug: string;
   title: string;
   description: string | null;
   category: string | null;
@@ -18,6 +19,7 @@ interface StaticProject {
 export const STATIC_PROJECTS: StaticProject[] = [
   {
     id: 1,
+    slug: "outdoor-deck-patio",
     title: "Outdoor Deck & Patio",
     description: "Custom deck with glass railing and scenic Bay Area views.",
     category: "Residential",
@@ -30,6 +32,7 @@ export const STATIC_PROJECTS: StaticProject[] = [
   },
   {
     id: 2,
+    slug: "restaurant-build-out",
     title: "Restaurant Build-Out",
     description: "Full restaurant interior construction and finish work.",
     category: "Restaurant",
@@ -42,6 +45,7 @@ export const STATIC_PROJECTS: StaticProject[] = [
   },
   {
     id: 3,
+    slug: "kitchen-remodel",
     title: "Kitchen Remodel",
     description: "Modern kitchen renovation with custom cabinetry and finishes.",
     category: "Residential",
@@ -53,6 +57,7 @@ export const STATIC_PROJECTS: StaticProject[] = [
   },
   {
     id: 4,
+    slug: "home-renovation",
     title: "Home Renovation",
     description: "Whole-home renovation including framing, drywall, and trim.",
     category: "Residential",
@@ -65,6 +70,7 @@ export const STATIC_PROJECTS: StaticProject[] = [
   },
   {
     id: 5,
+    slug: "commercial-build-out",
     title: "Commercial Build-Out",
     description: "Commercial space construction with custom build-outs.",
     category: "Commercial",
@@ -76,6 +82,7 @@ export const STATIC_PROJECTS: StaticProject[] = [
   },
   {
     id: 6,
+    slug: "custom-woodwork",
     title: "Custom Woodwork",
     description: "Custom framing, trim, and finish carpentry details.",
     category: "Residential",
@@ -88,6 +95,7 @@ export const STATIC_PROJECTS: StaticProject[] = [
   },
   {
     id: 7,
+    slug: "outdoor-living-space",
     title: "Outdoor Living Space",
     description: "Patio and outdoor living area construction.",
     category: "Residential",
@@ -99,6 +107,7 @@ export const STATIC_PROJECTS: StaticProject[] = [
   },
   {
     id: 8,
+    slug: "project-spotlight",
     title: "Project Spotlight",
     description: "Featured project showcasing craftsmanship and attention to detail.",
     category: "Residential",

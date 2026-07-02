@@ -63,7 +63,8 @@ export async function POST(req: NextRequest) {
         sourcePage: sourcePage ?? "contact-optin",
       });
     } catch (err: unknown) {
-      const code = (err as { code?: string })?.code;
+      const pgErr = (err as { code?: string; cause?: { code?: string } });
+      const code = pgErr?.code ?? pgErr?.cause?.code;
       if (code !== "23505") {
         console.error("[api/contact] Newsletter opt-in failed", err);
       }

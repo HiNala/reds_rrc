@@ -35,7 +35,10 @@ export async function POST(req: NextRequest) {
     });
   } catch (err: unknown) {
     // Unique constraint violation → already subscribed, treat as success.
-    const code = (err as { code?: string })?.code;
+    // Drizzle wraps the pg error in a "Failed query" Error with the
+    // original error on the `cause` property.
+    const pgErr = (err as { code?: string; cause?: { code?: string } });
+    const code = pgErr?.code ?? pgErr?.cause?.code;
     if (code === "23505") {
       return NextResponse.json({ ok: true, alreadySubscribed: true }, { status: 409 });
     }

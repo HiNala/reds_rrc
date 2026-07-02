@@ -56,6 +56,7 @@ export async function PUT(
 
   const project = await updateProject(id, {
     ...(body.title !== undefined && { title: body.title.trim() }),
+    ...(body.slug !== undefined && { slug: body.slug.trim() }),
     ...(body.description !== undefined && { description: body.description?.trim() || undefined }),
     ...(body.category !== undefined && { category: body.category?.trim() || undefined }),
     ...(body.location !== undefined && { location: body.location?.trim() || undefined }),

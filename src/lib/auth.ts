@@ -39,7 +39,11 @@ export async function createSession(email: string): Promise<string> {
   const store = await cookies();
   store.set(SESSION_COOKIE, token, {
     httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
+    // Only set secure flag when the site is served over HTTPS.
+    // Checking NODE_ENV alone breaks local testing with `next start`
+    // (which forces NODE_ENV=production) over http://localhost.
+    secure: process.env.NODE_ENV === "production" &&
+      !process.env.NEXT_PUBLIC_SITE_URL?.startsWith("http://localhost"),
     sameSite: "lax",
     path: "/",
     maxAge: expiresIn,

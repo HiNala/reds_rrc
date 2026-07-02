@@ -1,4 +1,6 @@
 import { renderOgImage, OG_SIZE, OG_CONTENT_TYPE } from "@/lib/og-template";
+
+export const dynamic = "force-dynamic";
 import { SITE } from "@/lib/site-config";
 
 export const alt = `Our Clients | ${SITE.shortName}`;

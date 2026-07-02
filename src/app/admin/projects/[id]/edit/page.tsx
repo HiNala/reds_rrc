@@ -42,6 +42,7 @@ export default async function EditProjectPage({
         initialData={{
           id: project.id,
           title: project.title,
+          slug: project.slug,
           description: project.description ?? "",
           category: project.category ?? "",
           location: project.location ?? "",

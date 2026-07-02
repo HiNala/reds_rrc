@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Plus, Pencil, Star, Eye, EyeOff, FolderKanban, Camera } from "lucide-react";
+import { Plus, Pencil, Star, Eye, EyeOff, FolderKanban, Camera, ExternalLink } from "lucide-react";
 
 import { requireAdmin } from "@/lib/auth";
 import {
@@ -182,6 +182,17 @@ function ProjectCard({ project }: { project: AdminProjectWithImages }) {
           >
             <Pencil className="size-3.5" /> Edit
           </Button>
+          {project.published && (
+            <Button
+              variant="ghost"
+              size="sm"
+              nativeButton={false}
+              render={<Link href={`/projects/${project.slug}`} target="_blank" />}
+              aria-label="View on site"
+            >
+              <ExternalLink className="size-3.5" />
+            </Button>
+          )}
           <DeleteProjectButton projectId={project.id} projectTitle={project.title} />
         </div>
       </div>
