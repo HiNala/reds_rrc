@@ -174,40 +174,42 @@ export function LeadCapturePopup() {
   return (
     <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogContent
-        className="sm:max-w-2xl p-0 overflow-hidden rounded-2xl"
+        className="sm:max-w-3xl p-0 overflow-hidden rounded-2xl shadow-2xl ring-1 ring-primary/20"
         showCloseButton={!submitted}
       >
-        <div className="grid grid-cols-1 sm:grid-cols-[1fr_1.15fr]">
+        <div className="grid grid-cols-1 sm:grid-cols-[1fr_1.1fr]">
           {/* ── Left: visual / brand panel ── */}
-          <div className="relative hidden sm:flex flex-col justify-between bg-gradient-to-br from-primary to-primary/80 p-6 text-primary-foreground">
+          <div className="relative hidden sm:flex flex-col justify-between bg-gradient-to-br from-primary via-primary to-primary/70 p-8 text-primary-foreground">
             {/* Decorative grid pattern */}
             <div
               className="pointer-events-none absolute inset-0 opacity-10"
               style={{
                 backgroundImage:
                   "linear-gradient(currentColor 1px, transparent 1px), linear-gradient(90deg, currentColor 1px, transparent 1px)",
-                backgroundSize: "24px 24px",
+                backgroundSize: "28px 28px",
               }}
             />
+            {/* Decorative glow */}
+            <div className="pointer-events-none absolute -right-20 -top-20 size-48 rounded-full bg-primary-foreground/10 blur-3xl" />
 
             <div className="relative">
-              <div className="inline-flex items-center gap-2 rounded-full bg-primary-foreground/15 px-3 py-1.5 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm">
-                <Sparkles className="size-3.5" />
+              <div className="inline-flex items-center gap-2 rounded-full bg-primary-foreground/20 px-4 py-2 text-xs font-bold uppercase tracking-wider backdrop-blur-sm">
+                <Sparkles className="size-4" />
                 Free Guide
               </div>
-              <h2 className="mt-5 font-heading text-2xl font-bold leading-tight">
+              <h2 className="mt-6 font-heading text-3xl font-bold leading-tight">
                 Plan your project with confidence
               </h2>
-              <p className="mt-2 text-sm text-primary-foreground/80">
+              <p className="mt-3 text-sm leading-relaxed text-primary-foreground/85">
                 The same checklist {SITE.shortName} uses to keep Bay Area home
                 and restaurant builds on time and on budget.
               </p>
             </div>
 
-            <ul className="relative mt-6 space-y-2.5">
+            <ul className="relative mt-8 space-y-3.5">
               {BENEFITS.map((b) => (
-                <li key={b.text} className="flex items-center gap-2.5 text-sm">
-                  <span className="flex size-7 shrink-0 items-center justify-center rounded-lg bg-primary-foreground/15">
+                <li key={b.text} className="flex items-center gap-3 text-sm font-medium">
+                  <span className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-primary-foreground/20 backdrop-blur-sm">
                     <b.icon className="size-4" />
                   </span>
                   {b.text}
@@ -215,25 +217,25 @@ export function LeadCapturePopup() {
               ))}
             </ul>
 
-            <div className="relative mt-6 flex items-center gap-2 text-xs text-primary-foreground/70">
+            <div className="relative mt-8 flex items-center gap-2 text-xs text-primary-foreground/70">
               <ShieldCheck className="size-4" />
               We respect your privacy. Unsubscribe anytime.
             </div>
           </div>
 
           {/* ── Right: form / content panel ── */}
-          <div className="bg-popover p-6 sm:p-7">
+          <div className="bg-popover p-8 sm:p-10">
             {submitted ? (
-              <div className="flex flex-1 flex-col items-center justify-center gap-3 py-10 text-center">
-                <div className="flex size-14 items-center justify-center rounded-full bg-primary/10">
-                  <CheckCircle2 className="size-8 text-primary" />
+              <div className="flex flex-1 flex-col items-center justify-center gap-4 py-12 text-center">
+                <div className="flex size-16 items-center justify-center rounded-full bg-primary/10 ring-4 ring-primary/5">
+                  <CheckCircle2 className="size-9 text-primary" />
                 </div>
-                <DialogTitle className="font-heading text-xl font-bold">
+                <DialogTitle className="font-heading text-2xl font-bold">
                   Check your inbox
                 </DialogTitle>
-                <DialogDescription className="max-w-xs">
+                <DialogDescription className="max-w-sm text-base">
                   Your free Project Planning Checklist is on its way from{" "}
-                  <span className="font-medium text-foreground">
+                  <span className="font-semibold text-foreground">
                     {SITE.email}
                   </span>
                   . We&apos;ll only reach out with useful updates — no spam,
@@ -244,17 +246,17 @@ export function LeadCapturePopup() {
               <>
                 {/* Mobile-only header (the left panel is hidden on small screens) */}
                 <div className="sm:hidden">
-                  <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-primary">
-                    <Sparkles className="size-3.5" />
+                  <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-xs font-bold uppercase tracking-wider text-primary">
+                    <Sparkles className="size-4" />
                     Free Guide
                   </div>
                 </div>
 
-                <DialogHeader className="gap-2 sm:mt-0">
-                  <DialogTitle className="font-heading text-xl font-bold tracking-tight sm:text-2xl">
+                <DialogHeader className="gap-2.5 sm:mt-0">
+                  <DialogTitle className="font-heading text-2xl font-bold tracking-tight sm:text-3xl">
                     Get the Project Planning Checklist
                   </DialogTitle>
-                  <DialogDescription className="text-sm">
+                  <DialogDescription className="text-sm leading-relaxed">
                     Drop your email and we&apos;ll send it straight over.{" "}
                     <span className="text-foreground/70">
                       Name and phone are optional — but they help us tailor
@@ -275,13 +277,13 @@ export function LeadCapturePopup() {
                     }
                   }}
                   noValidate
-                  className="mt-5 flex flex-col gap-3.5"
+                  className="mt-7 flex flex-col gap-4"
                 >
                   {/* Email (required) */}
-                  <div className="flex flex-col gap-1.5">
+                  <div className="flex flex-col gap-2">
                     <label
                       htmlFor="lead-popup-email"
-                      className="text-sm font-medium text-foreground"
+                      className="text-sm font-semibold text-foreground"
                     >
                       Email <span className="text-destructive">*</span>
                     </label>
@@ -291,18 +293,17 @@ export function LeadCapturePopup() {
                       placeholder="you@email.com"
                       aria-label="Email address"
                       aria-invalid={!!form.formState.errors.email}
-                      className="h-11"
                       {...form.register("email")}
                     />
                     <FieldError errors={[form.formState.errors.email]} />
                   </div>
 
                   {/* Name + Phone (optional) — two columns on wider screens */}
-                  <div className="grid grid-cols-1 gap-3.5 sm:grid-cols-2">
-                    <div className="flex flex-col gap-1.5">
+                  <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                    <div className="flex flex-col gap-2">
                       <label
                         htmlFor="lead-popup-name"
-                        className="text-sm font-medium text-muted-foreground"
+                        className="text-sm font-semibold text-muted-foreground"
                       >
                         Name{" "}
                         <span className="text-xs font-normal text-muted-foreground/70">
@@ -314,14 +315,13 @@ export function LeadCapturePopup() {
                         type="text"
                         placeholder="Jane Doe"
                         aria-label="Your name (optional)"
-                        className="h-11"
                         {...form.register("name")}
                       />
                     </div>
-                    <div className="flex flex-col gap-1.5">
+                    <div className="flex flex-col gap-2">
                       <label
                         htmlFor="lead-popup-phone"
-                        className="text-sm font-medium text-muted-foreground"
+                        className="text-sm font-semibold text-muted-foreground"
                       >
                         Phone{" "}
                         <span className="text-xs font-normal text-muted-foreground/70">
@@ -333,7 +333,6 @@ export function LeadCapturePopup() {
                         type="tel"
                         placeholder="(510) 555-0123"
                         aria-label="Phone number (optional)"
-                        className="h-11"
                         {...form.register("phone")}
                       />
                     </div>
@@ -343,15 +342,15 @@ export function LeadCapturePopup() {
                     type="submit"
                     size="lg"
                     disabled={form.formState.isSubmitting}
-                    className="mt-1 h-11 w-full"
+                    className="mt-2 w-full text-base shadow-lg"
                     data-track-cta="lead_popup_submit"
                     data-track-location="lead_popup"
                   >
                     {form.formState.isSubmitting ? (
-                      <Loader2 className="size-4 animate-spin" />
+                      <Loader2 className="size-5 animate-spin" />
                     ) : (
                       <>
-                        <Send className="size-4" /> Send me the checklist
+                        <Send className="size-5" /> Send me the checklist
                       </>
                     )}
                   </Button>

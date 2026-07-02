@@ -52,7 +52,7 @@ export function Hero() {
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <Button
               size="lg"
-              className="h-11 px-6 text-base shadow-lg"
+              className="shadow-lg"
               nativeButton={false}
               render={<Link href={PRIMARY_CTA.href} />}
             >
@@ -61,7 +61,7 @@ export function Hero() {
             <Button
               variant="outline"
               size="lg"
-              className="h-11 border-white/30 bg-white/10 px-6 text-base text-white backdrop-blur-sm hover:bg-white/20 hover:text-white"
+              className="border-white/30 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20 hover:text-white"
               nativeButton={false}
               render={<a href={SITE.phoneHref} />}
             >

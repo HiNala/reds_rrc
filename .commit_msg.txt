@@ -1,0 +1,17 @@
+fix: enlarge and stylize form fields, buttons, and lead capture popup
+
+Make form controls larger and more visually prominent across the site:
+- Input height 32px to 48px, rounded-xl, subtle bg + shadow, focus bg
+- Textarea min-height 64px to 96px, matching styling
+- Select trigger height 32px to 48px, matching styling
+- Button default 32px to 40px, lg 36px to 48px, font-semibold, shadow
+- Tabs list 32px to 44px, triggers with more padding
+- Field labels now font-semibold
+- Lead capture popup: wider (max-w-3xl), more padding, larger headings,
+  decorative glow, bigger success state, removed h-11 input overrides
+- Contact card: more padding, shadow, primary ring accent
+- Newsletter footer form: icon button sized to match taller input
+
+Generated with [Devin](https://devin.ai)
+
+Co-Authored-By: Devin <158243242+devin-ai-integration[bot]@users.noreply.github.com>

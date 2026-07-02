@@ -74,7 +74,7 @@ export function NewsletterForm({
           aria-invalid={!!form.formState.errors.email}
           {...form.register("email")}
         />
-        <Button type="submit" size="icon" disabled={form.formState.isSubmitting} aria-label="Subscribe">
+        <Button type="submit" size="icon-lg" disabled={form.formState.isSubmitting} aria-label="Subscribe">
           {form.formState.isSubmitting ? (
             <Loader2 className="size-4 animate-spin" />
           ) : (

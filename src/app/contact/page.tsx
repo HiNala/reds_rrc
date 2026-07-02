@@ -64,10 +64,10 @@ export default function ContactPage() {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <Card>
-            <CardContent>
+          <Card className="shadow-lg ring-1 ring-primary/5">
+            <CardContent className="p-6 sm:p-8">
               <Tabs defaultValue="quick">
-                <TabsList className="mb-6 w-full">
+                <TabsList className="mb-8 w-full">
                   <TabsTrigger value="quick" className="flex-1">
                     Quick message
                   </TabsTrigger>
