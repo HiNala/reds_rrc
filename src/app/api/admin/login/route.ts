@@ -25,6 +25,7 @@ export async function POST(request: NextRequest) {
   const { email, password } = parsed.data;
 
   if (!validateAdminCredentials(email, password)) {
+    await track("login_failed", { props: { method: "credentials", role: "admin" } });
     return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
   }
 

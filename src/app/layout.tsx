@@ -7,7 +7,7 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { MobileStickyCTA } from "@/components/layout/mobile-sticky-cta";
 import { LeadCapturePopup } from "@/components/layout/lead-capture-popup";
-import { LocalBusinessJsonLd, WebSiteJsonLd } from "@/components/seo/json-ld";
+import { LocalBusinessJsonLd, WebSiteJsonLd, OrganizationJsonLd } from "@/components/seo/json-ld";
 import { SITE } from "@/lib/site-config";
 import "./globals.css";
 
@@ -145,6 +145,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <LocalBusinessJsonLd />
+        <OrganizationJsonLd />
         <WebSiteJsonLd />
         <Suspense fallback={null}>
           <AnalyticsTracker />

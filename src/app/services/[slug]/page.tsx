@@ -17,6 +17,7 @@ import { CtaBand } from "@/components/site/cta-band";
 import {
   BreadcrumbJsonLd,
   LocalBusinessJsonLd,
+  ServiceJsonLd,
 } from "@/components/seo/json-ld";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -71,6 +72,7 @@ export default async function ServiceDetailPage({ params }: Props) {
         ]}
       />
       <LocalBusinessJsonLd />
+      <ServiceJsonLd name={service.name} description={detail.intro} slug={slug} />
 
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="mb-8 text-sm text-muted-foreground">

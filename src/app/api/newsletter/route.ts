@@ -1,8 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
+import { randomUUID } from "crypto";
 
 import { db } from "@/db";
 import { newsletterSubscribers } from "@/db/schema";
 import { newsletterSchema } from "@/lib/validators";
+import { sendNewsletterConfirmationEmail } from "@/lib/email";
 
 export async function POST(req: NextRequest) {
   let json: unknown;
@@ -22,10 +24,14 @@ export async function POST(req: NextRequest) {
 
   const { email, sourcePage } = parsed.data;
 
+  // Generate a confirmation token for double opt-in.
+  const confirmToken = randomUUID();
+
   try {
     await db.insert(newsletterSubscribers).values({
       email,
       sourcePage,
+      confirmToken,
     });
   } catch (err: unknown) {
     // Unique constraint violation → already subscribed, treat as success.
@@ -36,6 +42,9 @@ export async function POST(req: NextRequest) {
     console.error("[api/newsletter] Failed to persist subscriber", err);
     return NextResponse.json({ error: "Couldn't subscribe right now." }, { status: 500 });
   }
+
+  // Send the double opt-in confirmation email (best-effort).
+  await sendNewsletterConfirmationEmail(email, confirmToken);
 
   return NextResponse.json({ ok: true });
 }

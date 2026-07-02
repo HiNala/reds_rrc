@@ -8,7 +8,9 @@ import { eq } from "drizzle-orm";
 export async function GET(request: NextRequest) {
   const token = request.nextUrl.searchParams.get("token");
   if (!token) {
-    return NextResponse.json({ error: "Missing token" }, { status: 400 });
+    return NextResponse.redirect(
+      new URL("/newsletter/invalid?reason=missing", request.nextUrl.origin),
+    );
   }
 
   try {

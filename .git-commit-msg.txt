@@ -1,0 +1,16 @@
+feat: newsletter double opt-in, enhanced SEO structured data, and cleanup
+
+- Newsletter signup now generates a confirmation token and sends a
+  double opt-in email via Resend
+- New /newsletter/confirmed page for successful confirmation
+- Organization JSON-LD added to root layout for Google Knowledge Panel
+- LocalBusiness JSON-LD enhanced with hasOfferCatalog, aggregateRating,
+  and customer reviews
+- Cleanup script for duplicate migration records
+- Removed temporary screenshot/log files
+
+Verified: tsc passes, 23/23 tests pass, next build succeeds (67 routes).
+
+Generated with [Devin](https://devin.ai)
+
+Co-Authored-By: Devin <158243242+devin-ai-integration[bot]@users.noreply.github.com>

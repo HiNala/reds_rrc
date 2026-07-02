@@ -1,4 +1,4 @@
-import { siteConfig, absoluteUrl } from "@/lib/site-config";
+import { siteConfig, absoluteUrl, SITE, SERVICES, TESTIMONIALS } from "@/lib/site-config";
 
 /**
  * Renders a JSON-LD <script> tag for structured data.
@@ -51,6 +51,32 @@ export function LocalBusinessJsonLd() {
       "construction planning",
       "construction management",
     ],
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Construction Services",
+      itemListElement: SERVICES.map((s) => ({
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: s.name,
+          description: s.description,
+          url: absoluteUrl(`/services/${s.slug}`),
+        },
+      })),
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "5",
+      reviewCount: String(TESTIMONIALS.length),
+      bestRating: "5",
+      worstRating: "1",
+    },
+    review: TESTIMONIALS.map((t) => ({
+      "@type": "Review",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: t.name },
+      reviewBody: t.quote,
+    })),
   };
 
   if (siteConfig.phone) data.telephone = siteConfig.phone;
@@ -68,6 +94,34 @@ export function LocalBusinessJsonLd() {
   }
 
   return <JsonLd data={data} />;
+}
+
+/** Organization structured data (complements LocalBusiness for Google Knowledge Panel). */
+export function OrganizationJsonLd() {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": `${siteConfig.url}#organization`,
+        name: siteConfig.name,
+        url: siteConfig.url,
+        logo: absoluteUrl(siteConfig.logoPath),
+        email: siteConfig.email,
+        founder: { "@type": "Person", name: SITE.founder },
+        foundingDate: String(SITE.since),
+        sameAs: siteConfig.sameAs,
+        contactPoint: {
+          "@type": "ContactPoint",
+          contactType: "customer service",
+          telephone: SITE.phone,
+          email: SITE.email,
+          areaServed: SITE.region,
+          availableLanguage: ["English"],
+        },
+      }}
+    />
+  );
 }
 
 /** WebSite structured data (enables sitelinks search box etc.). */
@@ -173,6 +227,40 @@ export function FaqJsonLd({ faqs }: { faqs: { question: string; answer: string }
           name: f.question,
           acceptedAnswer: { "@type": "Answer", text: f.answer },
         })),
+      }}
+    />
+  );
+}
+
+/** Service structured data for individual service detail pages. */
+export function ServiceJsonLd({
+  name,
+  description,
+  slug,
+}: {
+  name: string;
+  description: string;
+  slug: string;
+}) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": `${absoluteUrl(`/services/${slug}`)}#service`,
+        name,
+        description,
+        url: absoluteUrl(`/services/${slug}`),
+        provider: {
+          "@type": "GeneralContractor",
+          name: siteConfig.name,
+          url: siteConfig.url,
+          telephone: siteConfig.phone,
+          email: siteConfig.email,
+          areaServed: siteConfig.areaServed,
+        },
+        areaServed: siteConfig.areaServed,
+        serviceType: "Construction",
       }}
     />
   );
