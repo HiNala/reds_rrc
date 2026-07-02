@@ -19,8 +19,12 @@ export const metadata: Metadata = {
     title: `Our Story | ${SITE.shortName}`,
     description: `How ${SITE.founder} built ${SITE.shortName} on transparency, efficiency, and community.`,
     url: absoluteUrl("/story"),
-    images: [{ url: absoluteUrl("/story/founder.jpg"), width: 400, height: 400, alt: SITE.founder }],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Our Story | ${SITE.shortName}`,
+    description: `How ${SITE.founder} built ${SITE.shortName} on transparency, efficiency, and community.`,
   },
 };
 

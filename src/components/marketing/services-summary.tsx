@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/motion/reveal";
 import { SERVICES } from "@/lib/site-config";

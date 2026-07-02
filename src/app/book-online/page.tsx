@@ -29,6 +29,11 @@ export const metadata: Metadata = {
     url: absoluteUrl("/book-online"),
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: `Book Online | ${SITE.shortName}`,
+    description: `Schedule a consultation with ${SITE.shortName}.`,
+  },
 };
 
 export default function BookOnlinePage() {

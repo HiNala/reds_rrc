@@ -1,0 +1,3 @@
+INSERT INTO drizzle.__drizzle_migrations (hash, created_at) VALUES
+  ('2467d19b1354fc517ae26e40e0e66ad94d09c5d6612b0837eb16e1bb587e6974', 1782979420991),
+  ('c8436c468510a2adc39c13ecc687f3d09e2a200b347bd668aa008cd368af6c3a', 1782982023280);

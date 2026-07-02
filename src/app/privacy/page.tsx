@@ -13,6 +13,11 @@ export const metadata: Metadata = {
     url: absoluteUrl("/privacy"),
     type: "article",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: `Privacy Policy | ${siteConfig.shortName}`,
+    description: `How ${siteConfig.shortName} collects, uses, and protects your information.`,
+  },
 };
 
 export default function PrivacyPage() {

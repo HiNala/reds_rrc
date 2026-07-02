@@ -1,9 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Plus, Pencil, Star, Eye, EyeOff } from "lucide-react";
+import { Plus, Pencil, Star, Eye, EyeOff, FolderKanban, Camera, ArrowRight } from "lucide-react";
 
 import { requireAdmin } from "@/lib/auth";
-import { getAllProjects, type AdminProjectWithImages } from "@/lib/projects-queries";
+import {
+  getAllProjects,
+  getProjectStats,
+  type AdminProjectWithImages,
+} from "@/lib/projects-queries";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -13,7 +17,10 @@ export const dynamic = "force-dynamic";
 
 export default async function AdminProjectsPage() {
   await requireAdmin();
-  const projects = await getAllProjects();
+  const [projects, stats] = await Promise.all([
+    getAllProjects(),
+    getProjectStats(),
+  ]);
 
   return (
     <div className="flex flex-col gap-6">
@@ -22,7 +29,7 @@ export default async function AdminProjectsPage() {
         <div>
           <h1 className="font-heading text-2xl font-semibold">Projects</h1>
           <p className="text-sm text-muted-foreground">
-            Manage your project gallery ({projects.length} total)
+            Manage your project gallery — photos are stored in MinIO and displayed on the clients page.
           </p>
         </div>
         <Button nativeButton={false} render={<Link href="/admin/projects/new" />}>
@@ -30,15 +37,29 @@ export default async function AdminProjectsPage() {
         </Button>
       </div>
 
+      {/* Stats summary */}
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <StatTile label="Total" value={stats.total} icon={FolderKanban} />
+        <StatTile label="Published" value={stats.published} icon={Eye} color="text-emerald-600" />
+        <StatTile label="Featured" value={stats.featured} icon={Star} color="text-amber-600" />
+        <StatTile label="Images" value={stats.totalImages} icon={Camera} />
+      </div>
+
       {projects.length === 0 ? (
         <Card>
-          <CardContent className="flex flex-col items-center justify-center gap-3 py-20 text-center">
-            <p className="text-lg font-medium text-muted-foreground">No projects yet</p>
-            <p className="text-sm text-muted-foreground">
-              Create your first project to start building your gallery.
-            </p>
+          <CardContent className="flex flex-col items-center justify-center gap-4 py-20 text-center">
+            <div className="flex size-16 items-center justify-center rounded-full bg-primary/10 text-primary">
+              <FolderKanban className="size-8" />
+            </div>
+            <div>
+              <p className="text-lg font-medium text-foreground">No projects yet</p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Create your first project to start building your gallery. Add a title,
+                category, and location, then upload photos from the edit page.
+              </p>
+            </div>
             <Button nativeButton={false} render={<Link href="/admin/projects/new" />}>
-              <Plus className="size-4" /> Create Project
+              <Plus className="size-4" /> Create Your First Project
             </Button>
           </CardContent>
         </Card>
@@ -49,6 +70,30 @@ export default async function AdminProjectsPage() {
           ))}
         </div>
       )}
+    </div>
+  );
+}
+
+function StatTile({
+  label,
+  value,
+  icon: Icon,
+  color = "text-primary",
+}: {
+  label: string;
+  value: number;
+  icon: React.ComponentType<{ className?: string }>;
+  color?: string;
+}) {
+  return (
+    <div className="flex items-center gap-3 rounded-xl border border-border bg-card p-4">
+      <div className={`flex size-10 items-center justify-center rounded-lg bg-muted/50 ${color}`}>
+        <Icon className="size-5" />
+      </div>
+      <div>
+        <p className="text-2xl font-bold tabular-nums leading-none">{value}</p>
+        <p className="mt-0.5 text-xs text-muted-foreground">{label}</p>
+      </div>
     </div>
   );
 }
@@ -72,7 +117,7 @@ function ProjectCard({ project }: { project: AdminProjectWithImages }) {
           />
         ) : (
           <div className="flex h-full items-center justify-center text-muted-foreground">
-            <span className="text-sm">No image</span>
+            <Camera className="size-8 opacity-30" />
           </div>
         )}
 
@@ -104,8 +149,8 @@ function ProjectCard({ project }: { project: AdminProjectWithImages }) {
 
         {/* Image count */}
         {imageCount > 0 && (
-          <div className="absolute bottom-2 right-2 rounded-md bg-black/60 px-2 py-0.5 text-xs font-medium text-white backdrop-blur-sm">
-            {imageCount} {imageCount === 1 ? "image" : "images"}
+          <div className="absolute bottom-2 right-2 flex items-center gap-1 rounded-md bg-black/60 px-2 py-0.5 text-xs font-medium text-white backdrop-blur-sm">
+            <Camera className="size-3" /> {imageCount}
           </div>
         )}
       </div>

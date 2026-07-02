@@ -5,7 +5,7 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#c8392f",
+  "theme_color": "#1a2b3c",
   "orientation": "portrait-primary",
   "categories": ["business", "construction", "contractor"],
   "icons": [

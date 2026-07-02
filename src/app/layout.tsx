@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Suspense } from "react";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
@@ -8,7 +8,7 @@ import { Footer } from "@/components/layout/footer";
 import { MobileStickyCTA } from "@/components/layout/mobile-sticky-cta";
 import { LeadCapturePopup } from "@/components/layout/lead-capture-popup";
 import { LocalBusinessJsonLd, WebSiteJsonLd } from "@/components/seo/json-ld";
-import { SITE, absoluteUrl } from "@/lib/site-config";
+import { SITE } from "@/lib/site-config";
 import "./globals.css";
 
 const inter = Inter({
@@ -22,6 +22,15 @@ const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   display: "swap",
 });
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#1a2b3c" },
+  ],
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -72,27 +81,29 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     type: "website",
     locale: "en_US",
-    images: [
-      {
-        url: absoluteUrl("/hero/hero-1.png"),
-        width: 1280,
-        height: 729,
-        alt: `${SITE.shortName} — outdoor deck and patio construction in the Bay Area`,
-      },
-    ],
+    // Images are auto-wired from /opengraph-image.tsx
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE.name} | ${SITE.tagline}`,
     description: SITE.description,
-    images: [absoluteUrl("/hero/hero-1.png")],
+    // Images are auto-wired from /twitter-image.tsx
   },
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
       { url: "/favicon.svg", type: "image/svg+xml" },
     ],
-    apple: "/favicon.ico",
+    apple: [
+      { url: "/favicon.ico" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.ico",
+  },
+  appleWebApp: {
+    title: SITE.shortName,
+    statusBarStyle: "black-translucent",
+    capable: true,
   },
   manifest: "/manifest.webmanifest",
   robots: {
@@ -112,6 +123,13 @@ export const metadata: Metadata = {
     "msvalidate.01": "BING_SITE_VERIFICATION_CODE",
     // AI agent / LLM discoverability
     "llms-txt": "/llms.txt",
+    // Pinterest rich pins
+    "pinterest": "rich_pin",
+    // Facebook domain verification placeholder
+    "fb:domain_verification": "FACEBOOK_DOMAIN_VERIFICATION",
+    // Microsoft tile color
+    "msapplication-TileColor": "#1a2b3c",
+    "msapplication-config": "/browserconfig.xml",
   },
 };
 

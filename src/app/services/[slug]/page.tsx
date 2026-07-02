@@ -36,7 +36,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = `${service.name} | ${SITE.shortName}`;
   const url = absoluteUrl(`/services/${slug}`);
-  const image = absoluteUrl(`/services/${slug}.jpg`);
 
   return {
     title,
@@ -46,8 +45,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description: detail.intro,
       url,
-      images: [{ url: image, width: 800, height: 800, alt: service.name }],
       type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: detail.intro,
     },
   };
 }

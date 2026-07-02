@@ -26,6 +26,12 @@ export const metadata: Metadata = {
     url: absoluteUrl("/services"),
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: `Services | ${SITE.shortName}`,
+    description:
+      "Construction planning, construction management, and building maintenance for homes and restaurants.",
+  },
 };
 
 export default function ServicesPage() {

@@ -20,15 +20,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!getAllTags().includes(decoded)) return { title: "Topic not found" };
 
   const title = `${decoded} | ${siteConfig.shortName} Blog`;
+  const description = `Articles about ${decoded} from the ${siteConfig.shortName} blog.`;
   return {
     title,
-    description: `Articles about ${decoded} from the ${siteConfig.shortName} blog.`,
+    description,
     alternates: { canonical: `/blog/tag/${tag}` },
     openGraph: {
       title,
-      description: `Articles about ${decoded} from the ${siteConfig.shortName} blog.`,
+      description,
       url: absoluteUrl(`/blog/tag/${tag}`),
       type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
     },
   };
 }

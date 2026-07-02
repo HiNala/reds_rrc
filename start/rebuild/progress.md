@@ -39,18 +39,50 @@ left by concurrent development.
 
 **Final verification:**
 - `npx tsc --noEmit` → EXIT=0 (clean)
-- `npm run lint` → clean (no errors)
-- `npm run build` → EXIT=0, 49 pages generated (Turbopack)
+- `npm run lint` → 0 errors, 1 warning (react-hook-form `watch()` React
+  Compiler informational — cannot fix without removing autosave)
+- `npm run build` → EXIT=0, 48 pages generated (Turbopack)
 - `npm test` → 23/23 tests pass (3 test files)
 
+**Local boot verified:**
+- Docker Compose: Postgres (postgres:16-alpine) + web service
+- Drizzle migrations applied cleanly to local Postgres
+- Dev server (`npm run dev`) boots in ~2s, all pages return 200:
+  - `/` (158KB), `/services`, `/story`, `/clients`, `/blog`, `/contact`,
+    `/privacy`, `/terms`, `/book-online`, `/sitemap.xml`, `/robots.txt`,
+    `/blog/[slug]`, `/blog/tag/[tag]`, `/blog/rss.xml`, `/services/[slug]`
+- API routes verified end-to-end with DB persistence:
+  - `POST /api/track` → 200 (analytics event persisted)
+  - `POST /api/contact` → 200 (lead persisted to `leads` table)
+  - `POST /api/quote` → 200 (lead persisted with source="quote")
+  - `POST /api/newsletter` → 200 (subscriber persisted)
+  - `POST /api/admin/login` → 401 for wrong credentials (correct)
+- Database tables verified: `analytics_events`, `leads`,
+  `newsletter_subscribers` all accepting inserts
+
+**Additional fixes applied during local boot QA:**
+- `src/components/site/project-gallery.tsx` — fixed `alt: string` →
+  `alt: string | null` to match DB type; use `?? project.title` fallback
+- `src/components/site/project-lightbox.tsx` — same `alt` type fix; removed
+  unused `useState` import
+- `src/lib/analytics-queries.ts` — added `as LeadWithDetails[]` casts to
+  `getLeads()`, `getLeadById()`, `getRecentLeads()` to resolve
+  `utm: unknown` vs `utm: Record<string, unknown> | null` mismatch
+  (Drizzle types `jsonb` as `unknown`; runtime is always the record or null)
+- `src/app/admin/projects/page.tsx` — removed unused `Trash2` import
+- `src/app/admin/projects/_components/image-gallery-manager.tsx` — removed
+  unused `Button` import
+- `src/app/admin/page.tsx` — `<a>` → `<Link>` for internal navigation
+  (eslint `no-html-link-for-pages` rule)
+- Cleaned stale eslint-disable directives in `analytics-tracker.tsx`,
+  `faq-section.tsx`, `db/index.ts`; fixed unused var in `validators.test.ts`
+
 **Remaining warnings (non-blocking):**
-- Multiple lockfiles detected (parent `pnpm-lock.yaml` + repo
-  `package-lock.json`) — set `turbopack.root` in `next.config.ts` or remove
-  the parent lockfile.
 - `middleware` file convention deprecated in Next.js 16 → rename to
   `proxy.ts`.
 - `DATABASE_URL` not set at build time — expected; DB-backed routes are
   dynamic (ƒ) and will connect at runtime.
+- react-hook-form `watch()` React Compiler informational — known limitation.
 
 ## Completed Missions / Wedges
 

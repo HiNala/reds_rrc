@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { requireAdmin } from "@/lib/auth";
 import {
   getKpiSummary,
@@ -11,6 +12,7 @@ import {
   getDeviceBreakdown,
   getNewsletterStats,
 } from "@/lib/analytics-queries";
+import { getProjectStats } from "@/lib/projects-queries";
 import { KpiCard } from "./_components/kpi-card";
 import { BarChart, LineChart, FunnelChart, HorizontalBarChart, DonutChart } from "./_components/charts";
 import { LeadsTable } from "./_components/leads-table";
@@ -18,6 +20,7 @@ import { DateRangePicker } from "./_components/date-range-picker";
 import { parseRange, type DateRange } from "./_components/date-range";
 import { ExportButton } from "./_components/export-button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import {
   Eye,
   Users,
@@ -29,6 +32,10 @@ import {
   CheckCircle2,
   Percent,
   Layers,
+  FolderKanban,
+  Star,
+  ImageIcon,
+  ArrowRight,
 } from "lucide-react";
 
 export const dynamic = "force-dynamic";
@@ -49,7 +56,7 @@ export default async function AdminDashboard({
   const sp = await searchParams;
   const range: DateRange = parseRange(sp);
 
-  const [kpi, pageviews, leadsOverTime, topPages, traffic, funnel, recentLeads, leadsBySource, devices, newsletter] =
+  const [kpi, pageviews, leadsOverTime, topPages, traffic, funnel, recentLeads, leadsBySource, devices, newsletter, projectStats] =
     await Promise.all([
       getKpiSummary(range),
       getPageviewsOverTime(range),
@@ -61,6 +68,7 @@ export default async function AdminDashboard({
       getLeadsBySource(range),
       getDeviceBreakdown(range),
       getNewsletterStats(range),
+      getProjectStats(),
     ]);
 
   return (
@@ -231,30 +239,89 @@ export default async function AdminDashboard({
         </Card>
       </div>
 
-      {/* Recent leads */}
-      <Card>
-        <CardHeader>
-          <div className="flex items-center justify-between">
-            <div>
-              <CardTitle>Recent Leads</CardTitle>
-              <CardDescription>Latest 8 form submissions</CardDescription>
+      {/* Recent leads + Project gallery stats */}
+      <div className="grid gap-6 lg:grid-cols-3">
+        <Card className="lg:col-span-2">
+          <CardHeader>
+            <div className="flex items-center justify-between">
+              <div>
+                <CardTitle>Recent Leads</CardTitle>
+                <CardDescription>Latest 8 form submissions</CardDescription>
+              </div>
+              <Link
+                href="/admin/leads"
+                className="text-sm font-medium text-primary hover:underline"
+              >
+                View all →
+              </Link>
             </div>
-            <a
-              href="/admin/leads"
-              className="text-sm font-medium text-primary hover:underline"
+          </CardHeader>
+          <CardContent>
+            {recentLeads.length > 0 ? (
+              <LeadsTable leads={recentLeads} />
+            ) : (
+              <EmptyState text="No leads yet — submissions will appear here." />
+            )}
+          </CardContent>
+        </Card>
+
+        {/* Project Gallery Stats */}
+        <Card>
+          <CardHeader>
+            <div className="flex items-center justify-between">
+              <div>
+                <CardTitle className="flex items-center gap-2">
+                  <FolderKanban className="size-5 text-primary" />
+                  Project Gallery
+                </CardTitle>
+                <CardDescription>Portfolio overview</CardDescription>
+              </div>
+            </div>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div className="grid grid-cols-2 gap-3">
+              <div className="rounded-lg bg-muted/50 p-3">
+                <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                  <FolderKanban className="size-3.5" /> Total
+                </div>
+                <p className="mt-1 text-2xl font-bold tabular-nums">{projectStats.total}</p>
+              </div>
+              <div className="rounded-lg bg-muted/50 p-3">
+                <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                  <CheckCircle2 className="size-3.5" /> Published
+                </div>
+                <p className="mt-1 text-2xl font-bold tabular-nums">{projectStats.published}</p>
+              </div>
+              <div className="rounded-lg bg-muted/50 p-3">
+                <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                  <Star className="size-3.5" /> Featured
+                </div>
+                <p className="mt-1 text-2xl font-bold tabular-nums">{projectStats.featured}</p>
+              </div>
+              <div className="rounded-lg bg-muted/50 p-3">
+                <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                  <ImageIcon className="size-3.5" /> Images
+                </div>
+                <p className="mt-1 text-2xl font-bold tabular-nums">{projectStats.totalImages}</p>
+              </div>
+            </div>
+            {projectStats.drafts > 0 && (
+              <p className="text-xs text-muted-foreground">
+                {projectStats.drafts} draft{projectStats.drafts === 1 ? "" : "s"} not yet published
+              </p>
+            )}
+            <Button
+              variant="outline"
+              size="sm"
+              nativeButton={false}
+              render={<Link href="/admin/projects" />}
+              className="w-full"
             >
-              View all →
-            </a>
-          </div>
-        </CardHeader>
-        <CardContent>
-          {recentLeads.length > 0 ? (
-            <LeadsTable leads={recentLeads} />
-          ) : (
-            <EmptyState text="No leads yet — submissions will appear here." />
-          )}
-        </CardContent>
-      </Card>
+              Manage Projects <ArrowRight className="size-3.5" />
+            </Button>
+          </CardContent>
+        </Card>
+      </div>
     </div>
   );
 }

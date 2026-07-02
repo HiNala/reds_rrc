@@ -10,7 +10,7 @@ import { DateRangePicker } from "../_components/date-range-picker";
 import { parseRange, type DateRange } from "../_components/date-range";
 import { ExportButton } from "../_components/export-button";
 import { StatusBadge } from "../_components/status-badge";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { HorizontalBarChart } from "../_components/charts";
 
 export const dynamic = "force-dynamic";

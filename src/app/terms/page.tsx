@@ -13,6 +13,11 @@ export const metadata: Metadata = {
     url: absoluteUrl("/terms"),
     type: "article",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: `Terms of Service | ${siteConfig.shortName}`,
+    description: `The terms that govern your use of the ${siteConfig.shortName} website.`,
+  },
 };
 
 export default function TermsPage() {

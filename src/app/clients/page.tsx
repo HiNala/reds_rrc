@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     url: absoluteUrl("/clients"),
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: `Our Clients | ${SITE.shortName}`,
+    description: `What ${SITE.shortName} clients say — and the projects we've built together.`,
+  },
 };
 
 export default async function ClientsPage() {

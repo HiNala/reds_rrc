@@ -29,7 +29,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return { title: "Article not found" };
 
   const url = absoluteUrl(`/blog/${slug}`);
-  const image = absoluteUrl(post.image);
 
   return {
     title: post.title,
@@ -40,7 +39,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: post.title,
       description: post.description,
       url,
-      images: [{ url: image, width: 1200, height: 675, alt: post.title }],
       publishedTime: post.publishedAt,
       authors: post.author ? [post.author] : undefined,
       tags: post.tags,
@@ -49,7 +47,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title: post.title,
       description: post.description,
-      images: [image],
     },
   };
 }

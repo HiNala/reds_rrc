@@ -207,3 +207,41 @@ export async function updateProjectImage(
     .returning();
   return row ?? null;
 }
+
+/** Quick stats for the admin dashboard. */
+export interface ProjectStats {
+  total: number;
+  published: number;
+  drafts: number;
+  featured: number;
+  totalImages: number;
+}
+
+export async function getProjectStats(): Promise<ProjectStats> {
+  try {
+    const [projectStats] = await db
+      .select({
+        total: sql<number>`count(*)::int`,
+        published: sql<number>`count(*) filter (where ${projects.published})::int`,
+        drafts: sql<number>`count(*) filter (where not ${projects.published})::int`,
+        featured: sql<number>`count(*) filter (where ${projects.featured})::int`,
+      })
+      .from(projects);
+
+    const [imageStats] = await db
+      .select({
+        totalImages: sql<number>`count(*)::int`,
+      })
+      .from(projectImages);
+
+    return {
+      total: projectStats?.total ?? 0,
+      published: projectStats?.published ?? 0,
+      drafts: projectStats?.drafts ?? 0,
+      featured: projectStats?.featured ?? 0,
+      totalImages: imageStats?.totalImages ?? 0,
+    };
+  } catch {
+    return { total: 0, published: 0, drafts: 0, featured: 0, totalImages: 0 };
+  }
+}

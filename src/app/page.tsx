@@ -13,6 +13,19 @@ export const metadata: Metadata = {
   title: "Home",
   description: SITE.description,
   alternates: { canonical: "/" },
+  openGraph: {
+    title: `${SITE.name} | ${SITE.tagline}`,
+    description: SITE.description,
+    url: SITE.url,
+    siteName: SITE.name,
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE.shortName} — Bay Area General Contractor`,
+    description: SITE.description,
+  },
 };
 
 export default function HomePage() {

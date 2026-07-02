@@ -13,6 +13,19 @@ export const metadata: Metadata = {
   description:
     "Send a quick message or request a detailed quote from Red's Residential & Restaurant Construction — we typically respond within one business day.",
   alternates: { canonical: "/contact" },
+  openGraph: {
+    title: `Get a Free Quote | ${SITE.shortName}`,
+    description:
+      "Send a quick message or request a detailed quote — we typically respond within one business day.",
+    url: `${SITE.url}/contact`,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Get a Free Quote | ${SITE.shortName}`,
+    description:
+      "Send a quick message or request a detailed quote — we typically respond within one business day.",
+  },
 };
 
 export default function ContactPage() {

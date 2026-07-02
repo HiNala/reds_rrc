@@ -1,0 +1,9 @@
+CREATE INDEX IF NOT EXISTS "lead_notes_lead_id_idx" ON "lead_notes" USING btree ("lead_id");
+CREATE INDEX IF NOT EXISTS "analytics_events_created_at_idx" ON "analytics_events" USING btree ("created_at");
+CREATE INDEX IF NOT EXISTS "analytics_events_session_id_idx" ON "analytics_events" USING btree ("session_id");
+CREATE INDEX IF NOT EXISTS "analytics_events_event_idx" ON "analytics_events" USING btree ("event");
+CREATE INDEX IF NOT EXISTS "leads_created_at_idx" ON "leads" USING btree ("created_at");
+CREATE INDEX IF NOT EXISTS "leads_email_idx" ON "leads" USING btree ("email");
+CREATE INDEX IF NOT EXISTS "leads_status_idx" ON "leads" USING btree ("status");
+CREATE INDEX IF NOT EXISTS "leads_source_idx" ON "leads" USING btree ("source");
+CREATE INDEX IF NOT EXISTS "project_images_project_id_idx" ON "project_images" USING btree ("project_id");
