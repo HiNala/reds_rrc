@@ -1,8 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, ShieldCheck, Star } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import { HeroIllustration } from "@/components/marketing/hero-illustration";
 import { Reveal } from "@/components/motion/reveal";
 import { PRIMARY_CTA, SITE } from "@/lib/site-config";
 
@@ -61,7 +61,16 @@ export function Hero() {
         </Reveal>
 
         <Reveal delay={0.1} className="relative mx-auto w-full max-w-md lg:max-w-none">
-          <HeroIllustration className="w-full" />
+          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-border shadow-xl">
+            <Image
+              src="/hero/hero-1.png"
+              alt="Outdoor deck and patio built by Red's RRC — featuring glass railing, seating, and scenic Bay Area backdrop"
+              fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover"
+              priority
+            />
+          </div>
         </Reveal>
       </div>
     </section>

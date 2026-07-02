@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: `Our Story | ${SITE.shortName}`,
     description: `How ${SITE.founder} built ${SITE.shortName} on transparency, efficiency, and community.`,
     url: absoluteUrl("/story"),
-    images: [{ url: absoluteUrl("/story/founder-portrait.svg"), width: 400, height: 400, alt: SITE.founder }],
+    images: [{ url: absoluteUrl("/story/founder.jpg"), width: 400, height: 400, alt: SITE.founder }],
     type: "website",
   },
 };
@@ -43,13 +43,13 @@ export default function StoryPage() {
       {/* Founder portrait */}
       <div className="mb-10 flex justify-center">
         <Image
-          src="/story/founder-portrait.svg"
-          alt={SITE.founder}
+          src="/story/founder.jpg"
+          alt={`${SITE.founder}, founder of ${SITE.shortName}`}
           width={400}
           height={400}
           unoptimized
           loading="eager"
-          className="rounded-full border-2 border-border"
+          className="rounded-full border-4 border-border object-cover shadow-lg"
         />
       </div>
 

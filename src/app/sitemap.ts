@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now,
     changeFrequency: "monthly",
     priority: 0.8,
-    images: [`${base}/services/${s.slug}.svg`],
+    images: [`${base}/services/${s.slug}.jpg`],
   }));
 
   const articleRoutes: MetadataRoute.Sitemap = posts.map((p) => ({

@@ -136,7 +136,7 @@ export const siteConfig = {
   description: SITE.description,
   email: SITE.email,
   phone: SITE.phone,
-  logoPath: "/favicon.svg",
+  logoPath: "/brand/logo.png",
   areaServed: SITE.region,
   sameAs: Object.values(SITE.social).filter(Boolean) as string[],
   streetAddress: undefined as string | undefined,

@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = `${service.name} | ${SITE.shortName}`;
   const url = absoluteUrl(`/services/${slug}`);
-  const image = absoluteUrl(`/services/${slug}.svg`);
+  const image = absoluteUrl(`/services/${slug}.jpg`);
 
   return {
     title,
@@ -95,13 +95,13 @@ export default async function ServiceDetailPage({ params }: Props) {
 
       {/* Hero image */}
       <Image
-        src={`/services/${slug}.svg`}
+        src={`/services/${slug}.jpg`}
         alt={service.name}
         width={800}
         height={800}
         unoptimized
         loading="eager"
-        className="mb-12 aspect-[16/9] w-full rounded-xl object-cover"
+        className="mb-12 aspect-[16/9] w-full rounded-xl object-cover shadow-lg"
       />
 
       {/* What's included */}

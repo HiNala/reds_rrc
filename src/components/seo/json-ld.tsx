@@ -36,10 +36,21 @@ export function LocalBusinessJsonLd() {
     url: siteConfig.url,
     email: siteConfig.email,
     description: siteConfig.description,
-    image: absoluteUrl(siteConfig.logoPath),
+    image: absoluteUrl("/hero/hero-1.png"),
     logo: absoluteUrl(siteConfig.logoPath),
     priceRange: "$$",
     areaServed: siteConfig.areaServed,
+    foundingDate: "2012",
+    founder: { "@type": "Person", name: "Devin Aloise" },
+    knowsAbout: [
+      "residential construction",
+      "restaurant construction",
+      "kitchen and bath remodeling",
+      "deck construction",
+      "building maintenance",
+      "construction planning",
+      "construction management",
+    ],
   };
 
   if (siteConfig.phone) data.telephone = siteConfig.phone;

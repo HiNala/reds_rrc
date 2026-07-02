@@ -111,3 +111,21 @@ export type Project = typeof projects.$inferSelect;
 export type NewProject = typeof projects.$inferInsert;
 export type ProjectImage = typeof projectImages.$inferSelect;
 export type NewProjectImage = typeof projectImages.$inferInsert;
+
+// ---------------------------------------------------------------------------
+// Lead notes — admin can add notes to leads for CRM-style tracking.
+// ---------------------------------------------------------------------------
+
+export const leadNotes = pgTable("lead_notes", {
+  id: serial("id").primaryKey(),
+  leadId: integer("lead_id")
+    .notNull()
+    .references(() => leads.id, { onDelete: "cascade" }),
+  note: text("note").notNull(),
+  /** Admin email who wrote the note. */
+  author: varchar("author", { length: 320 }),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
+export type LeadNote = typeof leadNotes.$inferSelect;
+export type NewLeadNote = typeof leadNotes.$inferInsert;

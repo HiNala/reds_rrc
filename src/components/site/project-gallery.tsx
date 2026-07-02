@@ -13,7 +13,7 @@ interface GalleryProject {
   category: string | null;
   location: string | null;
   featured: boolean;
-  images: { url: string; alt: string; sortOrder: number }[];
+  images: { url: string; alt: string | null; sortOrder: number }[];
 }
 
 export function ProjectGallery({ projects }: { projects: GalleryProject[] }) {
@@ -90,7 +90,7 @@ export function ProjectGallery({ projects }: { projects: GalleryProject[] }) {
                   {cover ? (
                     <Image
                       src={cover.url}
-                      alt={cover.alt}
+                      alt={cover.alt ?? project.title}
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -150,7 +150,7 @@ export function ProjectGallery({ projects }: { projects: GalleryProject[] }) {
                       >
                         <Image
                           src={img.url}
-                          alt={img.alt}
+                          alt={img.alt ?? project.title}
                           fill
                           sizes="56px"
                           className="object-cover"

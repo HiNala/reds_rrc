@@ -1,12 +1,12 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
+import { useCallback, useEffect } from "react";
 import Image from "next/image";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 interface LightboxImage {
   url: string;
-  alt: string;
+  alt: string | null;
 }
 
 export function ProjectLightbox({
@@ -82,13 +82,13 @@ export function ProjectLightbox({
       >
         <Image
           src={current.url}
-          alt={current.alt}
+          alt={current.alt ?? "Project photo"}
           width={1200}
           height={900}
           className="max-h-[85vh] w-auto rounded-lg object-contain"
           unoptimized
         />
-        <p className="mt-3 text-center text-sm text-white/80">{current.alt}</p>
+        {current.alt && <p className="mt-3 text-center text-sm text-white/80">{current.alt}</p>}
       </div>
 
       {/* Next */}

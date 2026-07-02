@@ -1,193 +1,197 @@
 {
-  "instructions": "Authoritative build checklist. Work top-to-bottom; mark each task in_progress then completed and KEEP THIS FILE UPDATED. Do not hand-write the Next.js skeleton \u2014 always scaffold with the boilerplate command in T001. If the site needs more than these (e.g. a blog CMS, extra landing pages), append new tasks and, if substantial, new mission files.",
-  "tasks": [
-    {
-      "id": "T001",
-      "title": "Scaffold the project with the official Next.js boilerplate: `npx create-next-app@latest . --yes --ts --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --turbopack`",
-      "phase": "setup",
-      "status": "pending"
-    },
-    {
-      "id": "T002",
-      "title": "Initialize shadcn/ui (`npx shadcn@latest init`) and configure Tailwind theme",
-      "phase": "setup",
-      "status": "pending"
-    },
-    {
-      "id": "T003",
-      "title": "Apply the starter design system from `../design-kit/` \u2014 copy `globals.css` + `tailwind.theme.ts`, keep the detected tone (corners/shadow/palette in `design-kit/tone.json`), pull matching components from the sources in `design-kit/README.md` (shadcn/ui, 21st.dev)",
-      "phase": "design",
-      "status": "pending"
-    },
-    {
-      "id": "T004",
-      "title": "Refine the design SYSTEM using `design-token-plan.md` as INSPIRATION \u2014 modernize (don't clone the dated source); lock in palette, typography, spacing, radius, motion",
-      "phase": "design",
-      "status": "pending"
-    },
-    {
-      "id": "T005",
-      "title": "Implement root layout (header/footer) from global/navigation.json + footer.json",
-      "phase": "design",
-      "status": "pending"
-    },
-    {
-      "id": "T006",
-      "title": "Apply the COMPLEMENTARY palette from `../design-kit/tokens.json` (a fresh, harmonious-but-distinct scheme \u2014 do not reuse the source colors)",
-      "phase": "design",
-      "status": "pending"
-    },
-    {
-      "id": "T007",
-      "title": "Generate brand-new assets (logo/wordmark, hero imagery, icons, typography) per `../design-kit/asset-generation-brief.md`; do NOT ship captured assets",
-      "phase": "design",
-      "status": "pending"
-    },
-    {
-      "id": "T008",
-      "title": "Ensure fully mobile-responsive layouts at every breakpoint (mobile-first)",
-      "phase": "design",
-      "status": "pending"
-    },
-    {
-      "id": "T009",
-      "title": "Provision PostgreSQL + Drizzle; define schema per `database-plan.md`",
-      "phase": "backend",
-      "status": "pending"
-    },
-    {
-      "id": "T010",
-      "title": "Implement API route handlers per `api-contracts.md` (Zod-validated)",
-      "phase": "backend",
-      "status": "pending"
-    },
-    {
-      "id": "T011",
-      "title": "Wire authentication (Auth.js v5) and protect app routes",
-      "phase": "backend",
-      "status": "pending"
-    },
-    {
-      "id": "T012",
-      "title": "Wire integrations with client credentials: Auth.js (NextAuth v5), Resend, Calendly or Cal.com, Cloudflare Turnstile (see `integrations-plan.md`)",
-      "phase": "backend",
-      "status": "pending"
-    },
-    {
-      "id": "T013",
-      "title": "Build route `/home-1` (unknown)",
-      "phase": "build",
-      "status": "pending",
-      "page_id": "3d4bed22e1184b72"
-    },
-    {
-      "id": "T014",
-      "title": "Build route `/services` (services_index)",
-      "phase": "build",
-      "status": "completed",
-      "owner": "wedge:trust-services",
-      "notes": "src/app/services/page.tsx — 3 service tiles (code-based SVGs), trust band, CTA. Consumes SERVICES from site-config. + /services/[slug] detail pages with generateStaticParams, generateMetadata, Breadcrumb+LocalBusiness JSON-LD, FAQ section (FAQPage JSON-LD), CTA band. Long-form content in src/content/services/detail.ts."
-    },
-    {
-      "id": "T015",
-      "title": "Build route `/clients` (unknown)",
-      "phase": "build",
-      "status": "completed",
-      "owner": "wedge:trust-services",
-      "notes": "src/app/clients/page.tsx — testimonials grid (TESTIMONIALS from site-config), project gallery (3 code-based SVGs), CTA band, LocalBusiness+WebSite JSON-LD."
-    },
-    {
-      "id": "T016",
-      "title": "Build route `/client-callback` (unknown)",
-      "phase": "build",
-      "status": "pending",
-      "page_id": "a50d937238dfdfff"
-    },
-    {
-      "id": "T017",
-      "title": "Build route `/services-5` (unknown)",
-      "phase": "build",
-      "status": "pending",
-      "page_id": "b2f46b066843f600"
-    },
-    {
-      "id": "T018",
-      "title": "Build route `/` (homepage)",
-      "phase": "build",
-      "status": "pending",
-      "page_id": "cc4a84e52c0f0d87"
-    },
-    {
-      "id": "T019",
-      "title": "Build route `/book-online` (unknown)",
-      "phase": "build",
-      "status": "completed",
-      "owner": "wedge:trust-services",
-      "notes": "src/app/book-online/page.tsx — modern rebuild replaces password gate with real booking: embeds NEXT_PUBLIC_BOOKING_URL scheduler if set, else fallback CTA to /contact + call. Contact alternatives band. LocalBusiness+WebSite JSON-LD."
-    },
-    {
-      "id": "T020",
-      "title": "Build route `/story` (unknown)",
-      "phase": "build",
-      "status": "completed",
-      "owner": "wedge:trust-services",
-      "notes": "src/app/story/page.tsx — founder story (Devin Aloise), values (VALUES from site-config), founder portrait SVG, CTA band, LocalBusiness+WebSite JSON-LD."
-    },
-    {
-      "id": "T021",
-      "title": "Build email + lead capture via resend, persisting leads to the DB \u2014 see Mission 'lead-capture-email'",
-      "phase": "feature",
-      "status": "pending"
-    },
-    {
-      "id": "T022",
-      "title": "Build the blog with 5 generated starter articles + images + thumbnails + SEO/GEO \u2014 see Mission 'blog-content'",
-      "phase": "feature",
-      "status": "completed",
-      "owner": "wedge:blog-seo",
-      "notes": "5 TSX articles + code-based SVG thumbnails in src/content/blog + public/blog; /blog index, /blog/[slug] (generateStaticParams + generateMetadata + Article/FAQ/Breadcrumb JSON-LD), /blog/tag/[tag], /blog/rss.xml RSS feed. Type-clean. CTA clicks instrumented via TrackClick -> /api/track."
-    },
-    {
-      "id": "T023",
-      "title": "Add micro-interactions & micro-animations (Framer Motion); polish responsive states",
-      "phase": "polish",
-      "status": "pending"
-    },
-    {
-      "id": "T024",
-      "title": "Instrument site-wide analytics + logging (pageviews, traffic, users, logins, signups, purchases) per `analytics-plan.md`; no page ships untracked",
-      "phase": "analytics",
-      "status": "pending"
-    },
-    {
-      "id": "T025",
-      "title": "Apply per-page metadata from `06-metadata-map.json`; generate sitemap.xml + robots.txt",
-      "phase": "seo-geo",
-      "status": "completed",
-      "owner": "wedge:blog-seo",
-      "notes": "DONE: src/app/sitemap.ts (all routes incl. blog articles + tags + images), src/app/robots.ts (allow all, disallow /admin + /api, sitemap ref), metadata for /blog, /blog/[slug], /blog/tag/[tag], /privacy, /terms. Integrator verified marketing pages (/, /services, /story, /clients, /book-online, /contact) all export Metadata with title/description/canonical/openGraph. metadataBase set in root layout."
-    },
-    {
-      "id": "T026",
-      "title": "Add JSON-LD structured data + llms.txt for GEO; verify Rich Results",
-      "phase": "seo-geo",
-      "status": "completed",
-      "owner": "wedge:blog-seo",
-      "notes": "DONE: src/components/seo/json-ld.tsx (LocalBusiness/GeneralContractor, WebSite, Article, BreadcrumbList, FAQPage), public/llms.txt, Article+FAQ+Breadcrumb rendered on blog, LocalBusiness+WebSite on blog index + legal pages. Integrator wired <LocalBusinessJsonLd/> + <WebSiteJsonLd/> into src/app/layout.tsx root layout for site-wide coverage. NAP is env-driven; address block omitted (no street address published)."
-    },
-    {
-      "id": "T027",
-      "title": "Run QA checklist (`smart-site-qa-checklist.md`); Lighthouse > 95; WCAG AA",
-      "phase": "qa",
-      "status": "pending"
-    },
-    {
-      "id": "T028",
-      "title": "Deploy per `deployment-plan.md`; verify env vars + integrations live",
-      "phase": "launch",
-      "status": "pending"
-    }
-  ],
-  "total": 28,
-  "completed": 7
+    "instructions":  "Authoritative build checklist. Work top-to-bottom; mark each task in_progress then completed and KEEP THIS FILE UPDATED. Do not hand-write the Next.js skeleton � always scaffold with the boilerplate command in T001. If the site needs more than these (e.g. a blog CMS, extra landing pages), append new tasks and, if substantial, new mission files.",
+    "tasks":  [
+                  {
+                      "id":  "T001",
+                      "title":  "Scaffold the project with the official Next.js boilerplate: `npx create-next-app@latest . --yes --ts --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --turbopack`",
+                      "phase":  "setup",
+                      "status":  "completed"
+                  },
+                  {
+                      "id":  "T002",
+                      "title":  "Initialize shadcn/ui (`npx shadcn@latest init`) and configure Tailwind theme",
+                      "phase":  "setup",
+                      "status":  "completed"
+                  },
+                  {
+                      "id":  "T003",
+                      "title":  "Apply the starter design system from `../design-kit/` � copy `globals.css` + `tailwind.theme.ts`, keep the detected tone (corners/shadow/palette in `design-kit/tone.json`), pull matching components from the sources in `design-kit/README.md` (shadcn/ui, 21st.dev)",
+                      "phase":  "design",
+                      "status":  "completed"
+                  },
+                  {
+                      "id":  "T004",
+                      "title":  "Refine the design SYSTEM using `design-token-plan.md` as INSPIRATION � modernize (don\u0027t clone the dated source); lock in palette, typography, spacing, radius, motion",
+                      "phase":  "design",
+                      "status":  "completed"
+                  },
+                  {
+                      "id":  "T005",
+                      "title":  "Implement root layout (header/footer) from global/navigation.json + footer.json",
+                      "phase":  "design",
+                      "status":  "completed"
+                  },
+                  {
+                      "id":  "T006",
+                      "title":  "Apply the COMPLEMENTARY palette from `../design-kit/tokens.json` (a fresh, harmonious-but-distinct scheme � do not reuse the source colors)",
+                      "phase":  "design",
+                      "status":  "completed"
+                  },
+                  {
+                      "id":  "T007",
+                      "title":  "Generate brand-new assets (logo/wordmark, hero imagery, icons, typography) per `../design-kit/asset-generation-brief.md`; do NOT ship captured assets",
+                      "phase":  "design",
+                      "status":  "completed"
+                  },
+                  {
+                      "id":  "T008",
+                      "title":  "Ensure fully mobile-responsive layouts at every breakpoint (mobile-first)",
+                      "phase":  "design",
+                      "status":  "completed"
+                  },
+                  {
+                      "id":  "T009",
+                      "title":  "Provision PostgreSQL + Drizzle; define schema per `database-plan.md`",
+                      "phase":  "backend",
+                      "status":  "completed"
+                  },
+                  {
+                      "id":  "T010",
+                      "title":  "Implement API route handlers per `api-contracts.md` (Zod-validated)",
+                      "phase":  "backend",
+                      "status":  "completed"
+                  },
+                  {
+                      "id":  "T011",
+                      "title":  "Wire authentication (Auth.js v5) and protect app routes",
+                      "phase":  "backend",
+                      "status":  "completed"
+                  },
+                  {
+                      "id":  "T012",
+                      "title":  "Wire integrations with client credentials: Auth.js (NextAuth v5), Resend, Calendly or Cal.com, Cloudflare Turnstile (see `integrations-plan.md`)",
+                      "phase":  "backend",
+                      "status":  "pending"
+                  },
+                  {
+                      "id":  "T013",
+                      "title":  "Build route `/home-1` (unknown)",
+                      "phase":  "build",
+                      "status":  "completed",
+                      "owner":  "lead:integrator",
+                      "notes":  "Old alternate homepage — permanently redirected to / via next.config.ts redirects(). Preserves SEO equity."
+                  },
+                  {
+                      "id":  "T014",
+                      "title":  "Build route `/services` (services_index)",
+                      "phase":  "build",
+                      "status":  "completed",
+                      "owner":  "wedge:trust-services",
+                      "notes":  "src/app/services/page.tsx — 3 service tiles (code-based SVGs), trust band, CTA. Consumes SERVICES from site-config. + /services/[slug] detail pages with generateStaticParams, generateMetadata, Breadcrumb+LocalBusiness JSON-LD, FAQ section (FAQPage JSON-LD), CTA band. Long-form content in src/content/services/detail.ts."
+                  },
+                  {
+                      "id":  "T015",
+                      "title":  "Build route `/clients` (unknown)",
+                      "phase":  "build",
+                      "status":  "completed",
+                      "owner":  "wedge:trust-services",
+                      "notes":  "src/app/clients/page.tsx — testimonials grid (TESTIMONIALS from site-config), project gallery (3 code-based SVGs), CTA band, LocalBusiness+WebSite JSON-LD."
+                  },
+                  {
+                      "id":  "T016",
+                      "title":  "Build route `/client-callback` (unknown)",
+                      "phase":  "build",
+                      "status":  "completed",
+                      "owner":  "lead:integrator",
+                      "notes":  "Old callback request page — permanently redirected to /contact via next.config.ts redirects(). The contact page handles callback requests with quick message + detailed quote forms."
+                  },
+                  {
+                      "id":  "T017",
+                      "title":  "Build route `/services-5` (unknown)",
+                      "phase":  "build",
+                      "status":  "completed",
+                      "owner":  "lead:integrator",
+                      "notes":  "Old alternate services page (Red\u0027s Service Division) — permanently redirected to /services via next.config.ts redirects()."
+                  },
+                  {
+                      "id":  "T018",
+                      "title":  "Build route `/` (homepage)",
+                      "phase":  "build",
+                      "status":  "completed",
+                      "owner":  "lead",
+                      "notes":  "src/app/page.tsx — Hero (dual CTA + trust stars), TrustBar, ServicesSummary, ValuesSection, Testimonials, FaqSection, FinalCta with inline contact form. All sections consume centralized content from site-config. Fully instrumented with analytics."
+                  },
+                  {
+                      "id":  "T019",
+                      "title":  "Build route `/book-online` (unknown)",
+                      "phase":  "build",
+                      "status":  "completed",
+                      "owner":  "wedge:trust-services",
+                      "notes":  "src/app/book-online/page.tsx — modern rebuild replaces password gate with real booking: embeds NEXT_PUBLIC_BOOKING_URL scheduler if set, else fallback CTA to /contact + call. Contact alternatives band. LocalBusiness+WebSite JSON-LD."
+                  },
+                  {
+                      "id":  "T020",
+                      "title":  "Build route `/story` (unknown)",
+                      "phase":  "build",
+                      "status":  "completed",
+                      "owner":  "wedge:trust-services",
+                      "notes":  "src/app/story/page.tsx — founder story (Devin Aloise), values (VALUES from site-config), founder portrait SVG, CTA band, LocalBusiness+WebSite JSON-LD."
+                  },
+                  {
+                      "id":  "T021",
+                      "title":  "Build email + lead capture via resend, persisting leads to the DB � see Mission \u0027lead-capture-email\u0027",
+                      "phase":  "feature",
+                      "status":  "completed"
+                  },
+                  {
+                      "id":  "T022",
+                      "title":  "Build the blog with 5 generated starter articles + images + thumbnails + SEO/GEO � see Mission \u0027blog-content\u0027",
+                      "phase":  "feature",
+                      "status":  "completed",
+                      "owner":  "wedge:blog-seo",
+                      "notes":  "5 TSX articles + code-based SVG thumbnails in src/content/blog + public/blog; /blog index, /blog/[slug] (generateStaticParams + generateMetadata + Article/FAQ/Breadcrumb JSON-LD), /blog/tag/[tag], /blog/rss.xml RSS feed. Type-clean. CTA clicks instrumented via TrackClick -\u003e /api/track."
+                  },
+                  {
+                      "id":  "T023",
+                      "title":  "Add micro-interactions \u0026 micro-animations (Framer Motion); polish responsive states",
+                      "phase":  "polish",
+                      "status":  "completed"
+                  },
+                  {
+                      "id":  "T024",
+                      "title":  "Instrument site-wide analytics + logging (pageviews, traffic, users, logins, signups, purchases) per `analytics-plan.md`; no page ships untracked",
+                      "phase":  "analytics",
+                      "status":  "completed"
+                  },
+                  {
+                      "id":  "T025",
+                      "title":  "Apply per-page metadata from `06-metadata-map.json`; generate sitemap.xml + robots.txt",
+                      "phase":  "seo-geo",
+                      "status":  "completed",
+                      "owner":  "wedge:blog-seo",
+                      "notes":  "DONE: src/app/sitemap.ts (all routes incl. blog articles + tags + images), src/app/robots.ts (allow all, disallow /admin + /api, sitemap ref), metadata for /blog, /blog/[slug], /blog/tag/[tag], /privacy, /terms. Integrator verified marketing pages (/, /services, /story, /clients, /book-online, /contact) all export Metadata with title/description/canonical/openGraph. metadataBase set in root layout."
+                  },
+                  {
+                      "id":  "T026",
+                      "title":  "Add JSON-LD structured data + llms.txt for GEO; verify Rich Results",
+                      "phase":  "seo-geo",
+                      "status":  "completed",
+                      "owner":  "wedge:blog-seo",
+                      "notes":  "DONE: src/components/seo/json-ld.tsx (LocalBusiness/GeneralContractor, WebSite, Article, BreadcrumbList, FAQPage), public/llms.txt, Article+FAQ+Breadcrumb rendered on blog, LocalBusiness+WebSite on blog index + legal pages. Integrator wired \u003cLocalBusinessJsonLd/\u003e + \u003cWebSiteJsonLd/\u003e into src/app/layout.tsx root layout for site-wide coverage. NAP is env-driven; address block omitted (no street address published)."
+                  },
+                  {
+                      "id":  "T027",
+                      "title":  "Run QA checklist (`smart-site-qa-checklist.md`); Lighthouse \u003e 95; WCAG AA",
+                      "phase":  "qa",
+                      "status":  "pending"
+                  },
+                  {
+                      "id":  "T028",
+                      "title":  "Deploy per `deployment-plan.md`; verify env vars + integrations live",
+                      "phase":  "launch",
+                      "status":  "pending"
+                  }
+              ],
+    "total":  28,
+    "completed":  25
 }

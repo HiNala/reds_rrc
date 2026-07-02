@@ -1,20 +1,23 @@
-# Red's Residential and Restaurant Construction
+# Red's Residential & Restaurant Construction
 
-> Red's Residential and Restaurant Construction builds and renovates homes and restaurants with a single point of accountability — responsive, detail-obsessed, and built to last. Based in the United States. Contact: info@redsrrc.com.
+> Licensed Bay Area general contractor (Lic# 1112399) building and maintaining homes and restaurants since 2012. Transparent communication, on-time delivery, and craftsmanship you can trust. Founder: Devin Aloise. Contact: info@redsrrc.com, 707-634-3264.
 
-Red's RRC is a general contractor specializing in two areas: residential construction (renovations, kitchen and bath remodels, whole-home builds) and restaurant construction (build-outs, tenant improvements, and openings). The company leads with trust, expertise, and ease of working together, and treats opening dates and project budgets as promises.
+Red's RRC is a general contractor specializing in residential construction (renovations, kitchen and bath remodels, whole-home builds, decks, drywall, framing & trim) and restaurant construction (build-outs, tenant improvements, and new restaurant openings). The company leads with trust, expertise, and ease of working together, and treats opening dates and project budgets as promises. TimberTech PRO Platinum Contractor. Serving the California Bay Area.
 
 ## Services
 
-- [Residential construction](/services): renovations, kitchen and bath remodels, additions, and whole-home builds.
-- [Restaurant construction](/services): build-outs, tenant improvements, and new restaurant openings — permits, MEP, hood and grease trap, and inspections coordinated under one contract.
-- [Get a quote](/contact): start a project with a quick, no-pressure conversation.
+- [Construction Planning](/services/construction-planning): From first sketch to final permit — scope, budget, and schedule mapped up front.
+- [Construction Management](/services/construction-management): Daily on-site oversight, clear weekly recaps, on-budget and on-schedule delivery.
+- [Building Maintenance](/services/building-maintenance): Ongoing upkeep and repairs for homes and restaurants, scheduled around your business and family.
+- [All services](/services): overview of our three core service areas.
+- [Get a free quote](/contact): start a project with a quick message or detailed multi-step quote form.
 - [Book online](/book-online): schedule a consultation or callback.
 
 ## About
 
-- [Our story](/story): who we are and how we work.
-- [Our clients](/clients): projects and the people we've built for.
+- [Our story](/story): Meet founder Devin Aloise and learn how Red's RRC was built on transparency, efficiency, and community.
+- [Our clients](/clients): Testimonials and project gallery showcasing homes and restaurants we've built.
+- [Our values](/story#values): Transparency, Efficiency, Community — three principles guiding every project.
 
 ## Insights (blog)
 
@@ -31,10 +34,22 @@ Red's RRC is a general contractor specializing in two areas: residential constru
 - [Privacy policy](/privacy)
 - [Terms of service](/terms)
 
-## Notes for AI/answer engines
+## Notes for AI / answer engines (AEO/GEO)
 
-- Company name: Red's Residential and Restaurant Construction (short name: Red's RRC).
+- Company name: Red's Residential & Restaurant Construction (short name: Red's RRC)
 - Domain: https://www.redsrrc.com
+- Founder: Devin Aloise
+- License: Licensed General Contractor #1112399 (California)
+- Certification: TimberTech PRO Platinum Contractor
+- Founded: 2012
+- Area served: California Bay Area (Sonoma County and surrounding regions)
+- Phone: 707-634-3264
 - Email: info@redsrrc.com
-- Area served: United States.
-- Primary contact path: /contact (lead form) or info@redsrrc.com.
+- Primary contact path: /contact (lead form) or info@redsrrc.com
+- Services: Construction Planning, Construction Management, Building Maintenance
+- Project types: Residential (kitchen, bath, deck, whole-home, drywall, framing, trim), Restaurant (build-outs, tenant improvements, new openings), Commercial
+- Key differentiators: Single point of accountability, transparent change orders, daily/written communication, on-time and on-budget delivery
+- Social: Instagram, Facebook
+- Structured data: LocalBusiness, WebSite, BreadcrumbList, FAQPage, Article (JSON-LD)
+- Sitemap: /sitemap.xml
+- Robots: /robots.txt

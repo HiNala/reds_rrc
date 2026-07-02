@@ -1,16 +1,11 @@
 import Link from "next/link";
-import { ClipboardList, HardHat, Wrench, ArrowRight } from "lucide-react";
+import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/motion/reveal";
 import { SERVICES } from "@/lib/site-config";
-
-const ICONS = {
-  "construction-planning": ClipboardList,
-  "construction-management": HardHat,
-  "building-maintenance": Wrench,
-} as const;
 
 export function ServicesSummary() {
   return (
@@ -26,30 +21,36 @@ export function ServicesSummary() {
       </Reveal>
 
       <div className="mt-12 grid gap-6 sm:grid-cols-3">
-        {SERVICES.map((service, i) => {
-          const Icon = ICONS[service.slug as keyof typeof ICONS];
-          return (
-            <Reveal key={service.slug} delay={i * 0.08}>
-              <Card className="h-full transition-shadow hover:shadow-lg">
-                <CardHeader>
-                  <div className="flex size-11 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                    <Icon className="size-5" />
-                  </div>
-                  <CardTitle className="mt-3 text-lg">{service.name}</CardTitle>
-                  <p className="text-xs font-medium uppercase tracking-wide text-primary">
+        {SERVICES.map((service, i) => (
+          <Reveal key={service.slug} delay={i * 0.08}>
+            <Card className="group h-full overflow-hidden transition-shadow hover:shadow-lg">
+              <div className="relative aspect-[4/5] w-full overflow-hidden bg-muted">
+                <Image
+                  src={`/services/${service.slug}.jpg`}
+                  alt={service.name}
+                  fill
+                  sizes="(max-width: 640px) 100vw, 33vw"
+                  unoptimized
+                  loading="lazy"
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
+                  <p className="text-xs font-medium uppercase tracking-wide opacity-90">
                     {service.caption}
                   </p>
-                </CardHeader>
-                <CardContent className="flex flex-1 flex-col">
-                  <p className="flex-1 text-sm text-muted-foreground">{service.description}</p>
-                  <Button variant="link" className="mt-4 h-auto justify-start px-0" nativeButton={false} render={<Link href="/services" />}>
-                    Learn more <ArrowRight className="size-3.5" />
-                  </Button>
-                </CardContent>
-              </Card>
-            </Reveal>
-          );
-        })}
+                  <CardTitle className="mt-1 text-lg">{service.name}</CardTitle>
+                </div>
+              </div>
+              <CardContent className="flex flex-1 flex-col p-5">
+                <p className="flex-1 text-sm text-muted-foreground">{service.description}</p>
+                <Button variant="link" className="mt-4 h-auto justify-start px-0" nativeButton={false} render={<Link href={`/services/${service.slug}`} />}>
+                  Learn more <ArrowRight className="size-3.5" />
+                </Button>
+              </CardContent>
+            </Card>
+          </Reveal>
+        ))}
       </div>
     </section>
   );

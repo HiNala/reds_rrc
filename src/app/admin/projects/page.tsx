@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Plus, Pencil, Trash2, Star, Eye, EyeOff } from "lucide-react";
+import { Plus, Pencil, Star, Eye, EyeOff } from "lucide-react";
 
 import { requireAdmin } from "@/lib/auth";
 import { getAllProjects, type AdminProjectWithImages } from "@/lib/projects-queries";

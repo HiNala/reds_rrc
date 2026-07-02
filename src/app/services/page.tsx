@@ -59,13 +59,13 @@ export default function ServicesPage() {
             className="group relative flex flex-col overflow-hidden rounded-xl border border-border bg-card transition-shadow hover:shadow-lg"
           >
             <Image
-              src={`/services/${service.slug}.svg`}
+              src={`/services/${service.slug}.jpg`}
               alt={service.name}
               width={800}
               height={800}
               unoptimized
               loading="lazy"
-              className="aspect-square w-full object-cover"
+              className="aspect-square w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="flex flex-1 flex-col gap-2 p-5">
               <h2 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary">

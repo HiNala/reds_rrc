@@ -1,0 +1,40 @@
+{
+  "name": "Red's Residential & Restaurant Construction",
+  "short_name": "Red's RRC",
+  "description": "Licensed Bay Area general contractor building and maintaining homes and restaurants since 2012. Transparent communication, on-time delivery, and craftsmanship you can trust.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#c8392f",
+  "orientation": "portrait-primary",
+  "categories": ["business", "construction", "contractor"],
+  "icons": [
+    {
+      "src": "/brand/logo.png",
+      "sizes": "92x83",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/hero/hero-1.png",
+      "sizes": "1280x729",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Outdoor deck and patio built by Red's RRC"
+    }
+  ]
+}

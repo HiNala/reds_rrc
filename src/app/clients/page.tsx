@@ -1,34 +1,17 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 
 import { SITE, TESTIMONIALS, absoluteUrl } from "@/lib/site-config";
 import { SectionHeading } from "@/components/site/section-heading";
 import { CtaBand } from "@/components/site/cta-band";
+import { ProjectGallery } from "@/components/site/project-gallery";
 import {
   LocalBusinessJsonLd,
   WebSiteJsonLd,
 } from "@/components/seo/json-ld";
+import { getPublishedProjects } from "@/lib/projects-queries";
+import { STATIC_PROJECTS } from "@/lib/static-projects";
 
-const PROJECTS = [
-  {
-    src: "/clients/project-1.svg",
-    alt: "Kitchen renovation project",
-    caption: "Kitchen renovation",
-    location: "Bay Area, CA",
-  },
-  {
-    src: "/clients/project-2.svg",
-    alt: "Restaurant build-out project",
-    caption: "Restaurant build-out",
-    location: "Bay Area, CA",
-  },
-  {
-    src: "/clients/project-3.svg",
-    alt: "Bathroom renovation project",
-    caption: "Bathroom renovation",
-    location: "Bay Area, CA",
-  },
-];
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Our Clients",
@@ -42,9 +25,22 @@ export const metadata: Metadata = {
   },
 };
 
-export default function ClientsPage() {
+export default async function ClientsPage() {
+  let projects: Awaited<ReturnType<typeof getPublishedProjects>> = [];
+  try {
+    projects = await getPublishedProjects();
+  } catch {
+    // DB not available — use static fallback
+  }
+
+  // If DB returned no projects, use the static fallback gallery
+  // (original site photos from start/assets/images/)
+  if (projects.length === 0) {
+    projects = STATIC_PROJECTS as unknown as typeof projects;
+  }
+
   return (
-    <div className="mx-auto w-full max-w-5xl px-4 py-16 sm:px-6">
+    <div className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6">
       <LocalBusinessJsonLd />
       <WebSiteJsonLd />
 
@@ -61,7 +57,7 @@ export default function ClientsPage() {
       </header>
 
       {/* Testimonials */}
-      <section aria-label="Client testimonials" className="mb-16">
+      <section aria-label="Client testimonials" className="mb-20">
         <SectionHeading
           eyebrow="In their words"
           title="What clients say"
@@ -93,35 +89,12 @@ export default function ClientsPage() {
       {/* Project gallery */}
       <section aria-label="Project gallery" className="mb-16">
         <SectionHeading
-          eyebrow="More love"
+          eyebrow="Our work"
           title="Projects we're proud of"
-          description="A few of the homes and restaurants we've had the privilege of building and renovating."
+          description="A showcase of the homes and restaurants we've had the privilege of building and renovating. Click any project to see more photos."
           className="mb-10"
         />
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {PROJECTS.map((p) => (
-            <figure
-              key={p.src}
-              className="overflow-hidden rounded-xl border border-border bg-card"
-            >
-              <Image
-                src={p.src}
-                alt={p.alt}
-                width={800}
-                height={800}
-                unoptimized
-                loading="lazy"
-                className="aspect-square w-full object-cover"
-              />
-              <figcaption className="p-4 text-center">
-                <p className="font-heading font-semibold text-foreground">
-                  {p.caption}
-                </p>
-                <p className="mt-1 text-xs text-muted-foreground">{p.location}</p>
-              </figcaption>
-            </figure>
-          ))}
-        </div>
+        <ProjectGallery projects={projects} />
       </section>
 
       {/* CTA */}
