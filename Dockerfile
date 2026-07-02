@@ -31,7 +31,8 @@ COPY --chown=nextjs:nodejs scripts/mark-migration.js ./scripts/mark-migration.js
 
 # Entrypoint script that runs migrations then starts the server
 COPY --chown=nextjs:nodejs docker-entrypoint.sh ./docker-entrypoint.sh
-RUN chmod +x ./docker-entrypoint.sh
+# Fix Windows CRLF line endings (safe no-op if already LF)
+RUN sed -i 's/\r$//' docker-entrypoint.sh && chmod +x ./docker-entrypoint.sh
 
 USER nextjs
 EXPOSE 3000
