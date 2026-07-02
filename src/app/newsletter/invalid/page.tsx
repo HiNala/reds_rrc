@@ -1,19 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-import { SITE } from "@/lib/site-config";
-
 export const metadata: Metadata = {
   title: "Invalid Confirmation Link",
   description: "The newsletter confirmation link is invalid or expired.",
   robots: { index: false, follow: false },
 };
 
-export default function NewsletterInvalidPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ reason?: string }>;
-}) {
+export default function NewsletterInvalidPage() {
   return (
     <div className="mx-auto flex max-w-lg flex-col items-center px-4 py-24 text-center">
       <div className="mb-6 flex size-16 items-center justify-center rounded-full bg-amber-100 text-amber-600">

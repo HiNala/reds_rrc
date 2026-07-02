@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { eq } from "drizzle-orm";
 import { db, schema } from "@/db/client";
 import { getSession } from "@/lib/auth";
+import { track } from "@/lib/analytics-server";
 
 const VALID_STATUSES = ["new", "contacted", "qualified", "won", "lost"];
 
@@ -41,6 +42,10 @@ export async function PATCH(
     if (!updated) {
       return NextResponse.json({ error: "Lead not found" }, { status: 404 });
     }
+
+    await track("admin_lead_update", {
+      props: { leadId: id, status: updated.status, admin: session.email },
+    });
 
     return NextResponse.json({ ok: true, lead: updated });
   } catch (err) {

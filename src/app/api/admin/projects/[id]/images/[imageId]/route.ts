@@ -5,6 +5,7 @@ import {
   deleteProjectImage,
   updateProjectImage,
 } from "@/lib/projects-queries";
+import { track } from "@/lib/analytics-server";
 
 export const dynamic = "force-dynamic";
 
@@ -22,6 +23,7 @@ export async function DELETE(
 
   try {
     await deleteProjectImage(imageId);
+    await track("admin_project_image_delete", { props: { imageId } });
     return NextResponse.json({ ok: true });
   } catch (err) {
     console.error("[api/admin/projects/images] DELETE failed", err);

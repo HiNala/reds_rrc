@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Plus, Pencil, Star, Eye, EyeOff, FolderKanban, Camera, ArrowRight } from "lucide-react";
+import { Plus, Pencil, Star, Eye, EyeOff, FolderKanban, Camera } from "lucide-react";
 
 import { requireAdmin } from "@/lib/auth";
 import {

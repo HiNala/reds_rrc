@@ -9,11 +9,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default function NewsletterConfirmedPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ already?: string }>;
-}) {
+export default function NewsletterConfirmedPage() {
   return (
     <div className="mx-auto flex max-w-lg flex-col items-center px-4 py-24 text-center">
       <div className="mb-6 flex size-16 items-center justify-center rounded-full bg-green-100 text-green-600">

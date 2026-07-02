@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { eq } from "drizzle-orm";
 import { db, schema } from "@/db/client";
 import { getSession } from "@/lib/auth";
+import { track } from "@/lib/analytics-server";
 
 export async function POST(
   req: NextRequest,
@@ -44,6 +45,8 @@ export async function POST(
       author: session.email,
     })
     .returning();
+
+  await track("admin_lead_note", { props: { leadId: id, author: session.email } });
 
   return NextResponse.json({ ok: true, note: created });
 }

@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/auth";
 import { addProjectImage } from "@/lib/projects-queries";
 import { uploadProjectImage } from "@/lib/storage";
+import { track } from "@/lib/analytics-server";
 
 export const dynamic = "force-dynamic";
 
@@ -42,6 +43,10 @@ export async function POST(
       alt: typeof alt === "string" ? alt : file.name,
       contentType: uploaded.contentType,
       size: uploaded.size,
+    });
+
+    await track("admin_project_image_upload", {
+      props: { projectId, imageId: image.id, size: uploaded.size },
     });
 
     return NextResponse.json(

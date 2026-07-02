@@ -7,6 +7,7 @@ import {
   deleteProject,
   type ProjectInput,
 } from "@/lib/projects-queries";
+import { track } from "@/lib/analytics-server";
 
 export const dynamic = "force-dynamic";
 
@@ -66,6 +67,7 @@ export async function PUT(
   if (!project) {
     return NextResponse.json({ error: "Project not found." }, { status: 404 });
   }
+  await track("admin_project_update", { props: { projectId: id } });
   return NextResponse.json({ project });
 }
 
@@ -83,6 +85,7 @@ export async function DELETE(
 
   try {
     await deleteProject(id);
+    await track("admin_project_delete", { props: { projectId: id } });
     return NextResponse.json({ ok: true });
   } catch (err) {
     console.error("[api/admin/projects] DELETE failed", err);

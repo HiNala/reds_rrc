@@ -6,6 +6,7 @@ import {
   createProject,
   type ProjectInput,
 } from "@/lib/projects-queries";
+import { track } from "@/lib/analytics-server";
 
 export const dynamic = "force-dynamic";
 
@@ -47,6 +48,7 @@ export async function POST(req: NextRequest) {
       featured: body.featured ?? false,
       sortOrder: body.sortOrder ?? 0,
     });
+    await track("admin_project_create", { props: { projectId: project.id, title: project.title } });
     return NextResponse.json({ project }, { status: 201 });
   } catch (err) {
     console.error("[api/admin/projects] POST failed", err);

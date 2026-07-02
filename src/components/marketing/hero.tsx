@@ -8,20 +8,42 @@ import { PRIMARY_CTA, SITE } from "@/lib/site-config";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden border-b border-border">
-      <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 md:py-24 lg:grid-cols-2 lg:items-center lg:px-8">
-        <Reveal>
-          <div className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-3 py-1 text-xs font-medium text-secondary-foreground">
+    <section className="relative flex min-h-[88vh] items-center overflow-hidden">
+      {/* Full-bleed background image */}
+      <Image
+        src="/hero/hero-1.png"
+        alt="Outdoor deck and patio built by Red's RRC — featuring glass railing, seating, and scenic Bay Area backdrop"
+        fill
+        sizes="100vw"
+        className="object-cover"
+        priority
+      />
+
+      {/* Dark gradient overlay for text legibility — heavier on the left where text sits */}
+      <div
+        className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/20"
+        aria-hidden
+      />
+      {/* Bottom fade into the page for a smooth transition */}
+      <div
+        className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent"
+        aria-hidden
+      />
+
+      {/* Content */}
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 py-20 sm:px-6 md:py-28 lg:px-8">
+        <Reveal className="max-w-2xl">
+          <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-medium text-white backdrop-blur-sm">
             <ShieldCheck className="size-3.5 text-primary" />
             {SITE.license}
           </div>
 
-          <h1 className="mt-5 font-heading text-4xl font-bold leading-[1.08] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
+          <h1 className="mt-5 font-heading text-4xl font-bold leading-[1.05] tracking-tight text-white drop-shadow-lg sm:text-5xl lg:text-6xl xl:text-7xl">
             Building &amp; maintaining Bay Area homes and restaurants{" "}
             <span className="text-primary">since 2012.</span>
           </h1>
 
-          <p className="mt-5 max-w-xl text-lg text-muted-foreground">
+          <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/90 drop-shadow sm:text-xl">
             {SITE.tagline} — {SITE.name} pairs transparent communication with
             dependable craftsmanship, so your project stays on schedule, on
             budget, and on your terms.
@@ -30,7 +52,7 @@ export function Hero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button
               size="lg"
-              className="h-12 px-6 text-base"
+              className="h-12 px-7 text-base shadow-lg"
               nativeButton={false}
               render={<Link href={PRIMARY_CTA.href} />}
             >
@@ -39,7 +61,7 @@ export function Hero() {
             <Button
               variant="outline"
               size="lg"
-              className="h-12 px-6 text-base"
+              className="h-12 border-white/30 bg-white/10 px-7 text-base text-white backdrop-blur-sm hover:bg-white/20 hover:text-white"
               nativeButton={false}
               render={<a href={SITE.phoneHref} />}
             >
@@ -47,7 +69,7 @@ export function Hero() {
             </Button>
           </div>
 
-          <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
+          <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-white/80">
             <span className="flex items-center gap-1.5">
               <span className="flex">
                 {Array.from({ length: 5 }).map((_, i) => (
@@ -56,20 +78,10 @@ export function Hero() {
               </span>
               Trusted by families &amp; restaurant owners
             </span>
+            <span className="hidden sm:inline" aria-hidden>
+              &middot;
+            </span>
             <span>{SITE.certification}</span>
-          </div>
-        </Reveal>
-
-        <Reveal delay={0.1} className="relative mx-auto w-full max-w-md lg:max-w-none">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-border shadow-xl">
-            <Image
-              src="/hero/hero-1.png"
-              alt="Outdoor deck and patio built by Red's RRC — featuring glass railing, seating, and scenic Bay Area backdrop"
-              fill
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
-              priority
-            />
           </div>
         </Reveal>
       </div>
