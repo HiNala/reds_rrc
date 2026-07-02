@@ -1,6 +1,11 @@
 #!/bin/sh
 set -e
 
+# Mark migration 0003 as applied if the slug column already exists
+# (handles DBs that were set up via drizzle-kit push before the migration file existed)
+echo "[entrypoint] Checking for pre-existing schema changes..."
+node scripts/mark-migration.js 2>/dev/null || true
+
 # Run database migrations
 echo "[entrypoint] Running database migrations..."
 node scripts/migrate.js || {

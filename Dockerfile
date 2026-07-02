@@ -27,6 +27,7 @@ COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 COPY --from=builder --chown=nextjs:nodejs /app/drizzle ./drizzle
 COPY --chown=nextjs:nodejs scripts/migrate.js ./scripts/migrate.js
 COPY --chown=nextjs:nodejs scripts/seed-projects.js ./scripts/seed-projects.js
+COPY --chown=nextjs:nodejs scripts/mark-migration.js ./scripts/mark-migration.js
 
 # Entrypoint script that runs migrations then starts the server
 COPY --chown=nextjs:nodejs docker-entrypoint.sh ./docker-entrypoint.sh

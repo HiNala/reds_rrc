@@ -5,9 +5,18 @@ services:
       - "3000:3000"
     env_file: .env
     environment:
+      # Override .env values for the container's internal network
       DATABASE_URL: postgres://postgres:postgres@postgres:5432/redsrrc
       S3_ENDPOINT: http://minio:9000
       S3_PUBLIC_URL: http://localhost:9000
+      S3_ACCESS_KEY: ${MINIO_ROOT_USER:-minioadmin}
+      S3_SECRET_KEY: ${MINIO_ROOT_PASSWORD:-minioadmin}
+      S3_BUCKET: ${S3_BUCKET:-redsrrc-projects}
+      S3_REGION: ${S3_REGION:-us-east-1}
+      # Auth — must be set for admin login to work
+      AUTH_SECRET: ${AUTH_SECRET:-local-dev-secret-change-in-production}
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@redsrrc.com}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-admin123}
     depends_on:
       postgres:
         condition: service_healthy
