@@ -47,10 +47,10 @@ export default function StoryPage() {
       {/* Founder portrait */}
       <div className="mb-10 flex justify-center">
         <Image
-          src="/story/founder-portrait.png"
+          src="/story/founder-portrait.jpg"
           alt={`${SITE.founder}, founder of ${SITE.shortName}`}
-          width={400}
-          height={400}
+          width={320}
+          height={388}
           unoptimized
           loading="eager"
           className="rounded-full border-4 border-border object-cover shadow-lg"
@@ -92,6 +92,19 @@ export default function StoryPage() {
           src="/story/founder-with-dog.png"
           alt={`${SITE.founder} relaxing on a patio with his dog — the kind of outdoor spaces Red's RRC builds`}
           width={910}
+          height={683}
+          unoptimized
+          loading="lazy"
+          className="w-full object-cover"
+        />
+      </div>
+
+      {/* Second lifestyle image — founder with small white dog */}
+      <div className="mb-14 overflow-hidden rounded-xl shadow-lg">
+        <Image
+          src="/story/founder-with-white-dog.png"
+          alt={`${SITE.founder} with a small white dog — the crew treats pets like family`}
+          width={512}
           height={683}
           unoptimized
           loading="lazy"

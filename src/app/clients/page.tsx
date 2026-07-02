@@ -87,23 +87,12 @@ export default async function ClientsPage() {
                 &ldquo;{t.quote}&rdquo;
               </blockquote>
               <figcaption className="mt-4 flex items-center gap-3 text-sm">
-                {"avatar" in t && t.avatar ? (
-                  <Image
-                    src={t.avatar}
-                    alt={t.name}
-                    width={40}
-                    height={40}
-                    unoptimized
-                    className="size-10 rounded-full object-cover"
-                  />
-                ) : (
-                  <span
-                    aria-hidden
-                    className="flex size-10 items-center justify-center rounded-full bg-primary/10 font-heading text-sm font-bold text-primary"
-                  >
-                    {t.name.charAt(0)}
-                  </span>
-                )}
+                <span
+                  aria-hidden
+                  className="flex size-10 items-center justify-center rounded-full bg-primary/10 font-heading text-sm font-bold text-primary"
+                >
+                  {t.name.charAt(0)}
+                </span>
                 <span>
                   <span className="font-semibold text-foreground">{t.name}</span>
                   {"location" in t && t.location && (

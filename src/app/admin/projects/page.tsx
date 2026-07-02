@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
 import { Plus, Pencil, Star, Eye, EyeOff, FolderKanban, Camera, ExternalLink } from "lucide-react";
 
 import { requireAdmin } from "@/lib/auth";
@@ -14,6 +15,8 @@ import { Button } from "@/components/ui/button";
 import { DeleteProjectButton } from "./_components/delete-project-button";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = { title: "Projects" };
 
 export default async function AdminProjectsPage() {
   await requireAdmin();

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { requireAdmin } from "@/lib/auth";
 import { getLeadById, getLeadNotes, getLeadEvents } from "@/lib/analytics-queries";
 import { SourceBadge, StatusBadge } from "../../_components/status-badge";
@@ -7,6 +8,8 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { ArrowLeft, Mail, Phone, Globe, FileText } from "lucide-react";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = { title: "Lead Details" };
 
 export default async function LeadDetailPage({
   params,

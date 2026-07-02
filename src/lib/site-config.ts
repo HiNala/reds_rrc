@@ -103,7 +103,6 @@ export const TESTIMONIALS = [
     name: "Casey Johnson",
     quote:
       "Everyone on this crew was kind and liked my dogs. They cleaned up every day and kept my property clean and neighbors happy. I have recommended them to friends and family.",
-    avatar: "/testimonials/avatar-1.jpg",
   },
   {
     name: "Robbie White",
@@ -115,7 +114,6 @@ export const TESTIMONIALS = [
     location: "Bodega Bay",
     quote:
       "We worked with Devin directly. He gave us a schedule and budget and he and his team stuck to it. Daily and weekly recaps kept us in the loop.",
-    avatar: "/testimonials/avatar-2.jpg",
   },
 ] as const;
 

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { requireAdmin } from "@/lib/auth";
 import {
   getKpiSummary,
@@ -22,6 +23,8 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Eye, Users, MousePointerClick, Target, Globe, Smartphone, Clock } from "lucide-react";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = { title: "Analytics" };
 
 const DEVICE_COLORS: Record<string, string> = {
   desktop: "#3b82f6",

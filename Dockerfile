@@ -23,16 +23,24 @@ COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
-# Copy drizzle migration files + migration runner
+# Copy drizzle migration files + migration runner scripts
 COPY --from=builder --chown=nextjs:nodejs /app/drizzle ./drizzle
 COPY --chown=nextjs:nodejs scripts/migrate.js ./scripts/migrate.js
 COPY --chown=nextjs:nodejs scripts/seed-projects.js ./scripts/seed-projects.js
 COPY --chown=nextjs:nodejs scripts/mark-migration.js ./scripts/mark-migration.js
 
+# Install only the deps needed by the migration/seed scripts.
+# The standalone output doesn't include them, so we install them separately.
+RUN npm init -y && \
+    npm install --no-save drizzle-orm@0.45.2 pg@8.22.0 @aws-sdk/client-s3@3.1078.0 && \
+    rm -f package.json package-lock.json
+
 # Entrypoint script that runs migrations then starts the server
 COPY --chown=nextjs:nodejs docker-entrypoint.sh ./docker-entrypoint.sh
-# Fix Windows CRLF line endings (safe no-op if already LF)
-RUN sed -i 's/\r$//' docker-entrypoint.sh && chmod +x ./docker-entrypoint.sh
+# Fix Windows CRLF/BOM line endings (safe no-op if already clean)
+RUN sed -i 's/\r$//' docker-entrypoint.sh && \
+    sed -i '1s/^\xEF\xBB\xBF//' docker-entrypoint.sh && \
+    chmod +x ./docker-entrypoint.sh
 
 USER nextjs
 EXPOSE 3000

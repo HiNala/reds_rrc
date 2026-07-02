@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { ArrowLeft } from "lucide-react";
 
 import { requireAdmin } from "@/lib/auth";
@@ -8,6 +9,8 @@ import { ProjectForm } from "../../_components/project-form";
 import { ImageGalleryManager } from "../../_components/image-gallery-manager";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = { title: "Edit Project" };
 
 export default async function EditProjectPage({
   params,

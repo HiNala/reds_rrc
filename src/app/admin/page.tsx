@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { requireAdmin } from "@/lib/auth";
 import {
   getKpiSummary,
@@ -39,6 +40,8 @@ import {
 } from "lucide-react";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = { title: "Dashboard" };
 
 const DEVICE_COLORS: Record<string, string> = {
   desktop: "#3b82f6",

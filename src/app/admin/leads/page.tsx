@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { requireAdmin } from "@/lib/auth";
 import {
   getLeads,
@@ -14,6 +15,8 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { HorizontalBarChart } from "../_components/charts";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = { title: "Leads" };
 
 export default async function AdminLeadsPage({
   searchParams,

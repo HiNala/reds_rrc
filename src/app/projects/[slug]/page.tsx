@@ -25,10 +25,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   let project: ProjectWithImages | null = null;
   try {
     project = await getPublishedProjectBySlug(slug);
-    // Don't use DB project if images are SVGs (seed data)
-    if (project?.images[0]?.url?.endsWith(".svg")) project = null;
-  } catch {
-    // DB not available
+  } catch (err) {
+    console.error(`[projects/[slug]] DB error for slug="${slug}":`, err);
   }
   // Fall back to static projects
   if (!project) {
@@ -74,10 +72,8 @@ export default async function ProjectDetailPage({ params }: PageProps) {
   let project: ProjectWithImages | null = null;
   try {
     project = await getPublishedProjectBySlug(slug);
-    // Don't use DB project if images are SVGs (seed data)
-    if (project?.images[0]?.url?.endsWith(".svg")) project = null;
-  } catch {
-    // DB not available
+  } catch (err) {
+    console.error(`[projects/[slug]] DB error for slug="${slug}":`, err);
   }
   // Fall back to static projects
   if (!project) {

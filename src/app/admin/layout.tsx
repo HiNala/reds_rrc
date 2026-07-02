@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import { getSession } from "@/lib/auth";
 import { AdminNav } from "./_components/admin-nav";
+
+export const metadata: Metadata = {
+  title: { default: "Admin Dashboard", template: "%s · Admin · Red's RRC" },
+  robots: { index: false, follow: false },
+};
 
 export default async function AdminLayout({
   children,

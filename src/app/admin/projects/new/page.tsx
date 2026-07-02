@@ -1,10 +1,13 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { ArrowLeft } from "lucide-react";
 
 import { requireAdmin } from "@/lib/auth";
 import { ProjectForm } from "../_components/project-form";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = { title: "New Project" };
 
 export default async function NewProjectPage() {
   await requireAdmin();

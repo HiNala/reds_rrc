@@ -1,0 +1,23 @@
+fix: correct all images to match original slurped site assets
+
+Service images were swapped — fixed mapping based on original alt text:
+  Handyman -> building-maintenance.jpg
+  Construction Management -> construction-management.jpg
+  Building Plans -> construction-planning.jpg
+
+Story page founder portrait was wrong — replaced with actual IMG_5650
+founder photo (asset-b7c42540480e.jpg, 320x388). Added second lifestyle
+photo (founder with white dog). Removed incorrect PNG/SVG placeholders.
+
+Testimonial avatars were actually founder photos, not client photos —
+removed them entirely. Testimonials now use initial-letter avatars.
+
+Gallery images re-copied from original slurped site assets (20 images)
+with correct descriptions based on AI analysis and original page context.
+
+Updated static-projects.ts with 20 projects matching the original site's
+gallery, with proper slugs, titles, and alt text.
+
+Generated with [Devin](https://devin.ai)
+
+Co-Authored-By: Devin <158243242+devin-ai-integration[bot]@users.noreply.github.com>

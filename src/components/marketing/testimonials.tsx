@@ -1,5 +1,4 @@
 import { Quote } from "lucide-react";
-import Image from "next/image";
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Reveal } from "@/components/motion/reveal";
@@ -27,23 +26,12 @@ export function Testimonials() {
                   &ldquo;{testimonial.quote}&rdquo;
                 </p>
                 <div className="mt-4 flex items-center gap-3">
-                  {"avatar" in testimonial && testimonial.avatar ? (
-                    <Image
-                      src={testimonial.avatar}
-                      alt={testimonial.name}
-                      width={40}
-                      height={40}
-                      unoptimized
-                      className="size-10 rounded-full object-cover"
-                    />
-                  ) : (
-                    <span
-                      aria-hidden
-                      className="flex size-10 items-center justify-center rounded-full bg-primary/10 font-heading text-sm font-bold text-primary"
-                    >
-                      {testimonial.name.charAt(0)}
-                    </span>
-                  )}
+                  <span
+                    aria-hidden
+                    className="flex size-10 items-center justify-center rounded-full bg-primary/10 font-heading text-sm font-bold text-primary"
+                  >
+                    {testimonial.name.charAt(0)}
+                  </span>
                   <p className="text-sm font-semibold text-foreground">
                     {testimonial.name}
                     {"location" in testimonial && testimonial.location && (
