@@ -15,6 +15,7 @@ export function MobileStickyCTA() {
         variant="outline"
         size="lg"
         className="flex-1"
+        nativeButton={false}
         render={
           <a
             href={SITE.phoneHref}
@@ -27,6 +28,7 @@ export function MobileStickyCTA() {
       <Button
         size="lg"
         className="flex-1"
+        nativeButton={false}
         render={
           <Link
             href={PRIMARY_CTA.href}

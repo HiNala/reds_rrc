@@ -45,6 +45,38 @@ street/locality/region are all present. Owner must supply these before launch.
 `/privacy` and `/terms` are real, sensible policies but carry an explicit
 "review by a qualified attorney" note. They are not legal advice.
 
+## 2026-07-02 — lead:integrator
+
+### Root-layout JSON-LD + metadataBase wired (T025/T026 closed)
+Added `<LocalBusinessJsonLd />` and `<WebSiteJsonLd />` to `src/app/layout.tsx`
+so GeneralContractor + WebSite structured data renders site-wide (the blog-seo
+wedge had built the components and rendered them on blog/legal pages; the root
+layout was the integrator-owned seam). `metadataBase` was already set by the
+lead. Marketing pages (/, /services, /story, /clients, /book-online, /contact)
+all export per-page `Metadata` with title/description/canonical/openGraph.
+
+### Lead capture popup (exit-intent + timed)
+New `src/components/layout/lead-capture-popup.tsx`, mounted once in the root
+layout. Triggers on exit-intent (mouse leaves through the top of the viewport)
+or a 25s time fallback for touch devices. Offers a "Free Project Planning
+Checklist" lead magnet in exchange for an email, posting to `/api/newsletter`
+with `sourcePage: "lead-popup"`. Suppressed for 7 days after dismissal or
+submit (localStorage), and never shown on `/contact`, `/book-online`, or
+`/admin` where the visitor is already converting or authenticated. Fully
+instrumented: `lead_popup_show`, `lead_popup_dismiss`, `form_start`,
+`form_submit`, `thank_you`, `form_error`.
+
+### Contact newsletter opt-in honored
+`/api/contact` previously destructured `newsletterOptIn` but never acted on it.
+Now, when a contact submitter opts in, the route best-effort inserts a
+`newsletter_subscribers` row (unique-constraint-safe) so opted-in contacts are
+actually subscribed — closing a real conversion gap.
+
+### Lint hygiene
+Removed unused imports/vars across services, story, clients, blog/[slug],
+terms, admin layout, leads-table, auth, and the validators test that the
+wedges left behind. Lint is 0 errors.
+
 ## 2026-07-01 — wedge:trust-services
 
 ### Consumed the lead's centralized content layer
@@ -79,3 +111,27 @@ Consistent with the blog wedge and the owner's asset decision: service tiles,
 founder portrait, and project gallery are hand-authored SVGs using the brand
 palette. No raster assets, no captured photography. Rendered via `next/image`
 with `unoptimized` (correct for vector art).
+
+## 2026-07-01 — QA pass
+
+### zodResolver `as never` cast for schemas with `.default()`
+Zod schemas using `.optional().default(...)` produce different input and
+output types. `zodResolver` infers the **input** type, but `useForm<T>` with
+`T = z.infer<...>` (the **output** type) creates a mismatch. The contact form
+already used `zodResolver(contactSchema) as never` to work around this. The
+quote form was missing the same cast, causing 3 tsc errors. Applied the same
+`as never` cast for consistency. The proper long-term fix is to use
+`z.input<typeof schema>` for form values types, but that would require
+changing the shared `QuoteInput`/`ContactInput` type exports which are also
+used by API routes (that want the output type). The `as never` cast is a
+pragmatic, low-risk fix that matches the existing pattern.
+
+### Analytics module split: client-safe vs server-only
+The original `@/lib/analytics` mixed client-side helpers (`trackEvent`,
+`getStoredUtmParams`) with server-side DB code (`track()` importing `pg`).
+This caused Turbopack to bundle `pg` (and Node.js built-ins `dns`, `net`,
+`tls`, `fs`) into client components. Fixed (by the lead agent during QA) by
+splitting into `@/lib/analytics` (client-safe, no DB imports) and
+`@/lib/analytics-server` (server-only with `import "server-only"`). The
+`track()` function uses a static import of `@/db/client` in the server module
+since `import "server-only"` prevents client bundling.

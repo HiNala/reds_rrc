@@ -31,6 +31,7 @@ export function Hero() {
             <Button
               size="lg"
               className="h-12 px-6 text-base"
+              nativeButton={false}
               render={<Link href={PRIMARY_CTA.href} />}
             >
               {PRIMARY_CTA.label}
@@ -39,6 +40,7 @@ export function Hero() {
               variant="outline"
               size="lg"
               className="h-12 px-6 text-base"
+              nativeButton={false}
               render={<a href={SITE.phoneHref} />}
             >
               <Phone className="size-4" /> {SITE.phone}

@@ -163,17 +163,17 @@
       "id": "T025",
       "title": "Apply per-page metadata from `06-metadata-map.json`; generate sitemap.xml + robots.txt",
       "phase": "seo-geo",
-      "status": "in_progress",
+      "status": "completed",
       "owner": "wedge:blog-seo",
-      "notes": "DONE: src/app/sitemap.ts (all routes incl. blog articles + tags + images), src/app/robots.ts (allow all, disallow /admin + /api, sitemap ref), metadata for /blog, /blog/[slug], /blog/tag/[tag], /privacy, /terms. PENDING: apply metadata to marketing pages (/ , /services, /story, /clients, /book-online, /contact) from 06-metadata-map.json."
+      "notes": "DONE: src/app/sitemap.ts (all routes incl. blog articles + tags + images), src/app/robots.ts (allow all, disallow /admin + /api, sitemap ref), metadata for /blog, /blog/[slug], /blog/tag/[tag], /privacy, /terms. Integrator verified marketing pages (/, /services, /story, /clients, /book-online, /contact) all export Metadata with title/description/canonical/openGraph. metadataBase set in root layout."
     },
     {
       "id": "T026",
       "title": "Add JSON-LD structured data + llms.txt for GEO; verify Rich Results",
       "phase": "seo-geo",
-      "status": "in_progress",
+      "status": "completed",
       "owner": "wedge:blog-seo",
-      "notes": "DONE: src/components/seo/json-ld.tsx (LocalBusiness/GeneralContractor, WebSite, Article, BreadcrumbList, FAQPage), public/llms.txt, Article+FAQ+Breadcrumb rendered on blog, LocalBusiness+WebSite on blog index + legal pages. PENDING: integrator to add <LocalBusinessJsonLd/> + <WebSiteJsonLd/> to src/app/layout.tsx root layout (lead owns that file). Fill NAP (phone/address) via NEXT_PUBLIC_BUSINESS_* env when owner provides."
+      "notes": "DONE: src/components/seo/json-ld.tsx (LocalBusiness/GeneralContractor, WebSite, Article, BreadcrumbList, FAQPage), public/llms.txt, Article+FAQ+Breadcrumb rendered on blog, LocalBusiness+WebSite on blog index + legal pages. Integrator wired <LocalBusinessJsonLd/> + <WebSiteJsonLd/> into src/app/layout.tsx root layout for site-wide coverage. NAP is env-driven; address block omitted (no street address published)."
     },
     {
       "id": "T027",
@@ -189,5 +189,5 @@
     }
   ],
   "total": 28,
-  "completed": 5
+  "completed": 7
 }

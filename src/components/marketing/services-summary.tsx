@@ -42,7 +42,7 @@ export function ServicesSummary() {
                 </CardHeader>
                 <CardContent className="flex flex-1 flex-col">
                   <p className="flex-1 text-sm text-muted-foreground">{service.description}</p>
-                  <Button variant="link" className="mt-4 h-auto justify-start px-0" render={<Link href="/services" />}>
+                  <Button variant="link" className="mt-4 h-auto justify-start px-0" nativeButton={false} render={<Link href="/services" />}>
                     Learn more <ArrowRight className="size-3.5" />
                   </Button>
                 </CardContent>

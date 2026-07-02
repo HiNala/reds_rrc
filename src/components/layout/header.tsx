@@ -61,6 +61,7 @@ export function Header() {
             {SITE.phone}
           </a>
           <Button
+            nativeButton={false}
             render={
               <Link
                 href={PRIMARY_CTA.href}
@@ -109,6 +110,7 @@ export function Header() {
               </a>
               <Button
                 size="lg"
+                nativeButton={false}
                 render={<Link href={PRIMARY_CTA.href} onClick={() => setOpen(false)} />}
               >
                 {PRIMARY_CTA.label}

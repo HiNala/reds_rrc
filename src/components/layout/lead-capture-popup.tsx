@@ -72,6 +72,12 @@ export function LeadCapturePopup() {
     defaultValues: { email: "" },
   });
 
+  function trigger(source: "exit_intent" | "timer") {
+    if (isSuppressed() || open) return;
+    setOpen(true);
+    trackEvent("lead_popup_show", { source });
+  }
+
   // Arm the trigger listeners once per pathname, after a short tick so we
   // don't fire during initial mount / route transitions.
   React.useEffect(() => {
@@ -112,12 +118,6 @@ export function LeadCapturePopup() {
     return () => window.clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname, open, submitted]);
-
-  function trigger(source: "exit_intent" | "timer") {
-    if (isSuppressed() || open) return;
-    setOpen(true);
-    trackEvent("lead_popup_show", { source });
-  }
 
   function handleOpenChange(next: boolean) {
     if (!next && !submitted) {

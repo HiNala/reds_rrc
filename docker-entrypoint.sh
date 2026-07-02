@@ -1,9 +1,11 @@
 #!/bin/sh
 set -e
 
-# Run database migrations (push schema to Postgres)
-echo "[entrypoint] Pushing schema to Postgres..."
-npx drizzle-kit push --force || echo "[entrypoint] WARNING: drizzle-kit push failed — continuing anyway"
+# Run database migrations
+echo "[entrypoint] Running database migrations..."
+node scripts/migrate.js || {
+  echo "[entrypoint] WARNING: migrations failed — continuing anyway"
+}
 
 # Start the Next.js server
 echo "[entrypoint] Starting Next.js..."

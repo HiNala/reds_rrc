@@ -16,6 +16,8 @@ const eslintConfig = defineConfig([
     "start/**",
     // Drizzle migration metadata
     "drizzle/**",
+    // Standalone deployment scripts (CommonJS by design — runs outside Next.js)
+    "scripts/**",
   ]),
 ]);
 
