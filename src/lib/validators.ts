@@ -89,6 +89,7 @@ export const quoteStepTwoSchema = quoteSchema.pick({
 export const newsletterSchema = z.object({
   email: z.email("Please enter a valid email").max(200),
   name: z.string().max(100).optional().or(z.literal("")),
+  phone: z.string().max(30).optional().or(z.literal("")),
   sourcePage: z.string().max(500).optional(),
   utm: z
     .object({

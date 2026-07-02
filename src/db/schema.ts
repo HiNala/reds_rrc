@@ -50,6 +50,7 @@ export const newsletterSubscribers = pgTable("newsletter_subscribers", {
   id: serial("id").primaryKey(),
   email: varchar("email", { length: 320 }).notNull().unique(),
   name: varchar("name", { length: 200 }),
+  phone: varchar("phone", { length: 30 }),
   sourcePage: varchar("source_page", { length: 300 }),
   confirmed: boolean("confirmed").notNull().default(false),
   confirmToken: varchar("confirm_token", { length: 100 }),

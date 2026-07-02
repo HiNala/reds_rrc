@@ -86,32 +86,6 @@ export default function StoryPage() {
         </div>
       </section>
 
-      {/* Lifestyle image — founder with his dog on the patio */}
-      <div className="mb-14 overflow-hidden rounded-xl shadow-lg">
-        <Image
-          src="/story/founder-with-dog.png"
-          alt={`${SITE.founder} relaxing on a patio with his dog — the kind of outdoor spaces Red's RRC builds`}
-          width={910}
-          height={683}
-          unoptimized
-          loading="lazy"
-          className="w-full object-cover"
-        />
-      </div>
-
-      {/* Second lifestyle image — founder with small white dog */}
-      <div className="mb-14 overflow-hidden rounded-xl shadow-lg">
-        <Image
-          src="/story/founder-with-white-dog.png"
-          alt={`${SITE.founder} with a small white dog — the crew treats pets like family`}
-          width={512}
-          height={683}
-          unoptimized
-          loading="lazy"
-          className="w-full object-cover"
-        />
-      </div>
-
       {/* Personal note */}
       <section className="mb-14 rounded-xl border border-border bg-card p-8 text-center">
         <p className="mx-auto max-w-xl text-base italic leading-relaxed text-muted-foreground">

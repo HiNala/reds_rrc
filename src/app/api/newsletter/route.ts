@@ -22,7 +22,7 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  const { email, sourcePage } = parsed.data;
+  const { email, name, phone, sourcePage } = parsed.data;
 
   // Generate a confirmation token for double opt-in.
   const confirmToken = randomUUID();
@@ -30,6 +30,8 @@ export async function POST(req: NextRequest) {
   try {
     await db.insert(newsletterSubscribers).values({
       email,
+      name: name || null,
+      phone: phone || null,
       sourcePage,
       confirmToken,
     });
