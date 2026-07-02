@@ -8,7 +8,7 @@ import { PRIMARY_CTA, SITE } from "@/lib/site-config";
 
 export function Hero() {
   return (
-    <section className="relative flex min-h-[88vh] items-center overflow-hidden">
+    <section className="relative flex min-h-[60vh] items-center overflow-hidden sm:min-h-[68vh]">
       {/* Full-bleed background image */}
       <Image
         src="/hero/hero-1.png"
@@ -26,33 +26,33 @@ export function Hero() {
       />
       {/* Bottom fade into the page for a smooth transition */}
       <div
-        className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent"
+        className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-background to-transparent"
         aria-hidden
       />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 py-20 sm:px-6 md:py-28 lg:px-8">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
         <Reveal className="max-w-2xl">
           <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-medium text-white backdrop-blur-sm">
             <ShieldCheck className="size-3.5 text-primary" />
             {SITE.license}
           </div>
 
-          <h1 className="mt-5 font-heading text-4xl font-bold leading-[1.05] tracking-tight text-white drop-shadow-lg sm:text-5xl lg:text-6xl xl:text-7xl">
+          <h1 className="mt-4 font-heading text-3xl font-bold leading-[1.08] tracking-tight text-white drop-shadow-lg sm:text-4xl lg:text-5xl xl:text-6xl">
             Building &amp; maintaining Bay Area homes and restaurants{" "}
             <span className="text-primary">since 2012.</span>
           </h1>
 
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/90 drop-shadow sm:text-xl">
+          <p className="mt-4 max-w-xl text-base leading-relaxed text-white/90 drop-shadow sm:text-lg">
             {SITE.tagline} — {SITE.name} pairs transparent communication with
             dependable craftsmanship, so your project stays on schedule, on
             budget, and on your terms.
           </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <Button
               size="lg"
-              className="h-12 px-7 text-base shadow-lg"
+              className="h-11 px-6 text-base shadow-lg"
               nativeButton={false}
               render={<Link href={PRIMARY_CTA.href} />}
             >
@@ -61,7 +61,7 @@ export function Hero() {
             <Button
               variant="outline"
               size="lg"
-              className="h-12 border-white/30 bg-white/10 px-7 text-base text-white backdrop-blur-sm hover:bg-white/20 hover:text-white"
+              className="h-11 border-white/30 bg-white/10 px-6 text-base text-white backdrop-blur-sm hover:bg-white/20 hover:text-white"
               nativeButton={false}
               render={<a href={SITE.phoneHref} />}
             >
@@ -69,7 +69,7 @@ export function Hero() {
             </Button>
           </div>
 
-          <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-white/80">
+          <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-white/80">
             <span className="flex items-center gap-1.5">
               <span className="flex">
                 {Array.from({ length: 5 }).map((_, i) => (
