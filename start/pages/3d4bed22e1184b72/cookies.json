@@ -1,0 +1,62 @@
+[
+  {
+    "name": "XSRF-TOKEN",
+    "value": "1782971691|So6FBgrViERi",
+    "domain": ".www.redsrrc.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "server-session-bind",
+    "value": "7fef6f14-9e7d-4db7-96fe-2773f99a54d0",
+    "domain": "www.redsrrc.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "hs",
+    "value": "-1751516921",
+    "domain": ".www.redsrrc.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "svSession",
+    "value": "e897329edde77a367131ac4a23303cdc455fa59f230e9ea1a0a72b5d2ab363479d9a6f0f58411968e245c4f6c6dbe68b1e60994d53964e647acf431e4f798bcd2d99593cadf3b5bc2c3d14db6457c3387aa074a0d1a698bf871c59c56ec318872af3ffba41aaec0aa9420b8ce8e672e428c21066e72ef596951da0c786073227d00214e19e6adb7bd9b6c15795bf9ce8",
+    "domain": ".www.redsrrc.com",
+    "path": "/",
+    "expires": 1817531755.479068,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "bSession",
+    "value": "8b85bf5c-a0f9-42f3-b127-87713bc9d28b|1",
+    "domain": ".www.redsrrc.com",
+    "path": "/",
+    "expires": 1782973555,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ssr-caching",
+    "value": "cache#desc=miss#varnish=miss#dc#desc=sea1_g",
+    "domain": "www.redsrrc.com",
+    "path": "/",
+    "expires": 1782971774.804397,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]

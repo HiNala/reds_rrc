@@ -1,0 +1,23 @@
+{
+  "extractor_name": "ctas",
+  "data": {
+    "ctas": [
+      {
+        "text": "info@redsrrc.com",
+        "href": "mailto:info@redsrrc.com",
+        "cta_type": "email",
+        "variant": "email",
+        "selector": "a",
+        "is_button": false,
+        "analytics_event": "email_click",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#a"
+      }
+    ],
+    "count": 1
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/47769ccb9f9b1156/rendered-dom.html"
+  ]
+}

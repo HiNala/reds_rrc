@@ -1,0 +1,12 @@
+{
+  "extractor_name": "media",
+  "data": {
+    "items": [],
+    "count": 0
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/a50d937238dfdfff/rendered-dom.html"
+  ]
+}

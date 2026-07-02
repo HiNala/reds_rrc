@@ -1,0 +1,413 @@
+{
+  "extractor_name": "images",
+  "data": {
+    "candidates": [
+      {
+        "url": "https://static.wixstatic.com/media/938e72_d4441407002248f886835d5c36934e14~mv2.png/v1/fill/w_92,h_83,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/938e72_d4441407002248f886835d5c36934e14~mv2.png",
+        "asset_type": "image",
+        "kind": "img",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/938e72_d4441407002248f886835d5c36934e14~mv2.png/v1/fill/w_92",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/h_83",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/al_c",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/q_85",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/usm_0.66_1.00_0.01",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/enc_avif",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/quality_auto/938e72_d4441407002248f886835d5c36934e14~mv2.png",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/938e72_d4441407002248f886835d5c36934e14~mv2.png/v1/fill/w_184",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/h_166",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/6e10219f11314e1babe61a59ef135376.jpg/v1/fill/w_426,h_514,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6e10219f11314e1babe61a59ef135376.jpg",
+        "asset_type": "image",
+        "kind": "img",
+        "alt": "Handyman",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/a4bdf9dc953e4e7cb2a039d75f446429.jpg/v1/fill/w_427,h_514,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4bdf9dc953e4e7cb2a039d75f446429.jpg",
+        "asset_type": "image",
+        "kind": "img",
+        "alt": "Construction Management",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/9f3b705350c4415c965e09ba54aff41d.jpg/v1/fill/w_427,h_514,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9f3b705350c4415c965e09ba54aff41d.jpg",
+        "asset_type": "image",
+        "kind": "img",
+        "alt": "Building Plans",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/938e72_424643a7e5c040eebf867b358822562b~mv2.jpg/v1/fill/w_235,h_215,al_c,lg_1,q_80,enc_avif,quality_auto/6786d01f91bbe_Pro_Platnium.jpg",
+        "asset_type": "image",
+        "kind": "img",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/938e72_424643a7e5c040eebf867b358822562b~mv2.jpg/v1/fill/w_235",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/h_215",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/lg_1",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/q_80",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/quality_auto/6786d01f91bbe_Pro_Platnium.jpg",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/938e72_424643a7e5c040eebf867b358822562b~mv2.jpg/v1/fill/w_252",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/h_231",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.parastorage.com/client/pfavico.ico",
+        "asset_type": "image",
+        "kind": "favicon",
+        "alt": null,
+        "selector": "link[rel*=icon]",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#link[rel*=icon]"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://static.wixstatic.com/media/938e72_d4441407002248f886835d5c36934e14~mv2.png/v1/fill/w_92,h_83,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/938e72_d4441407002248f886835d5c36934e14~mv2.png",
+        "asset_type": "image",
+        "kind": "img",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/938e72_d4441407002248f886835d5c36934e14~mv2.png/v1/fill/w_92",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/h_83",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/al_c",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/q_85",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/usm_0.66_1.00_0.01",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/enc_avif",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/quality_auto/938e72_d4441407002248f886835d5c36934e14~mv2.png",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/938e72_d4441407002248f886835d5c36934e14~mv2.png/v1/fill/w_184",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/h_166",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": null,
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/6e10219f11314e1babe61a59ef135376.jpg/v1/fill/w_426,h_514,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6e10219f11314e1babe61a59ef135376.jpg",
+        "asset_type": "image",
+        "kind": "img",
+        "alt": "Handyman",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/a4bdf9dc953e4e7cb2a039d75f446429.jpg/v1/fill/w_427,h_514,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4bdf9dc953e4e7cb2a039d75f446429.jpg",
+        "asset_type": "image",
+        "kind": "img",
+        "alt": "Construction Management",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/9f3b705350c4415c965e09ba54aff41d.jpg/v1/fill/w_427,h_514,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9f3b705350c4415c965e09ba54aff41d.jpg",
+        "asset_type": "image",
+        "kind": "img",
+        "alt": "Building Plans",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/938e72_424643a7e5c040eebf867b358822562b~mv2.jpg/v1/fill/w_235,h_215,al_c,lg_1,q_80,enc_avif,quality_auto/6786d01f91bbe_Pro_Platnium.jpg",
+        "asset_type": "image",
+        "kind": "img",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/938e72_424643a7e5c040eebf867b358822562b~mv2.jpg/v1/fill/w_235",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/h_215",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/lg_1",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/q_80",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/quality_auto/6786d01f91bbe_Pro_Platnium.jpg",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.wixstatic.com/media/938e72_424643a7e5c040eebf867b358822562b~mv2.jpg/v1/fill/w_252",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://www.redsrrc.com/h_231",
+        "asset_type": "image",
+        "kind": "img-srcset",
+        "alt": "6786d01f91bbe_Pro_Platnium.jpg",
+        "selector": "img",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#img"
+      },
+      {
+        "url": "https://static.parastorage.com/client/pfavico.ico",
+        "asset_type": "image",
+        "kind": "favicon",
+        "alt": null,
+        "selector": "link[rel*=icon]",
+        "page_id": "47769ccb9f9b1156",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#link[rel*=icon]"
+      }
+    ],
+    "count": 22
+  },
+  "warnings": [
+    "1 image(s) missing alt text"
+  ],
+  "errors": [],
+  "source_references": [
+    "pages/47769ccb9f9b1156/rendered-dom.html"
+  ]
+}

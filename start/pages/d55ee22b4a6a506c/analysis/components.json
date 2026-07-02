@@ -1,0 +1,28 @@
+{
+  "extractor_name": "components",
+  "data": {
+    "components": [
+      {
+        "rebuild_component": "Form",
+        "component_type": "form",
+        "selector": "form:nth-of-type(1)",
+        "class": null,
+        "id": null,
+        "image_count": 0,
+        "cta_count": 1,
+        "text_preview": "Please enter the password below.Go",
+        "source_reference": "pages/d55ee22b4a6a506c/rendered-dom.html#form",
+        "reuse_level": "unique"
+      }
+    ],
+    "count": 1,
+    "pattern_counts": {
+      "Form": 1
+    }
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/d55ee22b4a6a506c/rendered-dom.html"
+  ]
+}

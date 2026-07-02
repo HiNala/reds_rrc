@@ -1,0 +1,114 @@
+{
+  "subject_type": "layout",
+  "subject_id": "https://redsrrc.com/book-online",
+  "summary": "This mobile page is a very minimal password gate rather than a full booking flow. The screen is mostly white space, with a centered guest access prompt, a single password field, and a prominent red submit button; a small close X sits near the top right.",
+  "classification": null,
+  "tags": [],
+  "confidence": 0.98,
+  "claims": [
+    {
+      "key": "color_impressions",
+      "value": "{'dominant_colors': ['white background', 'black text', 'light gray input placeholder', 'red underline and red button'], 'overall_palette_feel': 'Extremely minimal, high-contrast, and utilitarian. The red accent strongly emphasizes the form action against a clean white canvas.'}",
+      "confidence": 0.98,
+      "source_references": [
+        "https://redsrrc.com/book-online"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "typography_impressions",
+      "value": "{'heading_body_feel': 'Large thin sans-serif headline with a modern, airy feel; smaller regular-weight supporting text.', 'scale': 'The title is oversized relative to the rest of the page, while the instruction and input label are modest in size.', 'weight': 'Light/regular overall, with the button text set in a clear medium weight.'}",
+      "confidence": 0.98,
+      "source_references": [
+        "https://redsrrc.com/book-online"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "spacing_density",
+      "value": "airy",
+      "confidence": 0.98,
+      "source_references": [
+        "https://redsrrc.com/book-online"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://redsrrc.com/book-online"
+  ],
+  "metadata": {
+    "layout": {
+      "summary": "This mobile page is a very minimal password gate rather than a full booking flow. The screen is mostly white space, with a centered guest access prompt, a single password field, and a prominent red submit button; a small close X sits near the top right.",
+      "sections": [
+        {
+          "name": "Modal/guest access gate",
+          "role": "Access control overlay",
+          "description": "The entire viewport functions like a guest-only password entry screen. There is no visible site navigation or page content behind it, just a simple centered form on a white background.",
+          "components": [
+            "close icon (X) in the upper-right area",
+            "large title",
+            "instructional text",
+            "single password input",
+            "submit button"
+          ],
+          "copy_gist": "Guest Area; Please enter the password below.; Password; Go"
+        }
+      ],
+      "header": {
+        "nav_style": "No normal site header/navigation is visible. Instead, there is a small close X icon near the top-right corner that likely dismisses the gate.",
+        "logo_placement": "No logo visible.",
+        "links": "No links visible.",
+        "sticky": "Not applicable; no sticky header is shown."
+      },
+      "hero": {
+        "headline_gist": "Guest Area",
+        "subhead": "Please enter the password below.",
+        "primary_cta": "Go",
+        "imagery": "No imagery, icons, or illustrations besides the close X. The layout is purely typographic and form-based."
+      },
+      "color_impressions": {
+        "dominant_colors": [
+          "white background",
+          "black text",
+          "light gray input placeholder",
+          "red underline and red button"
+        ],
+        "overall_palette_feel": "Extremely minimal, high-contrast, and utilitarian. The red accent strongly emphasizes the form action against a clean white canvas."
+      },
+      "typography_impressions": {
+        "heading_body_feel": "Large thin sans-serif headline with a modern, airy feel; smaller regular-weight supporting text.",
+        "scale": "The title is oversized relative to the rest of the page, while the instruction and input label are modest in size.",
+        "weight": "Light/regular overall, with the button text set in a clear medium weight."
+      },
+      "spacing_density": "airy",
+      "corner_style": "Mostly sharp edges; the button and input appear rectangular with minimal rounding, if any.",
+      "imagery_style": "No photographic or decorative imagery. The only visual mark is a thin-line close icon.",
+      "cta_inventory": [
+        {
+          "label": "Go",
+          "location": "Below the password field, centered",
+          "prominence": "Primary and highly prominent"
+        }
+      ],
+      "footer": {
+        "columns": "None visible",
+        "links": "None visible",
+        "legal": "None visible"
+      },
+      "responsive_notes": "On mobile, the form is centered with generous whitespace and a single-column layout. The password field and button span a moderate width, making the gate easy to use with one hand; no secondary content needs to reflow.",
+      "component_inventory": [
+        "dismiss/close icon",
+        "page title",
+        "helper/instruction text",
+        "password input field",
+        "primary action button"
+      ],
+      "confidence": 0.98
+    },
+    "viewport": "mobile-full"
+  }
+}

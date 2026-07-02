@@ -1,0 +1,14 @@
+[
+  {
+    "type": "warning",
+    "text": "`getSettingsValue` or `getSettingsValues` should accept whole public data object. Probably, data was passed only for one scope."
+  },
+  {
+    "type": "warning",
+    "text": "react-i18next:: It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour."
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 403 ()"
+  }
+]

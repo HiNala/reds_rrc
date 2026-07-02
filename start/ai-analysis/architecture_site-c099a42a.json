@@ -1,0 +1,48 @@
+{
+  "subject_type": "architecture",
+  "subject_id": "site",
+  "summary": "The captured pages are a brochure-style construction services site with company story, services, clients, callback, and booking entry points. Lead capture and appointment requests can be handled via email or an external scheduling tool, so a custom Postgres database is not required.",
+  "classification": "static-marketing",
+  "tags": [],
+  "confidence": 0.86,
+  "claims": [],
+  "provider": "ai",
+  "model": null,
+  "cached": false,
+  "sources": [],
+  "metadata": {
+    "architecture": {
+      "site_kind": "static-marketing",
+      "needs_database": false,
+      "database_rationale": "The captured pages are a brochure-style construction services site with company story, services, clients, callback, and booking entry points. Lead capture and appointment requests can be handled via email or an external scheduling tool, so a custom Postgres database is not required.",
+      "db_tables": [],
+      "integrations": [
+        {
+          "name": "Resend",
+          "purpose": "Send client callback, contact, and service inquiry form submissions to the business by email.",
+          "env_vars": [
+            "RESEND_API_KEY",
+            "CONTACT_TO_EMAIL",
+            "CONTACT_FROM_EMAIL"
+          ]
+        },
+        {
+          "name": "Calendly or Cal.com",
+          "purpose": "Handle online booking or consultation scheduling without building a custom scheduling backend.",
+          "env_vars": [
+            "NEXT_PUBLIC_BOOKING_URL"
+          ]
+        },
+        {
+          "name": "Cloudflare Turnstile",
+          "purpose": "Protect callback and inquiry forms from spam submissions.",
+          "env_vars": [
+            "NEXT_PUBLIC_TURNSTILE_SITE_KEY",
+            "TURNSTILE_SECRET_KEY"
+          ]
+        }
+      ],
+      "confidence": 0.86
+    }
+  }
+}

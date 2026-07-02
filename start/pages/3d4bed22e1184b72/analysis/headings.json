@@ -1,0 +1,100 @@
+{
+  "extractor_name": "headings",
+  "data": {
+    "outline": [
+      {
+        "level": 1,
+        "text": "Red's Residential & Restaurant Construction",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h1"
+      },
+      {
+        "level": 1,
+        "text": "Do you have a project in mind? Call, Text, or Message us for free in person bid.",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h1"
+      },
+      {
+        "level": 2,
+        "text": "\"It is our pleasure to build for you\"",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h2"
+      },
+      {
+        "level": 2,
+        "text": "Testimonials",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h2"
+      },
+      {
+        "level": 3,
+        "text": "Blake Young",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h3"
+      },
+      {
+        "level": 3,
+        "text": "Casey Johnson",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h3"
+      },
+      {
+        "level": 3,
+        "text": "Robbie White",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h3"
+      },
+      {
+        "level": 3,
+        "text": "Licensed General Contractor #1112399",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h3"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Red's Residential & Restaurant Construction",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h1"
+      },
+      {
+        "level": 1,
+        "text": "Do you have a project in mind? Call, Text, or Message us for free in person bid.",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h1"
+      },
+      {
+        "level": 2,
+        "text": "\"It is our pleasure to build for you\"",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h2"
+      },
+      {
+        "level": 2,
+        "text": "Testimonials",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h2"
+      },
+      {
+        "level": 3,
+        "text": "Blake Young",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h3"
+      },
+      {
+        "level": 3,
+        "text": "Casey Johnson",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h3"
+      },
+      {
+        "level": 3,
+        "text": "Robbie White",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h3"
+      },
+      {
+        "level": 3,
+        "text": "Licensed General Contractor #1112399",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h3"
+      }
+    ],
+    "count": 8,
+    "h1_count": 2,
+    "h2_count": 2,
+    "h3_count": 4
+  },
+  "warnings": [
+    "multiple H1 (2)"
+  ],
+  "errors": [],
+  "source_references": [
+    "pages/3d4bed22e1184b72/rendered-dom.html"
+  ]
+}

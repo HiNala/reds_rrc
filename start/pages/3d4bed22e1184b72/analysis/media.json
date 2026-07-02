@@ -1,0 +1,31 @@
+{
+  "extractor_name": "media",
+  "data": {
+    "items": [
+      {
+        "url": "https://static.parastorage.com/services/santa/1.13152.0/node_modules/@wix/santa-galleries/target/StripSlideshow/StripSlideshow.html?compId=comp-ljqh80xa1&deviceType=desktop&locale=en&viewMode=site",
+        "asset_type": "embed",
+        "type": "embed",
+        "kind": "iframe",
+        "selector": "iframe",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#iframe"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/media/googleMap.850bae97.html?defaultLocation=0&showZoom=true&showStreetView=true&showMapType=true&language=en&id=dataItem-ljqh816s&googleMapsScriptPath=%2Fservices%2Feditor-elements-library%2Fdist%2Fthunderbolt%2Fmedia%2Fgoogle-map.min.02d41b79.js&origin=https%3A%2F%2Fwww.redsrrc.com&hasFocus=true",
+        "asset_type": "embed",
+        "type": "embed",
+        "kind": "iframe",
+        "selector": "iframe",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#iframe"
+      }
+    ],
+    "count": 2
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/3d4bed22e1184b72/rendered-dom.html"
+  ]
+}

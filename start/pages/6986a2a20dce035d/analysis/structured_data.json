@@ -1,0 +1,22 @@
+{
+  "extractor_name": "structured_data",
+  "data": {
+    "json_ld": [],
+    "nodes": [],
+    "microdata": [],
+    "opengraph": {
+      "og:title": "Our Clients | Reds Residential and",
+      "og:url": "https://www.redsrrc.com/clients",
+      "og:site_name": "Reds Residential and",
+      "og:type": "website"
+    },
+    "schema_types": [],
+    "types": [],
+    "has_structured_data": true
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/6986a2a20dce035d/rendered-dom.html"
+  ]
+}

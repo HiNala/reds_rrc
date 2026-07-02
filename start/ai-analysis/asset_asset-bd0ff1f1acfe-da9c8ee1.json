@@ -1,0 +1,53 @@
+{
+  "subject_type": "asset",
+  "subject_id": "asset-bd0ff1f1acfe",
+  "summary": "A selfie-style close-up of a smiling man with curly hair and glasses leaning in next to a small fluffy white dog indoors.",
+  "classification": "team_photo",
+  "tags": [],
+  "confidence": 0.98,
+  "claims": [
+    {
+      "key": "alt_text",
+      "value": "A selfie-style close-up of a smiling man with curly hair and glasses leaning in next to a small fluffy white dog indoors.",
+      "confidence": 0.98,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_1741a75cdd1a460ebea12e7b07cd3720~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_1741a75cdd1a460ebea12e7b07cd3720~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "content_type",
+      "value": "team_photo",
+      "confidence": 0.98,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_1741a75cdd1a460ebea12e7b07cd3720~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_1741a75cdd1a460ebea12e7b07cd3720~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "quality_opinion",
+      "value": "Casual personal photo with a friendly feel, but the composition is awkwardly tilted and the dog is very close to the camera, making it more candid than polished.",
+      "confidence": 0.98,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_1741a75cdd1a460ebea12e7b07cd3720~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_1741a75cdd1a460ebea12e7b07cd3720~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "recommended_use",
+      "value": "Suitable for informal team bios, personal profiles, or social media posts; not ideal for professional marketing or formal brand use.",
+      "confidence": 0.98,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_1741a75cdd1a460ebea12e7b07cd3720~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_1741a75cdd1a460ebea12e7b07cd3720~mv2.png"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://static.wixstatic.com/media/938e72_1741a75cdd1a460ebea12e7b07cd3720~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_1741a75cdd1a460ebea12e7b07cd3720~mv2.png"
+  ],
+  "metadata": {}
+}

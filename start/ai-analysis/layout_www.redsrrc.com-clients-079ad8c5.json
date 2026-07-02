@@ -1,0 +1,181 @@
+{
+  "subject_type": "layout",
+  "subject_id": "https://www.redsrrc.com/clients",
+  "summary": "The page is a clean, white, centered client/testimonial landing page for Red\u2019s Residential & Restaurant Construction with a minimal, editorial feel. It uses thin typography, lots of whitespace, and small red accents for branding and calls to action, followed by a large testimonial slider and a personal \u201cMore love\u201d photo section before a sparse footer.",
+  "classification": null,
+  "tags": [],
+  "confidence": 0.97,
+  "claims": [
+    {
+      "key": "color_impressions",
+      "value": "{'dominant_colors': ['white', 'light gray', 'black/dark gray text', 'red accent'], 'overall_palette_feel': 'Neutral, airy, and restrained with a strong construction-brand red used sparingly for logo and action buttons.'}",
+      "confidence": 0.97,
+      "source_references": [
+        "https://www.redsrrc.com/clients"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "typography_impressions",
+      "value": "{'heading_body_feel': 'Very thin, modern sans-serif headings with a refined editorial look; body copy is small, light, and centered.', 'scale': 'Large display headings contrasted with modest, smaller supporting text.', 'weight': 'Light to regular weights dominate, with minimal bolding only in the testimonial name and footer/nav.'}",
+      "confidence": 0.97,
+      "source_references": [
+        "https://www.redsrrc.com/clients"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "spacing_density",
+      "value": "airy",
+      "confidence": 0.97,
+      "source_references": [
+        "https://www.redsrrc.com/clients"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://www.redsrrc.com/clients"
+  ],
+  "metadata": {
+    "layout": {
+      "summary": "The page is a clean, white, centered client/testimonial landing page for Red\u2019s Residential & Restaurant Construction with a minimal, editorial feel. It uses thin typography, lots of whitespace, and small red accents for branding and calls to action, followed by a large testimonial slider and a personal \u201cMore love\u201d photo section before a sparse footer.",
+      "sections": [
+        {
+          "name": "Top brand header",
+          "role": "branding/header",
+          "description": "At the very top-left is a red stylized RR logo. Centered near the top is the company name in a thin gray font with a smaller tagline directly beneath it in quotes.",
+          "components": [
+            "Logo mark",
+            "Company name",
+            "Tagline"
+          ],
+          "copy_gist": "Red\u2019s Residential & Restaurant Construction; \u201cIt is our pleasure to build for you\u201d"
+        },
+        {
+          "name": "Clients hero intro",
+          "role": "hero/introduction",
+          "description": "Centered hero text block on a white background. A large all-caps headline sits above a short mission statement paragraph, followed by a prominent red rectangular CTA button.",
+          "components": [
+            "Large headline",
+            "Body copy",
+            "Primary button"
+          ],
+          "copy_gist": "OUR CLIENTS; a message about caring for clients, families, belongings, pets, and creating a positive legacy; button says GET IN TOUCH"
+        },
+        {
+          "name": "Testimonial slider",
+          "role": "social proof/testimonials",
+          "description": "A wide light-gray carousel panel spans most of the content width. It contains a client name and location at the top center, a short divider line, and an italicized quote in the middle. Left and right chevron arrows appear midway on the edges, with small pagination dots centered near the bottom.",
+          "components": [
+            "Carousel container",
+            "Slide title",
+            "Quote text",
+            "Previous/next arrows",
+            "Pagination dots"
+          ],
+          "copy_gist": "Barbra & Michael, Bodega Bay; quote praising Devin/the owner for schedule, budget, communication, and daily/weekly recaps"
+        },
+        {
+          "name": "More love photo section",
+          "role": "gallery/community",
+          "description": "A centered section with a large thin headline and a short subheading underneath. Below is a large portrait-style photo of a man in sunglasses next to a dog, filling a wide content column with generous white margins around it.",
+          "components": [
+            "Section heading",
+            "Supporting sentence",
+            "Large image"
+          ],
+          "copy_gist": "More love; \"Here are some of the new and dear friends we've made on our projects.\""
+        },
+        {
+          "name": "Footer/navigation and contact strip",
+          "role": "footer",
+          "description": "Sparse footer on white background. Across the lower area are navigation links, licensing info, contact phone/email with small icons, and a certification badge/logo on the right.",
+          "components": [
+            "Footer nav links",
+            "License text",
+            "Phone link",
+            "Email link",
+            "Certification badge"
+          ],
+          "copy_gist": "Home, Red\u2019s Service Division, Our Story, Our Clients; Licensed General Contractor #112399; 707-634-3264; info@redsrrc.com; TimberTech PRO Platinum badge"
+        }
+      ],
+      "header": {
+        "nav_style": "Minimal, mostly branding-only at the top of the page rather than a full navigation bar. The page uses centered identity text and a left-aligned logo, with no visible hamburger menu in the screenshot.",
+        "logo_placement": "Top-left corner, small red RR monogram.",
+        "links": "Main nav links are not visible in the top header area; navigation appears in the footer instead.",
+        "sticky?": "No obvious sticky behavior is visible in the screenshot."
+      },
+      "hero": {
+        "headline_gist": "A client-focused intro page emphasizing care, trust, and service.",
+        "subhead": "Short paragraph about treating clients, families, belongings, and pets with care to create a positive legacy.",
+        "primary_cta": "GET IN TOUCH",
+        "imagery": "No hero image; the section is text-only with strong whitespace."
+      },
+      "color_impressions": {
+        "dominant_colors": [
+          "white",
+          "light gray",
+          "black/dark gray text",
+          "red accent"
+        ],
+        "overall_palette_feel": "Neutral, airy, and restrained with a strong construction-brand red used sparingly for logo and action buttons."
+      },
+      "typography_impressions": {
+        "heading_body_feel": "Very thin, modern sans-serif headings with a refined editorial look; body copy is small, light, and centered.",
+        "scale": "Large display headings contrasted with modest, smaller supporting text.",
+        "weight": "Light to regular weights dominate, with minimal bolding only in the testimonial name and footer/nav."
+      },
+      "spacing_density": "airy",
+      "corner_style": "Mostly sharp corners; the CTA button is a simple rectangle with no visible rounding, while other elements are clean and angular.",
+      "imagery_style": "Authentic, casual, real-life photography rather than polished marketing imagery; one candid lifestyle image with a warm, personal tone.",
+      "cta_inventory": [
+        {
+          "label": "GET IN TOUCH",
+          "location": "Centered beneath the hero intro text",
+          "prominence": "High"
+        }
+      ],
+      "footer": {
+        "columns": "Visually split into a left licensing block, a centered navigation/contact block, and a right certification badge area.",
+        "links": [
+          "Home",
+          "Red's Service Division",
+          "Our Story",
+          "Our Clients"
+        ],
+        "legal": [
+          "Licensed General Contractor #112399"
+        ]
+      },
+      "responsive_notes": [
+        "On mobile, the centered layout likely stacks vertically with generous margins.",
+        "The hero remains text-first and compact, with the CTA centered beneath the paragraph.",
+        "The testimonial carousel would likely keep arrows near the edges and pagination dots at the bottom, possibly shrinking in height.",
+        "The large photo in the 'More love' section likely becomes full-width or near full-width with reduced side margins.",
+        "Footer elements likely stack into one or two columns, with the badge moving below or beside contact details."
+      ],
+      "component_inventory": [
+        "Brand logo",
+        "Centered brand header text",
+        "Thin display headline",
+        "Paragraph copy block",
+        "Primary CTA button",
+        "Testimonial carousel/slider",
+        "Carousel arrows",
+        "Pagination dots",
+        "Section heading and subheading",
+        "Large image card",
+        "Footer navigation links",
+        "Phone/email contact links with icons",
+        "Certification badge/logo"
+      ],
+      "confidence": 0.97
+    },
+    "viewport": "mobile-full"
+  }
+}

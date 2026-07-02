@@ -1,0 +1,27 @@
+{
+  "subject_type": "design_tone",
+  "subject_id": "site",
+  "summary": "The existing brand signals lean toward a clean blue SaaS identity with restrained Helvetica/Avenir typography, so the rebuild should keep the cool signature blue palette and gentle polish while modernizing layout, spacing, and components.",
+  "classification": "clean, trustworthy SaaS with crisp blue energy",
+  "tags": [],
+  "confidence": 0.7,
+  "claims": [],
+  "provider": "ai",
+  "model": null,
+  "cached": false,
+  "sources": [],
+  "metadata": {
+    "design_tone": {
+      "corner_style": "slightly-rounded",
+      "shadow_style": "soft",
+      "density": "comfortable",
+      "color_temperature": "cool",
+      "mood": "clean, trustworthy SaaS with crisp blue energy",
+      "primary_color": "#116dff",
+      "accent_color": "#2b5672",
+      "font_heading": "Avenir Next",
+      "font_body": "Helvetica Neue",
+      "rationale": "The existing brand signals lean toward a clean blue SaaS identity with restrained Helvetica/Avenir typography, so the rebuild should keep the cool signature blue palette and gentle polish while modernizing layout, spacing, and components."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "extractor_name": "structured_data",
+  "data": {
+    "json_ld": [],
+    "nodes": [],
+    "microdata": [],
+    "opengraph": {
+      "og:title": "Client Callback | Reds Residential and",
+      "og:url": "https://www.redsrrc.com/service-page/client-callback",
+      "og:site_name": "Reds Residential and",
+      "og:type": "website"
+    },
+    "schema_types": [],
+    "types": [],
+    "has_structured_data": true
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/a50d937238dfdfff/rendered-dom.html"
+  ]
+}

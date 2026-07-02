@@ -1,0 +1,32 @@
+{
+  "extractor_name": "seo",
+  "data": {
+    "final_url": "https://www.redsrrc.com/",
+    "title": "Home | Reds Residential and",
+    "meta_description": null,
+    "robots": null,
+    "canonical": "https://www.redsrrc.com",
+    "h1": [
+      "Red's Residential & Restaurant Construction"
+    ],
+    "og_present": true,
+    "twitter_present": true,
+    "schema_types": [],
+    "indexable": true,
+    "word_count": 84,
+    "warnings": [
+      "missing meta description",
+      "thin content (<100 words)",
+      "1 image(s) missing alt text"
+    ]
+  },
+  "warnings": [
+    "missing meta description",
+    "thin content (<100 words)",
+    "1 image(s) missing alt text"
+  ],
+  "errors": [],
+  "source_references": [
+    "pages/cc4a84e52c0f0d87/rendered-dom.html"
+  ]
+}

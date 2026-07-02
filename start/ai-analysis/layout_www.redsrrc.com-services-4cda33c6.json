@@ -1,0 +1,171 @@
+{
+  "subject_type": "layout",
+  "subject_id": "https://www.redsrrc.com/services",
+  "summary": "A very simple, mostly white landing page with a large centered brand title at the top and a three-panel hero collage beneath it. The overall style is clean and corporate, using thin typography, lots of whitespace, and construction-themed photography with dark overlays and large white text.",
+  "classification": null,
+  "tags": [],
+  "confidence": 0.97,
+  "claims": [
+    {
+      "key": "color_impressions",
+      "value": "{'dominant_colors': ['white', 'red', 'charcoal/black', 'gray', 'muted construction-photo tones'], 'overall_palette_feel': 'Clean and sparse base palette with strong red branding accents and muted industrial photography.'}",
+      "confidence": 0.97,
+      "source_references": [
+        "https://www.redsrrc.com/services"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "typography_impressions",
+      "value": "{'heading_body_feel': 'Thin, modern sans-serif for headings and brand text; small supporting text is similarly light and understated.', 'scale': 'Large hero-type overlay text, medium brand title, small captions and footer text.', 'weight': 'Mostly light to regular weight; hero words are large but not bold.'}",
+      "confidence": 0.97,
+      "source_references": [
+        "https://www.redsrrc.com/services"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "spacing_density",
+      "value": "airy",
+      "confidence": 0.97,
+      "source_references": [
+        "https://www.redsrrc.com/services"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://www.redsrrc.com/services"
+  ],
+  "metadata": {
+    "layout": {
+      "summary": "A very simple, mostly white landing page with a large centered brand title at the top and a three-panel hero collage beneath it. The overall style is clean and corporate, using thin typography, lots of whitespace, and construction-themed photography with dark overlays and large white text.",
+      "sections": [
+        {
+          "name": "Top brand header",
+          "role": "Brand identity / page title",
+          "description": "At the very top on a white background, a red stylized \"R\" logo sits on the left, while the company name is centered across the page in a thin, elegant font with a quoted tagline directly below it.",
+          "components": [
+            "Logo mark",
+            "Centered site title",
+            "Centered tagline"
+          ],
+          "copy_gist": "Red's Residential & Restaurant Construction; \"It is our pleasure to build for you\""
+        },
+        {
+          "name": "Three-panel service hero collage",
+          "role": "Primary visual and service showcase",
+          "description": "A wide hero section spans almost the full content width and is split into three equal vertical image panels. Each panel uses a construction-related photo with a semi-dark overlay and oversized white text stacked across lines; smaller supporting text appears near the bottom of each panel.",
+          "components": [
+            "Left image tile with headline",
+            "Center image tile with headline",
+            "Right image tile with headline",
+            "Dark overlay treatment",
+            "Small supporting captions"
+          ],
+          "copy_gist": [
+            "Building Maintenance / Customized to Your Preferences",
+            "Construction Management / Efficient. Reliable. Exceptional.",
+            "Construction Planning / It's All in the Details"
+          ]
+        },
+        {
+          "name": "Secondary navigation links",
+          "role": "Site section navigation",
+          "description": "Below the hero, centered text links are arranged in a simple horizontal row with one additional link centered on a lower line, all spaced widely on the white background.",
+          "components": [
+            "Text nav links"
+          ],
+          "copy_gist": [
+            "Home",
+            "Red's Service Division",
+            "Our Story",
+            "Our Clients"
+          ]
+        },
+        {
+          "name": "Contact and credentials footer area",
+          "role": "Trust signals and contact info",
+          "description": "The bottom area contains licensing information on the left, contact phone and email centered with small line icons, and a certification/partner badge on the right. This functions like a footer, though it is visually sparse and not a full multi-column footer.",
+          "components": [
+            "License text",
+            "Phone link with icon",
+            "Email link with icon",
+            "Certification badge / partner logo"
+          ],
+          "copy_gist": [
+            "Licensed General Contractor #1112399",
+            "707-634-3264",
+            "info@redsrrc.com",
+            "Platinum TimberTech PRO"
+          ]
+        }
+      ],
+      "header": {
+        "nav_style": "Minimal, text-light header on white with a prominent logo at left and centered title/tagline rather than a conventional menu bar.",
+        "logo_placement": "Top left.",
+        "links": "No obvious top nav links; navigation appears as centered text links lower on the page.",
+        "sticky": "No visible indication of sticky behavior."
+      },
+      "hero": {
+        "headline_gist": "Three service offerings presented as large vertical image cards.",
+        "subhead": "Top brand tagline and small captions on each card; no single hero paragraph.",
+        "primary_cta": "No obvious button CTA in the hero.",
+        "imagery": "Construction-worker, on-site tools, and blueprint/planning imagery with darkened overlays and large white type."
+      },
+      "color_impressions": {
+        "dominant_colors": [
+          "white",
+          "red",
+          "charcoal/black",
+          "gray",
+          "muted construction-photo tones"
+        ],
+        "overall_palette_feel": "Clean and sparse base palette with strong red branding accents and muted industrial photography."
+      },
+      "typography_impressions": {
+        "heading_body_feel": "Thin, modern sans-serif for headings and brand text; small supporting text is similarly light and understated.",
+        "scale": "Large hero-type overlay text, medium brand title, small captions and footer text.",
+        "weight": "Mostly light to regular weight; hero words are large but not bold."
+      },
+      "spacing_density": "airy",
+      "corner_style": "Mostly square edges and straight divisions; little to no rounding apparent.",
+      "imagery_style": "Real-world, documentary-style construction photography with dark overlays and crop-heavy panels.",
+      "cta_inventory": [
+        {
+          "label": "Phone number",
+          "location": "Bottom center contact area",
+          "prominence": "Low-to-medium"
+        },
+        {
+          "label": "Email address",
+          "location": "Bottom center contact area",
+          "prominence": "Low-to-medium"
+        }
+      ],
+      "footer": {
+        "columns": "Visually three zones: left license text, center contact info, right badge/logo.",
+        "links": "No dense footer link list visible; the main links appear above the contact area.",
+        "legal": "License number shown as contractor credential."
+      },
+      "responsive_notes": "On mobile, the three-panel hero would likely stack vertically or compress into swipeable/full-width blocks, with the brand title and tagline remaining centered or wrapping. The lower nav links would likely stack into a single column or two lines, while contact details would collapse into a vertical list for readability.",
+      "component_inventory": [
+        "Brand logo mark",
+        "Centered wordmark/title",
+        "Tagline text",
+        "Three-up image card hero",
+        "Overlay headline text",
+        "Supporting caption text",
+        "Text navigation links",
+        "Contact info with icons",
+        "License/credential text",
+        "Certification badge"
+      ],
+      "confidence": 0.97
+    },
+    "viewport": "mobile-full"
+  }
+}

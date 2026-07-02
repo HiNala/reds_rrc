@@ -1,0 +1,53 @@
+{
+  "subject_type": "asset",
+  "subject_id": "asset-55e8628a7d09",
+  "summary": "A curly-haired man wearing sunglasses sits beside a yellow Labrador retriever outdoors under a shaded patio; the dog has its tongue out and is looking downward.",
+  "classification": "stock",
+  "tags": [],
+  "confidence": 0.96,
+  "claims": [
+    {
+      "key": "alt_text",
+      "value": "A curly-haired man wearing sunglasses sits beside a yellow Labrador retriever outdoors under a shaded patio; the dog has its tongue out and is looking downward.",
+      "confidence": 0.96,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_e5cfc41109c14b01b64181004eb56400~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_e5cfc41109c14b01b64181004eb56400~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "content_type",
+      "value": "stock",
+      "confidence": 0.96,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_e5cfc41109c14b01b64181004eb56400~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_e5cfc41109c14b01b64181004eb56400~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "quality_opinion",
+      "value": "High-quality casual lifestyle photo with clear subjects, natural lighting, and a friendly candid feel. Slightly wide-angle and off-center composition, but visually appealing.",
+      "confidence": 0.96,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_e5cfc41109c14b01b64181004eb56400~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_e5cfc41109c14b01b64181004eb56400~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "recommended_use",
+      "value": "Suitable for lifestyle, pet-related, outdoor, or friendly brand marketing content; also works well as a social media image or hero image with text overlay space.",
+      "confidence": 0.96,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_e5cfc41109c14b01b64181004eb56400~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_e5cfc41109c14b01b64181004eb56400~mv2.png"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://static.wixstatic.com/media/938e72_e5cfc41109c14b01b64181004eb56400~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_e5cfc41109c14b01b64181004eb56400~mv2.png"
+  ],
+  "metadata": {}
+}

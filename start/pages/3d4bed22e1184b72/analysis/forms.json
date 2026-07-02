@@ -1,0 +1,47 @@
+{
+  "extractor_name": "forms",
+  "data": {
+    "forms": [
+      {
+        "action": null,
+        "method": "GET",
+        "fields": [
+          {
+            "name": "name",
+            "type": "text",
+            "required": true,
+            "placeholder": "Enter your name",
+            "label": "Name"
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "required": true,
+            "placeholder": "Enter your email",
+            "label": "Email"
+          },
+          {
+            "name": null,
+            "type": "textarea",
+            "required": false,
+            "placeholder": "Type your message here...",
+            "label": "Message"
+          }
+        ],
+        "field_count": 3,
+        "captcha": false,
+        "integration": null,
+        "conversion_type": "contact",
+        "selector": "form:nth-of-type(1)",
+        "rebuild_recommendation": "preserve fields + non-destructive validation",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#form"
+      }
+    ],
+    "count": 1
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/3d4bed22e1184b72/rendered-dom.html"
+  ]
+}

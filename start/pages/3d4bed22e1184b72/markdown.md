@@ -1,0 +1,51 @@
+Red's Residential & Restaurant Construction
+
+"It is our pleasure to build for you"
+
+Do you have a project in mind? Call, Text, or Message us for free in person bid.
+
+707-909-4686
+
+Info@RedsRRC.com
+
+707-909-4686
+
+Name
+
+Email
+
+Message
+
+Send
+
+Testimonials
+
+A Contractor that's also a human being
+
+Other companies quoted us FOUR TIMES what Red's RRC did. This is the first contractor we met with that offered references and a schedule with the bid that showed they could get the job done on time and budget. They are pet friendly, and worked with our high maintenance neighbor to keep everyone happy. Also Safety was a huge concern with our 2 year old, Red and his crew where on top of it everyday with cleanliness, communications, and barriers to keep kiddo out. The three outstanding qualities of Red’s is as follows: 1) Organization. The team was on top of communications every single day. I never had to guess or wonder what the status of the project was. 2) Trustworthy. We have many pieces of art and other valuables in our home. I never for a moment questioned the team’s integrity. They are good and trusting people. 3) Accommodating. I have a two year old who needed to nap at home in the middle of the work day every day. The team was absolutely accommodating to this, and never pushed back once on pausing work during nap time.
+
+Overall, I would recommend Red’s RRC to anyone looking for stellar and trustworthy work!
+
+Blake Young
+
+We Worked with Devin (the Owner) directly. He gave us a schedule and budget and he and his team stuck to it. Daily and weekly recaps kept us in the loop. By far the best communicator we've worked with
+
+Casey Johnson
+
+Everyone on this crew was kind and liked my dogs. They cleaned up everyday and kept my property clean and neighbors happy. I have recommended to friends and family
+
+Robbie White
+
+Home
+
+Red's Service Divsion
+
+Our Story
+
+Our Clients
+
+Licensed General Contractor #1112399
+
+707-634-3264
+
+info@redsrrc.com

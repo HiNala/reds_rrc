@@ -1,0 +1,22 @@
+{
+  "extractor_name": "structured_data",
+  "data": {
+    "json_ld": [],
+    "nodes": [],
+    "microdata": [],
+    "opengraph": {
+      "og:title": "Services | Reds Residential and Restaurant Construction",
+      "og:url": "https://www.redsrrc.com/services",
+      "og:site_name": "Reds Residential and",
+      "og:type": "website"
+    },
+    "schema_types": [],
+    "types": [],
+    "has_structured_data": true
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/47769ccb9f9b1156/rendered-dom.html"
+  ]
+}

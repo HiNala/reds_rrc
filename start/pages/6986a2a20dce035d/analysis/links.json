@@ -1,0 +1,101 @@
+{
+  "extractor_name": "links",
+  "data": {
+    "links": [
+      {
+        "href": "./#comp-lmm0hfj9",
+        "resolved": "https://www.redsrrc.com/#comp-lmm0hfj9",
+        "text": "",
+        "rel": null,
+        "internal": true,
+        "broken_candidate": false,
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a[href]"
+      },
+      {
+        "href": "./#comp-lmm0hfk91",
+        "resolved": "https://www.redsrrc.com/#comp-lmm0hfk91",
+        "text": "",
+        "rel": null,
+        "internal": true,
+        "broken_candidate": false,
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a[href]"
+      },
+      {
+        "href": "./#comp-lmm0hfku1",
+        "resolved": "https://www.redsrrc.com/#comp-lmm0hfku1",
+        "text": "",
+        "rel": null,
+        "internal": true,
+        "broken_candidate": false,
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a[href]"
+      },
+      {
+        "href": "./#comp-lptsjv9o",
+        "resolved": "https://www.redsrrc.com/#comp-lptsjv9o",
+        "text": "",
+        "rel": null,
+        "internal": true,
+        "broken_candidate": false,
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a[href]"
+      },
+      {
+        "href": "https://www.redsrrc.com",
+        "resolved": "https://www.redsrrc.com",
+        "text": "Home",
+        "rel": null,
+        "internal": true,
+        "broken_candidate": false,
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a[href]"
+      },
+      {
+        "href": "https://www.redsrrc.com/services-5",
+        "resolved": "https://www.redsrrc.com/services-5",
+        "text": "Red's Service Divsion",
+        "rel": null,
+        "internal": true,
+        "broken_candidate": false,
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a[href]"
+      },
+      {
+        "href": "https://www.redsrrc.com/story",
+        "resolved": "https://www.redsrrc.com/story",
+        "text": "Our Story",
+        "rel": null,
+        "internal": true,
+        "broken_candidate": false,
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a[href]"
+      },
+      {
+        "href": "https://www.redsrrc.com/clients",
+        "resolved": "https://www.redsrrc.com/clients",
+        "text": "Our Clients",
+        "rel": null,
+        "internal": true,
+        "broken_candidate": false,
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a[href]"
+      },
+      {
+        "href": "mailto:info@redsrrc.com",
+        "text": "info@redsrrc.com",
+        "rel": null,
+        "internal": false,
+        "broken_candidate": false,
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a[href]"
+      }
+    ],
+    "total": 9,
+    "internal": 8,
+    "external": 1,
+    "reenqueue": [
+      "https://redsrrc.com/",
+      "https://redsrrc.com/clients",
+      "https://redsrrc.com/services-5",
+      "https://redsrrc.com/story"
+    ]
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/6986a2a20dce035d/rendered-dom.html"
+  ]
+}

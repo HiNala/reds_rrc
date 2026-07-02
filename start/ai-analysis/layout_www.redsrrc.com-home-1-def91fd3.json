@@ -1,0 +1,185 @@
+{
+  "subject_type": "layout",
+  "subject_id": "https://www.redsrrc.com/home-1",
+  "summary": "A very minimal, vertically stacked mobile homepage for a construction company, using a clean white/cream-and-red palette with lots of whitespace and centered text. The page is mostly a hero area, a large red contact form band, a testimonials section, and a simple footer with navigation and credentials badges.",
+  "classification": null,
+  "tags": [],
+  "confidence": 0.95,
+  "claims": [
+    {
+      "key": "color_impressions",
+      "value": "{'dominant_colors': ['bright red', 'warm cream/off-white', 'white', 'small amounts of dark gray/black text'], 'overall_palette_feel': 'Bold, high-contrast brand colors with a warm, understated neutral background; clean and construction-industry straightforward.'}",
+      "confidence": 0.95,
+      "source_references": [
+        "https://www.redsrrc.com/home-1"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "typography_impressions",
+      "value": "{'heading_body_feel': 'Light, elegant, and somewhat thin sans-serif styling with centered presentation.', 'scale': 'Header is modest; section titles are small-to-medium; body copy is small, especially in testimonials and footer.', 'weight': 'Mostly regular/light weight, with select elements in stronger red for emphasis.'}",
+      "confidence": 0.95,
+      "source_references": [
+        "https://www.redsrrc.com/home-1"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "spacing_density",
+      "value": "Comfortable to airy, with very large vertical sections and generous padding.",
+      "confidence": 0.95,
+      "source_references": [
+        "https://www.redsrrc.com/home-1"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://www.redsrrc.com/home-1"
+  ],
+  "metadata": {
+    "layout": {
+      "summary": "A very minimal, vertically stacked mobile homepage for a construction company, using a clean white/cream-and-red palette with lots of whitespace and centered text. The page is mostly a hero area, a large red contact form band, a testimonials section, and a simple footer with navigation and credentials badges.",
+      "sections": [
+        {
+          "name": "Top header / brand bar",
+          "role": "identity and minimal navigation",
+          "description": "At the very top, a small red stylized 'R' logo sits on the left with the company name centered to the right of it on two lines. The header is extremely thin, mostly white space, with no visible hamburger/menu controls in the screenshot.",
+          "components": [
+            "brand logo mark",
+            "company wordmark",
+            "tagline text"
+          ],
+          "copy_gist": "Red\u2019s Residential & Restaurant Construction; 'It is our pleasure to build for you'."
+        },
+        {
+          "name": "Hero / slideshow area",
+          "role": "primary intro visual",
+          "description": "Directly beneath the header is a very large pale cream hero panel that appears to be a blank/placeholder slideshow or image area. Near the bottom center of this panel are small pagination dots indicating multiple slides, with one or more active states shown by darker dots.",
+          "components": [
+            "hero slideshow container",
+            "carousel pagination dots"
+          ],
+          "copy_gist": "No prominent headline in the image; the hero functions mainly as a large visual canvas."
+        },
+        {
+          "name": "Contact callout and form",
+          "role": "lead capture / immediate CTA",
+          "description": "A full-width, saturated red section follows the hero. It begins with a centered sentence inviting users to call, text, or message for a free in-person bid, then shows centered contact details stacked vertically. Below that is a simple form with thin underline-style fields for Name, Email, and Message, each with small helper/placeholder text, and a wide white submit button labeled 'Send'.",
+          "components": [
+            "contact prompt text",
+            "phone number",
+            "email address",
+            "stacked form fields",
+            "submit button"
+          ],
+          "copy_gist": "Do you have a project in mind? Call, Text, or Message us for free in person bid. Phone/email contact info and a Send form."
+        },
+        {
+          "name": "Testimonials",
+          "role": "social proof",
+          "description": "The next section returns to the pale cream background and is centered. It starts with a small red 'Testimonials' heading and a linked subheading 'A Contractor thats also a human being'. Three testimonials are presented one after another with large red quote-mark icons, a paragraph of centered testimonial copy, and the author name beneath each block.",
+          "components": [
+            "section heading",
+            "subheading link",
+            "quote icon",
+            "testimonial text blocks",
+            "author name labels"
+          ],
+          "copy_gist": "Customer praise focused on communication, reliability, cleanliness, trustworthiness, and professionalism; authors include Blake Young, Casey Johnson, and Robbie White."
+        },
+        {
+          "name": "Footer / bottom utility area",
+          "role": "site navigation, credentials, and contact",
+          "description": "The footer area on white background is split visually into centered navigation links and side/low contact or credential items. The nav includes 'Home', 'Red\u2019s Service Division', 'Our Story', and 'Our Clients'. At the lower left is a licensing line, while near the bottom center are small phone and email icons with contact info. At the lower right are a 'Platinum' TimberTech PRO badge and logo.",
+          "components": [
+            "footer nav links",
+            "license text",
+            "phone icon + number",
+            "email icon + address",
+            "partner/certification badges"
+          ],
+          "copy_gist": "Licensed General Contractor #112398, phone number, info@redsrrc.com, and TimberTech PRO / Platinum credentials."
+        }
+      ],
+      "header": {
+        "nav_style": "Minimal, nearly invisible nav in the screenshot; the top is primarily a brand bar rather than a full menu.",
+        "logo_placement": "Top left, small red emblem.",
+        "links": "No visible header links in the screenshot.",
+        "sticky": "Not apparent from the screenshot; likely not sticky or visually unobtrusive on mobile."
+      },
+      "hero": {
+        "headline_gist": "No strong headline is visible in the hero itself; it reads as a blank slideshow/intro panel beneath the brand.",
+        "subhead": "The only visible supporting text is the tagline in the header: 'It is our pleasure to build for you'.",
+        "primary_cta": "No hero CTA visible; the first strong CTA appears in the red contact section.",
+        "imagery": "A large pale cream placeholder-like carousel area with pagination dots; no actual photo content is visible in the screenshot."
+      },
+      "color_impressions": {
+        "dominant_colors": [
+          "bright red",
+          "warm cream/off-white",
+          "white",
+          "small amounts of dark gray/black text"
+        ],
+        "overall_palette_feel": "Bold, high-contrast brand colors with a warm, understated neutral background; clean and construction-industry straightforward."
+      },
+      "typography_impressions": {
+        "heading_body_feel": "Light, elegant, and somewhat thin sans-serif styling with centered presentation.",
+        "scale": "Header is modest; section titles are small-to-medium; body copy is small, especially in testimonials and footer.",
+        "weight": "Mostly regular/light weight, with select elements in stronger red for emphasis."
+      },
+      "spacing_density": "Comfortable to airy, with very large vertical sections and generous padding.",
+      "corner_style": "Mostly square and sharp corners; buttons and containers appear flat, with little visible rounding.",
+      "imagery_style": "Minimal in the screenshot; where imagery would likely appear, it is currently a blank or unloaded slideshow panel rather than photographic content.",
+      "cta_inventory": [
+        {
+          "label": "Call, Text, or Message us",
+          "location": "Red contact section intro text under the hero",
+          "prominence": "high"
+        },
+        {
+          "label": "Send",
+          "location": "Bottom of the red contact form",
+          "prominence": "high"
+        },
+        {
+          "label": "A Contractor thats also a human being",
+          "location": "Testimonials subheading link",
+          "prominence": "low"
+        }
+      ],
+      "footer": {
+        "columns": "Effectively a single mobile column with centered nav and separate credential/contact items distributed across the bottom area.",
+        "links": [
+          "Home",
+          "Red\u2019s Service Division",
+          "Our Story",
+          "Our Clients"
+        ],
+        "legal": "Licensed General Contractor #112398."
+      },
+      "responsive_notes": "This is clearly the mobile layout: sections are stacked vertically, text is centered, and navigation is reduced or hidden. The large hero becomes a tall single-column panel, the contact form fields span nearly full width, testimonials stack one per block, and footer items compress into a compact bottom area with badges and contact details.",
+      "component_inventory": [
+        "brand/logo lockup",
+        "hero carousel",
+        "carousel dots",
+        "contact prompt banner",
+        "inline contact info",
+        "text input fields",
+        "textarea field",
+        "full-width submit button",
+        "testimonial card/block",
+        "quote icon",
+        "footer nav",
+        "license line",
+        "phone/email contact links",
+        "certification badge"
+      ],
+      "confidence": 0.95
+    },
+    "viewport": "mobile-full"
+  }
+}

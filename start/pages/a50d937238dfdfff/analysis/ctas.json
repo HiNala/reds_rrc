@@ -1,0 +1,33 @@
+{
+  "extractor_name": "ctas",
+  "data": {
+    "ctas": [
+      {
+        "text": "Book Now",
+        "href": null,
+        "cta_type": "button",
+        "variant": "button",
+        "selector": "button",
+        "is_button": true,
+        "analytics_event": "cta_click",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#button"
+      },
+      {
+        "text": "info@redsrrc.com",
+        "href": "mailto:info@redsrrc.com",
+        "cta_type": "email",
+        "variant": "email",
+        "selector": "a",
+        "is_button": false,
+        "analytics_event": "email_click",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#a"
+      }
+    ],
+    "count": 2
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/a50d937238dfdfff/rendered-dom.html"
+  ]
+}

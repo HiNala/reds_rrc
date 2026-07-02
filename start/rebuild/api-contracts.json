@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/api/auth/[...nextauth]",
+      "purpose": "Auth.js handler",
+      "auth": false
+    },
+    {
+      "method": "GET",
+      "path": "/api/[domain-entity]",
+      "purpose": "List [domain-entity]",
+      "auth": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/[domain-entity]",
+      "purpose": "Create [domain-entity",
+      "auth": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/[domain-entity]/[id]",
+      "purpose": "Get one [domain-entity]",
+      "auth": true
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/[domain-entity]/[id]",
+      "purpose": "Update [domain-entity]",
+      "auth": true
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/[domain-entity]/[id]",
+      "purpose": "Delete [domain-entity]",
+      "auth": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/bookings",
+      "purpose": "List bookings",
+      "auth": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/bookings",
+      "purpose": "Create booking",
+      "auth": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/bookings/[id]",
+      "purpose": "Get one bookings",
+      "auth": true
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/bookings/[id]",
+      "purpose": "Update bookings",
+      "auth": true
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/bookings/[id]",
+      "purpose": "Delete bookings",
+      "auth": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/contact",
+      "purpose": "Handle form submissions",
+      "auth": false
+    }
+  ]
+}

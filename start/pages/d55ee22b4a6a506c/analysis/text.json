@@ -1,0 +1,26 @@
+{
+  "extractor_name": "text",
+  "data": {
+    "blocks": [
+      {
+        "text": "Go",
+        "tag": "button",
+        "selector": "button",
+        "role": "cta",
+        "importance": 0.752,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/d55ee22b4a6a506c/rendered-dom.html#button"
+      }
+    ],
+    "block_count": 1,
+    "word_count": 8
+  },
+  "warnings": [
+    "thin content (<50 words)"
+  ],
+  "errors": [],
+  "source_references": [
+    "pages/d55ee22b4a6a506c/rendered-dom.html"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subject_type": "asset",
+  "subject_id": "asset-564d9d24544c",
+  "summary": "Modern outdoor deck with wicker seating, glass railing, a dark-clad house, and a scenic hillside view with a large tree.",
+  "classification": "stock",
+  "tags": [],
+  "confidence": 0.97,
+  "claims": [
+    {
+      "key": "alt_text",
+      "value": "Modern outdoor deck with wicker seating, glass railing, a dark-clad house, and a scenic hillside view with a large tree.",
+      "confidence": 0.97,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_70fc414ec4cd42f480e575daabe7414c~mv2.png/v1/fill/w_1280,h_729,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/938e72_70fc414ec4cd42f480e575daabe7414c~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "content_type",
+      "value": "stock",
+      "confidence": 0.97,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_70fc414ec4cd42f480e575daabe7414c~mv2.png/v1/fill/w_1280,h_729,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/938e72_70fc414ec4cd42f480e575daabe7414c~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "quality_opinion",
+      "value": "High-quality, well-composed lifestyle photo with strong natural lighting and attractive interior-exterior design styling.",
+      "confidence": 0.97,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_70fc414ec4cd42f480e575daabe7414c~mv2.png/v1/fill/w_1280,h_729,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/938e72_70fc414ec4cd42f480e575daabe7414c~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "recommended_use",
+      "value": "Hero banner, real estate marketing, architectural portfolio, or outdoor living/lifestyle promotional content.",
+      "confidence": 0.97,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_70fc414ec4cd42f480e575daabe7414c~mv2.png/v1/fill/w_1280,h_729,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/938e72_70fc414ec4cd42f480e575daabe7414c~mv2.png"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://static.wixstatic.com/media/938e72_70fc414ec4cd42f480e575daabe7414c~mv2.png/v1/fill/w_1280,h_729,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/938e72_70fc414ec4cd42f480e575daabe7414c~mv2.png"
+  ],
+  "metadata": {}
+}

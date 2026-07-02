@@ -1,0 +1,37 @@
+Red's Residential & Restaurant Construction
+
+"It is our pleasure to build for you"
+
+UNIQUE BEAUTIFUL SPACES
+
+Red's Construction has been delighting clients with building restaurants and homes in the California Bay Area since 2012. Our services include design, remodeling, general contracting and more. We'd love to hear from you.
+
+​
+
+GET IN TOUCH
+
+OUR STORY
+
+Meet Devin Aloise, our founder.
+
+READ
+
+OUR CLIENTS
+
+and their pets share their love.
+
+READ
+
+Home
+
+Red's Service Divsion
+
+Our Story
+
+Our Clients
+
+Licensed General Contractor #1112399
+
+707-634-3264
+
+info@redsrrc.com

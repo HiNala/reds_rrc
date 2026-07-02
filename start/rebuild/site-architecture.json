@@ -1,0 +1,210 @@
+{
+  "site_kind": "dynamic-app",
+  "needs_database": true,
+  "database_rationale": "The captured pages are a brochure-style construction services site with company story, services, clients, callback, and booking entry points. Lead capture and appointment requests can be handled via email or an external scheduling tool, so a custom Postgres database is not required. Brief requires a database: lead capture stores leads + sends email; blog content needs storage/indexing; site-wide analytics persists pageviews/traffic/users/logins/signups.",
+  "auth_required": true,
+  "db_engine": "PostgreSQL",
+  "orm": "Drizzle",
+  "db_tables": [
+    {
+      "name": "users",
+      "fields": "id, email, name, image, created_at, updated_at",
+      "why": "Authenticated users"
+    },
+    {
+      "name": "sessions",
+      "fields": "id, user_id, expires, session_token",
+      "why": "Auth.js sessions"
+    },
+    {
+      "name": "accounts",
+      "fields": "id, user_id, provider, provider_account_id",
+      "why": "OAuth providers"
+    },
+    {
+      "name": "[domain_entity]",
+      "fields": "id, user_id, \u2026, created_at, updated_at",
+      "why": "Primary app data the product tracks (rename per business \u2014 e.g. workouts, habits, projects). Confirm exact entities with the client / AI analysis."
+    },
+    {
+      "name": "bookings",
+      "fields": "id, user_id, starts_at, ends_at, status, notes",
+      "why": "Appointments"
+    },
+    {
+      "name": "form_submissions",
+      "fields": "id, form, payload_json, created_at",
+      "why": "Persisted lead/contact submissions"
+    },
+    {
+      "name": "leads",
+      "columns": [
+        "id",
+        "email",
+        "name",
+        "source",
+        "consent",
+        "created_at"
+      ],
+      "source": "brief"
+    },
+    {
+      "name": "posts",
+      "columns": [
+        "id",
+        "slug",
+        "title",
+        "body",
+        "hero_image",
+        "published_at",
+        "seo_json"
+      ],
+      "source": "brief"
+    },
+    {
+      "name": "analytics_events",
+      "columns": [
+        "id",
+        "event",
+        "path",
+        "user_id",
+        "session_id",
+        "referrer",
+        "utm",
+        "props",
+        "created_at"
+      ],
+      "source": "brief"
+    }
+  ],
+  "integrations": [
+    {
+      "name": "Auth.js (NextAuth v5)",
+      "purpose": "Authentication",
+      "env_vars": [
+        "AUTH_SECRET",
+        "AUTH_URL"
+      ]
+    },
+    {
+      "name": "Resend",
+      "purpose": "Transactional email (form submissions, notifications)",
+      "env_vars": [
+        "RESEND_API_KEY"
+      ]
+    },
+    {
+      "name": "Calendly or Cal.com",
+      "purpose": "Handle online booking or consultation scheduling without building a custom scheduling backend.",
+      "env_vars": [
+        "NEXT_PUBLIC_BOOKING_URL"
+      ]
+    },
+    {
+      "name": "Cloudflare Turnstile",
+      "purpose": "Protect callback and inquiry forms from spam submissions.",
+      "env_vars": [
+        "NEXT_PUBLIC_TURNSTILE_SITE_KEY",
+        "TURNSTILE_SECRET_KEY"
+      ]
+    }
+  ],
+  "api_contracts": [
+    {
+      "method": "POST",
+      "path": "/api/auth/[...nextauth]",
+      "purpose": "Auth.js handler",
+      "auth": false
+    },
+    {
+      "method": "GET",
+      "path": "/api/[domain-entity]",
+      "purpose": "List [domain-entity]",
+      "auth": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/[domain-entity]",
+      "purpose": "Create [domain-entity",
+      "auth": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/[domain-entity]/[id]",
+      "purpose": "Get one [domain-entity]",
+      "auth": true
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/[domain-entity]/[id]",
+      "purpose": "Update [domain-entity]",
+      "auth": true
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/[domain-entity]/[id]",
+      "purpose": "Delete [domain-entity]",
+      "auth": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/bookings",
+      "purpose": "List bookings",
+      "auth": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/bookings",
+      "purpose": "Create booking",
+      "auth": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/bookings/[id]",
+      "purpose": "Get one bookings",
+      "auth": true
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/bookings/[id]",
+      "purpose": "Update bookings",
+      "auth": true
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/bookings/[id]",
+      "purpose": "Delete bookings",
+      "auth": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/contact",
+      "purpose": "Handle form submissions",
+      "auth": false
+    }
+  ],
+  "env_vars": [
+    "AUTH_SECRET",
+    "AUTH_URL",
+    "DATABASE_URL",
+    "NEXT_PUBLIC_BOOKING_URL",
+    "NEXT_PUBLIC_TURNSTILE_SITE_KEY",
+    "RESEND_API_KEY",
+    "TURNSTILE_SECRET_KEY"
+  ],
+  "signals": {
+    "auth": true,
+    "app_routes": false,
+    "blog": false,
+    "pricing": false,
+    "products": false,
+    "booking": true,
+    "forms": 3,
+    "schema_types": [
+      "WebSite"
+    ],
+    "detected_integrations": []
+  },
+  "confidence": 0.8,
+  "source": "deterministic+ai+brief"
+}

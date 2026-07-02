@@ -1,0 +1,201 @@
+{
+  "extractor_name": "components",
+  "data": {
+    "components": [
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(1)",
+        "class": "comp-lmg8np3d CeUMmm wixui-column-strip",
+        "id": "comp-lmg8np3d",
+        "image_count": 1,
+        "cta_count": 0,
+        "text_preview": "Red's Residential & Restaurant Construction\"It is our pleasure to build for you\"",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(2)",
+        "class": "Le88gL comp-lmisee10 wixui-section",
+        "id": "comp-lmisee10",
+        "image_count": 0,
+        "cta_count": 0,
+        "text_preview": "",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(3)",
+        "class": "Le88gL comp-lmisee11 wixui-section",
+        "id": "comp-lmisee11",
+        "image_count": 0,
+        "cta_count": 3,
+        "text_preview": "Do you have a project in mind? Call, Text, or Message us for free in person bid.707-909-4686Info@RedsRRC.com707-909-4686NameEmailMessageSendThanks for submittin",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(4)",
+        "class": "comp-ljqh80xa2 CeUMmm wixui-column-strip",
+        "id": "comp-ljqh80xa2",
+        "image_count": 0,
+        "cta_count": 3,
+        "text_preview": "Do you have a project in mind? Call, Text, or Message us for free in person bid.707-909-4686Info@RedsRRC.com707-909-4686NameEmailMessageSendThanks for submittin",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(5)",
+        "class": "comp-ljqh80xb CeUMmm wixui-column-strip",
+        "id": "comp-ljqh80xb",
+        "image_count": 0,
+        "cta_count": 3,
+        "text_preview": "Do you have a project in mind? Call, Text, or Message us for free in person bid.707-909-4686Info@RedsRRC.com707-909-4686NameEmailMessageSendThanks for submittin",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(6)",
+        "class": "comp-ljqh80xc1 CeUMmm wixui-column-strip",
+        "id": "comp-ljqh80xc1",
+        "image_count": 0,
+        "cta_count": 0,
+        "text_preview": "",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(7)",
+        "class": "Le88gL comp-lmisee111 wixui-section",
+        "id": "comp-lmisee111",
+        "image_count": 0,
+        "cta_count": 0,
+        "text_preview": "TestimonialsA Contractor that's also a human beingOther companies quoted us FOUR TIMES what Red's RRC did. This is the first contractor we met with that offered",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(8)",
+        "class": "comp-l6wab4dt2 CeUMmm wixui-column-strip",
+        "id": "comp-l6wab4dt2",
+        "image_count": 0,
+        "cta_count": 0,
+        "text_preview": "Other companies quoted us FOUR TIMES what Red's RRC did. This is the first contractor we met with that offered references and a schedule with the bid that showe",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(9)",
+        "class": "comp-l6wab4dv CeUMmm wixui-column-strip",
+        "id": "comp-l6wab4dv",
+        "image_count": 0,
+        "cta_count": 0,
+        "text_preview": "We Worked with Devin (the Owner) directly. He gave us a schedule and budget and he and his team stuck to it. Daily and weekly recaps kept us in the loop. By far",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(10)",
+        "class": "comp-l6wab4dw CeUMmm wixui-column-strip",
+        "id": "comp-l6wab4dw",
+        "image_count": 0,
+        "cta_count": 0,
+        "text_preview": "Everyone on this crew was kind and liked my dogs. They cleaned up everyday and kept my property clean and neighbors happy. I have recommended to friends and fam",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Header",
+        "component_type": "header",
+        "selector": "header:nth-of-type(11)",
+        "class": "CDNoF4 d3PC2t SITE_HEADER wixui-header",
+        "id": "SITE_HEADER",
+        "image_count": 1,
+        "cta_count": 0,
+        "text_preview": "Red's Residential & Restaurant Construction\"It is our pleasure to build for you\"",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#header",
+        "reuse_level": "unique"
+      },
+      {
+        "rebuild_component": "FooterColumn",
+        "component_type": "footer",
+        "selector": "footer:nth-of-type(12)",
+        "class": "CDNoF4 SITE_FOOTER wixui-footer",
+        "id": "SITE_FOOTER",
+        "image_count": 1,
+        "cta_count": 0,
+        "text_preview": "HomeRed's Service DivsionOur StoryOur ClientsLicensed General Contractor #1112399#comp-ln61m80j svg [data-color=\"1\"] {fill: #E71D1D;}707-634-3264info@redsrrc.co",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#footer",
+        "reuse_level": "unique"
+      },
+      {
+        "rebuild_component": "Navbar",
+        "component_type": "nav",
+        "selector": "nav:nth-of-type(13)",
+        "class": "StylableHorizontalMenu3372578893__root StylableHorizontalMenu3372578893---menuMode-4-wrap style-ln622r51__root wixui-horizontal-menu",
+        "id": null,
+        "image_count": 0,
+        "cta_count": 0,
+        "text_preview": "HomeRed's Service DivsionOur StoryOur Clients",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#nav",
+        "reuse_level": "unique"
+      },
+      {
+        "rebuild_component": "Main",
+        "component_type": "main",
+        "selector": "main:nth-of-type(14)",
+        "class": "PAGES_CONTAINER",
+        "id": "PAGES_CONTAINER",
+        "image_count": 0,
+        "cta_count": 3,
+        "text_preview": "Do you have a project in mind? Call, Text, or Message us for free in person bid.707-909-4686Info@RedsRRC.com707-909-4686NameEmailMessageSendThanks for submittin",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#main",
+        "reuse_level": "unique"
+      },
+      {
+        "rebuild_component": "Form",
+        "component_type": "form",
+        "selector": "form:nth-of-type(15)",
+        "class": "AYCJGp comp-ljqh82ef wixui-form",
+        "id": "comp-ljqh82ef",
+        "image_count": 0,
+        "cta_count": 3,
+        "text_preview": "NameEmailMessageSendThanks for submitting!",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#form",
+        "reuse_level": "unique"
+      }
+    ],
+    "count": 15,
+    "pattern_counts": {
+      "Section": 10,
+      "Header": 1,
+      "FooterColumn": 1,
+      "Navbar": 1,
+      "Main": 1,
+      "Form": 1
+    }
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/3d4bed22e1184b72/rendered-dom.html"
+  ]
+}

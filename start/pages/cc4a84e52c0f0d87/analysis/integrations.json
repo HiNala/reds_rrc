@@ -1,0 +1,14 @@
+{
+  "extractor_name": "integrations",
+  "data": {
+    "platform": "wix",
+    "generator": "Wix.com Website Builder",
+    "integrations": [],
+    "tracking_ids": []
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/cc4a84e52c0f0d87/rendered-dom.html"
+  ]
+}

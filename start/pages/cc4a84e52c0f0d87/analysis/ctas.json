@@ -1,0 +1,53 @@
+{
+  "extractor_name": "ctas",
+  "data": {
+    "ctas": [
+      {
+        "text": "GET IN TOUCH",
+        "href": null,
+        "cta_type": "button",
+        "variant": "button",
+        "selector": "a",
+        "is_button": true,
+        "analytics_event": "cta_click",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#a"
+      },
+      {
+        "text": "READ",
+        "href": "https://www.redsrrc.com/story",
+        "cta_type": "button",
+        "variant": "button",
+        "selector": "a",
+        "is_button": true,
+        "analytics_event": "cta_click",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#a"
+      },
+      {
+        "text": "READ",
+        "href": "https://www.redsrrc.com/clients",
+        "cta_type": "button",
+        "variant": "button",
+        "selector": "a",
+        "is_button": true,
+        "analytics_event": "cta_click",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#a"
+      },
+      {
+        "text": "info@redsrrc.com",
+        "href": "mailto:info@redsrrc.com",
+        "cta_type": "email",
+        "variant": "email",
+        "selector": "a",
+        "is_button": false,
+        "analytics_event": "email_click",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#a"
+      }
+    ],
+    "count": 4
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/cc4a84e52c0f0d87/rendered-dom.html"
+  ]
+}

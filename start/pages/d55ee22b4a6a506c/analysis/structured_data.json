@@ -1,0 +1,22 @@
+{
+  "extractor_name": "structured_data",
+  "data": {
+    "json_ld": [],
+    "nodes": [],
+    "microdata": [],
+    "opengraph": {
+      "og:title": "Book Online | Red's Residential and Restaurant Construction",
+      "og:url": "https://www.redsrrc.com/book-online",
+      "og:site_name": "Reds Residential and",
+      "og:type": "website"
+    },
+    "schema_types": [],
+    "types": [],
+    "has_structured_data": true
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/d55ee22b4a6a506c/rendered-dom.html"
+  ]
+}

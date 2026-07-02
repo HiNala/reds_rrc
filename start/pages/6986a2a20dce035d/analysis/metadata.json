@@ -1,0 +1,37 @@
+{
+  "extractor_name": "metadata",
+  "data": {
+    "title": "Our Clients | Reds Residential and",
+    "description": null,
+    "robots": null,
+    "viewport": "width=device-width, initial-scale=1",
+    "theme_color": null,
+    "keywords": null,
+    "author": null,
+    "lang": "en",
+    "canonical": "https://www.redsrrc.com/clients",
+    "hreflang": [],
+    "og": {
+      "og:title": "Our Clients | Reds Residential and",
+      "og:url": "https://www.redsrrc.com/clients",
+      "og:site_name": "Reds Residential and",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Our Clients | Reds Residential and"
+    },
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1",
+      "generator": "Wix.com Website Builder",
+      "format-detection": "telephone=no",
+      "skype_toolbar": "skype_toolbar_parser_compatible"
+    }
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/6986a2a20dce035d/rendered-dom.html#title",
+    "pages/6986a2a20dce035d/rendered-dom.html#link[rel=canonical]"
+  ]
+}

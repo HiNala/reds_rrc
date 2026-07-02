@@ -1,0 +1,35 @@
+{
+  "extractor_name": "seo",
+  "data": {
+    "final_url": "https://www.redsrrc.com/service-page/client-callback",
+    "title": "Client Callback | Reds Residential and",
+    "meta_description": null,
+    "robots": "index",
+    "canonical": "https://www.redsrrc.com/service-page/client-callback",
+    "h1": [
+      "Red's Residential & Restaurant Construction",
+      "Client Callback"
+    ],
+    "og_present": true,
+    "twitter_present": true,
+    "schema_types": [],
+    "indexable": true,
+    "word_count": 46,
+    "warnings": [
+      "missing meta description",
+      "multiple H1 (2)",
+      "thin content (<100 words)",
+      "1 image(s) missing alt text"
+    ]
+  },
+  "warnings": [
+    "missing meta description",
+    "multiple H1 (2)",
+    "thin content (<100 words)",
+    "1 image(s) missing alt text"
+  ],
+  "errors": [],
+  "source_references": [
+    "pages/a50d937238dfdfff/rendered-dom.html"
+  ]
+}

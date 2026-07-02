@@ -1,0 +1,12 @@
+{
+  "extractor_name": "forms",
+  "data": {
+    "forms": [],
+    "count": 0
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/a50d937238dfdfff/rendered-dom.html"
+  ]
+}

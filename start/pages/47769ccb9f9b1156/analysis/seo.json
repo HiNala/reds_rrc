@@ -1,0 +1,35 @@
+{
+  "extractor_name": "seo",
+  "data": {
+    "final_url": "https://www.redsrrc.com/services",
+    "title": "Services | Reds Residential and Restaurant Construction",
+    "meta_description": null,
+    "robots": null,
+    "canonical": "https://www.redsrrc.com/services",
+    "h1": [
+      "Red's Residential & Restaurant Construction",
+      "Building Maintenance"
+    ],
+    "og_present": true,
+    "twitter_present": true,
+    "schema_types": [],
+    "indexable": true,
+    "word_count": 45,
+    "warnings": [
+      "missing meta description",
+      "multiple H1 (2)",
+      "thin content (<100 words)",
+      "1 image(s) missing alt text"
+    ]
+  },
+  "warnings": [
+    "missing meta description",
+    "multiple H1 (2)",
+    "thin content (<100 words)",
+    "1 image(s) missing alt text"
+  ],
+  "errors": [],
+  "source_references": [
+    "pages/47769ccb9f9b1156/rendered-dom.html"
+  ]
+}

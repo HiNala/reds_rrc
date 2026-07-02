@@ -1,0 +1,543 @@
+{
+  "shared_components": {
+    "Section": {
+      "pages": [
+        "https://www.redsrrc.com/home-1",
+        "https://www.redsrrc.com/services",
+        "https://www.redsrrc.com/clients",
+        "https://www.redsrrc.com/service-page/client-callback",
+        "https://www.redsrrc.com/services-5",
+        "https://www.redsrrc.com/",
+        "https://www.redsrrc.com/story"
+      ],
+      "reuse_level": "repeated",
+      "component_type": "section",
+      "text_preview": "Red's Residential & Restaurant Construction\"It is our pleasure to build for you\""
+    },
+    "Header": {
+      "pages": [
+        "https://www.redsrrc.com/home-1",
+        "https://www.redsrrc.com/services",
+        "https://www.redsrrc.com/clients",
+        "https://www.redsrrc.com/service-page/client-callback",
+        "https://www.redsrrc.com/services-5",
+        "https://www.redsrrc.com/",
+        "https://www.redsrrc.com/story"
+      ],
+      "reuse_level": "unique",
+      "component_type": "header",
+      "text_preview": "Red's Residential & Restaurant Construction\"It is our pleasure to build for you\""
+    },
+    "FooterColumn": {
+      "pages": [
+        "https://www.redsrrc.com/home-1",
+        "https://www.redsrrc.com/services",
+        "https://www.redsrrc.com/clients",
+        "https://www.redsrrc.com/service-page/client-callback",
+        "https://www.redsrrc.com/services-5",
+        "https://www.redsrrc.com/",
+        "https://www.redsrrc.com/story"
+      ],
+      "reuse_level": "unique",
+      "component_type": "footer",
+      "text_preview": "HomeRed's Service DivsionOur StoryOur ClientsLicensed General Contractor #1112399#comp-ln61m80j svg [data-color=\"1\"] {fill: #E71D1D;}707-634-3264info@redsrrc.co"
+    },
+    "Navbar": {
+      "pages": [
+        "https://www.redsrrc.com/home-1",
+        "https://www.redsrrc.com/services",
+        "https://www.redsrrc.com/clients",
+        "https://www.redsrrc.com/service-page/client-callback",
+        "https://www.redsrrc.com/services-5",
+        "https://www.redsrrc.com/",
+        "https://www.redsrrc.com/story"
+      ],
+      "reuse_level": "unique",
+      "component_type": "nav",
+      "text_preview": "HomeRed's Service DivsionOur StoryOur Clients"
+    },
+    "Main": {
+      "pages": [
+        "https://www.redsrrc.com/home-1",
+        "https://www.redsrrc.com/services",
+        "https://www.redsrrc.com/clients",
+        "https://www.redsrrc.com/service-page/client-callback",
+        "https://www.redsrrc.com/services-5",
+        "https://www.redsrrc.com/",
+        "https://www.redsrrc.com/story"
+      ],
+      "reuse_level": "unique",
+      "component_type": "main",
+      "text_preview": "Do you have a project in mind? Call, Text, or Message us for free in person bid.707-909-4686Info@RedsRRC.com707-909-4686NameEmailMessageSendThanks for submittin"
+    },
+    "Form": {
+      "pages": [
+        "https://www.redsrrc.com/home-1",
+        "https://www.redsrrc.com/services-5",
+        "https://redsrrc.com/book-online"
+      ],
+      "reuse_level": "unique",
+      "component_type": "form",
+      "text_preview": "NameEmailMessageSendThanks for submitting!"
+    }
+  },
+  "page_layouts": {
+    "https://www.redsrrc.com/home-1": {
+      "viewport": "desktop-full",
+      "sections": [
+        {
+          "name": "Header / top branding",
+          "role": "site identity and navigation entry point",
+          "components": [
+            "logo mark",
+            "centered brand title",
+            "tagline/subtitle"
+          ]
+        },
+        {
+          "name": "Hero image / project showcase",
+          "role": "visual showcase and first impression",
+          "components": [
+            "large hero image",
+            "carousel pagination dots"
+          ]
+        },
+        {
+          "name": "Contact callout panel",
+          "role": "lead generation and contact form",
+          "components": [
+            "centered callout text",
+            "phone number",
+            "email address",
+            "text input fields",
+            "submit button"
+          ]
+        },
+        {
+          "name": "Testimonials section",
+          "role": "social proof",
+          "components": [
+            "section heading",
+            "subheading/link",
+            "quote icon",
+            "testimonial paragraph",
+            "author name"
+          ]
+        }
+      ],
+      "component_inventory": [
+        "brand logo",
+        "centered site title/tagline",
+        "image carousel/gallery",
+        "pagination dots",
+        "contact callout banner",
+        "contact form",
+        "text inputs",
+        "submit button",
+        "testimonial block",
+        "quote icon"
+      ]
+    },
+    "https://www.redsrrc.com/services": {
+      "viewport": "desktop-full",
+      "sections": [
+        {
+          "name": "Top brand header",
+          "role": "header",
+          "components": [
+            "logo mark",
+            "site title",
+            "tagline"
+          ]
+        },
+        {
+          "name": "Three-service hero grid",
+          "role": "hero",
+          "components": [
+            "3-column image tiles",
+            "overlay headline text",
+            "small supporting caption"
+          ]
+        },
+        {
+          "name": "Secondary navigation and contact/info band",
+          "role": "subnav/info strip",
+          "components": [
+            "text links",
+            "license text",
+            "phone icon + phone number",
+            "email icon + email address",
+            "partner badge"
+          ]
+        },
+        {
+          "name": "Lower page whitespace",
+          "role": "content area placeholder",
+          "components": [
+            "empty white content area"
+          ]
+        }
+      ],
+      "component_inventory": [
+        "brand logo mark",
+        "site title/tagline block",
+        "3-up service hero tiles",
+        "image overlays with centered headings",
+        "text link navigation",
+        "license/contact info row",
+        "phone icon",
+        "email icon",
+        "partner/certification badge"
+      ]
+    },
+    "https://www.redsrrc.com/clients": {
+      "viewport": "desktop-full",
+      "sections": [
+        {
+          "name": "Header / Brand strip",
+          "role": "site identity and top navigation entry point",
+          "components": [
+            "Logo mark",
+            "Brand name",
+            "Tagline"
+          ]
+        },
+        {
+          "name": "Clients hero / intro",
+          "role": "page title and mission statement",
+          "components": [
+            "Section heading",
+            "Support paragraph",
+            "Primary CTA button"
+          ]
+        },
+        {
+          "name": "Testimonial carousel",
+          "role": "social proof / client quote slider",
+          "components": [
+            "Carousel container",
+            "Testimonial author line",
+            "Quote text",
+            "Prev/next chevrons",
+            "Pagination dots"
+          ]
+        },
+        {
+          "name": "More love / photo showcase",
+          "role": "additional visual testimonials / friendly project highlights",
+          "components": [
+            "Section heading",
+            "Subheading",
+            "Large image gallery item",
+            "Gallery navigation arrow"
+          ]
+        },
+        {
+          "name": "Footer",
+          "role": "site navigation and contact/legal info",
+          "components": [
+            "Footer nav links",
+            "License text",
+            "Phone contact",
+            "Email contact",
+            "Certification badge"
+          ]
+        }
+      ],
+      "component_inventory": [
+        "Brand logo / wordmark",
+        "Centered text hero section",
+        "Primary button",
+        "Testimonial carousel",
+        "Carousel arrows",
+        "Pagination dots",
+        "Section heading/subheading pair",
+        "Large image card / gallery slide",
+        "Footer nav links",
+        "Contact info with icons",
+        "License text",
+        "Certification badge"
+      ]
+    },
+    "https://www.redsrrc.com/service-page/client-callback": {
+      "viewport": "desktop-full",
+      "sections": [
+        {
+          "name": "Brand/header area",
+          "role": "site identity and top navigation",
+          "components": [
+            "logo mark",
+            "centered site title",
+            "tagline text"
+          ]
+        },
+        {
+          "name": "Service detail / booking block",
+          "role": "primary conversion section",
+          "components": [
+            "service title",
+            "supporting description",
+            "duration selector",
+            "primary booking button"
+          ]
+        },
+        {
+          "name": "Contact details divider block",
+          "role": "secondary info",
+          "components": [
+            "section heading",
+            "email link",
+            "horizontal rules"
+          ]
+        },
+        {
+          "name": "Footer/navigation and trust marks",
+          "role": "site footer / secondary navigation",
+          "components": [
+            "footer nav links",
+            "license text",
+            "phone icon + number",
+            "email icon + address",
+            "certification logo/badge"
+          ]
+        }
+      ],
+      "component_inventory": [
+        "brand logo",
+        "site masthead/title",
+        "tagline",
+        "service detail card/booking module",
+        "duration selector",
+        "primary action button",
+        "section divider rule",
+        "contact details block",
+        "footer navigation links",
+        "license text",
+        "phone/email contact row with icons",
+        "certification badge"
+      ]
+    },
+    "https://www.redsrrc.com/services-5": {
+      "viewport": "desktop-full",
+      "sections": [
+        {
+          "name": "Top brand header",
+          "role": "site branding and light intro",
+          "components": [
+            "logo mark",
+            "company name text",
+            "tagline text"
+          ]
+        },
+        {
+          "name": "Page title",
+          "role": "main section heading",
+          "components": [
+            "centered H1",
+            "horizontal divider"
+          ]
+        },
+        {
+          "name": "Service cards grid",
+          "role": "primary content showcase",
+          "components": [
+            "service card",
+            "image tile",
+            "card caption bar",
+            "placeholder service tile",
+            "split-image or slider-like icon overlay"
+          ]
+        },
+        {
+          "name": "Contact form section",
+          "role": "lead capture / inquiry form",
+          "components": [
+            "section heading",
+            "subheading",
+            "text inputs",
+            "textarea",
+            "submit button"
+          ]
+        },
+        {
+          "name": "Footer",
+          "role": "site navigation and contact/trust info",
+          "components": [
+            "footer nav links",
+            "license text",
+            "phone icon + number",
+            "email icon + address",
+            "partner/certification badge"
+          ]
+        }
+      ],
+      "component_inventory": [
+        "brand logo",
+        "centered masthead text",
+        "section title with divider",
+        "service card grid",
+        "before/after style image tile",
+        "placeholder service tile",
+        "contact form",
+        "text inputs",
+        "textarea",
+        "submit button",
+        "simple footer navigation",
+        "license text block",
+        "contact info with icons",
+        "certification badge"
+      ]
+    },
+    "https://www.redsrrc.com/": {
+      "viewport": "desktop-full",
+      "sections": [
+        {
+          "name": "Header / Brand area",
+          "role": "site identity",
+          "components": [
+            "logo mark",
+            "centered site title",
+            "tagline/subtitle"
+          ]
+        },
+        {
+          "name": "Hero image slider",
+          "role": "featured visual",
+          "components": [
+            "full-width hero image",
+            "carousel previous arrow",
+            "carousel next arrow"
+          ]
+        },
+        {
+          "name": "Introductory statement / primary CTA",
+          "role": "value proposition",
+          "components": [
+            "centered section headline",
+            "supporting paragraph",
+            "primary CTA button"
+          ]
+        },
+        {
+          "name": "Two-column story/clients feature strip",
+          "role": "secondary content highlights",
+          "components": [
+            "photo tile",
+            "text tile",
+            "section title",
+            "secondary CTA button"
+          ]
+        },
+        {
+          "name": "Footer",
+          "role": "site navigation and contact",
+          "components": [
+            "footer navigation links",
+            "license text",
+            "phone/email contact row",
+            "partner/certification badge"
+          ]
+        }
+      ],
+      "component_inventory": [
+        "Brand logo mark",
+        "Centered title/tagline block",
+        "Carousel hero image",
+        "Carousel navigation arrows",
+        "Centered content section",
+        "Primary red CTA button",
+        "Two-column promo/card grid",
+        "Image tiles",
+        "Text tiles",
+        "Secondary buttons",
+        "Footer link list",
+        "Phone/email contact row with icons",
+        "Certification/partner badge"
+      ]
+    },
+    "https://redsrrc.com/book-online": {
+      "viewport": "desktop-full",
+      "sections": [
+        {
+          "name": "Full-page guest access overlay",
+          "role": "Access gate / modal-style blocking page",
+          "components": [
+            "Close icon button in the top-right corner",
+            "Centered heading",
+            "Instructional text",
+            "Single-line password input",
+            "Primary submit button"
+          ]
+        }
+      ],
+      "component_inventory": [
+        "close icon button",
+        "centered access form",
+        "heading text",
+        "helper/instruction text",
+        "password input field",
+        "primary action button"
+      ]
+    },
+    "https://www.redsrrc.com/story": {
+      "viewport": "desktop-full",
+      "sections": [
+        {
+          "name": "Header / top branding",
+          "role": "site identity and light navigation",
+          "components": [
+            "logo mark",
+            "top-left brand anchor"
+          ]
+        },
+        {
+          "name": "Intro brand line and hero story block",
+          "role": "hero / about introduction",
+          "components": [
+            "centered headline",
+            "tagline",
+            "circular founder portrait",
+            "section heading",
+            "body paragraph",
+            "primary CTA button"
+          ]
+        },
+        {
+          "name": "Our Values section",
+          "role": "core values / trust-building content",
+          "components": [
+            "section heading",
+            "numbered value items",
+            "uppercase subheads",
+            "centered paragraphs"
+          ]
+        },
+        {
+          "name": "Footer / bottom info strip",
+          "role": "footer with secondary navigation and contact details",
+          "components": [
+            "footer navigation links",
+            "license text",
+            "phone icon + number",
+            "email icon + address",
+            "partner badge"
+          ]
+        }
+      ],
+      "component_inventory": [
+        "brand logo mark",
+        "centered page title",
+        "tagline",
+        "circular profile image",
+        "section heading",
+        "centered paragraph copy",
+        "primary red CTA button",
+        "numbered value item",
+        "footer link list",
+        "contact info with icons",
+        "license text",
+        "partner certification badge"
+      ]
+    }
+  }
+}

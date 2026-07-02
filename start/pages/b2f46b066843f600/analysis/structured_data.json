@@ -1,0 +1,22 @@
+{
+  "extractor_name": "structured_data",
+  "data": {
+    "json_ld": [],
+    "nodes": [],
+    "microdata": [],
+    "opengraph": {
+      "og:title": "Red's Service Divsion | Reds Residential and",
+      "og:url": "https://www.redsrrc.com/services-5",
+      "og:site_name": "Reds Residential and",
+      "og:type": "website"
+    },
+    "schema_types": [],
+    "types": [],
+    "has_structured_data": true
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/b2f46b066843f600/rendered-dom.html"
+  ]
+}

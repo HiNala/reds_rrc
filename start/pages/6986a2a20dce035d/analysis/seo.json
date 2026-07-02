@@ -1,0 +1,30 @@
+{
+  "extractor_name": "seo",
+  "data": {
+    "final_url": "https://www.redsrrc.com/clients",
+    "title": "Our Clients | Reds Residential and",
+    "meta_description": null,
+    "robots": null,
+    "canonical": "https://www.redsrrc.com/clients",
+    "h1": [
+      "Red's Residential & Restaurant Construction"
+    ],
+    "og_present": true,
+    "twitter_present": true,
+    "schema_types": [],
+    "indexable": true,
+    "word_count": 122,
+    "warnings": [
+      "missing meta description",
+      "35 image(s) missing alt text"
+    ]
+  },
+  "warnings": [
+    "missing meta description",
+    "35 image(s) missing alt text"
+  ],
+  "errors": [],
+  "source_references": [
+    "pages/6986a2a20dce035d/rendered-dom.html"
+  ]
+}

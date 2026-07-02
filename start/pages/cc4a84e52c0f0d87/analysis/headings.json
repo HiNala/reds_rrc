@@ -1,0 +1,78 @@
+{
+  "extractor_name": "headings",
+  "data": {
+    "outline": [
+      {
+        "level": 1,
+        "text": "Red's Residential & Restaurant Construction",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#h1"
+      },
+      {
+        "level": 2,
+        "text": "\"It is our pleasure to build for you\"",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#h2"
+      },
+      {
+        "level": 2,
+        "text": "UNIQUE BEAUTIFUL SPACES",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#h2"
+      },
+      {
+        "level": 2,
+        "text": "OUR STORY",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#h2"
+      },
+      {
+        "level": 2,
+        "text": "OUR CLIENTS",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#h2"
+      },
+      {
+        "level": 3,
+        "text": "Licensed General Contractor #1112399",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#h3"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Red's Residential & Restaurant Construction",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#h1"
+      },
+      {
+        "level": 2,
+        "text": "\"It is our pleasure to build for you\"",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#h2"
+      },
+      {
+        "level": 2,
+        "text": "UNIQUE BEAUTIFUL SPACES",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#h2"
+      },
+      {
+        "level": 2,
+        "text": "OUR STORY",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#h2"
+      },
+      {
+        "level": 2,
+        "text": "OUR CLIENTS",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#h2"
+      },
+      {
+        "level": 3,
+        "text": "Licensed General Contractor #1112399",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#h3"
+      }
+    ],
+    "count": 6,
+    "h1_count": 1,
+    "h2_count": 4,
+    "h3_count": 1
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/cc4a84e52c0f0d87/rendered-dom.html"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "extractor_name": "seo",
+  "data": {
+    "final_url": "https://www.redsrrc.com/story",
+    "title": "Our Story | Reds Residential and",
+    "meta_description": null,
+    "robots": null,
+    "canonical": "https://www.redsrrc.com/story",
+    "h1": [
+      "Red's Residential & Restaurant Construction"
+    ],
+    "og_present": true,
+    "twitter_present": true,
+    "schema_types": [],
+    "indexable": true,
+    "word_count": 257,
+    "warnings": [
+      "missing meta description",
+      "1 image(s) missing alt text"
+    ]
+  },
+  "warnings": [
+    "missing meta description",
+    "1 image(s) missing alt text"
+  ],
+  "errors": [],
+  "source_references": [
+    "pages/ec69494d9113d28d/rendered-dom.html"
+  ]
+}

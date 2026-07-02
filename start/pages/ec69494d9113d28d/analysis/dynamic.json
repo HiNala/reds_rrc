@@ -1,0 +1,13 @@
+{
+  "extractor_name": "dynamic",
+  "data": {
+    "elements": [],
+    "count": 0,
+    "by_type": {}
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/ec69494d9113d28d/rendered-dom.html"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "extractor_name": "logos",
+  "data": {
+    "candidates": [
+      {
+        "url": "https://static.parastorage.com/client/pfavico.ico",
+        "asset_type": "logo",
+        "kind": "logo",
+        "alt": null,
+        "score": 2,
+        "selector": "link[rel=apple-touch-icon]",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#link[rel=apple-touch-icon]"
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://static.parastorage.com/client/pfavico.ico",
+        "asset_type": "logo",
+        "kind": "logo",
+        "alt": null,
+        "score": 2,
+        "selector": "link[rel=apple-touch-icon]",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#link[rel=apple-touch-icon]"
+      }
+    ],
+    "primary_logo": "https://static.parastorage.com/client/pfavico.ico",
+    "count": 1
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/3d4bed22e1184b72/rendered-dom.html"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "extractor_name": "components",
+  "data": {
+    "components": [
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(1)",
+        "class": "comp-lmg8np3d CeUMmm wixui-column-strip",
+        "id": "comp-lmg8np3d",
+        "image_count": 1,
+        "cta_count": 0,
+        "text_preview": "Red's Residential & Restaurant Construction\"It is our pleasure to build for you\"",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(2)",
+        "class": "Le88gL comp-lmt11qp1 wixui-section",
+        "id": "comp-lmt11qp1",
+        "image_count": 2,
+        "cta_count": 2,
+        "text_preview": "",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(3)",
+        "class": "Le88gL comp-lmixcn7b wixui-section",
+        "id": "comp-lmixcn7b",
+        "image_count": 0,
+        "cta_count": 4,
+        "text_preview": "UNIQUE BEAUTIFUL SPACESRed's Construction has been delighting clients with building restaurants and homes in the California Bay Area since 2012. Our services in",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(4)",
+        "class": "Le88gL comp-lmiyluwl wixui-section",
+        "id": "comp-lmiyluwl",
+        "image_count": 2,
+        "cta_count": 8,
+        "text_preview": "OUR STORYMeet Devin Aloise, our founder.READOUR CLIENTSand their pets share their love.READ",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(5)",
+        "class": "comp-lmiymhet CeUMmm wixui-column-strip",
+        "id": "comp-lmiymhet",
+        "image_count": 2,
+        "cta_count": 8,
+        "text_preview": "OUR STORYMeet Devin Aloise, our founder.READOUR CLIENTSand their pets share their love.READ",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Header",
+        "component_type": "header",
+        "selector": "header:nth-of-type(6)",
+        "class": "CDNoF4 d3PC2t SITE_HEADER wixui-header",
+        "id": "SITE_HEADER",
+        "image_count": 1,
+        "cta_count": 0,
+        "text_preview": "Red's Residential & Restaurant Construction\"It is our pleasure to build for you\"",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#header",
+        "reuse_level": "unique"
+      },
+      {
+        "rebuild_component": "FooterColumn",
+        "component_type": "footer",
+        "selector": "footer:nth-of-type(7)",
+        "class": "CDNoF4 SITE_FOOTER wixui-footer",
+        "id": "SITE_FOOTER",
+        "image_count": 1,
+        "cta_count": 0,
+        "text_preview": "HomeRed's Service DivsionOur StoryOur ClientsLicensed General Contractor #1112399#comp-ln61m80j svg [data-color=\"1\"] {fill: #E71D1D;}707-634-3264info@redsrrc.co",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#footer",
+        "reuse_level": "unique"
+      },
+      {
+        "rebuild_component": "Navbar",
+        "component_type": "nav",
+        "selector": "nav:nth-of-type(8)",
+        "class": "StylableHorizontalMenu3372578893__root StylableHorizontalMenu3372578893---menuMode-4-wrap style-ln622r51__root wixui-horizontal-menu",
+        "id": null,
+        "image_count": 0,
+        "cta_count": 0,
+        "text_preview": "HomeRed's Service DivsionOur StoryOur Clients",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#nav",
+        "reuse_level": "unique"
+      },
+      {
+        "rebuild_component": "Main",
+        "component_type": "main",
+        "selector": "main:nth-of-type(9)",
+        "class": "PAGES_CONTAINER",
+        "id": "PAGES_CONTAINER",
+        "image_count": 4,
+        "cta_count": 14,
+        "text_preview": "UNIQUE BEAUTIFUL SPACESRed's Construction has been delighting clients with building restaurants and homes in the California Bay Area since 2012. Our services in",
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#main",
+        "reuse_level": "unique"
+      }
+    ],
+    "count": 9,
+    "pattern_counts": {
+      "Section": 5,
+      "Header": 1,
+      "FooterColumn": 1,
+      "Navbar": 1,
+      "Main": 1
+    }
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/cc4a84e52c0f0d87/rendered-dom.html"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "subject_type": "site",
+  "subject_id": "site",
+  "summary": "Site purpose: The page appears intended to serve as a homepage for REDS RRC, introducing the organization, explaining what it does, and directing visitors toward learning more or making contact.; Business model: saas; Target audience: Likely local community members, prospective clients or participants, partners, donors, volunteers, or stakeholders looking for information about REDS RRC and its services., ['Prospective local customers looking for a service provider', 'Homeowners or property owners comparing service options', 'People who already know the brand and want to confirm available services', 'Visitors ready to request pricing, availability, or a quote'], ['Prospective commercial or institutional clients', 'Banks, lenders, mortgage servicers, or real-estate-related organizations', 'Asset managers and property-management decision makers', 'Procurement or vendor-management teams evaluating REDS RRC']",
+  "classification": "saas",
+  "tags": [],
+  "confidence": 0.7,
+  "claims": [
+    {
+      "key": "business_summary",
+      "value": "Site purpose: The page appears intended to serve as a homepage for REDS RRC, introducing the organization, explaining what it does, and directing visitors toward learning more or making contact.; Business model: saas; Target audience: Likely local community members, prospective clients or participants, partners, donors, volunteers, or stakeholders looking for information about REDS RRC and its services., ['Prospective local customers looking for a service provider', 'Homeowners or property owners comparing service options', 'People who already know the brand and want to confirm available services', 'Visitors ready to request pricing, availability, or a quote'], ['Prospective commercial or institutional clients', 'Banks, lenders, mortgage servicers, or real-estate-related organizations', 'Asset managers and property-management decision makers', 'Procurement or vendor-management teams evaluating REDS RRC']",
+      "confidence": 0.7,
+      "source_references": [
+        "https://www.redsrrc.com/home-1",
+        "https://www.redsrrc.com/services",
+        "https://www.redsrrc.com/clients",
+        "https://www.redsrrc.com/service-page/client-callback",
+        "https://www.redsrrc.com/services-5",
+        "https://www.redsrrc.com/",
+        "https://redsrrc.com/book-online",
+        "https://www.redsrrc.com/story"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "conversion_strategy",
+      "value": "Get visitors to contact the organization, request information, register interest, donate, volunteer, or otherwise take the next step after learning what REDS RRC offers., Generate service inquiries through a contact form, phone call, quote request, or booking action., Encourage qualified prospects to contact REDS RRC, request more information, or begin a vendor/client relationship., Get the visitor to book or request a callback by submitting contact details and selecting an available time or initiating a contact request., Get visitors to contact the business, request more information, book a consultation, or otherwise start an inquiry related to the listed services.",
+      "confidence": 0.65,
+      "source_references": [
+        "https://www.redsrrc.com/home-1",
+        "https://www.redsrrc.com/services",
+        "https://www.redsrrc.com/clients",
+        "https://www.redsrrc.com/service-page/client-callback",
+        "https://www.redsrrc.com/services-5",
+        "https://www.redsrrc.com/",
+        "https://redsrrc.com/book-online",
+        "https://www.redsrrc.com/story"
+      ],
+      "needs_review": true
+    }
+  ],
+  "provider": "synthesis",
+  "model": null,
+  "cached": false,
+  "sources": [],
+  "metadata": {}
+}

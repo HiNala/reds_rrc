@@ -1,0 +1,164 @@
+{
+  "subject_type": "layout",
+  "subject_id": "https://www.redsrrc.com/service-page/client-callback",
+  "summary": "A very minimal, mostly white booking page with a simple branded header, a large service title, one scheduling CTA, and a sparse contact section. The page feels airy and understated, using thin typography, lots of whitespace, and a small amount of red accent color for buttons and icons.",
+  "classification": null,
+  "tags": [],
+  "confidence": 0.93,
+  "claims": [
+    {
+      "key": "color_impressions",
+      "value": "{'dominant_colors': ['white', 'black/dark gray text', 'red accent', 'light gray dividers'], 'overall_palette_feel': 'Clean, sparse, and professional with a strong red brand accent against a white background.'}",
+      "confidence": 0.93,
+      "source_references": [
+        "https://www.redsrrc.com/service-page/client-callback"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "typography_impressions",
+      "value": "{'heading_body_feel': 'Thin, modern sans-serif typography with a lightweight, elegant look.', 'scale': 'Large service heading, medium company name, smaller body and footer text.', 'weight': 'Mostly light to regular weights; the CTA button text is more assertive through color and solid fill.'}",
+      "confidence": 0.93,
+      "source_references": [
+        "https://www.redsrrc.com/service-page/client-callback"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "spacing_density",
+      "value": "airy",
+      "confidence": 0.93,
+      "source_references": [
+        "https://www.redsrrc.com/service-page/client-callback"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://www.redsrrc.com/service-page/client-callback"
+  ],
+  "metadata": {
+    "layout": {
+      "summary": "A very minimal, mostly white booking page with a simple branded header, a large service title, one scheduling CTA, and a sparse contact section. The page feels airy and understated, using thin typography, lots of whitespace, and a small amount of red accent color for buttons and icons.",
+      "sections": [
+        {
+          "name": "Header / Brand Bar",
+          "role": "site branding and primary navigation presence",
+          "description": "At the very top left is a large red 'R' logo. Centered near the top is the company name 'Red's Residential & Restaurant Construction' with the tagline underneath in quotes. No visible hamburger icon or horizontal link menu appears in the top header area on this mobile screenshot.",
+          "components": [
+            "Logo mark",
+            "Company name text",
+            "Tagline text"
+          ],
+          "copy_gist": "Red's Residential & Restaurant Construction \u2014 'It is our pleasure to build for you'"
+        },
+        {
+          "name": "Service Booking Hero / Appointment Panel",
+          "role": "main content and booking action",
+          "description": "Below the header, the main content starts left-aligned with a large title 'Client Callback' followed by a short explanatory sentence. Under that is a small bordered time-duration selector showing '15 min', then a prominent red rectangular 'Book Now' button. This is the primary functional area of the page.",
+          "components": [
+            "Page title",
+            "Short description",
+            "Duration selector / time slot chip",
+            "Primary CTA button"
+          ],
+          "copy_gist": "Client Callback \u2014 We will call you back at this time. \u2014 15 min \u2014 Book Now"
+        },
+        {
+          "name": "Contact Details Section",
+          "role": "supporting info / fallback contact",
+          "description": "A thin horizontal divider separates the booking area from a small contact block. The heading 'Contact Details' appears above a single email address, 'Devin@Redsrrc.com', left-aligned. Another divider line appears below, keeping the layout very clean and segmented.",
+          "components": [
+            "Section heading",
+            "Email contact link",
+            "Horizontal rule separators"
+          ],
+          "copy_gist": "Contact Details \u2014 Devin@Redsrrc.com"
+        },
+        {
+          "name": "Footer / Bottom Information Row",
+          "role": "secondary navigation, compliance, and partner branding",
+          "description": "At the bottom, the footer is spread across the width with three clusters: on the left, licensing text; in the center, a small set of text links and contact icons; on the right, a partner badge/logo for TimberTech Pro. The footer navigation appears as plain text links rather than styled buttons.",
+          "components": [
+            "License text",
+            "Footer navigation links",
+            "Phone icon + number",
+            "Email icon + address",
+            "Partner badge/logo"
+          ],
+          "copy_gist": "Licensed General Contractor #1112399; Home; Red's Service Division; Our Story; Our Clients; 707-634-3264; info@redsrrc.com; TimberTech PRO"
+        }
+      ],
+      "header": {
+        "nav_style": "Extremely minimal, text-light brand header with no obvious full nav bar visible in the mobile view.",
+        "logo_placement": "Top left corner, large red monogram.",
+        "links": "No primary header links are visible in this screenshot; navigation appears deferred to the footer.",
+        "sticky?": "Not evident from the screenshot; likely not sticky or not noticeable on this page state."
+      },
+      "hero": {
+        "headline_gist": "Client callback booking page for scheduling a return call.",
+        "subhead": "We will call you back at this time.",
+        "primary_cta": "Book Now",
+        "imagery": "No hero image or background visual; the page relies on whitespace and typography only."
+      },
+      "color_impressions": {
+        "dominant_colors": [
+          "white",
+          "black/dark gray text",
+          "red accent",
+          "light gray dividers"
+        ],
+        "overall_palette_feel": "Clean, sparse, and professional with a strong red brand accent against a white background."
+      },
+      "typography_impressions": {
+        "heading_body_feel": "Thin, modern sans-serif typography with a lightweight, elegant look.",
+        "scale": "Large service heading, medium company name, smaller body and footer text.",
+        "weight": "Mostly light to regular weights; the CTA button text is more assertive through color and solid fill."
+      },
+      "spacing_density": "airy",
+      "corner_style": "Mostly sharp corners; the visible button and selector appear rectangular with minimal rounding, if any.",
+      "imagery_style": "No lifestyle imagery; only logo marks and a partner badge are present, both simple and flat.",
+      "cta_inventory": [
+        {
+          "label": "Book Now",
+          "location": "Below the duration selector in the main booking section",
+          "prominence": "high"
+        }
+      ],
+      "footer": {
+        "columns": "Three loose footer clusters: left licensing info, center links/contact, right partner badge.",
+        "links": [
+          "Home",
+          "Red's Service Division",
+          "Our Story",
+          "Our Clients"
+        ],
+        "legal": "Licensed General Contractor #1112399"
+      },
+      "responsive_notes": [
+        "Content is stacked vertically with generous whitespace, making it naturally suited to mobile.",
+        "The main booking controls appear in a single column with left alignment.",
+        "Footer items are likely to wrap or stack on smaller screens, with the partner logo shifting below or beside the text depending on width."
+      ],
+      "component_inventory": [
+        "Brand logo",
+        "Company title/tagline",
+        "Service page title",
+        "Description text",
+        "Duration selector",
+        "Primary CTA button",
+        "Section dividers",
+        "Contact detail block",
+        "Footer nav links",
+        "Phone and email icon links",
+        "License text",
+        "Partner badge/logo"
+      ],
+      "confidence": 0.93
+    },
+    "viewport": "mobile-full"
+  }
+}

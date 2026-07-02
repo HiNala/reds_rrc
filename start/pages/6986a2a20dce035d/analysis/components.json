@@ -1,0 +1,140 @@
+{
+  "extractor_name": "components",
+  "data": {
+    "components": [
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(1)",
+        "class": "comp-lmg8np3d CeUMmm wixui-column-strip",
+        "id": "comp-lmg8np3d",
+        "image_count": 1,
+        "cta_count": 0,
+        "text_preview": "Red's Residential & Restaurant Construction\"It is our pleasure to build for you\"",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(2)",
+        "class": "Le88gL comp-lmm0f2g3 wixui-section",
+        "id": "comp-lmm0f2g3",
+        "image_count": 0,
+        "cta_count": 4,
+        "text_preview": "OUR CLIENTSWe are mindful of how we treat our clients, their families, their belongings and their pets. We strive to ensure our work is creating a positive lega",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(3)",
+        "class": "Le88gL comp-lmm0hfek wixui-section",
+        "id": "comp-lmm0hfek",
+        "image_count": 0,
+        "cta_count": 2,
+        "text_preview": "Barbra & Michael, Bodega Bay\"We worked with Devin (the Owner) directly. He gave us a schedule and budget and he and his team stuck to it. Daily and weekly recap",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(4)",
+        "class": "Le88gL comp-lmm0iip7 wixui-section",
+        "id": "comp-lmm0iip7",
+        "image_count": 34,
+        "cta_count": 1,
+        "text_preview": "More loveHere are some of the new and dear friends we've made on our projects..comp-lmm0iipa {\n            --wix-color-1: 255,255,255;\n--wix-color-2: 191,191,19",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Header",
+        "component_type": "header",
+        "selector": "header:nth-of-type(5)",
+        "class": "CDNoF4 d3PC2t SITE_HEADER wixui-header",
+        "id": "SITE_HEADER",
+        "image_count": 1,
+        "cta_count": 0,
+        "text_preview": "Red's Residential & Restaurant Construction\"It is our pleasure to build for you\"",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#header",
+        "reuse_level": "unique"
+      },
+      {
+        "rebuild_component": "FooterColumn",
+        "component_type": "footer",
+        "selector": "footer:nth-of-type(6)",
+        "class": "CDNoF4 SITE_FOOTER wixui-footer",
+        "id": "SITE_FOOTER",
+        "image_count": 1,
+        "cta_count": 0,
+        "text_preview": "HomeRed's Service DivsionOur StoryOur ClientsLicensed General Contractor #1112399#comp-ln61m80j svg [data-color=\"1\"] {fill: #E71D1D;}707-634-3264info@redsrrc.co",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#footer",
+        "reuse_level": "unique"
+      },
+      {
+        "rebuild_component": "Navbar",
+        "component_type": "nav",
+        "selector": "nav:nth-of-type(7)",
+        "class": "hImYkx",
+        "id": null,
+        "image_count": 0,
+        "cta_count": 0,
+        "text_preview": "",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#nav",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Navbar",
+        "component_type": "nav",
+        "selector": "nav:nth-of-type(8)",
+        "class": "StylableHorizontalMenu3372578893__root StylableHorizontalMenu3372578893---menuMode-4-wrap style-ln622r51__root wixui-horizontal-menu",
+        "id": null,
+        "image_count": 0,
+        "cta_count": 0,
+        "text_preview": "HomeRed's Service DivsionOur StoryOur Clients",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#nav",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Main",
+        "component_type": "main",
+        "selector": "main:nth-of-type(9)",
+        "class": "PAGES_CONTAINER",
+        "id": "PAGES_CONTAINER",
+        "image_count": 34,
+        "cta_count": 7,
+        "text_preview": "OUR CLIENTSWe are mindful of how we treat our clients, their families, their belongings and their pets. We strive to ensure our work is creating a positive lega",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#main",
+        "reuse_level": "unique"
+      },
+      {
+        "rebuild_component": "Navbar",
+        "component_type": "button",
+        "selector": "button:nth-of-type(13)",
+        "class": "nav-arrows-container drop-shadow  ",
+        "id": null,
+        "image_count": 0,
+        "cta_count": 1,
+        "text_preview": "",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#button",
+        "reuse_level": "repeated"
+      }
+    ],
+    "count": 10,
+    "pattern_counts": {
+      "Section": 4,
+      "Header": 1,
+      "FooterColumn": 1,
+      "Navbar": 3,
+      "Main": 1
+    }
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/6986a2a20dce035d/rendered-dom.html"
+  ]
+}

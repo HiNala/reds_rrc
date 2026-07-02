@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "label": "Home",
+      "href": "https://www.redsrrc.com"
+    },
+    {
+      "label": "Red's Service Divsion",
+      "href": "https://www.redsrrc.com/services-5"
+    },
+    {
+      "label": "Our Story",
+      "href": "https://www.redsrrc.com/story"
+    },
+    {
+      "label": "Our Clients",
+      "href": "https://www.redsrrc.com/clients"
+    },
+    {
+      "label": "info@redsrrc.com",
+      "href": "mailto:info@redsrrc.com"
+    }
+  ],
+  "source": "extraction"
+}

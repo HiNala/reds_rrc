@@ -1,0 +1,18 @@
+:root {
+  /* Brand — modernized from the slurped site's tone (clean, trustworthy SaaS with crisp blue energy). */
+  --primary: #ffa311;
+  --accent: #722b32;
+  --radius: 0.375rem;               /* corner style: slightly-rounded */
+  --shadow: 0 4px 12px -2px rgb(0 0 0 / 0.10);               /* shadow style: soft */
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+  --muted: #f5f5f5;
+  --border: #e5e7eb;
+}
+
+@theme inline {
+  --font-heading: "Avenir Next", system-ui, sans-serif;
+  --font-body: "Helvetica Neue", system-ui, sans-serif;
+}
+
+/* Density: comfortable. Corners: slightly-rounded. Temperature: cool. */

@@ -1,0 +1,33 @@
+{
+  "extractor_name": "ctas",
+  "data": {
+    "ctas": [
+      {
+        "text": "Send",
+        "href": null,
+        "cta_type": "button",
+        "variant": "button",
+        "selector": "button",
+        "is_button": true,
+        "analytics_event": "cta_click",
+        "source_reference": "pages/b2f46b066843f600/rendered-dom.html#button"
+      },
+      {
+        "text": "info@redsrrc.com",
+        "href": "mailto:info@redsrrc.com",
+        "cta_type": "email",
+        "variant": "email",
+        "selector": "a",
+        "is_button": false,
+        "analytics_event": "email_click",
+        "source_reference": "pages/b2f46b066843f600/rendered-dom.html#a"
+      }
+    ],
+    "count": 2
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/b2f46b066843f600/rendered-dom.html"
+  ]
+}

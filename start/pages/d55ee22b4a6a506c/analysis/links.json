@@ -1,0 +1,15 @@
+{
+  "extractor_name": "links",
+  "data": {
+    "links": [],
+    "total": 0,
+    "internal": 0,
+    "external": 0,
+    "reenqueue": []
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/d55ee22b4a6a506c/rendered-dom.html"
+  ]
+}

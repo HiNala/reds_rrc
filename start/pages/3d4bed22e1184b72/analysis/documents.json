@@ -1,0 +1,12 @@
+{
+  "extractor_name": "documents",
+  "data": {
+    "candidates": [],
+    "count": 0
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/3d4bed22e1184b72/rendered-dom.html"
+  ]
+}

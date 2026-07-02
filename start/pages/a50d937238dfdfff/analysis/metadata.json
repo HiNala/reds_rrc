@@ -1,0 +1,38 @@
+{
+  "extractor_name": "metadata",
+  "data": {
+    "title": "Client Callback | Reds Residential and",
+    "description": null,
+    "robots": "index",
+    "viewport": "width=device-width, initial-scale=1",
+    "theme_color": null,
+    "keywords": null,
+    "author": null,
+    "lang": "en",
+    "canonical": "https://www.redsrrc.com/service-page/client-callback",
+    "hreflang": [],
+    "og": {
+      "og:title": "Client Callback | Reds Residential and",
+      "og:url": "https://www.redsrrc.com/service-page/client-callback",
+      "og:site_name": "Reds Residential and",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Client Callback | Reds Residential and"
+    },
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1",
+      "generator": "Wix.com Website Builder",
+      "format-detection": "telephone=no",
+      "skype_toolbar": "skype_toolbar_parser_compatible",
+      "robots": "index"
+    }
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/a50d937238dfdfff/rendered-dom.html#title",
+    "pages/a50d937238dfdfff/rendered-dom.html#link[rel=canonical]"
+  ]
+}

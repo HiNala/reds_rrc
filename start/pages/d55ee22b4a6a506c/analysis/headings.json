@@ -1,0 +1,18 @@
+{
+  "extractor_name": "headings",
+  "data": {
+    "outline": [],
+    "headings": [],
+    "count": 0,
+    "h1_count": 0,
+    "h2_count": 0,
+    "h3_count": 0
+  },
+  "warnings": [
+    "missing H1"
+  ],
+  "errors": [],
+  "source_references": [
+    "pages/d55ee22b4a6a506c/rendered-dom.html"
+  ]
+}

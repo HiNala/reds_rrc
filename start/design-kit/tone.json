@@ -1,0 +1,14 @@
+{
+  "corner_style": "slightly-rounded",
+  "radius_px": 1,
+  "shadow_style": "soft",
+  "density": "comfortable",
+  "color_temperature": "cool",
+  "uppercase_headings": false,
+  "primary_color": "#116dff",
+  "accent_color": "#2b5672",
+  "font_heading": "Avenir Next",
+  "font_body": "Helvetica Neue",
+  "mood": "clean, trustworthy SaaS with crisp blue energy",
+  "source": "deterministic+ai"
+}

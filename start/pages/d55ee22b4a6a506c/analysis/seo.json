@@ -1,0 +1,30 @@
+{
+  "extractor_name": "seo",
+  "data": {
+    "final_url": "https://redsrrc.com/book-online",
+    "title": "Book Online | Red's Residential and Restaurant Construction",
+    "meta_description": null,
+    "robots": null,
+    "canonical": "https://www.redsrrc.com/book-online",
+    "h1": [],
+    "og_present": true,
+    "twitter_present": true,
+    "schema_types": [],
+    "indexable": true,
+    "word_count": 8,
+    "warnings": [
+      "missing meta description",
+      "missing H1",
+      "thin content (<100 words)"
+    ]
+  },
+  "warnings": [
+    "missing meta description",
+    "missing H1",
+    "thin content (<100 words)"
+  ],
+  "errors": [],
+  "source_references": [
+    "pages/d55ee22b4a6a506c/rendered-dom.html"
+  ]
+}

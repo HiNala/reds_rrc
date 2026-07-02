@@ -1,0 +1,31 @@
+{
+  "extractor_name": "media",
+  "data": {
+    "items": [
+      {
+        "url": "https://www-redsrrc-com.filesusr.com/html/41f6ea_b0edb80498ba4c4822560d7926d0fea9.html",
+        "asset_type": "embed",
+        "type": "embed",
+        "kind": "iframe",
+        "selector": "iframe",
+        "page_id": "b2f46b066843f600",
+        "source_reference": "pages/b2f46b066843f600/rendered-dom.html#iframe"
+      },
+      {
+        "url": "https://www-redsrrc-com.filesusr.com/html/41f6ea_b0edb80498ba4c4822560d7926d0fea9.html",
+        "asset_type": "embed",
+        "type": "embed",
+        "kind": "iframe",
+        "selector": "iframe",
+        "page_id": "b2f46b066843f600",
+        "source_reference": "pages/b2f46b066843f600/rendered-dom.html#iframe"
+      }
+    ],
+    "count": 2
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/b2f46b066843f600/rendered-dom.html"
+  ]
+}

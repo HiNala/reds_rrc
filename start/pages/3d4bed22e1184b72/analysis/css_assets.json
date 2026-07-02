@@ -1,0 +1,571 @@
+{
+  "extractor_name": "css_assets",
+  "data": {
+    "candidates": [
+      {
+        "url": "https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/unpkg/requirejs-bolt@2.3.6/requirejs.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt_bootstrap.5d81506a.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt_bootstrap-classic.9ea7b71c.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[DropDownMenu_OverlineMenuButtonSkin].0d0bb214.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[Container_DefaultAreaSkin].ee99844f.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt_menu.21628660.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[AppWidget_Classic].9e742016.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[StripColumnsContainer_Default].2fe8a608.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[MeshGroup].afefea29.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[SkipToContentButton].34a41125.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[StripSlideshow].a034f993.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[GoogleMap].39274650.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[TextInput].d571dfd0.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[TextAreaInput].e3c415fb.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[ClassicSection].2fcc7d9e.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[FormContainer_FormContainerSkin].acc6fb9c.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/profile-card-tpa-ooi/1.2932.0/ProfileCardViewerWidgetNoCss.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/unpkg/lodash@4.17.23/lodash.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.4ab68499.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.54b97074.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.99fa8096.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/tag-manager-client/1.1066.0/siteTags.bundle.min.js",
+        "asset_type": "script",
+        "kind": "js",
+        "selector": "script[src]",
+        "css_property": "script-src",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#script[src]"
+      },
+      {
+        "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/media/sloppyframe.3214ce8e.png",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/fonts/v2/af36905f-3c92-4ef9-b0c1-f91432f16ac1/v1/avenir-lt-w05_35-light.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/fonts/v2/af36905f-3c92-4ef9-b0c1-f91432f16ac1/v1/avenir-lt-w01_35-light1475496.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/fonts/v2/8eac109b-0fa9-42bf-a305-43e471e23779/v1/helvetica-w02-light.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/fonts/v2/8eac109b-0fa9-42bf-a305-43e471e23779/v1/helvetica-w01-light.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmy15VGdeOYktMqlap.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiGyp8kv8JHgFVrJJLufntAOvWDSHFF.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmy15VF9eOYktMqg.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiGyp8kv8JHgFVrJJLucHtAOvWDSA.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/h3r77AwDsldr1E_2g4qqGPk_vArhqVIZ0nv9q090hN8.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/Fm41upUVp7KTKUZhL0PfQVtXRa8TVwTICgirnJhmVJw.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/rijG6I_IOXJjsH07UEo2mw.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/-GlaWpWcSgdVagNuOGuFKRUOjZSKWg4xBWp_C_qQx0o.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v26/1Ptug8zYS_SKggPNyCIIT4ttDfCmxA.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4QoFqL_KWxWMT.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v26/1Ptug8zYS_SKggPNyCAIT4ttDfCmxA.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4QIFqL_KWxWMT.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v26/1Ptug8zYS_SKggPNyCkIT4ttDfCmxA.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4SYFqL_KWxWMT.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v26/1Ptug8zYS_SKggPNyCMIT4ttDfCmxA.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4Q4FqL_KWxWMT.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v26/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4TYFqL_KWxQ.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v12/lFxvRPuGFG5ktd7P0WRwKhUOjZSKWg4xBWp_C_qQx0o.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v12/STBOO2waD2LpX45SXYjQBfk_vArhqVIZ0nv9q090hN8.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v12/OY22yoG8EJ3IN_muVWm29BUOjZSKWg4xBWp_C_qQx0o.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v12/WmVKXVcOuffP_qmCpFuyzfk_vArhqVIZ0nv9q090hN8.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/fonts/v2/2af1bf48-e783-4da8-9fa0-599dde29f2d5/v1/helvetica-lt-w10-roman.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/fonts/v2/2af1bf48-e783-4da8-9fa0-599dde29f2d5/v1/helvetica-w02-roman.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      },
+      {
+        "url": "https://static.parastorage.com/fonts/v2/2af1bf48-e783-4da8-9fa0-599dde29f2d5/v1/helvetica-w01-roman.woff2",
+        "asset_type": "image",
+        "kind": "css-background",
+        "selector": "<style>",
+        "css_property": "stylesheet",
+        "page_id": "3d4bed22e1184b72",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#<style>"
+      }
+    ],
+    "count": 62
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/3d4bed22e1184b72/rendered-dom.html"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "subject_type": "layout",
+  "subject_id": "https://www.redsrrc.com/story",
+  "summary": "A very minimal, mostly white one-page \"Our Story\" layout with all content centered in a narrow mobile column and lots of vertical whitespace. The design is sparse and text-forward, using thin modern typography, small red accents, a circular portrait, and one prominent red call-to-action button.",
+  "classification": null,
+  "tags": [],
+  "confidence": 0.97,
+  "claims": [
+    {
+      "key": "color_impressions",
+      "value": "{'dominant_colors': ['white background', 'red accents', 'dark gray/black text', 'light gray secondary text'], 'palette_feel': 'Clean, sparse, high-contrast, with restrained construction-brand red used for emphasis and CTAs.'}",
+      "confidence": 0.97,
+      "source_references": [
+        "https://www.redsrrc.com/story"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "typography_impressions",
+      "value": "{'heading_body_feel': 'Modern, thin sans-serif headings with wide letter spacing and uppercase section labels; body text is smaller, centered, and highly readable.', 'scale': 'Large section titles, medium company name, small supporting copy, and tiny footer text.', 'weight': 'Mostly light to regular weights; red numeric markers are light and delicate, not bold.'}",
+      "confidence": 0.97,
+      "source_references": [
+        "https://www.redsrrc.com/story"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "spacing_density",
+      "value": "airy",
+      "confidence": 0.97,
+      "source_references": [
+        "https://www.redsrrc.com/story"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://www.redsrrc.com/story"
+  ],
+  "metadata": {
+    "layout": {
+      "summary": "A very minimal, mostly white one-page \"Our Story\" layout with all content centered in a narrow mobile column and lots of vertical whitespace. The design is sparse and text-forward, using thin modern typography, small red accents, a circular portrait, and one prominent red call-to-action button.",
+      "sections": [
+        {
+          "name": "Header / Brand mark",
+          "role": "site identity",
+          "description": "At the very top-left is a large red stylized \"R\" logo. There is no visible full navigation bar in the viewport, just the brand mark against a white background.",
+          "components": [
+            "logo mark"
+          ],
+          "copy_gist": "Red's RRC branding only"
+        },
+        {
+          "name": "Intro / Page title area",
+          "role": "hero-like introduction",
+          "description": "Centered near the top is the company name in a thin gray headline, with a smaller tagline directly below in quotes. Beneath that sits a circular portrait photo of a man with arms crossed, cropped tightly and centered.",
+          "components": [
+            "headline",
+            "tagline",
+            "circular avatar/photo"
+          ],
+          "copy_gist": "Red's Residential & Restaurant Construction; 'It is our pleasure to build for you'"
+        },
+        {
+          "name": "Our Story",
+          "role": "about/mission section",
+          "description": "A large all-caps section title appears centered, followed by a centered paragraph introducing Devin Aloise as the founder and describing the company focus on design and construction, transparency, communication, and craftsmanship.",
+          "components": [
+            "section heading",
+            "body paragraph"
+          ],
+          "copy_gist": "Founder intro and company philosophy; invite to reach out"
+        },
+        {
+          "name": "Primary call to action",
+          "role": "contact prompt",
+          "description": "A centered rectangular red button appears below the story copy with substantial whitespace around it. It is the only clearly interactive element in the main content area.",
+          "components": [
+            "button"
+          ],
+          "copy_gist": "GET IN TOUCH"
+        },
+        {
+          "name": "Our Values",
+          "role": "values section",
+          "description": "Another large centered all-caps heading introduces three vertically stacked value statements. Each value is presented as a small red number, a gray uppercase label, and a centered paragraph beneath.",
+          "components": [
+            "section heading",
+            "numbered value item",
+            "value title",
+            "description text"
+          ],
+          "copy_gist": "Three core values: transparency, efficiency, community"
+        },
+        {
+          "name": "Value 01 - Transparency",
+          "role": "feature/value block",
+          "description": "The first item uses a small red \"01\" above the label \"TRANSPARENCY\". The paragraph explains no charging for unused materials, clear communication about changes, and signed change orders before labor pricing changes.",
+          "components": [
+            "number",
+            "subtitle",
+            "paragraph"
+          ],
+          "copy_gist": "Clear pricing and upfront communication"
+        },
+        {
+          "name": "Value 02 - Efficiency",
+          "role": "feature/value block",
+          "description": "The second item mirrors the same centered structure with \"02\" and \"EFFICIENCY\". The paragraph emphasizes schedule discipline, on-time finishing, and respect for the client\u2019s space, time, requirements, children, and pets.",
+          "components": [
+            "number",
+            "subtitle",
+            "paragraph"
+          ],
+          "copy_gist": "Finish on time while being mindful of the home environment"
+        },
+        {
+          "name": "Value 03 - Community",
+          "role": "feature/value block",
+          "description": "The third item follows the same pattern with \"03\" and \"COMMUNITY\". The text describes contributing through work and supporting local causes such as Sonoma County food banks, coastal cleanups, bees, and nature conservation.",
+          "components": [
+            "number",
+            "subtitle",
+            "paragraph"
+          ],
+          "copy_gist": "Support local community and environmental efforts"
+        },
+        {
+          "name": "Footer",
+          "role": "site footer / contact and navigation",
+          "description": "At the bottom, the footer is spread across the width with a small set of centered text links in the middle, contact details along the bottom center, licensing text on the left, and certification badges/logos on the right. The layout remains airy with minimal borders or separation lines.",
+          "components": [
+            "footer links",
+            "phone link",
+            "email link",
+            "license text",
+            "certification badge/logo"
+          ],
+          "copy_gist": "Home, Red's Service Division, Our Story, Our Clients; phone, email, contractor license, TimberTech Pro badge"
+        }
+      ],
+      "header": {
+        "nav_style": "No traditional visible nav bar in the viewport; just a logo mark in the upper-left with a very clean, minimal header treatment.",
+        "logo_placement": "Top-left corner, large red stylized R mark.",
+        "links": "No visible top navigation links in the screenshot.",
+        "sticky": "Not apparent from the screenshot; no sticky behavior visible."
+      },
+      "hero": {
+        "headline_gist": "Company name and value statement rather than a marketing hero banner.",
+        "subhead": "A short quoted line about it being their pleasure to build for you.",
+        "primary_cta": "GET IN TOUCH",
+        "imagery": "A centered circular portrait photo of the founder or representative, placed above the story copy."
+      },
+      "color_impressions": {
+        "dominant_colors": [
+          "white background",
+          "red accents",
+          "dark gray/black text",
+          "light gray secondary text"
+        ],
+        "palette_feel": "Clean, sparse, high-contrast, with restrained construction-brand red used for emphasis and CTAs."
+      },
+      "typography_impressions": {
+        "heading_body_feel": "Modern, thin sans-serif headings with wide letter spacing and uppercase section labels; body text is smaller, centered, and highly readable.",
+        "scale": "Large section titles, medium company name, small supporting copy, and tiny footer text.",
+        "weight": "Mostly light to regular weights; red numeric markers are light and delicate, not bold."
+      },
+      "spacing_density": "airy",
+      "corner_style": "Mostly square corners on the CTA button; circular crop for the portrait image; otherwise very little visible rounding.",
+      "imagery_style": "Single circular headshot/portrait, warm-toned and rustic-background, with no additional decorative imagery.",
+      "cta_inventory": [
+        {
+          "label": "GET IN TOUCH",
+          "location": "below the Our Story paragraph, centered in the main content",
+          "prominence": "high"
+        }
+      ],
+      "footer": {
+        "columns": "Effectively three visual groupings across the bottom: left licensing info, center navigation/contact, and right certification badge.",
+        "links": "Home, Red's Service Division, Our Story, Our Clients.",
+        "legal": "Licensed General Contractor #1112399."
+      },
+      "responsive_notes": [
+        "Single-column centered layout suited to mobile, with all content stacked vertically.",
+        "Likely no desktop-style horizontal navigation on mobile; footer links compress into centered lines.",
+        "Text blocks are narrow and centered, so they likely reflow into full-width paragraphs with generous side margins.",
+        "The footer badges/logos appear to stay small and may stack or float at the bottom on mobile widths."
+      ],
+      "component_inventory": [
+        "brand logo mark",
+        "centered headline",
+        "tagline/subtitle",
+        "circular portrait image",
+        "section heading",
+        "paragraph text block",
+        "primary button",
+        "numbered feature/value item",
+        "footer navigation links",
+        "contact link with phone icon",
+        "contact link with email icon",
+        "license text",
+        "certification badge/logo"
+      ],
+      "confidence": 0.97
+    },
+    "viewport": "mobile-full"
+  }
+}

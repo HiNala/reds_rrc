@@ -1,0 +1,164 @@
+{
+  "extractor_name": "components",
+  "data": {
+    "components": [
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(1)",
+        "class": "comp-lmg8np3d CeUMmm wixui-column-strip",
+        "id": "comp-lmg8np3d",
+        "image_count": 1,
+        "cta_count": 0,
+        "text_preview": "Red's Residential & Restaurant Construction\"It is our pleasure to build for you\"",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(2)",
+        "class": "Le88gL comp-lmisee18 wixui-section",
+        "id": "comp-lmisee18",
+        "image_count": 0,
+        "cta_count": 2,
+        "text_preview": "HomeService listClient CallbackClient CallbackWe will call you back at this time.15 min15 minBook NowContact DetailsDevin@Redsrrc.com",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(3)",
+        "class": "comp-kzcsrlao CeUMmm wixui-column-strip",
+        "id": "comp-kzcsrlao",
+        "image_count": 0,
+        "cta_count": 0,
+        "text_preview": "",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "section",
+        "selector": "section:nth-of-type(4)",
+        "class": "smWa8GO oulkwAs---alignment-4-left oulkwAs---columnAlignment-6-center",
+        "id": null,
+        "image_count": 0,
+        "cta_count": 2,
+        "text_preview": "HomeService listClient CallbackClient CallbackWe will call you back at this time.15 min15 minBook NowContact DetailsDevin@Redsrrc.com",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#section",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Header",
+        "component_type": "header",
+        "selector": "header:nth-of-type(5)",
+        "class": "CDNoF4 SITE_HEADER wixui-header",
+        "id": "SITE_HEADER",
+        "image_count": 1,
+        "cta_count": 0,
+        "text_preview": "Red's Residential & Restaurant Construction\"It is our pleasure to build for you\"",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#header",
+        "reuse_level": "unique"
+      },
+      {
+        "rebuild_component": "FooterColumn",
+        "component_type": "footer",
+        "selector": "footer:nth-of-type(6)",
+        "class": "CDNoF4 SITE_FOOTER wixui-footer",
+        "id": "SITE_FOOTER",
+        "image_count": 1,
+        "cta_count": 0,
+        "text_preview": "HomeRed's Service DivsionOur StoryOur ClientsLicensed General Contractor #1112399#comp-ln61m80j svg [data-color=\"1\"] {fill: #E71D1D;}707-634-3264info@redsrrc.co",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#footer",
+        "reuse_level": "unique"
+      },
+      {
+        "rebuild_component": "Navbar",
+        "component_type": "nav",
+        "selector": "nav:nth-of-type(7)",
+        "class": "sLiq6Xm s__04tfLr",
+        "id": null,
+        "image_count": 0,
+        "cta_count": 0,
+        "text_preview": "HomeService listClient Callback",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#nav",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Navbar",
+        "component_type": "nav",
+        "selector": "nav:nth-of-type(8)",
+        "class": "StylableHorizontalMenu3372578893__root StylableHorizontalMenu3372578893---menuMode-4-wrap style-ln622r51__root wixui-horizontal-menu",
+        "id": null,
+        "image_count": 0,
+        "cta_count": 0,
+        "text_preview": "HomeRed's Service DivsionOur StoryOur Clients",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#nav",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Main",
+        "component_type": "main",
+        "selector": "main:nth-of-type(9)",
+        "class": "PAGES_CONTAINER",
+        "id": "PAGES_CONTAINER",
+        "image_count": 0,
+        "cta_count": 2,
+        "text_preview": "HomeService listClient CallbackClient CallbackWe will call you back at this time.15 min15 minBook NowContact DetailsDevin@Redsrrc.com",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#main",
+        "reuse_level": "unique"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "div",
+        "selector": "div:nth-of-type(11)",
+        "class": "QrIus  TPAMultiSection_kzcskybx",
+        "id": "TPAMultiSection_kzcskybx",
+        "image_count": 0,
+        "cta_count": 2,
+        "text_preview": "HomeService listClient CallbackClient CallbackWe will call you back at this time.15 min15 minBook NowContact DetailsDevin@Redsrrc.com",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#div",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "div",
+        "selector": "div:nth-of-type(12)",
+        "class": "TPAMultiSection_kzcskybx",
+        "id": null,
+        "image_count": 0,
+        "cta_count": 2,
+        "text_preview": "HomeService listClient CallbackClient CallbackWe will call you back at this time.15 min15 minBook NowContact DetailsDevin@Redsrrc.com",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#div",
+        "reuse_level": "repeated"
+      },
+      {
+        "rebuild_component": "Section",
+        "component_type": "div",
+        "selector": "div:nth-of-type(13)",
+        "class": "s__6CDSwD sckSX6q oTZu_Li---alignment-4-left oTZu_Li--spaceBetweenSections sMwW0Q3",
+        "id": null,
+        "image_count": 0,
+        "cta_count": 1,
+        "text_preview": "Book Now",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#div",
+        "reuse_level": "repeated"
+      }
+    ],
+    "count": 12,
+    "pattern_counts": {
+      "Section": 7,
+      "Header": 1,
+      "FooterColumn": 1,
+      "Navbar": 2,
+      "Main": 1
+    }
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/a50d937238dfdfff/rendered-dom.html"
+  ]
+}

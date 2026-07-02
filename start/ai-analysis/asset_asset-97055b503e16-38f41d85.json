@@ -1,0 +1,53 @@
+{
+  "subject_type": "asset",
+  "subject_id": "asset-97055b503e16",
+  "summary": "A small black dog wearing a red harness lies on a sunlit deck with its tongue curled up to lick its nose.",
+  "classification": "stock",
+  "tags": [],
+  "confidence": 0.98,
+  "claims": [
+    {
+      "key": "alt_text",
+      "value": "A small black dog wearing a red harness lies on a sunlit deck with its tongue curled up to lick its nose.",
+      "confidence": 0.98,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_9d6a011778ef4a1993ed0187d36200e6~mv2.jpeg/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_9d6a011778ef4a1993ed0187d36200e6~mv2.jpeg"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "content_type",
+      "value": "stock",
+      "confidence": 0.98,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_9d6a011778ef4a1993ed0187d36200e6~mv2.jpeg/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_9d6a011778ef4a1993ed0187d36200e6~mv2.jpeg"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "quality_opinion",
+      "value": "Good quality photo with clear subject focus and bright natural light, though the strong shadows are a bit distracting.",
+      "confidence": 0.98,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_9d6a011778ef4a1993ed0187d36200e6~mv2.jpeg/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_9d6a011778ef4a1993ed0187d36200e6~mv2.jpeg"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "recommended_use",
+      "value": "Suitable for general pet-related content, social media, or informal promotional use where a candid dog photo is appropriate.",
+      "confidence": 0.98,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_9d6a011778ef4a1993ed0187d36200e6~mv2.jpeg/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_9d6a011778ef4a1993ed0187d36200e6~mv2.jpeg"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://static.wixstatic.com/media/938e72_9d6a011778ef4a1993ed0187d36200e6~mv2.jpeg/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_9d6a011778ef4a1993ed0187d36200e6~mv2.jpeg"
+  ],
+  "metadata": {}
+}

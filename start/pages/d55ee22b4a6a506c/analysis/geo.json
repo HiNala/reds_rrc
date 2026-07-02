@@ -1,0 +1,17 @@
+{
+  "extractor_name": "geo",
+  "data": {
+    "business_name": "Reds Residential and",
+    "phones": [],
+    "phones_normalized": [],
+    "emails": [],
+    "addresses": [],
+    "has_zip": false,
+    "has_nap": false
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/d55ee22b4a6a506c/rendered-dom.html"
+  ]
+}

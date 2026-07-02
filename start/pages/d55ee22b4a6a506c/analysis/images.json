@@ -1,0 +1,33 @@
+{
+  "extractor_name": "images",
+  "data": {
+    "candidates": [
+      {
+        "url": "https://static.parastorage.com/client/pfavico.ico",
+        "asset_type": "image",
+        "kind": "favicon",
+        "alt": null,
+        "selector": "link[rel*=icon]",
+        "page_id": "d55ee22b4a6a506c",
+        "source_reference": "pages/d55ee22b4a6a506c/rendered-dom.html#link[rel*=icon]"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://static.parastorage.com/client/pfavico.ico",
+        "asset_type": "image",
+        "kind": "favicon",
+        "alt": null,
+        "selector": "link[rel*=icon]",
+        "page_id": "d55ee22b4a6a506c",
+        "source_reference": "pages/d55ee22b4a6a506c/rendered-dom.html#link[rel*=icon]"
+      }
+    ],
+    "count": 1
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/d55ee22b4a6a506c/rendered-dom.html"
+  ]
+}

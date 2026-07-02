@@ -1,0 +1,23 @@
+{
+  "extractor_name": "ctas",
+  "data": {
+    "ctas": [
+      {
+        "text": "Go",
+        "href": null,
+        "cta_type": "button",
+        "variant": "button",
+        "selector": "button",
+        "is_button": true,
+        "analytics_event": "cta_click",
+        "source_reference": "pages/d55ee22b4a6a506c/rendered-dom.html#button"
+      }
+    ],
+    "count": 1
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/d55ee22b4a6a506c/rendered-dom.html"
+  ]
+}

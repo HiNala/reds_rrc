@@ -1,0 +1,482 @@
+{
+  "raw_request": "A modern version of https://www.redsrrc.com/ â€” a complete modernization, not a clone. Keep the company's name, offerings, and market positioning, but rebuild the structure and layout into a fast, modern, mobile-first Next.js + Tailwind + shadcn/ui site with a fresh, trust-building, professional design and a complementary palette that feels current and premium. Generate brand-new assets (logo refresh, hero imagery, icons, typography) â€” do not reuse the old site's dated imagery.\r\n\r\nThe primary goal is CONVERSION: turn visitors into qualified leads. Bake a full high-converting lead funnel into the architecture and every page:\r\n- A clear value proposition and hero CTA above the fold on the homepage.\r\n- Multiple low-friction entry points to contact (header CTA, sticky mobile CTA, in-content CTAs, footer).\r\n- A dedicated 'Get a Quote' / 'Contact' landing page optimized for form completion.\r\n- Simple, stylish, easy-to-use contact and lead-capture forms built with shadcn/ui components (Input, Textarea, Select, Checkbox, Button, Form with react-hook-form + zod validation, accessible labels, inline success/error states, progressive disclosure â€” only ask what is needed, no overwhelming long forms).\r\n- A multi-step form option for longer inquiries with a progress indicator and an autosave feel.\r\n- Email + lead capture via Resend, persisting every submission to the database with timestamp, source page, and UTM/campaign attribution.\r\n- Newsletter signup in the footer.\r\n- Trust signals throughout: testimonials, certifications, project gallery/case studies, clear contact info, FAQ.\r\n- Analytics always on â€” instrument the full funnel: pageview -> CTA click -> form start -> form submit -> thank-you, plus traffic sources, users, logins, signups.\r\n\r\nPositioning: lead with trust, expertise, and ease of working with us; emphasize responsiveness, quality, and results; avoid jargon and high-pressure sales language. Tone: professional, confident, warm, clear.\r\n\r\nAdd a blog with 5 starter SEO articles (with generated thumbnails) to build authority and organic traffic, full SEO + GEO (metadata, JSON-LD LocalBusiness, sitemap.xml, robots.txt, llms.txt), and ensure WCAG AA accessibility and Lighthouse > 95.\r\n\r\nRequirements (each must get a mission and acceptance criteria):\r\n1. High-converting homepage lead funnel with hero CTA, social proof, services summary, and a final CTA band â€” must have at least 3 conversion entry points.\r\n2. Dedicated conversion-optimized Contact/Get-a-Quote page with a simple, stylish, accessible shadcn/ui form (react-hook-form + zod), inline validation, success state, and Resend delivery â€” acceptance: a visitor can submit in under 60 seconds with only essential fields.\r\n3. Reusable shadcn/ui form component library (ContactForm, LeadForm, NewsletterForm, MultiStepQuoteForm) shared across the site.\r\n4. Lead persistence + admin: every form submission stored in Postgres with source/UTM, viewable in a protected leads dashboard.\r\n5. Sticky mobile CTA + header CTA on every page.\r\n6. Trust-building content blocks: testimonials, certifications, case studies/project gallery, FAQ with schema.\r\n7. Services pages with per-service CTAs feeding the lead funnel.\r\n8. About/Team page building credibility.\r\n9. Blog with 5 generated articles + thumbnails, category/tag pages, and per-article CTAs.\r\n10. Full SEO + GEO + analytics funnel instrumentation.\r\n11. Mobile-first responsive design at every breakpoint, WCAG AA, Lighthouse > 95.\r\n12. Loading, empty, error, and success states on every dynamic surface.",
+  "target_url": "https://www.redsrrc.com/",
+  "build_mode": "modern_rebuild",
+  "design": {
+    "summary": "Complete modernization into a fast, premium, trust-building, mobile-first professional site. Preserve the company's name, offerings, and market positioning while rebuilding the experience with a current layout system, clear conversion paths, modern UI components, and fresh visual identity assets.",
+    "color_policy": "complementary",
+    "color_notes": "Use a fresh complementary palette that feels current, premium, professional, and trust-building. Do not reuse the old site's dated color treatment.",
+    "tone_keywords": [
+      "professional",
+      "confident",
+      "warm",
+      "clear",
+      "trustworthy",
+      "premium",
+      "approachable"
+    ],
+    "responsive": true
+  },
+  "asset_policy": "regenerate",
+  "rebrand": null,
+  "commerce": null,
+  "lead_capture": {
+    "enabled": true,
+    "email_provider": "resend",
+    "newsletter": true,
+    "forms": true,
+    "notes": null
+  },
+  "blog": {
+    "enabled": true,
+    "article_count": 5,
+    "generate_images": true,
+    "thumbnails": true,
+    "seo": true,
+    "geo": true,
+    "topics": [
+      "industry authority articles based on the company's services",
+      "customer education topics",
+      "service benefits and decision guides",
+      "project or case-study style content",
+      "local/service-area search topics"
+    ]
+  },
+  "analytics": {
+    "enabled": true,
+    "provider": "self-hosted",
+    "track_pageviews": true,
+    "track_traffic": true,
+    "track_users": true,
+    "track_logins": true,
+    "track_signups": true,
+    "notes": "parsed by AI"
+  },
+  "seo": true,
+  "geo": true,
+  "positioning": {
+    "angle": "A trusted, expert, easy-to-work-with company that delivers responsive service, quality work, and reliable results.",
+    "audience": "Prospective customers evaluating the company's services and looking for a credible, responsive provider they can contact easily.",
+    "emphasize": [
+      "trust",
+      "expertise",
+      "ease of working with the company",
+      "responsiveness",
+      "quality",
+      "results",
+      "clear next steps",
+      "social proof",
+      "certifications",
+      "case studies and project examples",
+      "accessible contact options"
+    ],
+    "avoid": [
+      "jargon-heavy messaging",
+      "high-pressure sales language",
+      "dated visuals",
+      "overwhelming long forms",
+      "reusing old imagery"
+    ],
+    "tone": [
+      "professional",
+      "confident",
+      "warm",
+      "clear"
+    ],
+    "notes": "Primary conversion goal is to turn visitors into qualified leads. Every major page should guide visitors toward low-friction contact or quote requests."
+  },
+  "goals": [
+    "Increase qualified lead generation from website visitors.",
+    "Create a complete high-converting lead funnel across the homepage, service pages, blog, and contact page.",
+    "Make it possible for a visitor to submit a quote/contact request in under 60 seconds using only essential fields.",
+    "Build authority and organic traffic with 5 starter SEO articles.",
+    "Achieve WCAG AA accessibility and Lighthouse scores above 95.",
+    "Instrument the full funnel from pageview through thank-you confirmation."
+  ],
+  "requirements": [
+    {
+      "name": "Modern rebuild using Next.js, Tailwind, and shadcn/ui",
+      "description": "Use Next.js, Tailwind CSS, and shadcn/ui as the core frontend stack, with a current component-driven architecture and premium professional UI.",
+      "category": "feature",
+      "priority": "must",
+      "acceptance": [
+        "Site is implemented with Next.js, Tailwind CSS, and shadcn/ui components.",
+        "Pages load quickly and support mobile-first responsive layouts.",
+        "The rebuilt site does not reuse the dated visual presentation of the reference site."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Preserve company identity, offerings, and market positioning",
+      "description": "Keep the company's existing name, service offerings, and market positioning while refreshing the presentation, UX, visual identity, and conversion flow.",
+      "category": "content",
+      "priority": "must",
+      "acceptance": [
+        "Company name remains unchanged.",
+        "Core service offerings from the existing business are represented.",
+        "Messaging continues to position the company around trust, expertise, responsiveness, quality, and results."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Fresh regenerated brand assets",
+      "description": "Generate brand-new assets including a logo refresh, hero imagery, icons, and typography. Do not reuse old site imagery or dated typography.",
+      "category": "design",
+      "priority": "must",
+      "acceptance": [
+        "New logo refresh, hero imagery, icon style, and typography system are provided.",
+        "No dated imagery from the old site is reused.",
+        "Assets feel consistent with the new premium professional design direction."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "High-converting homepage lead funnel",
+      "description": "Create a homepage with a clear above-the-fold value proposition, hero CTA, social proof, services summary, trust-building content, and final CTA band.",
+      "category": "page",
+      "priority": "must",
+      "acceptance": [
+        "Homepage includes a clear value proposition and primary CTA above the fold.",
+        "Homepage contains social proof, services summary, and a final CTA band.",
+        "Homepage has at least 3 conversion entry points."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Dedicated Contact / Get a Quote landing page",
+      "description": "Build a dedicated Contact/Get-a-Quote page optimized for form completion with a simple, stylish, accessible shadcn/ui form using react-hook-form and zod.",
+      "category": "page",
+      "priority": "must",
+      "acceptance": [
+        "A visitor can submit the form in under 60 seconds using only essential fields.",
+        "Form includes accessible labels, inline validation, success state, and error state.",
+        "Submission is delivered via Resend."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Reusable shadcn/ui form component library",
+      "description": "Build reusable shadcn/ui form components including ContactForm, LeadForm, NewsletterForm, and MultiStepQuoteForm.",
+      "category": "feature",
+      "priority": "must",
+      "acceptance": [
+        "ContactForm, LeadForm, NewsletterForm, and MultiStepQuoteForm components exist.",
+        "Components use shadcn/ui form elements and shared validation patterns.",
+        "Forms can be reused across homepage, service pages, blog posts, footer, and contact page."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Progressive disclosure forms",
+      "description": "Forms should ask only what is needed, avoid overwhelming visitors, and use progressive disclosure for longer inquiries.",
+      "category": "feature",
+      "priority": "must",
+      "acceptance": [
+        "Short forms request only essential information.",
+        "Longer inquiries are handled through progressive disclosure or multi-step flow.",
+        "Users are not presented with an overwhelming long form on first interaction."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Multi-step quote form with progress indicator",
+      "description": "Provide a multi-step form option for longer inquiries with visible progress and an autosave feel.",
+      "category": "feature",
+      "priority": "should",
+      "acceptance": [
+        "Multi-step quote form includes a progress indicator.",
+        "Users can move through the form in manageable steps.",
+        "The experience gives an autosave feel through preserved entered data during the session."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Lead persistence with source and attribution",
+      "description": "Persist every form submission to Postgres with timestamp, source page, and UTM/campaign attribution.",
+      "category": "integration",
+      "priority": "must",
+      "acceptance": [
+        "Every form submission is stored in Postgres.",
+        "Stored records include timestamp, source page, and UTM/campaign fields.",
+        "Submissions remain available after email delivery."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Protected leads dashboard",
+      "description": "Create a protected admin leads dashboard showing form submissions and attribution details.",
+      "category": "feature",
+      "priority": "must",
+      "acceptance": [
+        "Leads dashboard requires protected access.",
+        "Dashboard lists submitted leads with timestamp, form source, and UTM/campaign data.",
+        "Dashboard provides enough detail for follow-up and lead qualification."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Resend email delivery",
+      "description": "Integrate Resend for lead-capture and contact-form email delivery.",
+      "category": "integration",
+      "priority": "must",
+      "acceptance": [
+        "Contact and quote submissions trigger Resend email notifications.",
+        "Email delivery does not replace database persistence.",
+        "Success and failure states are handled in the UI."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Newsletter signup in footer",
+      "description": "Add a newsletter signup form in the site footer using reusable shadcn/ui form components.",
+      "category": "feature",
+      "priority": "must",
+      "acceptance": [
+        "Footer includes a newsletter signup form.",
+        "Newsletter form includes accessible labels and validation.",
+        "Submission displays clear success or error feedback."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Header CTA on every page",
+      "description": "Add a prominent header CTA across all pages that directs visitors into the lead funnel.",
+      "category": "design",
+      "priority": "must",
+      "acceptance": [
+        "Every page includes a header CTA.",
+        "CTA links to the Contact/Get-a-Quote flow.",
+        "CTA is visually clear without feeling high-pressure."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Sticky mobile CTA",
+      "description": "Add a sticky mobile CTA across the site for quick quote/contact access.",
+      "category": "design",
+      "priority": "must",
+      "acceptance": [
+        "Mobile view includes a sticky CTA.",
+        "Sticky CTA appears on every major page.",
+        "CTA remains accessible without obstructing important content."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "In-content CTAs and footer conversion paths",
+      "description": "Place relevant CTAs inside page content and in the footer to guide visitors into the quote/contact funnel.",
+      "category": "content",
+      "priority": "must",
+      "acceptance": [
+        "Key content sections include contextual CTAs.",
+        "Footer includes contact and/or quote CTA options.",
+        "CTA language is clear, warm, and conversion-focused."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Trust-building content blocks",
+      "description": "Add testimonials, certifications, case studies/project gallery, clear contact info, and FAQ throughout the site.",
+      "category": "content",
+      "priority": "must",
+      "acceptance": [
+        "Site includes testimonials, certifications, case studies or project gallery, clear contact info, and FAQ.",
+        "Trust blocks appear on relevant conversion pages.",
+        "Trust content supports credibility without excessive jargon."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "FAQ with schema",
+      "description": "Create FAQ content and implement structured data schema where appropriate.",
+      "category": "content",
+      "priority": "must",
+      "acceptance": [
+        "FAQ section exists on relevant pages.",
+        "FAQ answers are clear and customer-friendly.",
+        "FAQ schema is implemented where applicable."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Services pages with per-service CTAs",
+      "description": "Create or modernize services pages with clear service summaries, benefits, trust signals, and CTAs feeding into the lead funnel.",
+      "category": "page",
+      "priority": "must",
+      "acceptance": [
+        "Each service page includes a service-specific CTA.",
+        "Service content clearly explains offering value and next steps.",
+        "CTAs feed into the Contact/Get-a-Quote flow."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "About / Team credibility page",
+      "description": "Add an About/Team page focused on credibility, experience, values, and ease of working with the company.",
+      "category": "page",
+      "priority": "must",
+      "acceptance": [
+        "About/Team page exists.",
+        "Page communicates credibility, expertise, and trust.",
+        "Page includes a clear CTA into the lead funnel."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Project gallery and case studies",
+      "description": "Create a project gallery and/or case-study content blocks that support lead conversion.",
+      "category": "content",
+      "priority": "must",
+      "acceptance": [
+        "Project gallery or case-study section exists.",
+        "Entries include visuals and concise outcome-oriented descriptions.",
+        "Gallery/case-study content includes CTAs where appropriate."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Blog with 5 starter SEO articles",
+      "description": "Add a blog with 5 generated starter SEO articles, generated thumbnails, category/tag pages, and per-article CTAs.",
+      "category": "page",
+      "priority": "must",
+      "acceptance": [
+        "Blog contains 5 starter SEO articles with generated thumbnails.",
+        "Blog includes category and tag pages.",
+        "Each article includes a relevant CTA into the lead funnel."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Full SEO implementation",
+      "description": "Implement metadata, sitemap.xml, robots.txt, structured data, and SEO-friendly page architecture.",
+      "category": "ops",
+      "priority": "must",
+      "acceptance": [
+        "Core pages include optimized metadata.",
+        "sitemap.xml and robots.txt are generated.",
+        "Structured data is included where appropriate."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "GEO and AI-search readiness",
+      "description": "Implement GEO elements including JSON-LD LocalBusiness, llms.txt, and structured business/service information.",
+      "category": "ops",
+      "priority": "must",
+      "acceptance": [
+        "JSON-LD LocalBusiness schema is implemented.",
+        "llms.txt is provided.",
+        "Business/service information is structured clearly for AI and search systems."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Analytics funnel instrumentation",
+      "description": "Analytics must always be enabled and instrument pageview, CTA click, form start, form submit, thank-you, traffic sources, users, logins, and signups.",
+      "category": "integration",
+      "priority": "must",
+      "acceptance": [
+        "Analytics tracks pageview, CTA click, form start, form submit, and thank-you events.",
+        "Traffic sources and campaign attribution are captured.",
+        "User, login, and signup events are instrumented where applicable."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Thank-you state or page",
+      "description": "Provide a clear thank-you experience after successful contact, quote, or lead-form submission.",
+      "category": "feature",
+      "priority": "must",
+      "acceptance": [
+        "Successful submissions show a thank-you state or page.",
+        "Thank-you event is tracked in analytics.",
+        "The user receives clear next-step expectations."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Mobile-first responsive design",
+      "description": "Design and build every page and component mobile-first with responsive behavior at all breakpoints.",
+      "category": "design",
+      "priority": "must",
+      "acceptance": [
+        "All pages are usable on mobile, tablet, and desktop.",
+        "Forms and CTAs are optimized for mobile interaction.",
+        "Layouts adapt cleanly without overflow or broken spacing."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "WCAG AA accessibility",
+      "description": "Meet WCAG AA accessibility expectations across navigation, forms, colors, focus states, labels, and dynamic states.",
+      "category": "ops",
+      "priority": "must",
+      "acceptance": [
+        "Forms include accessible labels and error messages.",
+        "Color contrast meets WCAG AA.",
+        "Keyboard and focus behavior are handled for interactive components."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Lighthouse performance above 95",
+      "description": "Optimize performance, accessibility, SEO, and best practices with Lighthouse targets above 95.",
+      "category": "ops",
+      "priority": "must",
+      "acceptance": [
+        "Lighthouse scores target above 95.",
+        "Images and assets are optimized.",
+        "Core pages are fast-loading and stable."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Dynamic surface states",
+      "description": "Include loading, empty, error, and success states on every dynamic surface, including forms, dashboards, blog data, and lead views.",
+      "category": "feature",
+      "priority": "must",
+      "acceptance": [
+        "Dynamic surfaces include loading states.",
+        "Empty and error states are designed and user-friendly.",
+        "Successful actions show clear success feedback."
+      ],
+      "covered_by": null
+    },
+    {
+      "name": "Clear contact information",
+      "description": "Display clear contact information throughout the site, especially in the header/footer, contact page, and trust sections.",
+      "category": "content",
+      "priority": "must",
+      "acceptance": [
+        "Contact information is easy to find.",
+        "Contact details appear on the Contact/Get-a-Quote page and footer.",
+        "Contact presentation supports trust and conversion."
+      ],
+      "covered_by": null
+    }
+  ],
+  "extra_features": [
+    "Next.js implementation",
+    "Tailwind CSS styling",
+    "shadcn/ui component system",
+    "react-hook-form forms",
+    "zod validation",
+    "Resend email integration",
+    "Postgres lead persistence",
+    "protected leads dashboard",
+    "UTM and campaign attribution",
+    "full funnel analytics",
+    "JSON-LD LocalBusiness schema",
+    "sitemap.xml",
+    "robots.txt",
+    "llms.txt",
+    "FAQ schema",
+    "category and tag pages",
+    "generated blog thumbnails",
+    "WCAG AA accessibility",
+    "Lighthouse > 95 target"
+  ],
+  "notes": "Analytics must always remain enabled. This is a complete modernization, not a clone. Use the captured site to understand the business, offerings, and overall structure, but refresh the layout, assets, UI, and conversion architecture for a premium modern lead-generation experience.",
+  "parsed_by": "ai",
+  "confidence": 0.85
+}

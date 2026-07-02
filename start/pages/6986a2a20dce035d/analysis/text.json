@@ -1,0 +1,364 @@
+{
+  "extractor_name": "text",
+  "data": {
+    "blocks": [
+      {
+        "text": "Red's Residential & Restaurant Construction",
+        "tag": "h1",
+        "selector": "h1",
+        "role": "headline",
+        "importance": 1.0,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#h1"
+      },
+      {
+        "text": "\"It is our pleasure to build for you\"",
+        "tag": "h2",
+        "selector": "h2",
+        "role": "subhead",
+        "importance": 0.837,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#h2"
+      },
+      {
+        "text": "OUR CLIENTS",
+        "tag": "h2",
+        "selector": "h2",
+        "role": "subhead",
+        "importance": 0.811,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#h2"
+      },
+      {
+        "text": "More love",
+        "tag": "h2",
+        "selector": "h2",
+        "role": "subhead",
+        "importance": 0.809,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#h2"
+      },
+      {
+        "text": "Licensed General Contractor #1112399",
+        "tag": "h3",
+        "selector": "h3",
+        "role": "subhead",
+        "importance": 0.836,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#h3"
+      },
+      {
+        "text": "We are mindful of how we treat our clients, their families, their belongings and their pets. We strive to ensure our work is creating a positive legacy for our community.",
+        "tag": "p",
+        "selector": "p",
+        "role": "body",
+        "importance": 0.67,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#p"
+      },
+      {
+        "text": "Barbra & Michael, Bodega Bay",
+        "tag": "p",
+        "selector": "p",
+        "role": "body",
+        "importance": 0.528,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#p"
+      },
+      {
+        "text": "\"We worked with Devin (the Owner) directly. He gave us a schedule and budget and he and his team stuck to it. Daily and weekly recaps kept us in the loop. By far the best communicator we've worked with.\"",
+        "tag": "p",
+        "selector": "p",
+        "role": "body",
+        "importance": 0.7,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#p"
+      },
+      {
+        "text": "Here are some of the new and dear friends we've made on our projects.",
+        "tag": "p",
+        "selector": "p",
+        "role": "body",
+        "importance": 0.569,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#p"
+      },
+      {
+        "text": "707-634-3264",
+        "tag": "p",
+        "selector": "p",
+        "role": "footer",
+        "importance": 0.412,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#p"
+      },
+      {
+        "text": "info@redsrrc.com",
+        "tag": "p",
+        "selector": "p",
+        "role": "footer",
+        "importance": 0.416,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#p"
+      },
+      {
+        "text": "Home",
+        "tag": "li",
+        "selector": "li",
+        "role": "nav_label",
+        "importance": 0.404,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#li"
+      },
+      {
+        "text": "Red's Service Divsion",
+        "tag": "li",
+        "selector": "li",
+        "role": "nav_label",
+        "importance": 0.421,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#li"
+      },
+      {
+        "text": "Our Story",
+        "tag": "li",
+        "selector": "li",
+        "role": "nav_label",
+        "importance": 0.409,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#li"
+      },
+      {
+        "text": "Our Clients",
+        "tag": "li",
+        "selector": "li",
+        "role": "nav_label",
+        "importance": 0.411,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#li"
+      },
+      {
+        "text": "GET IN TOUCH",
+        "tag": "a",
+        "selector": "a",
+        "role": "body",
+        "importance": 0.512,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a"
+      },
+      {
+        "text": "Home",
+        "tag": "a",
+        "selector": "a",
+        "role": "nav_label",
+        "importance": 0.404,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a"
+      },
+      {
+        "text": "Red's Service Divsion",
+        "tag": "a",
+        "selector": "a",
+        "role": "nav_label",
+        "importance": 0.421,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a"
+      },
+      {
+        "text": "Our Story",
+        "tag": "a",
+        "selector": "a",
+        "role": "nav_label",
+        "importance": 0.409,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a"
+      },
+      {
+        "text": "Our Clients",
+        "tag": "a",
+        "selector": "a",
+        "role": "nav_label",
+        "importance": 0.411,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a"
+      },
+      {
+        "text": "info@redsrrc.com",
+        "tag": "a",
+        "selector": "a",
+        "role": "footer",
+        "importance": 0.416,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#a"
+      },
+      {
+        "text": "top of page",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.511,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#span"
+      },
+      {
+        "text": "Red's Residential & Restaurant Construction",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.543,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#span"
+      },
+      {
+        "text": "OUR CLIENTS",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.511,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#span"
+      },
+      {
+        "text": "GET IN TOUCH",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.512,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#span"
+      },
+      {
+        "text": "Barbra & Michael, Bodega Bay",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.528,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#span"
+      },
+      {
+        "text": "\"We worked with Devin (the Owner) directly. He gave us a schedule and budget and he and his team stuck to it. Daily and weekly recaps kept us in the loop. By far the best communicator we've worked with.\"",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.7,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#span"
+      },
+      {
+        "text": "More love",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.509,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#span"
+      },
+      {
+        "text": "Home",
+        "tag": "span",
+        "selector": "span",
+        "role": "nav_label",
+        "importance": 0.404,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#span"
+      },
+      {
+        "text": "Red's Service Divsion",
+        "tag": "span",
+        "selector": "span",
+        "role": "nav_label",
+        "importance": 0.421,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#span"
+      },
+      {
+        "text": "Our Story",
+        "tag": "span",
+        "selector": "span",
+        "role": "nav_label",
+        "importance": 0.409,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#span"
+      },
+      {
+        "text": "Our Clients",
+        "tag": "span",
+        "selector": "span",
+        "role": "nav_label",
+        "importance": 0.411,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#span"
+      },
+      {
+        "text": "707-634-3264",
+        "tag": "span",
+        "selector": "span",
+        "role": "footer",
+        "importance": 0.412,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#span"
+      },
+      {
+        "text": "info@redsrrc.com",
+        "tag": "span",
+        "selector": "span",
+        "role": "footer",
+        "importance": 0.416,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#span"
+      },
+      {
+        "text": "bottom of page",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.514,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/6986a2a20dce035d/rendered-dom.html#span"
+      }
+    ],
+    "block_count": 35,
+    "word_count": 122
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/6986a2a20dce035d/rendered-dom.html"
+  ]
+}

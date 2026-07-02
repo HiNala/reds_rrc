@@ -1,0 +1,53 @@
+{
+  "subject_type": "asset",
+  "subject_id": "asset-d74d9c72678c",
+  "summary": "A black-and-white dog standing on a large tree branch in a sunny yard with a table and chairs nearby.",
+  "classification": "stock",
+  "tags": [],
+  "confidence": 0.97,
+  "claims": [
+    {
+      "key": "alt_text",
+      "value": "A black-and-white dog standing on a large tree branch in a sunny yard with a table and chairs nearby.",
+      "confidence": 0.97,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_7f2ee4c5460749928a8d7327ba9f7471~mv2.jpg/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_7f2ee4c5460749928a8d7327ba9f7471~mv2.jpg"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "content_type",
+      "value": "stock",
+      "confidence": 0.97,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_7f2ee4c5460749928a8d7327ba9f7471~mv2.jpg/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_7f2ee4c5460749928a8d7327ba9f7471~mv2.jpg"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "quality_opinion",
+      "value": "Good casual outdoor photo with a clear subject, though it is slightly busy and not highly polished.",
+      "confidence": 0.97,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_7f2ee4c5460749928a8d7327ba9f7471~mv2.jpg/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_7f2ee4c5460749928a8d7327ba9f7471~mv2.jpg"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "recommended_use",
+      "value": "Blog post, social media, or general illustrative use for outdoor/pet-related content.",
+      "confidence": 0.97,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_7f2ee4c5460749928a8d7327ba9f7471~mv2.jpg/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_7f2ee4c5460749928a8d7327ba9f7471~mv2.jpg"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://static.wixstatic.com/media/938e72_7f2ee4c5460749928a8d7327ba9f7471~mv2.jpg/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_7f2ee4c5460749928a8d7327ba9f7471~mv2.jpg"
+  ],
+  "metadata": {}
+}

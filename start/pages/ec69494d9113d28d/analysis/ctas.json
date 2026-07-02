@@ -1,0 +1,33 @@
+{
+  "extractor_name": "ctas",
+  "data": {
+    "ctas": [
+      {
+        "text": "GET IN TOUCH",
+        "href": null,
+        "cta_type": "button",
+        "variant": "button",
+        "selector": "a",
+        "is_button": true,
+        "analytics_event": "cta_click",
+        "source_reference": "pages/ec69494d9113d28d/rendered-dom.html#a"
+      },
+      {
+        "text": "info@redsrrc.com",
+        "href": "mailto:info@redsrrc.com",
+        "cta_type": "email",
+        "variant": "email",
+        "selector": "a",
+        "is_button": false,
+        "analytics_event": "email_click",
+        "source_reference": "pages/ec69494d9113d28d/rendered-dom.html#a"
+      }
+    ],
+    "count": 2
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/ec69494d9113d28d/rendered-dom.html"
+  ]
+}

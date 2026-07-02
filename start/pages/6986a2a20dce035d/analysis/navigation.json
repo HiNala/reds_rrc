@@ -1,0 +1,39 @@
+{
+  "extractor_name": "navigation",
+  "data": {
+    "logo": "https://static.wixstatic.com/media/938e72_d4441407002248f886835d5c36934e14~mv2.png/v1/fill/w_92,h_83,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/938e72_d4441407002248f886835d5c36934e14~mv2.png",
+    "primary": [],
+    "primary_count": 0,
+    "footer": {
+      "text": "HomeRed's Service DivsionOur StoryOur ClientsLicensed General Contractor #1112399#comp-ln61m80j svg [data-color=\"1\"] {fill: #E71D1D;}707-634-3264info@redsrrc.com",
+      "social": [],
+      "links": [
+        {
+          "label": "Home",
+          "href": "https://www.redsrrc.com"
+        },
+        {
+          "label": "Red's Service Divsion",
+          "href": "https://www.redsrrc.com/services-5"
+        },
+        {
+          "label": "Our Story",
+          "href": "https://www.redsrrc.com/story"
+        },
+        {
+          "label": "Our Clients",
+          "href": "https://www.redsrrc.com/clients"
+        },
+        {
+          "label": "info@redsrrc.com",
+          "href": "mailto:info@redsrrc.com"
+        }
+      ]
+    }
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/6986a2a20dce035d/rendered-dom.html"
+  ]
+}

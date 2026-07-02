@@ -1,0 +1,43 @@
+{
+  "extractor_name": "ctas",
+  "data": {
+    "ctas": [
+      {
+        "text": "Send",
+        "href": null,
+        "cta_type": "button",
+        "variant": "button",
+        "selector": "button",
+        "is_button": true,
+        "analytics_event": "cta_click",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#button"
+      },
+      {
+        "text": "Info@RedsRRC.com",
+        "href": "mailto:Info@RedsRRC.com",
+        "cta_type": "email",
+        "variant": "email",
+        "selector": "a",
+        "is_button": false,
+        "analytics_event": "email_click",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#a"
+      },
+      {
+        "text": "info@redsrrc.com",
+        "href": "mailto:info@redsrrc.com",
+        "cta_type": "email",
+        "variant": "email",
+        "selector": "a",
+        "is_button": false,
+        "analytics_event": "email_click",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#a"
+      }
+    ],
+    "count": 3
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/3d4bed22e1184b72/rendered-dom.html"
+  ]
+}

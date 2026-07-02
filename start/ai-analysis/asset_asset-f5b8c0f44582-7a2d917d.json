@@ -1,0 +1,53 @@
+{
+  "subject_type": "asset",
+  "subject_id": "asset-f5b8c0f44582",
+  "summary": "Outdoor patio with two gray-and-white Adirondack chairs and a small round table overlooking trees and houses on a sunny day.",
+  "classification": "stock",
+  "tags": [],
+  "confidence": 0.96,
+  "claims": [
+    {
+      "key": "alt_text",
+      "value": "Outdoor patio with two gray-and-white Adirondack chairs and a small round table overlooking trees and houses on a sunny day.",
+      "confidence": 0.96,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_13043050dec744738861779a6ab1f8aa~mv2.png/v1/fill/w_1280,h_729,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/938e72_13043050dec744738861779a6ab1f8aa~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "content_type",
+      "value": "stock",
+      "confidence": 0.96,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_13043050dec744738861779a6ab1f8aa~mv2.png/v1/fill/w_1280,h_729,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/938e72_13043050dec744738861779a6ab1f8aa~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "quality_opinion",
+      "value": "Bright, sharp, and well-composed lifestyle image with appealing natural light and a pleasant outdoor setting.",
+      "confidence": 0.96,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_13043050dec744738861779a6ab1f8aa~mv2.png/v1/fill/w_1280,h_729,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/938e72_13043050dec744738861779a6ab1f8aa~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "recommended_use",
+      "value": "Suitable for travel, hospitality, outdoor living, or real-estate marketing materials.",
+      "confidence": 0.96,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_13043050dec744738861779a6ab1f8aa~mv2.png/v1/fill/w_1280,h_729,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/938e72_13043050dec744738861779a6ab1f8aa~mv2.png"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://static.wixstatic.com/media/938e72_13043050dec744738861779a6ab1f8aa~mv2.png/v1/fill/w_1280,h_729,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/938e72_13043050dec744738861779a6ab1f8aa~mv2.png"
+  ],
+  "metadata": {}
+}

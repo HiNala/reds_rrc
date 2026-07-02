@@ -1,0 +1,1476 @@
+{
+  "3d4bed22e1184b72": {
+    "url": "https://www.redsrrc.com/home-1",
+    "copy_blocks": [
+      {
+        "role": "headline",
+        "text": "Red's Residential & Restaurant Construction",
+        "selector": "h1"
+      },
+      {
+        "role": "headline",
+        "text": "Do you have a project in mind? Call, Text, or Message us for free in person bid.",
+        "selector": "h1"
+      },
+      {
+        "role": "subhead",
+        "text": "\"It is our pleasure to build for you\"",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "Testimonials",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "Blake Young",
+        "selector": "h3"
+      },
+      {
+        "role": "subhead",
+        "text": "Casey Johnson",
+        "selector": "h3"
+      },
+      {
+        "role": "subhead",
+        "text": "Robbie White",
+        "selector": "h3"
+      },
+      {
+        "role": "subhead",
+        "text": "Licensed General Contractor #1112399",
+        "selector": "h3"
+      },
+      {
+        "role": "body",
+        "text": "707-909-4686",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "Info@RedsRRC.com",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "Thanks for submitting!",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "A Contractor that's also a human being",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "Other companies quoted us FOUR TIMES what Red's RRC did. This is the first contractor we met with that offered references and a schedule with the bid that showed they could get the job done on time and budget. They are pet friendly, and worked with our high maintenance neighbor to keep everyone happy. Also Safety was a huge concern with our 2 year old, Red and his crew where on top of it everyday with cleanliness, communications, and barriers to keep kiddo out. The three outstanding qualities of Red\u2019s is as follows: 1) Organization. The team was on top of communications every single day. I never had to guess or wonder what the status of the project was. 2) Trustworthy. We have many pieces of art and other valuables in our home. I never for a moment questioned the team\u2019s integrity. They are good and trusting people. 3) Accommodating. I have a two year old who needed to nap at home in the middle of the work day every day. The team was absolutely accommodating to this, and never pushed back once on pausing work during nap time.Overall, I would recommend Red\u2019s RRC to anyone looking for stellar and trustworthy work!",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "We Worked with Devin (the Owner) directly. He gave us a schedule and budget and he and his team stuck to it. Daily and weekly recaps kept us in the loop. By far the best communicator we've worked with",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "Everyone on this crew was kind and liked my dogs. They cleaned up everyday and kept my property clean and neighbors happy. I have recommended to friends and family",
+        "selector": "p"
+      },
+      {
+        "role": "footer",
+        "text": "707-634-3264",
+        "selector": "p"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "p"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "li"
+      },
+      {
+        "role": "cta",
+        "text": "Send",
+        "selector": "button"
+      },
+      {
+        "role": "body",
+        "text": "Info@RedsRRC.com",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "a"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "a"
+      },
+      {
+        "role": "form_label",
+        "text": "Name",
+        "selector": "label"
+      },
+      {
+        "role": "form_label",
+        "text": "Email",
+        "selector": "label"
+      },
+      {
+        "role": "form_label",
+        "text": "Message",
+        "selector": "label"
+      },
+      {
+        "role": "body",
+        "text": "top of page",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Red's Residential & Restaurant Construction",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Do you have a project in mind? Call, Text, or Message us for free in person bid.",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "707-909-4686",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Info@RedsRRC.com",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Send",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Thanks for submitting!",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Testimonials",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "A Contractor that's also a human being",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Blake Young",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "We Worked with Devin (the Owner) directly. He gave us a schedule and budget and he and his team stuck to it. Daily and weekly recaps kept us in the loop. By far the best communicator we've worked with",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Casey Johnson",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Everyone on this crew was kind and liked my dogs. They cleaned up everyday and kept my property clean and neighbors happy. I have recommended to friends and family",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Robbie White",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "span"
+      },
+      {
+        "role": "footer",
+        "text": "707-634-3264",
+        "selector": "span"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "bottom of page",
+        "selector": "span"
+      }
+    ],
+    "block_count": 52,
+    "word_count": 336,
+    "status": "extracted"
+  },
+  "47769ccb9f9b1156": {
+    "url": "https://www.redsrrc.com/services",
+    "copy_blocks": [
+      {
+        "role": "headline",
+        "text": "Red's Residential & Restaurant Construction",
+        "selector": "h1"
+      },
+      {
+        "role": "headline",
+        "text": "Building Maintenance",
+        "selector": "h1"
+      },
+      {
+        "role": "subhead",
+        "text": "\"It is our pleasure to build for you\"",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "Construction Management",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "Construction Planning",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "Licensed General Contractor #1112399",
+        "selector": "h3"
+      },
+      {
+        "role": "body",
+        "text": "Customized to Your Preferences",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "Efficient. Reliable. Exceptional.",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "It\u2019s All in the Details",
+        "selector": "p"
+      },
+      {
+        "role": "footer",
+        "text": "707-634-3264",
+        "selector": "p"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "p"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "a"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "a"
+      },
+      {
+        "role": "body",
+        "text": "top of page",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Red's Residential & Restaurant Construction",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Building Maintenance",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Customized to Your Preferences",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Construction Management",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Efficient. Reliable. Exceptional.",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Construction Planning",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "It\u2019s All in the Details",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "span"
+      },
+      {
+        "role": "footer",
+        "text": "707-634-3264",
+        "selector": "span"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "bottom of page",
+        "selector": "span"
+      }
+    ],
+    "block_count": 35,
+    "word_count": 45,
+    "status": "extracted"
+  },
+  "6986a2a20dce035d": {
+    "url": "https://www.redsrrc.com/clients",
+    "copy_blocks": [
+      {
+        "role": "headline",
+        "text": "Red's Residential & Restaurant Construction",
+        "selector": "h1"
+      },
+      {
+        "role": "subhead",
+        "text": "\"It is our pleasure to build for you\"",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "OUR CLIENTS",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "More love",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "Licensed General Contractor #1112399",
+        "selector": "h3"
+      },
+      {
+        "role": "body",
+        "text": "We are mindful of how we treat our clients, their families, their belongings and their pets. We strive to ensure our work is creating a positive legacy for our community.",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "Barbra & Michael, Bodega Bay",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "\"We worked with Devin (the Owner) directly. He gave us a schedule and budget and he and his team stuck to it. Daily and weekly recaps kept us in the loop. By far the best communicator we've worked with.\"",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "Here are some of the new and dear friends we've made on our projects.",
+        "selector": "p"
+      },
+      {
+        "role": "footer",
+        "text": "707-634-3264",
+        "selector": "p"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "p"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "li"
+      },
+      {
+        "role": "body",
+        "text": "GET IN TOUCH",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "a"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "a"
+      },
+      {
+        "role": "body",
+        "text": "top of page",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Red's Residential & Restaurant Construction",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "OUR CLIENTS",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "GET IN TOUCH",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Barbra & Michael, Bodega Bay",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "\"We worked with Devin (the Owner) directly. He gave us a schedule and budget and he and his team stuck to it. Daily and weekly recaps kept us in the loop. By far the best communicator we've worked with.\"",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "More love",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "span"
+      },
+      {
+        "role": "footer",
+        "text": "707-634-3264",
+        "selector": "span"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "bottom of page",
+        "selector": "span"
+      }
+    ],
+    "block_count": 35,
+    "word_count": 122,
+    "status": "extracted"
+  },
+  "a50d937238dfdfff": {
+    "url": "https://www.redsrrc.com/service-page/client-callback",
+    "copy_blocks": [
+      {
+        "role": "headline",
+        "text": "Red's Residential & Restaurant Construction",
+        "selector": "h1"
+      },
+      {
+        "role": "headline",
+        "text": "Client Callback",
+        "selector": "h1"
+      },
+      {
+        "role": "subhead",
+        "text": "\"It is our pleasure to build for you\"",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "Contact Details",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "Licensed General Contractor #1112399",
+        "selector": "h3"
+      },
+      {
+        "role": "body",
+        "text": "We will call you back at this time.",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "Devin@Redsrrc.com",
+        "selector": "p"
+      },
+      {
+        "role": "footer",
+        "text": "707-634-3264",
+        "selector": "p"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "p"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Service list",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Client Callback",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "li"
+      },
+      {
+        "role": "cta",
+        "text": "Book Now",
+        "selector": "button"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Service list",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "a"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "a"
+      },
+      {
+        "role": "body",
+        "text": "top of page",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Red's Residential & Restaurant Construction",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Service list",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Client Callback",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "15 min15 min",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "15 min",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Book Now",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "span"
+      },
+      {
+        "role": "footer",
+        "text": "707-634-3264",
+        "selector": "span"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "bottom of page",
+        "selector": "span"
+      }
+    ],
+    "block_count": 36,
+    "word_count": 46,
+    "status": "extracted"
+  },
+  "b2f46b066843f600": {
+    "url": "https://www.redsrrc.com/services-5",
+    "copy_blocks": [
+      {
+        "role": "headline",
+        "text": "Red's Residential & Restaurant Construction",
+        "selector": "h1"
+      },
+      {
+        "role": "headline",
+        "text": "Red's Service Division",
+        "selector": "h1"
+      },
+      {
+        "role": "subhead",
+        "text": "\"It is our pleasure to build for you\"",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "Contact Us",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "Licensed General Contractor #1112399",
+        "selector": "h3"
+      },
+      {
+        "role": "body",
+        "text": "Drywall Repair",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "Framing & Trim",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "Service Name",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "A Problem for You, is a Job for Us!",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "Thanks for submitting!",
+        "selector": "p"
+      },
+      {
+        "role": "footer",
+        "text": "707-634-3264",
+        "selector": "p"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "p"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "li"
+      },
+      {
+        "role": "cta",
+        "text": "Send",
+        "selector": "button"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "a"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "a"
+      },
+      {
+        "role": "form_label",
+        "text": "First Name",
+        "selector": "label"
+      },
+      {
+        "role": "form_label",
+        "text": "Last Name",
+        "selector": "label"
+      },
+      {
+        "role": "form_label",
+        "text": "Email",
+        "selector": "label"
+      },
+      {
+        "role": "form_label",
+        "text": "Describe the Job",
+        "selector": "label"
+      },
+      {
+        "role": "body",
+        "text": "top of page",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Red's Residential & Restaurant Construction",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Red's Service Division",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Drywall Repair",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Framing & Trim",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Service Name",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Contact Us",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Send",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Thanks for submitting!",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "span"
+      },
+      {
+        "role": "footer",
+        "text": "707-634-3264",
+        "selector": "span"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "bottom of page",
+        "selector": "span"
+      }
+    ],
+    "block_count": 42,
+    "word_count": 59,
+    "status": "extracted"
+  },
+  "cc4a84e52c0f0d87": {
+    "url": "https://www.redsrrc.com/",
+    "copy_blocks": [
+      {
+        "role": "headline",
+        "text": "Red's Residential & Restaurant Construction",
+        "selector": "h1"
+      },
+      {
+        "role": "subhead",
+        "text": "\"It is our pleasure to build for you\"",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "UNIQUE BEAUTIFUL SPACES",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "OUR STORY",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "OUR CLIENTS",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "Licensed General Contractor #1112399",
+        "selector": "h3"
+      },
+      {
+        "role": "body",
+        "text": "Red's Construction has been delighting clients with building restaurants and homes in the California Bay Area since 2012. Our services include design, remodeling, general contracting and more. We'd love to hear from you.",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "Meet Devin Aloise, our founder.",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "and their pets share their love.",
+        "selector": "p"
+      },
+      {
+        "role": "footer",
+        "text": "707-634-3264",
+        "selector": "p"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "p"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "li"
+      },
+      {
+        "role": "body",
+        "text": "GET IN TOUCH",
+        "selector": "a"
+      },
+      {
+        "role": "body",
+        "text": "READ",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "a"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "a"
+      },
+      {
+        "role": "body",
+        "text": "top of page",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Red's Residential & Restaurant Construction",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "UNIQUE BEAUTIFUL SPACES",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "GET IN TOUCH",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "OUR STORY",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "READ",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "OUR CLIENTS",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "span"
+      },
+      {
+        "role": "footer",
+        "text": "707-634-3264",
+        "selector": "span"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "bottom of page",
+        "selector": "span"
+      }
+    ],
+    "block_count": 36,
+    "word_count": 84,
+    "status": "extracted"
+  },
+  "d55ee22b4a6a506c": {
+    "url": "https://redsrrc.com/book-online",
+    "copy_blocks": [
+      {
+        "role": "cta",
+        "text": "Go",
+        "selector": "button"
+      }
+    ],
+    "block_count": 1,
+    "word_count": 8,
+    "status": "extracted"
+  },
+  "ec69494d9113d28d": {
+    "url": "https://www.redsrrc.com/story",
+    "copy_blocks": [
+      {
+        "role": "headline",
+        "text": "Red's Residential & Restaurant Construction",
+        "selector": "h1"
+      },
+      {
+        "role": "subhead",
+        "text": "\"It is our pleasure to build for you\"",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "OUR STORY",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "OUR VALUES",
+        "selector": "h2"
+      },
+      {
+        "role": "subhead",
+        "text": "TRANSPARENCY",
+        "selector": "h3"
+      },
+      {
+        "role": "subhead",
+        "text": "EFFICIENCY",
+        "selector": "h3"
+      },
+      {
+        "role": "subhead",
+        "text": "COMMUNITY",
+        "selector": "h3"
+      },
+      {
+        "role": "subhead",
+        "text": "Licensed General Contractor #1112399",
+        "selector": "h3"
+      },
+      {
+        "role": "body",
+        "text": "Hi, I'm Devin Aloise and I'm the founder of Red's RRC. After a decade building and running restaurants in the Bay Area, I decided to focus more on design and construction. My team and I pride ourselves on transparency and communication as much as we do our craftsmanship, so please do not hesitate to reach out if you have any questions. It would be our pleasure to build for you. - Red",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "01",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "Your comfort and our transparency are top of mind with what we do. \u00a0We will not charge you for materials we do not use. If a change is needed that will cost you, you can trust us to communicate clearly and give you the best options BEFORE the change is made. Our Labor pricing will not increase without a signed change order",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "02",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "Our schedule governs all we do and it is taken very seriously. You can count on us to finish on time. We are mindful of your space, time and requirements and will work around creating a comfortable experience for you, your kids, and pets.",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "03",
+        "selector": "p"
+      },
+      {
+        "role": "body",
+        "text": "We are here to contribute to our community through our work and time. When we aren't busy making your dream spaces come to life we support Sonoma county food banks, coastal clean ups, the bees, and the nature conservancy.",
+        "selector": "p"
+      },
+      {
+        "role": "footer",
+        "text": "707-634-3264",
+        "selector": "p"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "p"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "li"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "li"
+      },
+      {
+        "role": "body",
+        "text": "GET IN TOUCH",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "a"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "a"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "a"
+      },
+      {
+        "role": "body",
+        "text": "top of page",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Red's Residential & Restaurant Construction",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "OUR STORY",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "GET IN TOUCH",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "01",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "02",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "EFFICIENCY",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "Our schedule governs all we do and it is taken very seriously. You can count on us to finish on time. We are mindful of your space, time and requirements and will work around creating a comfortable experience for you, your kids, and pets.",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "03",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "COMMUNITY",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "We are here to contribute to our community through our work and time. When we aren't busy making your dream spaces come to life we support Sonoma county food banks, coastal clean ups, the bees, and the nature conservancy.",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Home",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Red's Service Divsion",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Story",
+        "selector": "span"
+      },
+      {
+        "role": "nav_label",
+        "text": "Our Clients",
+        "selector": "span"
+      },
+      {
+        "role": "footer",
+        "text": "707-634-3264",
+        "selector": "span"
+      },
+      {
+        "role": "footer",
+        "text": "info@redsrrc.com",
+        "selector": "span"
+      },
+      {
+        "role": "body",
+        "text": "bottom of page",
+        "selector": "span"
+      }
+    ],
+    "block_count": 45,
+    "word_count": 257,
+    "status": "extracted"
+  }
+}

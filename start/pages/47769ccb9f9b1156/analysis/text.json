@@ -1,0 +1,366 @@
+{
+  "extractor_name": "text",
+  "data": {
+    "blocks": [
+      {
+        "text": "Red's Residential & Restaurant Construction",
+        "tag": "h1",
+        "selector": "h1",
+        "role": "headline",
+        "importance": 1.0,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#h1"
+      },
+      {
+        "text": "Building Maintenance",
+        "tag": "h1",
+        "selector": "h1",
+        "role": "headline",
+        "importance": 1.0,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#h1"
+      },
+      {
+        "text": "\"It is our pleasure to build for you\"",
+        "tag": "h2",
+        "selector": "h2",
+        "role": "subhead",
+        "importance": 0.837,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#h2"
+      },
+      {
+        "text": "Construction Management",
+        "tag": "h2",
+        "selector": "h2",
+        "role": "subhead",
+        "importance": 0.823,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#h2"
+      },
+      {
+        "text": "Construction Planning",
+        "tag": "h2",
+        "selector": "h2",
+        "role": "subhead",
+        "importance": 0.821,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#h2"
+      },
+      {
+        "text": "Licensed General Contractor #1112399",
+        "tag": "h3",
+        "selector": "h3",
+        "role": "subhead",
+        "importance": 0.836,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#h3"
+      },
+      {
+        "text": "Customized to Your Preferences",
+        "tag": "p",
+        "selector": "p",
+        "role": "body",
+        "importance": 0.53,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#p"
+      },
+      {
+        "text": "Efficient. Reliable. Exceptional.",
+        "tag": "p",
+        "selector": "p",
+        "role": "body",
+        "importance": 0.533,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#p"
+      },
+      {
+        "text": "It’s All in the Details",
+        "tag": "p",
+        "selector": "p",
+        "role": "body",
+        "importance": 0.523,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#p"
+      },
+      {
+        "text": "707-634-3264",
+        "tag": "p",
+        "selector": "p",
+        "role": "footer",
+        "importance": 0.412,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#p"
+      },
+      {
+        "text": "info@redsrrc.com",
+        "tag": "p",
+        "selector": "p",
+        "role": "footer",
+        "importance": 0.416,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#p"
+      },
+      {
+        "text": "Home",
+        "tag": "li",
+        "selector": "li",
+        "role": "nav_label",
+        "importance": 0.404,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#li"
+      },
+      {
+        "text": "Red's Service Divsion",
+        "tag": "li",
+        "selector": "li",
+        "role": "nav_label",
+        "importance": 0.421,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#li"
+      },
+      {
+        "text": "Our Story",
+        "tag": "li",
+        "selector": "li",
+        "role": "nav_label",
+        "importance": 0.409,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#li"
+      },
+      {
+        "text": "Our Clients",
+        "tag": "li",
+        "selector": "li",
+        "role": "nav_label",
+        "importance": 0.411,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#li"
+      },
+      {
+        "text": "Home",
+        "tag": "a",
+        "selector": "a",
+        "role": "nav_label",
+        "importance": 0.404,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#a"
+      },
+      {
+        "text": "Red's Service Divsion",
+        "tag": "a",
+        "selector": "a",
+        "role": "nav_label",
+        "importance": 0.421,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#a"
+      },
+      {
+        "text": "Our Story",
+        "tag": "a",
+        "selector": "a",
+        "role": "nav_label",
+        "importance": 0.409,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#a"
+      },
+      {
+        "text": "Our Clients",
+        "tag": "a",
+        "selector": "a",
+        "role": "nav_label",
+        "importance": 0.411,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#a"
+      },
+      {
+        "text": "info@redsrrc.com",
+        "tag": "a",
+        "selector": "a",
+        "role": "footer",
+        "importance": 0.416,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#a"
+      },
+      {
+        "text": "top of page",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.511,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      },
+      {
+        "text": "Red's Residential & Restaurant Construction",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.543,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      },
+      {
+        "text": "Building Maintenance",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.52,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      },
+      {
+        "text": "Customized to Your Preferences",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.53,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      },
+      {
+        "text": "Construction Management",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.523,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      },
+      {
+        "text": "Efficient. Reliable. Exceptional.",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.533,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      },
+      {
+        "text": "Construction Planning",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.521,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      },
+      {
+        "text": "It’s All in the Details",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.523,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      },
+      {
+        "text": "Home",
+        "tag": "span",
+        "selector": "span",
+        "role": "nav_label",
+        "importance": 0.404,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      },
+      {
+        "text": "Red's Service Divsion",
+        "tag": "span",
+        "selector": "span",
+        "role": "nav_label",
+        "importance": 0.421,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      },
+      {
+        "text": "Our Story",
+        "tag": "span",
+        "selector": "span",
+        "role": "nav_label",
+        "importance": 0.409,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      },
+      {
+        "text": "Our Clients",
+        "tag": "span",
+        "selector": "span",
+        "role": "nav_label",
+        "importance": 0.411,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      },
+      {
+        "text": "707-634-3264",
+        "tag": "span",
+        "selector": "span",
+        "role": "footer",
+        "importance": 0.412,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      },
+      {
+        "text": "info@redsrrc.com",
+        "tag": "span",
+        "selector": "span",
+        "role": "footer",
+        "importance": 0.416,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      },
+      {
+        "text": "bottom of page",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.514,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/47769ccb9f9b1156/rendered-dom.html#span"
+      }
+    ],
+    "block_count": 35,
+    "word_count": 45
+  },
+  "warnings": [
+    "thin content (<50 words)"
+  ],
+  "errors": [],
+  "source_references": [
+    "pages/47769ccb9f9b1156/rendered-dom.html"
+  ]
+}

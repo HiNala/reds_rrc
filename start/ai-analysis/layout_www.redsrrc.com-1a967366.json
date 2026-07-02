@@ -1,0 +1,211 @@
+{
+  "subject_type": "layout",
+  "subject_id": "https://www.redsrrc.com/",
+  "summary": "A simple, vertically stacked one-page business homepage with lots of white space, centered typography, and strong red accent buttons. The page feels like a straightforward small-agency/contractor site: logo and company name at top, a large hero image, an intro section with a single CTA, then two promotional tiles and a sparse footer with contact details.",
+  "classification": null,
+  "tags": [],
+  "confidence": 0.92,
+  "claims": [
+    {
+      "key": "color_impressions",
+      "value": "{'dominant_colors': ['white', 'light gray', 'red', 'dark gray/black', 'natural photo greens and blues'], 'overall_palette_feel': 'Clean, sparse, and contractor-professional with red used as the only strong brand accent against a mostly white canvas.'}",
+      "confidence": 0.92,
+      "source_references": [
+        "https://www.redsrrc.com/"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "typography_impressions",
+      "value": "{'heading_body_feel': 'Thin, modern, airy sans-serif headings with lighter weight body copy; overall typography is understated and elegant.', 'scale_weight': 'Large centered all-caps section heading, smaller subhead/body text, medium-sized button labels, and light-weight brand/title text.'}",
+      "confidence": 0.92,
+      "source_references": [
+        "https://www.redsrrc.com/"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "spacing_density",
+      "value": "airy",
+      "confidence": 0.92,
+      "source_references": [
+        "https://www.redsrrc.com/"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://www.redsrrc.com/"
+  ],
+  "metadata": {
+    "layout": {
+      "summary": "A simple, vertically stacked one-page business homepage with lots of white space, centered typography, and strong red accent buttons. The page feels like a straightforward small-agency/contractor site: logo and company name at top, a large hero image, an intro section with a single CTA, then two promotional tiles and a sparse footer with contact details.",
+      "sections": [
+        {
+          "name": "Top brand header",
+          "role": "header/nav",
+          "description": "At the very top on a white background, a red stylized 'R' logo sits aligned left. Centered across the top is the company name in a thin gray font, with the tagline below it in quotes. There is no visible multi-link navigation in the header area on this mobile screenshot.",
+          "components": [
+            "brand logo",
+            "site title",
+            "tagline"
+          ],
+          "copy_gist": "Red's Residential & Restaurant Construction; 'It is our pleasure to build for you'"
+        },
+        {
+          "name": "Primary hero image",
+          "role": "hero",
+          "description": "A large full-width-ish photograph dominates the page below the header, showing an outdoor seating area with two chairs and a small table behind a glass railing, trees and neighborhood scenery in the background. The image is framed with white margins around it and functions as the main visual focal point.",
+          "components": [
+            "hero image",
+            "image carousel-style chevron overlays at left and right edges"
+          ],
+          "copy_gist": "No visible overlaid text on the image"
+        },
+        {
+          "name": "Intro / value proposition",
+          "role": "feature block",
+          "description": "Centered text block on white background with a large all-caps headline, a short paragraph, and a prominent red button beneath. The section is airy and minimal, with all content centered and plenty of whitespace around it.",
+          "components": [
+            "headline",
+            "paragraph text",
+            "primary CTA button"
+          ],
+          "copy_gist": "UNIQUE BEAUTIFUL SPACES; Red's Construction has been delighting clients with building restaurants and homes in the California Bay Area since 2012... We'd love to hear from you."
+        },
+        {
+          "name": "Primary contact CTA",
+          "role": "cta",
+          "description": "A single centered rectangular red button appears below the intro paragraph, serving as the main action on the page. It is medium width with white uppercase text.",
+          "components": [
+            "button"
+          ],
+          "copy_gist": "GET IN TOUCH"
+        },
+        {
+          "name": "Divider band",
+          "role": "section separator",
+          "description": "A thick light-gray horizontal bar spans most of the content width, separating the intro from the next content area.",
+          "components": [
+            "horizontal divider"
+          ],
+          "copy_gist": ""
+        },
+        {
+          "name": "Two-up story/client promo grid",
+          "role": "feature blocks",
+          "description": "Below the divider, the page presents a mixed grid of image and text panels in a two-column rhythm: on the left a portrait photo of a bearded man against a wood background, then a centered text card labeled 'Our Story' with a red 'Read' button; on the right a photo of a black dog in a home interior, then another centered text card labeled 'Our Clients' with matching description and button. The arrangement feels like alternating image and text tiles rather than a uniform card layout.",
+          "components": [
+            "portrait image tile",
+            "story text tile",
+            "pet/client image tile",
+            "client text tile",
+            "secondary CTA buttons"
+          ],
+          "copy_gist": "OUR STORY; Meet Devin Aloise, our founder. READ. OUR CLIENTS; and their pets share their love. READ."
+        },
+        {
+          "name": "Bottom divider band",
+          "role": "section separator",
+          "description": "Another thick light-gray horizontal bar appears beneath the grid, visually closing the content area before the footer.",
+          "components": [
+            "horizontal divider"
+          ],
+          "copy_gist": ""
+        },
+        {
+          "name": "Footer",
+          "role": "footer",
+          "description": "The footer is simple and spacious with centered navigation links and contact info. A small set of text links is arranged in the middle, while licensing information appears on the left, contact phone/email icons and text sit near the bottom center, and a TimberTech Pro badge/logo is placed on the right.",
+          "components": [
+            "footer nav links",
+            "license text",
+            "phone icon + phone number",
+            "email icon + email address",
+            "partner badge/logo"
+          ],
+          "copy_gist": "Home; Red's Service Division; Our Story; Our Clients; Licensed General Contractor #1112399; 707-634-3264; info@redsrrc.com; TimberTech PRO"
+        }
+      ],
+      "header": {
+        "nav_style": "Minimal/no visible horizontal nav on this mobile view; branding-only top area with centered title and tagline.",
+        "logo_placement": "Top-left corner, small red monogram logo.",
+        "links": "No obvious header links visible; navigation appears deferred to the footer.",
+        "sticky": false
+      },
+      "hero": {
+        "headline_gist": "Unique beautiful spaces",
+        "subhead": "A short credibility statement about building restaurants and homes in the California Bay Area since 2012 and offering design, remodeling, and general contracting.",
+        "primary_cta": "Get in touch",
+        "imagery": "Large lifestyle/project photo of an outdoor patio/deck seating area with chairs, table, glass railing, and landscape background."
+      },
+      "color_impressions": {
+        "dominant_colors": [
+          "white",
+          "light gray",
+          "red",
+          "dark gray/black",
+          "natural photo greens and blues"
+        ],
+        "overall_palette_feel": "Clean, sparse, and contractor-professional with red used as the only strong brand accent against a mostly white canvas."
+      },
+      "typography_impressions": {
+        "heading_body_feel": "Thin, modern, airy sans-serif headings with lighter weight body copy; overall typography is understated and elegant.",
+        "scale_weight": "Large centered all-caps section heading, smaller subhead/body text, medium-sized button labels, and light-weight brand/title text."
+      },
+      "spacing_density": "airy",
+      "corner_style": "Mostly square corners; buttons and panels appear rectilinear with minimal rounding, if any.",
+      "imagery_style": "Real-life project and personal photos, documentary-style, with bright natural light and a casual authentic feel rather than polished corporate stock imagery.",
+      "cta_inventory": [
+        {
+          "label": "GET IN TOUCH",
+          "location": "Centered below the intro paragraph",
+          "prominence": "primary"
+        },
+        {
+          "label": "READ",
+          "location": "Under Our Story tile",
+          "prominence": "secondary"
+        },
+        {
+          "label": "READ",
+          "location": "Under Our Clients tile",
+          "prominence": "secondary"
+        }
+      ],
+      "footer": {
+        "columns": "Effectively three zones: left license text, center links/contact, right partner badge.",
+        "links": [
+          "Home",
+          "Red's Service Division",
+          "Our Story",
+          "Our Clients"
+        ],
+        "legal": "Licensed General Contractor #1112399"
+      },
+      "responsive_notes": "This mobile view is mostly single-column and stacked, with the exception of the promo area that still reads as a two-column/multi-tile layout. On smaller screens, the footer likely wraps into stacked rows, while the centered text blocks and buttons remain full-width-ish and easy to tap.",
+      "component_inventory": [
+        "brand logo mark",
+        "centered site title/tagline",
+        "hero image",
+        "carousel chevrons/arrows",
+        "centered headline block",
+        "paragraph copy block",
+        "primary button",
+        "divider band",
+        "image tiles/cards",
+        "text tiles/cards",
+        "secondary buttons",
+        "footer link list",
+        "phone/email contact row",
+        "license text",
+        "partner badge/logo"
+      ],
+      "confidence": 0.92
+    },
+    "viewport": "mobile-full"
+  }
+}

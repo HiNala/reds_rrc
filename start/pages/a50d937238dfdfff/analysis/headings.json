@@ -1,0 +1,70 @@
+{
+  "extractor_name": "headings",
+  "data": {
+    "outline": [
+      {
+        "level": 1,
+        "text": "Red's Residential & Restaurant Construction",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#h1"
+      },
+      {
+        "level": 1,
+        "text": "Client Callback",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#h1"
+      },
+      {
+        "level": 2,
+        "text": "\"It is our pleasure to build for you\"",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#h2"
+      },
+      {
+        "level": 2,
+        "text": "Contact Details",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#h2"
+      },
+      {
+        "level": 3,
+        "text": "Licensed General Contractor #1112399",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#h3"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Red's Residential & Restaurant Construction",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#h1"
+      },
+      {
+        "level": 1,
+        "text": "Client Callback",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#h1"
+      },
+      {
+        "level": 2,
+        "text": "\"It is our pleasure to build for you\"",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#h2"
+      },
+      {
+        "level": 2,
+        "text": "Contact Details",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#h2"
+      },
+      {
+        "level": 3,
+        "text": "Licensed General Contractor #1112399",
+        "source_reference": "pages/a50d937238dfdfff/rendered-dom.html#h3"
+      }
+    ],
+    "count": 5,
+    "h1_count": 2,
+    "h2_count": 2,
+    "h3_count": 1
+  },
+  "warnings": [
+    "multiple H1 (2)"
+  ],
+  "errors": [],
+  "source_references": [
+    "pages/a50d937238dfdfff/rendered-dom.html"
+  ]
+}

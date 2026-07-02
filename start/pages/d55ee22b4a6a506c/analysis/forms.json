@@ -1,0 +1,33 @@
+{
+  "extractor_name": "forms",
+  "data": {
+    "forms": [
+      {
+        "action": null,
+        "method": "GET",
+        "fields": [
+          {
+            "name": null,
+            "type": "password",
+            "required": true,
+            "placeholder": "Password",
+            "label": null
+          }
+        ],
+        "field_count": 1,
+        "captcha": false,
+        "integration": null,
+        "conversion_type": "contact",
+        "selector": "form:nth-of-type(1)",
+        "rebuild_recommendation": "preserve fields + non-destructive validation",
+        "source_reference": "pages/d55ee22b4a6a506c/rendered-dom.html#form"
+      }
+    ],
+    "count": 1
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/d55ee22b4a6a506c/rendered-dom.html"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "extractor_name": "forms",
+  "data": {
+    "forms": [
+      {
+        "action": null,
+        "method": "GET",
+        "fields": [
+          {
+            "name": "first-name",
+            "type": "text",
+            "required": false,
+            "placeholder": null,
+            "label": "First Name"
+          },
+          {
+            "name": "last-name",
+            "type": "text",
+            "required": false,
+            "placeholder": null,
+            "label": "Last Name"
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "required": true,
+            "placeholder": null,
+            "label": "Email"
+          },
+          {
+            "name": "describe-the job",
+            "type": "text",
+            "required": true,
+            "placeholder": null,
+            "label": "Describe the Job"
+          }
+        ],
+        "field_count": 4,
+        "captcha": false,
+        "integration": null,
+        "conversion_type": "contact",
+        "selector": "form:nth-of-type(1)",
+        "rebuild_recommendation": "preserve fields + non-destructive validation",
+        "source_reference": "pages/b2f46b066843f600/rendered-dom.html#form"
+      }
+    ],
+    "count": 1
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/b2f46b066843f600/rendered-dom.html"
+  ]
+}

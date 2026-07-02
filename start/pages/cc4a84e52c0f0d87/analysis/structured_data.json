@@ -1,0 +1,40 @@
+{
+  "extractor_name": "structured_data",
+  "data": {
+    "json_ld": [
+      {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Reds Residential and",
+        "url": "https://www.redsrrc.com"
+      }
+    ],
+    "nodes": [
+      {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Reds Residential and",
+        "url": "https://www.redsrrc.com"
+      }
+    ],
+    "microdata": [],
+    "opengraph": {
+      "og:title": "Home | Reds Residential and",
+      "og:url": "https://www.redsrrc.com",
+      "og:site_name": "Reds Residential and",
+      "og:type": "website"
+    },
+    "schema_types": [
+      "WebSite"
+    ],
+    "types": [
+      "WebSite"
+    ],
+    "has_structured_data": true
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/cc4a84e52c0f0d87/rendered-dom.html"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subject_type": "asset",
+  "subject_id": "asset-601b7744ce0d",
+  "summary": "A close-up of a black dog standing on a driveway holding an orange-and-blue ball in its mouth, with construction materials blurred in the background.",
+  "classification": "decorative",
+  "tags": [],
+  "confidence": 0.97,
+  "claims": [
+    {
+      "key": "alt_text",
+      "value": "A close-up of a black dog standing on a driveway holding an orange-and-blue ball in its mouth, with construction materials blurred in the background.",
+      "confidence": 0.97,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_fbabc68c79e94a17b2366faf83a1739e~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_fbabc68c79e94a17b2366faf83a1739e~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "content_type",
+      "value": "decorative",
+      "confidence": 0.97,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_fbabc68c79e94a17b2366faf83a1739e~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_fbabc68c79e94a17b2366faf83a1739e~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "quality_opinion",
+      "value": "Good casual photo with a clear focal subject, though the dog's nose is very close to the camera and the background is cluttered and slightly distracting.",
+      "confidence": 0.97,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_fbabc68c79e94a17b2366faf83a1739e~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_fbabc68c79e94a17b2366faf83a1739e~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "recommended_use",
+      "value": "Use as a casual pet or lifestyle image where a playful, informal feel is desired.",
+      "confidence": 0.97,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_fbabc68c79e94a17b2366faf83a1739e~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_fbabc68c79e94a17b2366faf83a1739e~mv2.png"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://static.wixstatic.com/media/938e72_fbabc68c79e94a17b2366faf83a1739e~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_fbabc68c79e94a17b2366faf83a1739e~mv2.png"
+  ],
+  "metadata": {}
+}

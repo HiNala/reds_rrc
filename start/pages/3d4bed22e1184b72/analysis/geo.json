@@ -1,0 +1,26 @@
+{
+  "extractor_name": "geo",
+  "data": {
+    "business_name": "Reds Residential and",
+    "phones": [
+      "707-909-4686",
+      "707-634-3264"
+    ],
+    "phones_normalized": [
+      "7079094686",
+      "7076343264"
+    ],
+    "emails": [
+      "Info@RedsRRC.com",
+      "info@redsrrc.com"
+    ],
+    "addresses": [],
+    "has_zip": false,
+    "has_nap": true
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/3d4bed22e1184b72/rendered-dom.html"
+  ]
+}

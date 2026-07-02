@@ -1,0 +1,534 @@
+{
+  "extractor_name": "text",
+  "data": {
+    "blocks": [
+      {
+        "text": "Red's Residential & Restaurant Construction",
+        "tag": "h1",
+        "selector": "h1",
+        "role": "headline",
+        "importance": 1.0,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h1"
+      },
+      {
+        "text": "Do you have a project in mind? Call, Text, or Message us for free in person bid.",
+        "tag": "h1",
+        "selector": "h1",
+        "role": "headline",
+        "importance": 1.0,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h1"
+      },
+      {
+        "text": "\"It is our pleasure to build for you\"",
+        "tag": "h2",
+        "selector": "h2",
+        "role": "subhead",
+        "importance": 0.837,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h2"
+      },
+      {
+        "text": "Testimonials",
+        "tag": "h2",
+        "selector": "h2",
+        "role": "subhead",
+        "importance": 0.812,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h2"
+      },
+      {
+        "text": "Blake Young",
+        "tag": "h3",
+        "selector": "h3",
+        "role": "subhead",
+        "importance": 0.811,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h3"
+      },
+      {
+        "text": "Casey Johnson",
+        "tag": "h3",
+        "selector": "h3",
+        "role": "subhead",
+        "importance": 0.813,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h3"
+      },
+      {
+        "text": "Robbie White",
+        "tag": "h3",
+        "selector": "h3",
+        "role": "subhead",
+        "importance": 0.812,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h3"
+      },
+      {
+        "text": "Licensed General Contractor #1112399",
+        "tag": "h3",
+        "selector": "h3",
+        "role": "subhead",
+        "importance": 0.836,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#h3"
+      },
+      {
+        "text": "707-909-4686",
+        "tag": "p",
+        "selector": "p",
+        "role": "body",
+        "importance": 0.512,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#p"
+      },
+      {
+        "text": "Info@RedsRRC.com",
+        "tag": "p",
+        "selector": "p",
+        "role": "body",
+        "importance": 0.516,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#p"
+      },
+      {
+        "text": "Thanks for submitting!",
+        "tag": "p",
+        "selector": "p",
+        "role": "body",
+        "importance": 0.522,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#p"
+      },
+      {
+        "text": "A Contractor that's also a human being",
+        "tag": "p",
+        "selector": "p",
+        "role": "body",
+        "importance": 0.538,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#p"
+      },
+      {
+        "text": "Other companies quoted us FOUR TIMES what Red's RRC did. This is the first contractor we met with that offered references and a schedule with the bid that showed they could get the job done on time and budget. They are pet friendly, and worked with our high maintenance neighbor to keep everyone happy. Also Safety was a huge concern with our 2 year old, Red and his crew where on top of it everyday with cleanliness, communications, and barriers to keep kiddo out. The three outstanding qualities of Red’s is as follows: 1) Organization. The team was on top of communications every single day. I never had to guess or wonder what the status of the project was. 2) Trustworthy. We have many pieces of art and other valuables in our home. I never for a moment questioned the team’s integrity. They are good and trusting people. 3) Accommodating. I have a two year old who needed to nap at home in the middle of the work day every day. The team was absolutely accommodating to this, and never pushed back once on pausing work during nap time.Overall, I would recommend Red’s RRC to anyone looking for stellar and trustworthy work!",
+        "tag": "p",
+        "selector": "p",
+        "role": "body",
+        "importance": 0.7,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#p"
+      },
+      {
+        "text": "We Worked with Devin (the Owner) directly. He gave us a schedule and budget and he and his team stuck to it. Daily and weekly recaps kept us in the loop. By far the best communicator we've worked with",
+        "tag": "p",
+        "selector": "p",
+        "role": "body",
+        "importance": 0.7,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#p"
+      },
+      {
+        "text": "Everyone on this crew was kind and liked my dogs. They cleaned up everyday and kept my property clean and neighbors happy. I have recommended to friends and family",
+        "tag": "p",
+        "selector": "p",
+        "role": "body",
+        "importance": 0.663,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#p"
+      },
+      {
+        "text": "707-634-3264",
+        "tag": "p",
+        "selector": "p",
+        "role": "footer",
+        "importance": 0.412,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#p"
+      },
+      {
+        "text": "info@redsrrc.com",
+        "tag": "p",
+        "selector": "p",
+        "role": "footer",
+        "importance": 0.416,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#p"
+      },
+      {
+        "text": "Home",
+        "tag": "li",
+        "selector": "li",
+        "role": "nav_label",
+        "importance": 0.404,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#li"
+      },
+      {
+        "text": "Red's Service Divsion",
+        "tag": "li",
+        "selector": "li",
+        "role": "nav_label",
+        "importance": 0.421,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#li"
+      },
+      {
+        "text": "Our Story",
+        "tag": "li",
+        "selector": "li",
+        "role": "nav_label",
+        "importance": 0.409,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#li"
+      },
+      {
+        "text": "Our Clients",
+        "tag": "li",
+        "selector": "li",
+        "role": "nav_label",
+        "importance": 0.411,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#li"
+      },
+      {
+        "text": "Send",
+        "tag": "button",
+        "selector": "button",
+        "role": "cta",
+        "importance": 0.754,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#button"
+      },
+      {
+        "text": "Info@RedsRRC.com",
+        "tag": "a",
+        "selector": "a",
+        "role": "body",
+        "importance": 0.516,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#a"
+      },
+      {
+        "text": "Home",
+        "tag": "a",
+        "selector": "a",
+        "role": "nav_label",
+        "importance": 0.404,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#a"
+      },
+      {
+        "text": "Red's Service Divsion",
+        "tag": "a",
+        "selector": "a",
+        "role": "nav_label",
+        "importance": 0.421,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#a"
+      },
+      {
+        "text": "Our Story",
+        "tag": "a",
+        "selector": "a",
+        "role": "nav_label",
+        "importance": 0.409,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#a"
+      },
+      {
+        "text": "Our Clients",
+        "tag": "a",
+        "selector": "a",
+        "role": "nav_label",
+        "importance": 0.411,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#a"
+      },
+      {
+        "text": "info@redsrrc.com",
+        "tag": "a",
+        "selector": "a",
+        "role": "footer",
+        "importance": 0.416,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#a"
+      },
+      {
+        "text": "Name",
+        "tag": "label",
+        "selector": "label",
+        "role": "form_label",
+        "importance": 0.404,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#label"
+      },
+      {
+        "text": "Email",
+        "tag": "label",
+        "selector": "label",
+        "role": "form_label",
+        "importance": 0.405,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#label"
+      },
+      {
+        "text": "Message",
+        "tag": "label",
+        "selector": "label",
+        "role": "form_label",
+        "importance": 0.407,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#label"
+      },
+      {
+        "text": "top of page",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.511,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "Red's Residential & Restaurant Construction",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.543,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "Do you have a project in mind? Call, Text, or Message us for free in person bid.",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.58,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "707-909-4686",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.512,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "Info@RedsRRC.com",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.516,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "Send",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.504,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "Thanks for submitting!",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.522,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "Testimonials",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.512,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "A Contractor that's also a human being",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.538,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "Blake Young",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.511,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "We Worked with Devin (the Owner) directly. He gave us a schedule and budget and he and his team stuck to it. Daily and weekly recaps kept us in the loop. By far the best communicator we've worked with",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.7,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "Casey Johnson",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.513,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "Everyone on this crew was kind and liked my dogs. They cleaned up everyday and kept my property clean and neighbors happy. I have recommended to friends and family",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.663,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "Robbie White",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.512,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "Home",
+        "tag": "span",
+        "selector": "span",
+        "role": "nav_label",
+        "importance": 0.404,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "Red's Service Divsion",
+        "tag": "span",
+        "selector": "span",
+        "role": "nav_label",
+        "importance": 0.421,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "Our Story",
+        "tag": "span",
+        "selector": "span",
+        "role": "nav_label",
+        "importance": 0.409,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "Our Clients",
+        "tag": "span",
+        "selector": "span",
+        "role": "nav_label",
+        "importance": 0.411,
+        "visible": true,
+        "content_strategy": "preserve_fact",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "707-634-3264",
+        "tag": "span",
+        "selector": "span",
+        "role": "footer",
+        "importance": 0.412,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "info@redsrrc.com",
+        "tag": "span",
+        "selector": "span",
+        "role": "footer",
+        "importance": 0.416,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      },
+      {
+        "text": "bottom of page",
+        "tag": "span",
+        "selector": "span",
+        "role": "body",
+        "importance": 0.514,
+        "visible": true,
+        "content_strategy": "rewrite_recommended",
+        "source_reference": "pages/3d4bed22e1184b72/rendered-dom.html#span"
+      }
+    ],
+    "block_count": 52,
+    "word_count": 336
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/3d4bed22e1184b72/rendered-dom.html"
+  ]
+}

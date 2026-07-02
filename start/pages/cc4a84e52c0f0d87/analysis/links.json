@@ -1,0 +1,83 @@
+{
+  "extractor_name": "links",
+  "data": {
+    "links": [
+      {
+        "href": "https://www.redsrrc.com/story",
+        "resolved": "https://www.redsrrc.com/story",
+        "text": "READ",
+        "rel": null,
+        "internal": true,
+        "broken_candidate": false,
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#a[href]"
+      },
+      {
+        "href": "https://www.redsrrc.com/clients",
+        "resolved": "https://www.redsrrc.com/clients",
+        "text": "READ",
+        "rel": null,
+        "internal": true,
+        "broken_candidate": false,
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#a[href]"
+      },
+      {
+        "href": "https://www.redsrrc.com",
+        "resolved": "https://www.redsrrc.com",
+        "text": "Home",
+        "rel": null,
+        "internal": true,
+        "broken_candidate": false,
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#a[href]"
+      },
+      {
+        "href": "https://www.redsrrc.com/services-5",
+        "resolved": "https://www.redsrrc.com/services-5",
+        "text": "Red's Service Divsion",
+        "rel": null,
+        "internal": true,
+        "broken_candidate": false,
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#a[href]"
+      },
+      {
+        "href": "https://www.redsrrc.com/story",
+        "resolved": "https://www.redsrrc.com/story",
+        "text": "Our Story",
+        "rel": null,
+        "internal": true,
+        "broken_candidate": false,
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#a[href]"
+      },
+      {
+        "href": "https://www.redsrrc.com/clients",
+        "resolved": "https://www.redsrrc.com/clients",
+        "text": "Our Clients",
+        "rel": null,
+        "internal": true,
+        "broken_candidate": false,
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#a[href]"
+      },
+      {
+        "href": "mailto:info@redsrrc.com",
+        "text": "info@redsrrc.com",
+        "rel": null,
+        "internal": false,
+        "broken_candidate": false,
+        "source_reference": "pages/cc4a84e52c0f0d87/rendered-dom.html#a[href]"
+      }
+    ],
+    "total": 7,
+    "internal": 6,
+    "external": 1,
+    "reenqueue": [
+      "https://redsrrc.com/",
+      "https://redsrrc.com/clients",
+      "https://redsrrc.com/services-5",
+      "https://redsrrc.com/story"
+    ]
+  },
+  "warnings": [],
+  "errors": [],
+  "source_references": [
+    "pages/cc4a84e52c0f0d87/rendered-dom.html"
+  ]
+}

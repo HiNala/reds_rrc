@@ -1,0 +1,53 @@
+{
+  "subject_type": "asset",
+  "subject_id": "asset-e63738766da9",
+  "summary": "A brindle senior-looking dog lies on a large beige sheet spread across a wooden floor in a home interior, looking up at the camera.",
+  "classification": "stock",
+  "tags": [],
+  "confidence": 0.95,
+  "claims": [
+    {
+      "key": "alt_text",
+      "value": "A brindle senior-looking dog lies on a large beige sheet spread across a wooden floor in a home interior, looking up at the camera.",
+      "confidence": 0.95,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_cf29e67de2984752b3c65d3b4cf639e5~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_cf29e67de2984752b3c65d3b4cf639e5~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "content_type",
+      "value": "stock",
+      "confidence": 0.95,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_cf29e67de2984752b3c65d3b4cf639e5~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_cf29e67de2984752b3c65d3b4cf639e5~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "quality_opinion",
+      "value": "Good-quality candid pet photo with clear subject focus and natural indoor lighting; the image is slightly casual and unstyled.",
+      "confidence": 0.95,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_cf29e67de2984752b3c65d3b4cf639e5~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_cf29e67de2984752b3c65d3b4cf639e5~mv2.png"
+      ],
+      "needs_review": false
+    },
+    {
+      "key": "recommended_use",
+      "value": "Suitable for pet-related editorial use, blog content, or a casual lifestyle/animal care context.",
+      "confidence": 0.95,
+      "source_references": [
+        "https://static.wixstatic.com/media/938e72_cf29e67de2984752b3c65d3b4cf639e5~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_cf29e67de2984752b3c65d3b4cf639e5~mv2.png"
+      ],
+      "needs_review": false
+    }
+  ],
+  "provider": "openai",
+  "model": null,
+  "cached": false,
+  "sources": [
+    "https://static.wixstatic.com/media/938e72_cf29e67de2984752b3c65d3b4cf639e5~mv2.png/v1/fit/w_1280,h_683,q_90,enc_avif,quality_auto/938e72_cf29e67de2984752b3c65d3b4cf639e5~mv2.png"
+  ],
+  "metadata": {}
+}
