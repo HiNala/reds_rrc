@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 
 import { siteConfig, SERVICES } from "@/lib/site-config";
+import { STATIC_PROJECTS } from "@/lib/static-projects";
 import { posts, getAllTags } from "@/content/blog/registry";
 
 /**
@@ -18,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/services`, lastModified: now, changeFrequency: "monthly", priority: 0.9, images: [`${base}/services/opengraph-image`] },
     { url: `${base}/story`, lastModified: now, changeFrequency: "yearly", priority: 0.7, images: [`${base}/story/opengraph-image`] },
     { url: `${base}/clients`, lastModified: now, changeFrequency: "monthly", priority: 0.7, images: [`${base}/clients/opengraph-image`] },
+    { url: `${base}/projects`, lastModified: now, changeFrequency: "monthly", priority: 0.8, images: [`${base}/projects/opengraph-image`] },
     { url: `${base}/book-online`, lastModified: now, changeFrequency: "monthly", priority: 0.8, images: [`${base}/book-online/opengraph-image`] },
     { url: `${base}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.9, images: [`${base}/contact/opengraph-image`] },
     { url: `${base}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.8, images: [`${base}/blog/opengraph-image`] },
@@ -48,5 +50,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.4,
   }));
 
-  return [...staticRoutes, ...serviceRoutes, ...articleRoutes, ...tagRoutes];
+  const projectRoutes: MetadataRoute.Sitemap = STATIC_PROJECTS.map((p) => ({
+    url: `${base}/projects/${p.slug}`,
+    lastModified: now,
+    changeFrequency: "yearly",
+    priority: 0.6,
+    images: p.images.map((img) => `${base}${img.url}`),
+  }));
+
+  return [
+    ...staticRoutes,
+    ...serviceRoutes,
+    ...projectRoutes,
+    ...articleRoutes,
+    ...tagRoutes,
+  ];
 }

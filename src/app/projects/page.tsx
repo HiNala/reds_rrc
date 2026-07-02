@@ -5,7 +5,7 @@ import { Star, MapPin, Camera, ArrowRight } from "lucide-react";
 
 import { SITE, absoluteUrl } from "@/lib/site-config";
 import { CtaBand } from "@/components/site/cta-band";
-import { getPublishedProjects, type ProjectWithImages } from "@/lib/projects-queries";
+import { type ProjectWithImages } from "@/lib/projects-queries";
 import { STATIC_PROJECTS } from "@/lib/static-projects";
 import {
   LocalBusinessJsonLd,
@@ -32,24 +32,10 @@ export const metadata: Metadata = {
 };
 
 export default async function ProjectsPage() {
-  let projects: ProjectWithImages[] = [];
-  try {
-    projects = await getPublishedProjects();
-    // Only use DB projects if they have non-SVG images (real uploads, not seed SVGs)
-    const hasRealImages = projects.length > 0 && projects.every(
-      (p) => p.images.length > 0 && !p.images[0]?.url?.endsWith(".svg")
-    );
-    if (!hasRealImages) {
-      projects = [];
-    }
-  } catch {
-    // DB not available
-  }
-
-  // Fall back to static projects with real photos from /public/gallery/
-  if (projects.length === 0) {
-    projects = STATIC_PROJECTS as unknown as ProjectWithImages[];
-  }
+  // Use the static project gallery with original site photos from /public/gallery/.
+  // This ensures the page always looks professional and loads reliably
+  // without depending on MinIO/S3 availability.
+  const projects = STATIC_PROJECTS as unknown as ProjectWithImages[];
 
   // Collect categories for stats
   const categories = Array.from(

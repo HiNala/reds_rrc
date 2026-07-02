@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/db";
 import { leads, newsletterSubscribers } from "@/db/schema";
 import { contactSchema, type ContactInput } from "@/lib/validators";
-import { sendLeadNotification } from "@/lib/email";
+import { sendLeadNotification, sendLeadAutoReply } from "@/lib/email";
 
 export async function POST(req: NextRequest) {
   let json: unknown;
@@ -25,6 +25,16 @@ export async function POST(req: NextRequest) {
     parsed.data as ContactInput;
 
   const emailStatus = await sendLeadNotification({
+    kind: "contact",
+    name,
+    email,
+    phone,
+    message,
+    extra: service ? { Service: service } : undefined,
+  });
+
+  // Send auto-reply confirmation to the lead
+  await sendLeadAutoReply({
     kind: "contact",
     name,
     email,

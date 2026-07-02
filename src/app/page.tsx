@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Hero } from "@/components/marketing/hero";
 import { TrustBar } from "@/components/marketing/trust-bar";
 import { ServicesSummary } from "@/components/marketing/services-summary";
+import { ProjectShowcase } from "@/components/marketing/project-showcase";
 import { ValuesSection } from "@/components/marketing/values-section";
 import { Testimonials } from "@/components/marketing/testimonials";
 import { FaqSection } from "@/components/marketing/faq-section";
@@ -34,6 +35,7 @@ export default function HomePage() {
       <Hero />
       <TrustBar />
       <ServicesSummary />
+      <ProjectShowcase />
       <ValuesSection />
       <Testimonials />
       <FaqSection />

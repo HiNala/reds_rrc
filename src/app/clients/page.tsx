@@ -8,8 +8,8 @@ import {
   LocalBusinessJsonLd,
   WebSiteJsonLd,
 } from "@/components/seo/json-ld";
-import { getPublishedProjects } from "@/lib/projects-queries";
 import { STATIC_PROJECTS } from "@/lib/static-projects";
+import type { ProjectWithImages } from "@/lib/projects-queries";
 
 export const dynamic = "force-dynamic";
 
@@ -31,26 +31,11 @@ export const metadata: Metadata = {
 };
 
 export default async function ClientsPage() {
-  // Try DB first; fall back to static projects with real photos.
-  // The static gallery uses original site photos from /public/gallery/
-  // and ensures the page always looks professional even without MinIO.
-  let projects: Awaited<ReturnType<typeof getPublishedProjects>> = [];
-  try {
-    projects = await getPublishedProjects();
-    // Only use DB projects if they have non-SVG images (real uploads, not seed SVGs)
-    const hasRealImages = projects.length > 0 && projects.every(
-      (p) => p.images.length > 0 && !p.images[0]?.url?.endsWith(".svg")
-    );
-    if (!hasRealImages) {
-      projects = [];
-    }
-  } catch {
-    // DB not available — use static fallback
-  }
-
-  if (projects.length === 0) {
-    projects = STATIC_PROJECTS as unknown as typeof projects;
-  }
+  // Use the static project gallery with original site photos from /public/gallery/.
+  // This ensures the page always looks professional and loads reliably
+  // without depending on MinIO/S3 availability.
+  // DB projects are still manageable via the admin dashboard.
+  const projects = STATIC_PROJECTS as unknown as ProjectWithImages[];
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6">

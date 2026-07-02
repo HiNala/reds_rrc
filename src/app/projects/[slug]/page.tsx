@@ -8,13 +8,15 @@ import { SITE, absoluteUrl } from "@/lib/site-config";
 import { CtaBand } from "@/components/site/cta-band";
 import { ProjectDetailGallery } from "@/components/site/project-detail-gallery";
 import {
-  getPublishedProjectBySlug,
-  getPublishedProjects,
   type ProjectWithImages,
 } from "@/lib/projects-queries";
 import { STATIC_PROJECTS } from "@/lib/static-projects";
 
 export const dynamic = "force-dynamic";
+
+export function generateStaticParams() {
+  return STATIC_PROJECTS.map((p) => ({ slug: p.slug }));
+}
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -22,16 +24,9 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  let project: ProjectWithImages | null = null;
-  try {
-    project = await getPublishedProjectBySlug(slug);
-  } catch (err) {
-    console.error(`[projects/[slug]] DB error for slug="${slug}":`, err);
-  }
-  // Fall back to static projects
-  if (!project) {
-    project = (STATIC_PROJECTS.find((p) => p.slug === slug) as unknown as ProjectWithImages) ?? null;
-  }
+  // Use static projects (original site photos from /public/gallery/)
+  const project =
+    (STATIC_PROJECTS.find((p) => p.slug === slug) as unknown as ProjectWithImages) ?? null;
   if (!project) {
     return {
       title: "Project Not Found",
@@ -69,42 +64,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ProjectDetailPage({ params }: PageProps) {
   const { slug } = await params;
-  let project: ProjectWithImages | null = null;
-  try {
-    project = await getPublishedProjectBySlug(slug);
-  } catch (err) {
-    console.error(`[projects/[slug]] DB error for slug="${slug}":`, err);
-  }
-  // Fall back to static projects
-  if (!project) {
-    project = (STATIC_PROJECTS.find((p) => p.slug === slug) as unknown as ProjectWithImages) ?? null;
-  }
+  // Use static projects (original site photos from /public/gallery/)
+  const project =
+    (STATIC_PROJECTS.find((p) => p.slug === slug) as unknown as ProjectWithImages) ?? null;
   if (!project) notFound();
 
-  // Get related projects (same category, excluding current, limit 3)
-  let related: ProjectWithImages[] = [];
-  try {
-    const all = await getPublishedProjects();
-    // Filter out SVG-image projects
-    const realAll = all.filter((p) => !p.images[0]?.url?.endsWith(".svg"));
-    related = realAll
-      .filter((p) => p.id !== project!.id && p.category === project!.category)
-      .slice(0, 3);
-    if (related.length < 3) {
-      const others = realAll
-        .filter((p) => p.id !== project!.id && !related.some((r) => r.id === p.id))
-        .slice(0, 3 - related.length);
-      related = [...related, ...others];
-    }
-  } catch {
-    // DB not available
-  }
-  // If no DB related projects, use static ones
-  if (related.length === 0) {
-    related = STATIC_PROJECTS
-      .filter((p) => p.slug !== slug)
-      .slice(0, 3) as unknown as ProjectWithImages[];
-  }
+  // Get related projects from static set
+  const related = STATIC_PROJECTS
+    .filter((p) => p.slug !== slug)
+    .slice(0, 3) as unknown as ProjectWithImages[];
 
   const cover = project.images[0];
   const galleryImages = project.images.slice(1);

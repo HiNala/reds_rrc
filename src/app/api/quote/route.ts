@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/db";
 import { leads } from "@/db/schema";
 import { quoteSchema, type QuoteInput } from "@/lib/validators";
-import { sendLeadNotification } from "@/lib/email";
+import { sendLeadNotification, sendLeadAutoReply } from "@/lib/email";
 
 export async function POST(req: NextRequest) {
   let json: unknown;
@@ -46,6 +46,22 @@ export async function POST(req: NextRequest) {
     .join("\n");
 
   const emailStatus = await sendLeadNotification({
+    kind: "quote",
+    name,
+    email,
+    phone,
+    message: fullMessage,
+    extra: {
+      Service: service,
+      Timeline: timeline,
+      Budget: budget,
+      Location: location,
+      Company: company,
+    },
+  });
+
+  // Send auto-reply confirmation to the lead
+  await sendLeadAutoReply({
     kind: "quote",
     name,
     email,

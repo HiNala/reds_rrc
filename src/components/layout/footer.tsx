@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Mail, Phone, ShieldCheck } from "lucide-react";
 
 import { Logo } from "@/components/brand/logo";
@@ -17,6 +18,14 @@ export function Footer() {
               <br />
               Serving the {SITE.region} since {SITE.since}.
             </p>
+            <Image
+              src="/brand/timbertech-platinum.png"
+              alt="TimberTech PRO Platinum Contractor"
+              width={120}
+              height={110}
+              className="mt-4 h-auto w-28 opacity-90"
+              unoptimized
+            />
           </div>
 
           <div>
