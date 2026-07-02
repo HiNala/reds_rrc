@@ -120,19 +120,6 @@ export default function StoryPage() {
         </div>
       </section>
 
-      {/* Deck showcase image */}
-      <div className="mb-14 overflow-hidden rounded-xl shadow-lg">
-        <Image
-          src="/hero/hero-2.png"
-          alt="Custom deck with glass railing and scenic Bay Area views — built by Red's RRC"
-          width={1280}
-          height={729}
-          unoptimized
-          loading="lazy"
-          className="w-full object-cover"
-        />
-      </div>
-
       {/* CTA */}
       <div className="mb-14 text-center">
         <Link
