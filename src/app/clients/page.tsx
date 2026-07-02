@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 
 import { SITE, TESTIMONIALS, absoluteUrl } from "@/lib/site-config";
 import { SectionHeading } from "@/components/site/section-heading";

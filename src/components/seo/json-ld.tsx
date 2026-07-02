@@ -36,7 +36,7 @@ export function LocalBusinessJsonLd() {
     url: siteConfig.url,
     email: siteConfig.email,
     description: siteConfig.description,
-    image: absoluteUrl("/hero/hero-1.png"),
+    image: absoluteUrl("/hero/hero-2.png"),
     logo: absoluteUrl(siteConfig.logoPath),
     priceRange: "$$",
     areaServed: siteConfig.areaServed,

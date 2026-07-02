@@ -11,8 +11,8 @@ export function Hero() {
     <section className="relative flex min-h-[60vh] items-center overflow-hidden sm:min-h-[68vh]">
       {/* Full-bleed background image */}
       <Image
-        src="/hero/hero-1.png"
-        alt="Outdoor deck and patio built by Red's RRC — featuring glass railing, seating, and scenic Bay Area backdrop"
+        src="/hero/hero-2.png"
+        alt="Bay Area construction project by Red's RRC — quality craftsmanship for homes and restaurants"
         fill
         sizes="100vw"
         className="object-cover"

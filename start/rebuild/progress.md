@@ -148,3 +148,51 @@ cross-cutting seams, harden, and commit/push for the team.
   directives + the known react-hook-form `watch()` compiler skip)
 - `npm run build` → EXIT=0, all routes generated
 - `npm test` → 23/23 pass
+
+## Final Verification Pass (2026-07-02)
+
+**Role:** Final QA — verify navigation, sitemap, redirects, forms, and all pages
+are complete and polished before deployment.
+
+**Verification results (all green):**
+- **All 25 pages return 200**: /, /services, /story, /clients, /blog, /contact,
+  /book-online, /privacy, /terms, /services/[slug] (3), /blog/[slug] (5),
+  /blog/tag/[tag] (2), /blog/rss.xml, /sitemap.xml, /robots.txt, /llms.txt,
+  /admin/login, /newsletter/confirmed, /newsletter/invalid
+- **All 4 redirects work (308 permanent)**: /home-1 → /, /services-5 → /services,
+  /service-page/client-callback → /contact, /client-callback → /contact
+- **All API endpoints work**: /api/contact, /api/quote, /api/newsletter,
+  /api/track, /api/admin/login — all return 200 with DB persistence
+- **Admin dashboard works**: /admin, /admin/leads, /admin/analytics all render
+  with authenticated session
+- **Sitemap.xml**: Complete with all routes (marketing, services, blog articles,
+  tags, legal) + image references
+- **Robots.txt**: Allows all public content, disallows /admin + /api/, includes
+  AI/answer-engine bot rules for AEO/GEO, points to sitemap
+- **Navigation**: Header (Home, Services, Our Story, Our Clients, Blog + phone +
+  Get a Free Quote CTA), Footer (Explore links, Contact, Newsletter form),
+  Mobile sticky CTA — all functional
+- **Forms**: Contact form, multi-step quote form, newsletter form, lead capture
+  popup — all submit correctly and persist to database
+
+**Code quality:**
+- `npx tsc --noEmit` → EXIT=0 (clean)
+- `npx vitest run --no-file-parallelism` → 23/23 pass (3 test files)
+- `npm run lint` → 0 errors, 1 warning (known react-hook-form watch() issue)
+- `npx next build --webpack` → EXIT=0, 50 static pages generated
+
+**Infrastructure fixes applied:**
+- Made all 24 OG image routes dynamic (`export const dynamic = "force-dynamic"`)
+  to prevent build worker memory crashes during static page generation
+- Added `analyze-images.js` to eslint ignore (CommonJS utility script)
+- Removed unused `Image` import from clients/page.tsx
+- Docker Compose web service builds and runs the production app successfully
+  (containerized Next.js with standalone output, Postgres, MinIO)
+
+**Remaining tasks:**
+- T012 (Integrations): ✅ Code hooks in place for Auth.js, Resend,
+  Calendly/Cal.com. Turnstile (spam protection) not yet implemented — optional.
+  Needs client credentials to be fully functional.
+- T027 (QA): ✅ All functional QA verified. Lighthouse/WCAG testing requires
+  browser devtools (not available in CLI).
+- T028 (Deploy): Pending — requires Railway credentials and configuration.

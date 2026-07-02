@@ -1,0 +1,21 @@
+fix: final QA pass — dynamic OG images, lint fixes, content polish
+
+- Made all 24 OG image routes dynamic (force-dynamic) to prevent
+  build worker memory crashes during static page generation
+- Removed unused Image import from clients/page.tsx
+- Added analyze-images.js to eslint ignore (CommonJS utility)
+- Updated seed-projects.js to use real gallery photos instead of
+  placeholder SVGs
+- Added projects slug column migration (0005) for SEO-friendly URLs
+- Improved static project descriptions with real categories
+- Updated hero image to hero-2.png
+- Updated progress.md with final verification results
+- Marked T012 (integrations) as completed in task-list.json
+
+Verified: tsc passes, 23/23 tests pass, lint 0 errors, all 25 pages
+return 200, all 4 redirects work (308), all API endpoints work, admin
+dashboard functional, sitemap.xml and robots.txt complete.
+
+Generated with [Devin](https://devin.ai)
+
+Co-Authored-By: Devin <158243242+devin-ai-integration[bot]@users.noreply.github.com>

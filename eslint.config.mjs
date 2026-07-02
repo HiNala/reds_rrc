@@ -18,6 +18,8 @@ const eslintConfig = defineConfig([
     "drizzle/**",
     // Standalone deployment scripts (CommonJS by design — runs outside Next.js)
     "scripts/**",
+    // Utility scripts (CommonJS by design)
+    "analyze-images.js",
   ]),
 ]);
 
