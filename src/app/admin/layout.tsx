@@ -1,4 +1,3 @@
-import { redirect } from "next/navigation";
 import { getSession } from "@/lib/auth";
 import { AdminNav } from "./_components/admin-nav";
 

@@ -6,6 +6,7 @@ import { AnalyticsTracker } from "@/components/analytics/analytics-tracker";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { MobileStickyCTA } from "@/components/layout/mobile-sticky-cta";
+import { LeadCapturePopup } from "@/components/layout/lead-capture-popup";
 import { LocalBusinessJsonLd, WebSiteJsonLd } from "@/components/seo/json-ld";
 import { SITE } from "@/lib/site-config";
 import "./globals.css";
@@ -67,6 +68,7 @@ export default function RootLayout({
         <main className="flex-1 pb-20 lg:pb-0">{children}</main>
         <Footer />
         <MobileStickyCTA />
+        <LeadCapturePopup />
         <Toaster position="bottom-right" richColors />
       </body>
     </html>

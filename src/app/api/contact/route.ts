@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 import { db } from "@/db";
-import { leads } from "@/db/schema";
+import { leads, newsletterSubscribers } from "@/db/schema";
 import { contactSchema, type ContactInput } from "@/lib/validators";
 import { sendLeadNotification } from "@/lib/email";
 
@@ -51,6 +51,23 @@ export async function POST(req: NextRequest) {
       { error: "We couldn't save your message right now. Please call us instead." },
       { status: 500 }
     );
+  }
+
+  // Honor the newsletter opt-in: subscribe the contact (best-effort,
+  // unique-constraint-safe so a repeat submit never 500s the contact).
+  if (newsletterOptIn) {
+    try {
+      await db.insert(newsletterSubscribers).values({
+        email,
+        name: name || null,
+        sourcePage: sourcePage ?? "contact-optin",
+      });
+    } catch (err: unknown) {
+      const code = (err as { code?: string })?.code;
+      if (code !== "23505") {
+        console.error("[api/contact] Newsletter opt-in failed", err);
+      }
+    }
   }
 
   return NextResponse.json({ ok: true });

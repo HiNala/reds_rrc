@@ -1,6 +1,7 @@
 import "server-only";
 import { SignJWT, jwtVerify } from "jose";
 import { cookies } from "next/headers";
+import { redirect } from "next/navigation";
 
 const SESSION_COOKIE = "admin_session";
 const ALG = "HS256";
@@ -29,7 +30,6 @@ export interface SessionPayload {
  */
 export async function createSession(email: string): Promise<string> {
   const expiresIn = 60 * 60 * 24 * 7; // 7 days
-  const exp = Date.now() + expiresIn * 1000;
   const token = await new SignJWT({ email, role: "admin" })
     .setProtectedHeader({ alg: ALG })
     .setIssuedAt()
@@ -108,11 +108,11 @@ function safeEqual(a: string, b: string): boolean {
   return diff === 0;
 }
 
-/** Require an authenticated admin session — throws/redirects for use in server components. */
+/** Require an authenticated admin session — redirects to login if unauthenticated. */
 export async function requireAdmin(): Promise<SessionPayload> {
   const session = await getSession();
   if (!session) {
-    throw new Error("UNAUTHORIZED");
+    redirect("/admin/login");
   }
   return session;
 }

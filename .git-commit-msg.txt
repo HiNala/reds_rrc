@@ -1,0 +1,20 @@
+fix: reconcile duplicate modules and align all forms/API routes with canonical schema
+
+Unifies the parallel work from multiple agents into a single consistent
+codebase:
+- Eliminates duplicate src/lib/validations.ts (canonical is validators.ts)
+- Aligns analytics-tracker.tsx to import from @/lib/analytics instead of
+  duplicating client-side tracking logic
+- Rewrites multi-step-quote-form.tsx to use canonical QuoteInput type
+  (consent field, flat schema, getStoredUtmParams from @/lib/analytics)
+- Fixes newsletter API route to match schema (no name column)
+- Fixes newsletterOptIn zod default() causing RHF type mismatch
+- Excludes start/ and drizzle/ from ESLint (captured assets, not our code)
+- Cleans up unused imports flagged by linter
+
+Verified: tsc --noEmit passes, 23/23 tests pass, next build succeeds
+(49 pages generated).
+
+Generated with [Devin](https://devin.ai)
+
+Co-Authored-By: Devin <158243242+devin-ai-integration[bot]@users.noreply.github.com>

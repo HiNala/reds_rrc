@@ -5,7 +5,6 @@ import Link from "next/link";
 import {
   SITE,
   SERVICES,
-  siteConfig,
   absoluteUrl,
 } from "@/lib/site-config";
 import { SectionHeading } from "@/components/site/section-heading";
@@ -14,8 +13,6 @@ import {
   LocalBusinessJsonLd,
   WebSiteJsonLd,
 } from "@/components/seo/json-ld";
-import { buttonVariants } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Services",

@@ -1,5 +1,3 @@
-import { Badge } from "@/components/ui/badge";
-
 type LeadRow = {
   id: number;
   source: string;

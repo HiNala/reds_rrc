@@ -11,7 +11,7 @@ import {
   BreadcrumbJsonLd,
   FaqJsonLd,
 } from "@/components/seo/json-ld";
-import { siteConfig, absoluteUrl } from "@/lib/site-config";
+import { absoluteUrl } from "@/lib/site-config";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { formatDate } from "@/lib/format";

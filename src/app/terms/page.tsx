@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { H2, P, UL, LI, Strong, Lead } from "@/components/blog/prose";
+import { H2, P, Strong, Lead } from "@/components/blog/prose";
 import { LocalBusinessJsonLd } from "@/components/seo/json-ld";
 import { siteConfig, absoluteUrl } from "@/lib/site-config";
 
