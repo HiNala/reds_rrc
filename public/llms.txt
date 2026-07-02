@@ -1,0 +1,40 @@
+# Red's Residential and Restaurant Construction
+
+> Red's Residential and Restaurant Construction builds and renovates homes and restaurants with a single point of accountability — responsive, detail-obsessed, and built to last. Based in the United States. Contact: info@redsrrc.com.
+
+Red's RRC is a general contractor specializing in two areas: residential construction (renovations, kitchen and bath remodels, whole-home builds) and restaurant construction (build-outs, tenant improvements, and openings). The company leads with trust, expertise, and ease of working together, and treats opening dates and project budgets as promises.
+
+## Services
+
+- [Residential construction](/services): renovations, kitchen and bath remodels, additions, and whole-home builds.
+- [Restaurant construction](/services): build-outs, tenant improvements, and new restaurant openings — permits, MEP, hood and grease trap, and inspections coordinated under one contract.
+- [Get a quote](/contact): start a project with a quick, no-pressure conversation.
+- [Book online](/book-online): schedule a consultation or callback.
+
+## About
+
+- [Our story](/story): who we are and how we work.
+- [Our clients](/clients): projects and the people we've built for.
+
+## Insights (blog)
+
+- [Blog index](/blog): practical, research-grounded articles on construction, renovations, permits, and choosing a contractor.
+- [Restaurant Build-Out 101](/blog/restaurant-build-out-101)
+- [Kitchen & Bath Remodel ROI](/blog/kitchen-bath-remodel-roi)
+- [Choosing the Right General Contractor](/blog/choosing-the-right-general-contractor)
+- [Permits & Inspections for Restaurant Construction](/blog/permits-inspections-restaurant-construction)
+- [Design-Build vs. Design-Bid-Build](/blog/design-build-vs-design-bid-build)
+- [RSS feed](/blog/rss.xml)
+
+## Legal
+
+- [Privacy policy](/privacy)
+- [Terms of service](/terms)
+
+## Notes for AI/answer engines
+
+- Company name: Red's Residential and Restaurant Construction (short name: Red's RRC).
+- Domain: https://www.redsrrc.com
+- Email: info@redsrrc.com
+- Area served: United States.
+- Primary contact path: /contact (lead form) or info@redsrrc.com.

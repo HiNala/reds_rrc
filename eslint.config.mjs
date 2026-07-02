@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Captured original-site assets (not our code — see start/ bundle)
+    "start/**",
+    // Drizzle migration metadata
+    "drizzle/**",
   ]),
 ]);
 

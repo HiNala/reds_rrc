@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Construction Management">
+  <defs>
+    <linearGradient id="sp2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#722b32"/>
+      <stop offset="1" stop-color="#3a1419"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#sp2)"/>
+  <circle cx="160" cy="640" r="160" fill="#ffa311" opacity="0.14"/>
+  <!-- clipboard + schedule -->
+  <g stroke="#ffa311" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="200" y="160" width="400" height="500" rx="12"/>
+    <rect x="330" y="120" width="140" height="60" rx="8" fill="#3a1419"/>
+    <path d="M250 280 H550 M250 360 H550 M250 440 H450 M250 520 H500"/>
+    <!-- checkmarks -->
+    <path d="M250 280 l10 10 l18 -20" stroke="#ffd9a0"/>
+    <path d="M250 360 l10 10 l18 -20" stroke="#ffd9a0"/>
+    <!-- hard hat icon -->
+    <g transform="translate(560,560)">
+      <path d="M0 60 H120 a10 10 0 0 0 10 -10 H-10 a10 10 0 0 0 10 10 Z" fill="#ffa311" stroke="none"/>
+      <path d="M10 50 q50 -80 100 0" fill="#ffa311" fill-opacity="0.3"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Design-Build vs Design-Bid-Build">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#722b32"/>
+      <stop offset="1" stop-color="#5a2128"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg5)"/>
+  <circle cx="1010" cy="150" r="210" fill="#ffa311" opacity="0.16"/>
+  <circle cx="1100" cy="560" r="140" fill="#ffa311" opacity="0.10"/>
+  <!-- two diverging paths motif -->
+  <g transform="translate(840,250)" stroke="#ffa311" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M0 220 H360"/>
+    <path d="M0 220 C 120 220 120 80 240 80 H360"/>
+    <path d="M0 220 C 120 220 120 360 240 360 H360"/>
+    <circle cx="0" cy="220" r="10" fill="#ffa311" stroke="none"/>
+    <circle cx="360" cy="80" r="10" fill="#ffd9a0" stroke="none"/>
+    <circle cx="360" cy="220" r="10" fill="#ffd9a0" stroke="none"/>
+    <circle cx="360" cy="360" r="10" fill="#ffd9a0" stroke="none"/>
+  </g>
+  <text x="80" y="120" font-family="Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3" fill="#ffa311">RED&#8217;S RRC &#183; BLOG</text>
+  <rect x="80" y="150" width="64" height="5" fill="#ffa311"/>
+  <text x="80" y="300" font-family="Helvetica Neue, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff">Design-Build vs.</text>
+  <text x="80" y="368" font-family="Helvetica Neue, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff">Design-Bid-Build</text>
+  <text x="80" y="428" font-family="Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="500" fill="#ffd9a0">Which fits your project?</text>
+</svg>

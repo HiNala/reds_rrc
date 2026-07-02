@@ -50,3 +50,10 @@ next-env.d.ts
 # railway
 .railway/
 
+# temp dev output
+dev_out.txt
+lint_fresh.txt
+lint_real.txt
+tsc_fresh.txt
+vitest.stubs/
+

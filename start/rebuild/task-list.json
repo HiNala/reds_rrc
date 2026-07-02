@@ -84,15 +84,17 @@
       "id": "T014",
       "title": "Build route `/services` (services_index)",
       "phase": "build",
-      "status": "pending",
-      "page_id": "47769ccb9f9b1156"
+      "status": "completed",
+      "owner": "wedge:trust-services",
+      "notes": "src/app/services/page.tsx — 3 service tiles (code-based SVGs), trust band, CTA. Consumes SERVICES from site-config. + /services/[slug] detail pages with generateStaticParams, generateMetadata, Breadcrumb+LocalBusiness JSON-LD, FAQ section (FAQPage JSON-LD), CTA band. Long-form content in src/content/services/detail.ts."
     },
     {
       "id": "T015",
       "title": "Build route `/clients` (unknown)",
       "phase": "build",
-      "status": "pending",
-      "page_id": "6986a2a20dce035d"
+      "status": "completed",
+      "owner": "wedge:trust-services",
+      "notes": "src/app/clients/page.tsx — testimonials grid (TESTIMONIALS from site-config), project gallery (3 code-based SVGs), CTA band, LocalBusiness+WebSite JSON-LD."
     },
     {
       "id": "T016",
@@ -119,15 +121,17 @@
       "id": "T019",
       "title": "Build route `/book-online` (unknown)",
       "phase": "build",
-      "status": "pending",
-      "page_id": "d55ee22b4a6a506c"
+      "status": "completed",
+      "owner": "wedge:trust-services",
+      "notes": "src/app/book-online/page.tsx — modern rebuild replaces password gate with real booking: embeds NEXT_PUBLIC_BOOKING_URL scheduler if set, else fallback CTA to /contact + call. Contact alternatives band. LocalBusiness+WebSite JSON-LD."
     },
     {
       "id": "T020",
       "title": "Build route `/story` (unknown)",
       "phase": "build",
-      "status": "pending",
-      "page_id": "ec69494d9113d28d"
+      "status": "completed",
+      "owner": "wedge:trust-services",
+      "notes": "src/app/story/page.tsx — founder story (Devin Aloise), values (VALUES from site-config), founder portrait SVG, CTA band, LocalBusiness+WebSite JSON-LD."
     },
     {
       "id": "T021",
@@ -139,7 +143,9 @@
       "id": "T022",
       "title": "Build the blog with 5 generated starter articles + images + thumbnails + SEO/GEO \u2014 see Mission 'blog-content'",
       "phase": "feature",
-      "status": "pending"
+      "status": "completed",
+      "owner": "wedge:blog-seo",
+      "notes": "5 TSX articles + code-based SVG thumbnails in src/content/blog + public/blog; /blog index, /blog/[slug] (generateStaticParams + generateMetadata + Article/FAQ/Breadcrumb JSON-LD), /blog/tag/[tag], /blog/rss.xml RSS feed. Type-clean. CTA clicks instrumented via TrackClick -> /api/track."
     },
     {
       "id": "T023",
@@ -157,13 +163,17 @@
       "id": "T025",
       "title": "Apply per-page metadata from `06-metadata-map.json`; generate sitemap.xml + robots.txt",
       "phase": "seo-geo",
-      "status": "pending"
+      "status": "in_progress",
+      "owner": "wedge:blog-seo",
+      "notes": "DONE: src/app/sitemap.ts (all routes incl. blog articles + tags + images), src/app/robots.ts (allow all, disallow /admin + /api, sitemap ref), metadata for /blog, /blog/[slug], /blog/tag/[tag], /privacy, /terms. PENDING: apply metadata to marketing pages (/ , /services, /story, /clients, /book-online, /contact) from 06-metadata-map.json."
     },
     {
       "id": "T026",
       "title": "Add JSON-LD structured data + llms.txt for GEO; verify Rich Results",
       "phase": "seo-geo",
-      "status": "pending"
+      "status": "in_progress",
+      "owner": "wedge:blog-seo",
+      "notes": "DONE: src/components/seo/json-ld.tsx (LocalBusiness/GeneralContractor, WebSite, Article, BreadcrumbList, FAQPage), public/llms.txt, Article+FAQ+Breadcrumb rendered on blog, LocalBusiness+WebSite on blog index + legal pages. PENDING: integrator to add <LocalBusinessJsonLd/> + <WebSiteJsonLd/> to src/app/layout.tsx root layout (lead owns that file). Fill NAP (phone/address) via NEXT_PUBLIC_BUSINESS_* env when owner provides."
     },
     {
       "id": "T027",
@@ -179,5 +189,5 @@
     }
   ],
   "total": 28,
-  "completed": 0
+  "completed": 5
 }

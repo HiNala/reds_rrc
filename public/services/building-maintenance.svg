@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Building Maintenance">
+  <defs>
+    <linearGradient id="sp3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#722b32"/>
+      <stop offset="1" stop-color="#3a1419"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#sp3)"/>
+  <circle cx="640" cy="160" r="160" fill="#ffa311" opacity="0.14"/>
+  <!-- wrench + gear -->
+  <g stroke="#ffa311" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- gear -->
+    <g transform="translate(280,400)">
+      <circle cx="0" cy="0" r="100" stroke="#ffa311" stroke-width="4"/>
+      <circle cx="0" cy="0" r="40" stroke="#ffa311" stroke-width="4"/>
+      <g stroke-width="3">
+        <path d="M0 -130 V-100 M0 130 V100 M-130 0 H-100 M130 0 H100"/>
+        <path d="M-92 -92 L-70 -70 M92 92 L70 70 M-92 92 L-70 70 M92 -92 L70 -70"/>
+      </g>
+    </g>
+    <!-- wrench -->
+    <g transform="translate(480,380) rotate(45)">
+      <path d="M0 0 V160" stroke-width="6"/>
+      <path d="M0 0 a40 40 0 1 0 -28 -68 a30 30 0 1 1 28 68 Z" fill="#ffa311" fill-opacity="0.2"/>
+      <path d="M0 160 V200 M-12 200 H12" stroke-width="6"/>
+    </g>
+  </g>
+</svg>

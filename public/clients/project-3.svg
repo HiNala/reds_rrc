@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Bathroom renovation project">
+  <defs>
+    <linearGradient id="cp3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#722b32"/>
+      <stop offset="1" stop-color="#3a1419"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#cp3)"/>
+  <circle cx="660" cy="660" r="140" fill="#ffa311" opacity="0.12"/>
+  <!-- bathroom: vanity + mirror + shower -->
+  <g stroke="#ffa311" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- mirror -->
+    <rect x="280" y="120" width="240" height="160" rx="8" fill="#ffa311" fill-opacity="0.1"/>
+    <!-- vanity -->
+    <rect x="160" y="320" width="480" height="120"/>
+    <path d="M320 320 V440 M480 320 V440"/>
+    <!-- sink -->
+    <ellipse cx="400" cy="360" rx="60" ry="20" fill="#ffa311" fill-opacity="0.15"/>
+    <!-- shower outline -->
+    <rect x="160" y="520" width="240" height="200"/>
+    <path d="M160 520 H400 V720" stroke-dasharray="6 6" opacity="0.5"/>
+    <!-- shower head -->
+    <circle cx="240" cy="560" r="16" fill="#ffa311" fill-opacity="0.2"/>
+    <path d="M240 576 V600 M232 580 L248 600 M240 600 L232 616 M240 600 L248 616" opacity="0.4"/>
+  </g>
+</svg>

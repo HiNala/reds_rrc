@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Permits and Inspections for Restaurant Construction">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#722b32"/>
+      <stop offset="1" stop-color="#5a2128"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg4)"/>
+  <circle cx="990" cy="150" r="215" fill="#ffa311" opacity="0.16"/>
+  <circle cx="130" cy="590" r="160" fill="#ffa311" opacity="0.10"/>
+  <!-- permit stamp + clipboard motif -->
+  <g transform="translate(860,230)" stroke="#ffa311" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="20" y="40" width="130" height="180" rx="10"/>
+    <rect x="55" y="20" width="60" height="40" rx="6" fill="#5a2128"/>
+    <path d="M45 110 h70 M45 140 h70 M45 170 h40"/>
+    <!-- APPROVED stamp -->
+    <rect x="180" y="120" width="150" height="70" rx="8" stroke="#ffa311" stroke-width="5" transform="rotate(-8 255 155)"/>
+    <text x="255" y="165" font-family="Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="800" fill="#ffa311" text-anchor="middle" transform="rotate(-8 255 155)" stroke="none">APPROVED</text>
+  </g>
+  <text x="80" y="120" font-family="Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3" fill="#ffa311">RED&#8217;S RRC &#183; BLOG</text>
+  <rect x="80" y="150" width="64" height="5" fill="#ffa311"/>
+  <text x="80" y="300" font-family="Helvetica Neue, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff">Permits &amp; Inspections</text>
+  <text x="80" y="368" font-family="Helvetica Neue, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff">for Restaurants</text>
+  <text x="80" y="428" font-family="Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="500" fill="#ffd9a0">Keep your opening date real</text>
+</svg>

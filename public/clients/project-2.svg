@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Restaurant build-out project">
+  <defs>
+    <linearGradient id="cp2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#722b32"/>
+      <stop offset="1" stop-color="#3a1419"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#cp2)"/>
+  <circle cx="140" cy="660" r="140" fill="#ffa311" opacity="0.12"/>
+  <!-- restaurant interior: tables + pendant + counter -->
+  <g stroke="#ffa311" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- service counter -->
+    <rect x="80" y="200" width="640" height="40" fill="#ffa311" fill-opacity="0.15"/>
+    <path d="M80 240 V320 M720 240 V320 M80 320 H720"/>
+    <!-- tables -->
+    <rect x="140" y="460" width="160" height="100" rx="8"/>
+    <rect x="500" y="460" width="160" height="100" rx="8"/>
+    <path d="M140 560 V620 M300 560 V620 M500 560 V620 M660 560 V620"/>
+    <!-- pendant cluster -->
+    <path d="M400 0 V120" stroke-dasharray="4 4" opacity="0.5"/>
+    <circle cx="400" cy="140" r="24" fill="#ffa311" fill-opacity="0.3"/>
+    <path d="M360 140 H440" opacity="0.6"/>
+  </g>
+</svg>
