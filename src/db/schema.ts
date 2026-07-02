@@ -6,6 +6,7 @@ import {
   varchar,
   boolean,
   jsonb,
+  integer,
 } from "drizzle-orm/pg-core";
 
 /**
@@ -66,3 +67,47 @@ export type NewsletterSubscriber = typeof newsletterSubscribers.$inferSelect;
 export type NewNewsletterSubscriber = typeof newsletterSubscribers.$inferInsert;
 export type AnalyticsEvent = typeof analyticsEvents.$inferSelect;
 export type NewAnalyticsEvent = typeof analyticsEvents.$inferInsert;
+
+// ---------------------------------------------------------------------------
+// Project gallery — admin-managed portfolio of completed work.
+// Images are stored in MinIO (S3-compatible) and referenced by storage key.
+// ---------------------------------------------------------------------------
+
+export const projects = pgTable("projects", {
+  id: serial("id").primaryKey(),
+  title: varchar("title", { length: 200 }).notNull(),
+  description: text("description"),
+  /** e.g. "Kitchen", "Bathroom", "Restaurant", "Commercial", "Maintenance" */
+  category: varchar("category", { length: 100 }),
+  location: varchar("location", { length: 200 }),
+  /** Show on the clients page gallery. */
+  published: boolean("published").notNull().default(true),
+  /** Pinned to the top of the gallery. */
+  featured: boolean("featured").notNull().default(false),
+  /** Manual ordering — lower comes first. */
+  sortOrder: integer("sort_order").notNull().default(0),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
+export const projectImages = pgTable("project_images", {
+  id: serial("id").primaryKey(),
+  projectId: integer("project_id")
+    .notNull()
+    .references(() => projects.id, { onDelete: "cascade" }),
+  /** S3/MinIO storage key (e.g. "projects/3/uuid.jpg"). */
+  storageKey: varchar("storage_key", { length: 500 }).notNull(),
+  alt: varchar("alt", { length: 300 }),
+  /** MIME type of the stored image. */
+  contentType: varchar("content_type", { length: 100 }),
+  /** File size in bytes. */
+  size: integer("size"),
+  /** Manual ordering within the project — lower comes first. */
+  sortOrder: integer("sort_order").notNull().default(0),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
+export type Project = typeof projects.$inferSelect;
+export type NewProject = typeof projects.$inferInsert;
+export type ProjectImage = typeof projectImages.$inferSelect;
+export type NewProjectImage = typeof projectImages.$inferInsert;

@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { LayoutDashboard, Mail, LogOut } from "lucide-react";
+import { LayoutDashboard, Mail, FolderKanban, LogOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const NAV_ITEMS = [
   { href: "/admin", label: "Dashboard", icon: LayoutDashboard },
   { href: "/admin/leads", label: "Leads", icon: Mail },
+  { href: "/admin/projects", label: "Projects", icon: FolderKanban },
 ];
 
 export function AdminNav({ email }: { email: string }) {

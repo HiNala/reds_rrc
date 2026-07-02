@@ -27,7 +27,6 @@ export function AnalyticsTracker() {
   useEffect(() => {
     captureUtmParams();
     trackEvent("pageview", { path: pathname });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname, searchParams]);
 
   // CTA click tracking — delegate on data-track-cta attributes.

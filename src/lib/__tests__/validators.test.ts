@@ -54,6 +54,7 @@ describe("quoteSchema", () => {
 
   it("rejects missing name", () => {
     const { name: _omit, ...rest } = valid;
+    void _omit;
     expect(quoteSchema.safeParse(rest).success).toBe(false);
   });
 });
